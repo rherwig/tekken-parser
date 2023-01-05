@@ -1,14 +1,15 @@
 {
-  "name": "tekken",
-  "version": "0.0.0",
-  "license": "MIT",
-  "scripts": {
-  },
-  "private": true,
-  "dependencies": {
-  },
-  "devDependencies": {
-    "nx": "15.4.4",
-    "prettier": "^2.6.2"
-  }
+    "name": "@tekken/mono",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "build": "nx run-many --target build",
+        "test": "nx run-many --target test"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "nx": "15.4.4",
+        "prettier": "^2.6.2",
+        "typescript": "^4.9.4"
+    }
 }
