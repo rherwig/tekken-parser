@@ -1,0 +1,6 @@
+{
+    "extends": [
+        "@hrwg/eslint-config",
+        "prettier"
+    ]
+}
