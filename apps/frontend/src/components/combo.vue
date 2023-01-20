@@ -1,5 +1,5 @@
 <template>
-    <div class="mb-4 p-4 bg-zinc-100">
+    <div class="mb-4 p-4 bg-black/10">
         <Move
             v-for="(move, index) in props.combo.moves"
             :key="index"

@@ -9,7 +9,7 @@
         />
 
         <div class="h-5">
-            {{ props.instruction.slug }}
+            {{ props.instruction.notation }}
         </div>
     </div>
 </template>

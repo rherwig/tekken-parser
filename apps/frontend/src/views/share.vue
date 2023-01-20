@@ -1,7 +1,7 @@
 <template>
-    <Combo v-if="combo" :combo="combo"/>
+    <Combo v-if="combo" :combo="combo" class="mb-10"/>
 
-    <h2 class="text-lg mb-2 mt-10">
+    <h2 class="text-lg mb-2">
         Share your combo
     </h2>
 
@@ -9,18 +9,17 @@
         type="text"
         placeholder="Enter Tekken Notation here"
         class="block input input-bordered w-full mb-4"
-        v-model="newComboString"
+        :value="comboString"
+        @input="handleComboInput"
     />
-
-    <Combo v-if="newComboString" :combo="newCombo"/>
 
     <div class="alert">
         <div>
             <a
-                :href="newComboUrl"
-                class="link link-neutral px-2"
+                :href="comboUrl"
+                class="link link-accent px-2"
             >
-                {{ newComboUrl }}
+                {{ comboUrl }}
             </a>
         </div>
         <div class="flex-none">
@@ -35,44 +34,37 @@
 </template>
 
 <script lang="ts" setup>
-import { computed, ref } from 'vue';
+import { computed, onMounted, ref, watch } from 'vue';
 
 import parse from '@tekken/parser';
 import Combo from '@/components/combo.vue';
+import { useRoute, useRouter } from 'vue-router';
 
-const comboString = ref<string | null>(getComboFromUrl());
-const newComboString = ref<string>('');
+const router = useRouter();
+const route = useRoute();
+
+const comboString = ref<string>('');
+
+onMounted(() => {
+    comboString.value = route.query.combo as string || '';
+});
 
 const combo = computed(() => {
     return comboString.value ? parse(comboString.value) : null;
 })
 
-const newComboUrl = computed(() => {
-    return `${window.location.origin}/share?combo=${encodeURIComponent(newComboString.value)}`
+const comboUrl = computed(() => {
+    return `${window.location.origin}/#/share?combo=${encodeURIComponent(comboString.value)}`
 });
 
-const newCombo = computed(() => {
-    let result = null;
-
-    try {
-        result = parse(newComboString.value);
-    } catch (error) {
-        console.warn('Combo invalid.');
-    }
-
-    return result;
-});
-
-function getComboFromUrl(): string | null {
-    const urlParams = new URLSearchParams(window.location.search);
-    const combo = urlParams.get('combo');
-
-    return combo ? decodeURIComponent(combo) : null;
+function handleComboInput(event: any) {
+    comboString.value = event.target.value;
+    router.replace(`/share?combo=${comboString.value}`);
 }
 
 async function handleCopyClick() {
     try {
-        await navigator.clipboard.writeText(newComboUrl.value);
+        await navigator.clipboard.writeText(comboUrl.value);
     } catch (error) {
         console.error('Failed to copy text.');
     }
