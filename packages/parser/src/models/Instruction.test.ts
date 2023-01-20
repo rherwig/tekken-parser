@@ -1,18 +1,15 @@
 import { describe, it, expect, beforeEach } from 'vitest';
 import { Instruction } from './Instruction';
 
-const SAMPLE_INSTRUCTIONS = [
-    'd',
-    'd/f',
-    '1+2',
-    'W!',
-];
+const SAMPLE_INSTRUCTIONS = ['d', 'd/f', '1+2', 'W!'];
 
 describe('models/Instruction', () => {
     let instructions: Instruction[];
 
     beforeEach(() => {
-        instructions = SAMPLE_INSTRUCTIONS.map((notation: string) => new Instruction(notation));
+        instructions = SAMPLE_INSTRUCTIONS.map(
+            (notation: string) => new Instruction('action', notation),
+        );
     });
 
     it('sets the correct notation', () => {

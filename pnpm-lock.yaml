@@ -40,12 +40,14 @@ importers:
       tailwindcss-debug-screens: 2.2.1
       vite: ^4.0.4
       vue: ^3.2.45
+      vue-router: ^4.1.6
     dependencies:
       '@tekken/parser': link:../../packages/parser
       daisyui: 2.46.1_r4gnkvssmvyxmi2wmat5xbx36a
       dotenv: 16.0.3
       pinia: 2.0.28_prq2uz4lho2pwp6irk4cfkrxwu
       vue: 3.2.45
+      vue-router: 4.1.6_vue@3.2.45
     devDependencies:
       '@fontsource/alegreya': 4.5.10
       '@fontsource/source-sans-3': 4.5.11
@@ -6781,7 +6783,6 @@ packages:
     dependencies:
       '@vue/devtools-api': 6.4.5
       vue: 3.2.45
-    dev: true
 
   /vue/3.2.45:
     resolution: {integrity: sha512-9Nx/Mg2b2xWlXykmCwiTUCWHbWIj53bnkizBxKai1g61f2Xit700A1ljowpTIM11e3uipOeiPcSqnmBg6gyiaA==}

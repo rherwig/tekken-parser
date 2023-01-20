@@ -1,7 +1,7 @@
-import { Instruction } from './Instruction';
+import { Instruction, InstructionType } from './Instruction';
 
 export class InputInstruction extends Instruction {
-    constructor(notation: string) {
-        super(notation);
+    constructor(type: InstructionType, notation: string) {
+        super(type, notation);
     }
 }

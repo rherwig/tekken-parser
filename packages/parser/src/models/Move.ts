@@ -29,7 +29,7 @@ export class Move {
                 input = notation.substring(index, nextIndex);
             }
 
-            this.instructions.push(new InputInstruction(input));
+            this.instructions.push(new InputInstruction('movement', input));
         }
 
         if (isActionInput(currentCharacter)) {
@@ -38,7 +38,7 @@ export class Move {
                 input = notation.substring(index, nextIndex);
             }
 
-            this.instructions.push(new InputInstruction(input));
+            this.instructions.push(new InputInstruction('action', input));
         }
 
         const special = findSpecialInstruction(notation.substring(index));
