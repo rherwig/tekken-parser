@@ -8,7 +8,17 @@ export class Instruction {
     constructor(type: InstructionType, notation: string) {
         this.type = type;
         this.notation = notation;
-        this.slug = notation.replace(/\W/gi, '');
+        this.slug = this._buildSlug(type, notation);
+    }
+
+    private _buildSlug(type: InstructionType, notation: string) {
+        let slug = notation.replace(/\W/gi, '');
+
+        if (type === 'movement' && /[A-Z]+/.test(slug)) {
+            slug = `${slug.toLowerCase()}h`;
+        }
+
+        return slug;
     }
 
     public toString(): string {

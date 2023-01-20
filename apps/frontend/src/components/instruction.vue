@@ -26,9 +26,16 @@ const props = defineProps<Props>();
 const preferences = usePreferencesStore();
 
 const iconUrl = computed(() => {
-    return props.instruction.type === 'action'
-        ? `/icons/${preferences.layout}/${props.instruction.slug}.svg`
-        : `/icons/${props.instruction.slug}.svg`;
+    const { slug } = props.instruction;
+
+    switch (props.instruction.type) {
+        case 'action':
+            return `/icons/${preferences.layout}/${slug}.svg`;
+        case 'movement':
+            return `/icons/movement/${slug}.svg`;
+        default:
+            return `/icons/${slug}.svg`;
+    }
 });
 </script>
 
