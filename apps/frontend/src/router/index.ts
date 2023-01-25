@@ -11,6 +11,16 @@ const routes: RouteRecordRaw[] = [
         path: '/share',
         component: () => import('../views/share.vue'),
     },
+    {
+        name: 'characters',
+        path: '/characters',
+        component: () => import('../views/characters/index.vue'),
+    },
+    {
+        name: 'character-details',
+        path: '/characters/:slug',
+        component: () => import('../views/characters/details.vue'),
+    },
 ];
 
 export default createRouter({

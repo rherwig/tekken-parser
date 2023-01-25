@@ -14,4 +14,15 @@ export default <UserConfig>{
         host: '0.0.0.0',
         port: 4200,
     },
+    optimizeDeps: {
+        exclude: [
+            'firebase',
+            'firebase/app',
+            'firebase/auth',
+            'firebase/firestore',
+            'firebase/analytics',
+            'firebase/functions',
+            'firebase/storage',
+        ],
+    },
 };
