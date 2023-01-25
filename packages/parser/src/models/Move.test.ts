@@ -1,12 +1,7 @@
 import { describe, it, expect, beforeEach } from 'vitest';
 import { Move } from './Move';
 
-const SAMPLE_MOVES = [
-    'd2',
-    'd/f2',
-    'd/f1+2,1+2',
-    'd/f1+2,1+2W!',
-];
+const SAMPLE_MOVES = ['d2', 'd/f2', 'd/f1+2,1+2', 'd/f1+2,1+2W!', 'EWGF'];
 
 describe('models/Move', () => {
     let moves: Move[];
@@ -20,5 +15,6 @@ describe('models/Move', () => {
         expect(moves[1].instructions.length).toBe(2);
         expect(moves[2].instructions.length).toBe(3);
         expect(moves[3].instructions.length).toBe(4);
+        expect(moves[4].instructions.length).toBe(1);
     });
 });

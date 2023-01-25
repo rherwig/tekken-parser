@@ -1,23 +1,21 @@
 import { describe, it, expect } from 'vitest';
-import { findSpecialInstruction } from './special-utils';
 
-const SPECIAL_INSTRUCTIONS = [
-    'W!',
-    'WB!',
-];
-const NON_SPECIAL_INSTRUCTIONS = ['1', 'd', '/'];
+import { isSpecialCharacter } from './special-utils';
+
+const SPECIAL_CHARACTERS = [':', '~'];
+const NON_SPECIAL_CHARACTERS = ['1', 'd', 'W', ','];
 
 describe('utils/special-utils', () => {
-    describe('findSpecialInstruction', () => {
-        it('returns instruction, if input is special instruction', () => {
-            SPECIAL_INSTRUCTIONS.forEach((input: string) => {
-                expect(findSpecialInstruction(input)).toBeDefined();
+    describe('isSpecialCharacter', () => {
+        it('returns true, if input is special instruction', () => {
+            SPECIAL_CHARACTERS.forEach((input: string) => {
+                expect(isSpecialCharacter(input)).toBe(true);
             });
         });
 
-        it('returns undefined, if input is not special instruction', () => {
-            NON_SPECIAL_INSTRUCTIONS.forEach((input: string) => {
-                expect(findSpecialInstruction(input)).toBeUndefined();
+        it('returns false, if input is not a special character', () => {
+            NON_SPECIAL_CHARACTERS.forEach((input: string) => {
+                expect(isSpecialCharacter(input)).toBe(false);
             });
         });
     });

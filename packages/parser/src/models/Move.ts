@@ -3,7 +3,9 @@ import { InputInstruction } from './InputInstruction';
 import { SpecialInstruction } from './SpecialInstruction';
 import { isMovementInput, MOVEMENT_COMBINATOR } from '../utils/movement-utils';
 import { ACTION_COMBINATOR, isActionInput } from '../utils/action-utils';
-import { findSpecialInstruction } from '../utils/special-utils';
+import { isSpecialCharacter } from '../utils/special-utils';
+import { findTextInstruction } from '../utils/text-utils';
+import { isIgnoredCharacter } from '../utils/ignore-utils';
 
 export class Move {
     public instructions: Instruction[] = [];
@@ -30,22 +32,23 @@ export class Move {
             }
 
             this.instructions.push(new InputInstruction('movement', input));
-        }
-
-        if (isActionInput(currentCharacter)) {
+        } else if (isActionInput(currentCharacter)) {
             if (nextCharacter === ACTION_COMBINATOR) {
                 nextIndex += 2;
                 input = notation.substring(index, nextIndex);
             }
 
             this.instructions.push(new InputInstruction('action', input));
-        }
+        } else if (isSpecialCharacter(currentCharacter)) {
+            this.instructions.push(new SpecialInstruction(currentCharacter));
+        } else if (!isIgnoredCharacter(currentCharacter)) {
+            const text = findTextInstruction(notation, index);
 
-        const special = findSpecialInstruction(notation.substring(index));
-        if (special !== undefined) {
-            nextIndex += special.length;
+            if (text?.length) {
+                nextIndex += text.length;
 
-            this.instructions.push(new SpecialInstruction(special));
+                this.instructions.push(new SpecialInstruction(text));
+            }
         }
 
         return this.parse(notation, nextIndex);

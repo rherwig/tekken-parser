@@ -7,7 +7,7 @@ describe('models/InputInstruction', () => {
     let instruction: InputInstruction;
 
     beforeEach(() => {
-        instruction = new InputInstruction(SAMPLE_INSTRUCTION);
+        instruction = new InputInstruction('action', SAMPLE_INSTRUCTION);
     });
 
     it('contains the specified notation', () => {

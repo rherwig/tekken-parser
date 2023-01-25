@@ -1,13 +1,13 @@
-const JUST_FRAME = ':';
-const WALL_HIT = 'W!';
-const WALL_BOUNCE = 'WB!';
+import {
+    ACTION_IMMEDIATE_COMBINATOR,
+    ACTION_JUST_COMBINATOR,
+} from './action-utils';
 
 const SPECIAL_INSTRUCTIONS = [
-    JUST_FRAME,
-    WALL_BOUNCE,
-    WALL_HIT,
+    ACTION_IMMEDIATE_COMBINATOR,
+    ACTION_JUST_COMBINATOR,
 ];
 
-export const findSpecialInstruction = (notation: string): string | undefined => {
-    return SPECIAL_INSTRUCTIONS.find((special: string) => notation.startsWith(special));
+export const isSpecialCharacter = (char: string) => {
+    return SPECIAL_INSTRUCTIONS.includes(char);
 };
