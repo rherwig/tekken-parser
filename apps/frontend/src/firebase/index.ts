@@ -1,4 +1,5 @@
 import { initializeApp } from 'firebase/app';
+import { getAuth } from 'firebase/auth';
 import {
     getFirestore,
     collection,
@@ -17,8 +18,9 @@ const firebaseConfig = {
 };
 
 export const useFirestore = () => {
-    const app = initializeApp(firebaseConfig);
-    const db = getFirestore(app);
+    const firebaseApp = initializeApp(firebaseConfig);
+    const db = getFirestore(firebaseApp);
+    const auth = getAuth(firebaseApp);
 
     const findAll = async (name: string) => {
         const ref = collection(db, name);
@@ -33,6 +35,8 @@ export const useFirestore = () => {
     };
 
     return {
+        auth,
+        firebaseApp,
         db,
         findAll,
         findOne,

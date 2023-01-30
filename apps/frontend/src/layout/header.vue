@@ -12,6 +12,11 @@
             <div class="flex-none">
                 <ul class="menu menu-horizontal px-1 mr-2">
                     <li>
+                        <router-link to="/characters">
+                            Characters
+                        </router-link>
+                    </li>
+                    <li>
                         <router-link to="/share">
                             Share Combo
                         </router-link>
@@ -36,9 +41,13 @@
 </template>
 
 <script lang="ts" setup>
+import { useCurrentUser } from 'vuefire';
+
 import { usePreferencesStore } from '@/store/preferences';
+import { onMounted } from 'vue';
 
 const preferences = usePreferencesStore();
+const user = useCurrentUser();
 
 /**
  * Changes the action button layout to the user's preference.

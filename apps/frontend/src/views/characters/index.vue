@@ -1,6 +1,11 @@
 <template>
     <div>
-        <h1 class="text-2xl mb-4">Characters</h1>
+        <div class="flex justify-between items-center mb-4">
+            <h1 class="text-2xl">Characters</h1>
+            <div>
+                <CharacterCreate/>
+            </div>
+        </div>
         <p class="text-sm mb-8">
             Click on a character in order to see their combos.
             If the character you are looking for does not appear, it does not have
@@ -8,16 +13,16 @@
         </p>
         <div
             v-if="characters"
-            class="grid grid-cols-8"
+            class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-12 gap-2"
         >
             <router-link
-                :to="`/characters/${character.slug}`"
-                v-for="character in characters.all"
+                :to="`/characters/${character.id}`"
+                v-for="character in characters"
                 :key="character.id"
                 class="relative flex items-center justify-center aspect-square rounded overflow-hidden bg-zinc-900/50 hover:scale-105 hover:shadow-sm transition-all"
             >
                 <img
-                    :src="`/images/characters/${character.slug}.png`"
+                    :src="`/images/characters/${character.id}.png`"
                     class="w-full object-cover"
                     alt=""
                 />
@@ -31,25 +36,11 @@
 </template>
 
 <script lang="ts" setup>
-import { onMounted } from 'vue';
+import { useCollection, useFirestore } from 'vuefire';
+import { collection } from 'firebase/firestore';
 
-import { useFirestore } from '../../firebase';
-import { Character, useCharactersStore } from '../../store/characters';
+import CharacterCreate from '../../components/characters/character-create.vue';
 
-const { findAll } = useFirestore();
-const characters = useCharactersStore();
-
-onMounted(async () => {
-    await fetchCharacters();
-});
-
-async function fetchCharacters() {
-    const querySnapshot = await findAll('characters');
-    const all = querySnapshot.docs.map((doc) => ({
-        id: doc.id,
-        ...doc.data(),
-    })) as Character[];
-
-    characters.setAll(all);
-}
+const db = useFirestore();
+const characters = useCollection(collection(db, 'characters'));
 </script>

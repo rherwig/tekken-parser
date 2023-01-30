@@ -3,7 +3,7 @@ import { defineStore } from 'pinia';
 export interface Character {
     id: string;
     name: string;
-    slug: string;
+    combos: any[];
 }
 
 interface State {

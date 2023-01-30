@@ -42,6 +42,7 @@ importers:
       vite: 3.2.5
       vue: ^3.2.45
       vue-router: ^4.1.6
+      vuefire: ^3.0.1
     dependencies:
       '@tekken/parser': link:../../packages/parser
       daisyui: 2.46.1_r4gnkvssmvyxmi2wmat5xbx36a
@@ -50,6 +51,7 @@ importers:
       pinia: 2.0.28_prq2uz4lho2pwp6irk4cfkrxwu
       vue: 3.2.45
       vue-router: 4.1.6_vue@3.2.45
+      vuefire: 3.0.1_firebase@9.16.0+vue@3.2.45
     devDependencies:
       '@fontsource/alegreya': 4.5.10
       '@fontsource/source-sans-3': 4.5.11
@@ -7396,6 +7398,23 @@ packages:
       '@vue/runtime-dom': 3.2.45
       '@vue/server-renderer': 3.2.45_vue@3.2.45
       '@vue/shared': 3.2.45
+
+  /vuefire/3.0.1_firebase@9.16.0+vue@3.2.45:
+    resolution: {integrity: sha512-d3aYvoB30iQ6DwQ436PjEZKams09X1YviTwMWeydzuylyhURpk1ODQfZKCHwd9Cu/0xIb024xXQS4n+XeIMsNA==}
+    peerDependencies:
+      '@vue/composition-api': '*'
+      firebase: ^9.0.0
+      vue: ^2.7.0 || ^3.2.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+      firebase:
+        optional: true
+    dependencies:
+      firebase: 9.16.0
+      vue: 3.2.45
+      vue-demi: 0.13.11_vue@3.2.45
+    dev: false
 
   /wcwidth/1.0.1:
     resolution: {integrity: sha512-XHPEwS0q6TaxcvG85+8EYkbiCux2XtWG2mkc47Ng2A77BQu9+DqIOJldST4HgPkuea7dvKSj5VgX3P1d4rW8Tg==}
