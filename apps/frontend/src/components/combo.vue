@@ -17,7 +17,7 @@
             </div>
         </div>
 
-        <div class="p-4">
+        <div class="flex p-4">
             <Move
                 v-for="(move, index) in parsedCombo?.moves"
                 :key="index"
