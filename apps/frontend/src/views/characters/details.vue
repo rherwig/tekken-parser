@@ -11,9 +11,14 @@
             :key="combo.id"
             class="mb-8"
         >
-            <h3 class="text-xl mb-2">{{ combo.name || 'Untitled' }}</h3>
-
-            <Combo :combo="parse(combo.notation)" />
+            <Combo
+                :id="combo.id"
+                :name="combo.name"
+                :damage="combo.damage"
+                :hits="combo.hits"
+                :combo="parse(combo.notation)"
+                @delete="handleDelete"
+            />
         </div>
     </div>
 </template>
@@ -21,7 +26,7 @@
 <script lang="ts" setup>
 import { useRoute } from 'vue-router';
 import { useDocument, useFirestore } from 'vuefire';
-import { doc } from 'firebase/firestore';
+import { doc, updateDoc } from 'firebase/firestore';
 import parse from '@tekken/parser';
 
 import Combo from '../../components/combo.vue';
@@ -32,4 +37,13 @@ const db = useFirestore();
 
 const characterRef = doc(db, 'characters', route.params.id as string);
 const character = useDocument(characterRef);
+
+async function handleDelete(id: string) {
+    try {
+        await updateDoc(characterRef, {
+            combos: character.value.combos.filter((combo) => combo.id !== id),
+        });
+    } catch (error) {
+        console.error(error);
+    }}
 </script>

@@ -26,6 +26,20 @@
 
                 <Combo v-if="combo" :combo="combo" />
 
+                <input
+                    type="number"
+                    placeholder="Damage (optional)"
+                    class="block input input-bordered w-full mb-4"
+                    v-model="comboDamage"
+                />
+
+                <input
+                    type="number"
+                    placeholder="Number of Hits (optional)"
+                    class="block input input-bordered w-full mb-4"
+                    v-model="comboHits"
+                />
+
                 <button class="btn btn-primary mt-4 px-8" type="submit">
                     Add
                 </button>
@@ -50,6 +64,7 @@ import parse from '@tekken/parser';
 
 import Combo from '../../components/combo.vue';
 import Modal from '../../ui/modals/modal.vue';
+import { autoId } from '../../utils/id';
 
 interface Props {
     characterRef: DocumentReference;
@@ -62,6 +77,8 @@ const db = useFirestore();
 const nameInput = ref<HTMLInputElement>();
 const isVisible = ref<boolean>(false);
 const comboName = ref<string>('');
+const comboDamage = ref<number>();
+const comboHits = ref<number>();
 const comboNotation = ref<string>('');
 
 const combo = computed(() => {
@@ -89,8 +106,11 @@ async function handleAddClick() {
 
         await updateDoc(props.characterRef, {
             combos: arrayUnion({
+                id: autoId(),
                 name: comboName.value,
                 notation: comboNotation.value,
+                damage: comboDamage.value,
+                hits: comboHits.value,
             }),
         });
 
