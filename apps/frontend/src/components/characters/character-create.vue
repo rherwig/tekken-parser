@@ -27,12 +27,14 @@
 <script lang="ts" setup>
 import { ref } from 'vue';
 import { useFirestore } from 'vuefire';
-import { setDoc, doc } from 'firebase/firestore';
+import { setDoc } from 'firebase/firestore';
 
-import Modal from '../../ui/modals/modal.vue';
-import { stripName } from '../../utils/name';
+import Modal from '@/ui/modals/modal.vue';
+import { stripName } from '@/utils/name';
+import { useFirestoreHelper } from '@/firebase';
 
 const db = useFirestore();
+const { characterDocument } = useFirestoreHelper();
 
 const nameInput = ref<HTMLInputElement>();
 const isVisible = ref<boolean>(false);
@@ -55,7 +57,7 @@ async function handleAddClick() {
 
         const id = stripName(characterName.value);
 
-        await setDoc<any>(doc(db, 'characters', id), {
+        await setDoc<any>(characterDocument(id), {
             id,
             name: characterName.value,
             combos: [],

@@ -1,5 +1,5 @@
 <template>
-    <Combo v-if="combo" :combo="combo" class="mb-10"/>
+    <Combo :notation="comboString" class="mb-10"/>
 
     <h2 class="text-lg mb-2">
         Share your combo
@@ -34,11 +34,10 @@
 </template>
 
 <script lang="ts" setup>
-import { computed, onMounted, ref, watch } from 'vue';
-
-import parse from '@tekken/parser';
-import Combo from '@/components/combo.vue';
+import { computed, onMounted, ref } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
+
+import Combo from '@/components/combo.vue';
 
 const router = useRouter();
 const route = useRoute();
@@ -48,10 +47,6 @@ const comboString = ref<string>('');
 onMounted(() => {
     comboString.value = route.query.combo as string || '';
 });
-
-const combo = computed(() => {
-    return comboString.value ? parse(comboString.value) : null;
-})
 
 const comboUrl = computed(() => {
     return `${window.location.origin}/#/share?combo=${encodeURIComponent(comboString.value)}`

@@ -44,7 +44,6 @@
 import { useCurrentUser } from 'vuefire';
 
 import { usePreferencesStore } from '@/store/preferences';
-import { onMounted } from 'vue';
 
 const preferences = usePreferencesStore();
 const user = useCurrentUser();

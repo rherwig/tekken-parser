@@ -2,12 +2,13 @@
     <div v-if="character">
         <div class="flex justify-between items-center mb-4">
             <h1 class="text-2xl">{{ character.name }}</h1>
-            <div>
-                <ComboCreate :character-ref="characterRef"/>
-            </div>
+            <ComboForm
+                v-if="user"
+                :character-id="route.params.id as string"
+            />
         </div>
         <div
-            v-for="combo in character.combos"
+            v-for="combo in (character as ICharacter).combos"
             :key="combo.id"
             class="mb-8"
         >
@@ -16,8 +17,8 @@
                 :name="combo.name"
                 :damage="combo.damage"
                 :hits="combo.hits"
-                :combo="parse(combo.notation)"
-                @delete="handleDelete"
+                :notation="combo.notation"
+                :character-id="character.id"
             />
         </div>
     </div>
@@ -25,25 +26,17 @@
 
 <script lang="ts" setup>
 import { useRoute } from 'vue-router';
-import { useDocument, useFirestore } from 'vuefire';
-import { doc, updateDoc } from 'firebase/firestore';
-import parse from '@tekken/parser';
+import { useCurrentUser, useDocument } from 'vuefire';
 
-import Combo from '../../components/combo.vue';
-import ComboCreate from '../../components/combos/combo-create.vue';
+import { useFirestoreHelper } from '@/firebase';
+import Combo from '@/components/combo.vue';
+import ComboForm from '@/components/combos/combo-form.vue';
+import { ICharacter } from '@/types/character';
 
 const route = useRoute();
-const db = useFirestore();
+const { characterDocument } = useFirestoreHelper();
+const user = useCurrentUser();
 
-const characterRef = doc(db, 'characters', route.params.id as string);
-const character = useDocument(characterRef);
-
-async function handleDelete(id: string) {
-    try {
-        await updateDoc(characterRef, {
-            combos: character.value.combos.filter((combo) => combo.id !== id),
-        });
-    } catch (error) {
-        console.error(error);
-    }}
+const characterRef = characterDocument(route.params.id as string);
+const character = useDocument(characterRef) as any;
 </script>

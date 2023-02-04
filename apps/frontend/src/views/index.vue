@@ -12,7 +12,7 @@
         </p>
 
         <div class="not-prose">
-            <Combo :combo="parse('d2;d/f2,1')"/>
+            <Combo notation="d2;d/f2,1"/>
         </div>
 
         <h2>Choosing a Layout</h2>
@@ -34,7 +34,5 @@
 </template>
 
 <script lang="ts" setup>
-import parse from '@tekken/parser';
-
-import Combo from '../components/combo.vue';
+import Combo from '@/components/combo.vue';
 </script>

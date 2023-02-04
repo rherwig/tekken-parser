@@ -36,11 +36,11 @@
 </template>
 
 <script lang="ts" setup>
-import { useCollection, useFirestore } from 'vuefire';
-import { collection } from 'firebase/firestore';
+import { useCollection } from 'vuefire';
 
-import CharacterCreate from '../../components/characters/character-create.vue';
+import { useFirestoreHelper } from '@/firebase';
+import CharacterCreate from '@/components/characters/character-create.vue';
 
-const db = useFirestore();
-const characters = useCollection(collection(db, 'characters'));
+const { charactersCollection } = useFirestoreHelper()
+const characters = useCollection(charactersCollection);
 </script>

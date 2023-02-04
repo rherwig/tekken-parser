@@ -6,9 +6,9 @@ import '@/assets/scss/main.scss';
 
 import App from '@/app.vue';
 import router from '@/router';
-import { useFirestore } from '@/firebase';
+import { useFirestoreHelper } from '@/firebase';
 
-const { firebaseApp } = useFirestore();
+const { firebaseApp } = useFirestoreHelper();
 
 const app = createApp(App);
 const pinia = createPinia();
