@@ -1,13 +1,6 @@
 <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_8_389)">
-<path d="M400.25 400.25L170.478 366.437L366.437 170.478L400.25 400.25Z" fill="#F8F8F8"/>
-<rect x="166.056" y="57.4444" width="222.545" height="155.733" transform="rotate(45 166.056 57.4444)" fill="#F8F8F8"/>
-<path d="M394.239 394.946L178.062 364.318L363.611 178.769L394.239 394.946Z" fill="#0F0F0F"/>
-<rect x="166.198" y="64.3741" width="221" height="147" transform="rotate(45 166.198 64.3741)" fill="#0F0F0F"/>
-</g>
-<defs>
-<clipPath id="clip0_8_389">
-<rect width="512" height="512" fill="white"/>
-</clipPath>
-</defs>
+<path d="M419.456 378.058L187.211 377.566L353.023 155.516L419.456 378.058Z" fill="#F8F8F8"/>
+<path d="M138.496 72.4055L316.811 205.56L223.632 330.342L45.3165 197.187L138.496 72.4055Z" fill="#F8F8F8"/>
+<path d="M407.939 370.082L202.495 370.689L350.172 172.926L407.939 370.082Z" fill="#0F0F0F"/>
+<path d="M140.442 84.8414L323.128 221.259L240.559 331.832L57.873 195.414L140.442 84.8414Z" fill="#0F0F0F"/>
 </svg>
