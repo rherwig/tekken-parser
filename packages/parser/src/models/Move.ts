@@ -41,7 +41,10 @@ export class Move {
             this.instructions.push(new InputInstruction('action', input));
         } else if (isSpecialCharacter(currentCharacter)) {
             this.instructions.push(new SpecialInstruction(currentCharacter));
-        } else if (!isIgnoredCharacter(currentCharacter)) {
+        } else if (
+            !isIgnoredCharacter(currentCharacter) ||
+            currentCharacter === '"'
+        ) {
             const text = findTextInstruction(notation, index);
 
             if (text?.length) {
