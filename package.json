@@ -1,5 +1,5 @@
 {
-    "name": "@tekken/mono",
+    "name": "@tekken-tools/mono",
     "version": "0.0.0",
     "private": true,
     "scripts": {

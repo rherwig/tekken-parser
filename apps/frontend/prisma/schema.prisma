@@ -1,31 +1,53 @@
-// See: https://pris.ly/d/prisma-schema
+// Docs: https://pris.ly/d/prisma-schema
 
 generator client {
     provider = "prisma-client-js"
 }
 
 datasource db {
-    provider = "sqlite"
+    provider = "mongodb"
     url      = env("DATABASE_URL")
 }
 
-model User {
-    id    Int     @id @default(autoincrement())
-    email String  @unique
-    name  String?
-    posts Post[]
+enum MoveType {
+    UNSET
+    LAUNCHER
+    SCREW
+    FINISHER
+    EXTENDER
 }
 
-model Post {
-    id        Int     @id @default(autoincrement())
-    title     String
-    content   String?
-    published Boolean @default(false)
-    author    User    @relation(fields: [authorId], references: [id])
-    authorId  Int
+enum InstructionType {
+    MOVEMENT
+    ACTION
+    SPECIAL
+}
+
+type Move {
+    name         String?
+    type         MoveType      @default(UNSET)
+    instructions Instruction[]
+}
+
+type Instruction {
+    slug     String
+    type     InstructionType
+    notation String
+}
+
+model Character {
+    id     String  @id @default(auto()) @map("_id") @db.ObjectId
+    name   String  @unique
+    combos Combo[]
 }
 
 model Combo {
-    id   Int     @id @default(autoincrement())
-    name String?
+    id          String    @id @map("_id")
+    name        String?
+    damage      Int?
+    hits        Int?
+    notes       String?
+    character   Character @relation(fields: [characterId], references: [id])
+    characterId String
+    moves       Move[]
 }

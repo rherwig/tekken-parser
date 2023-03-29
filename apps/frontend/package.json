@@ -1,12 +1,13 @@
 {
-    "name": "frontend-next",
+    "name": "@tekken-tools/app",
     "version": "0.1.0",
     "private": true,
     "scripts": {
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint"
+        "lint": "next lint",
+        "prepare": "prisma generate"
     },
     "devDependencies": {
         "@hrwg/eslint-config": "2.1.0",
@@ -20,6 +21,7 @@
         "typescript": "5.0.2"
     },
     "dependencies": {
+        "@prisma/client": "4.12.0",
         "bulma": "0.9.4",
         "next": "13.2.4",
         "react": "18.2.0",

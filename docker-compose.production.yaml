@@ -1,34 +1,19 @@
 version: '3.8'
 
 services:
-    engine:
-        image: hrwg.registry.jetbrains.space/p/hrwg/containers/engine:latest
-        restart: "always"
-        volumes:
-            - /var/engine/:/app/var/
-            - /var/engine/keys/:/app/keys/
-
-    portier:
-        image: hrwg.registry.jetbrains.space/p/hrwg/containers/portier:latest
-        restart: "always"
+    tekken-app:
+        build: .
+        restart: "unless-stopped"
         depends_on:
-            - engine
+            - database
         volumes:
             - /var/hrwg/portier/.env:/app/apps/portier/.env
 
-    website:
-        image: hrwg.registry.jetbrains.space/p/hrwg/containers/website:latest
-        restart: "always"
-        depends_on:
-            - engine
-
-    proxy:
-        image: hrwg.registry.jetbrains.space/p/hrwg/containers/proxy:latest
-        restart: "always"
+    database:
+        image: mongo:6.0.5
+        container_name: tekken-database
+        restart: "unless-stopped"
         ports:
-            - "80:80"
-            - "443:443"
-        depends_on:
-            - website
-            - engine
-            - portier
+            - "27017:27017"
+        volumes:
+            - ./var/data:/data/db
