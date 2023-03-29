@@ -1,0 +1,11 @@
+@layer base {
+    html,
+    body,
+    #__next {
+        @apply w-full h-full;
+    }
+
+    body {
+        @apply text-zinc-700;
+    }
+}

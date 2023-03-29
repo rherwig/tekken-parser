@@ -7,11 +7,15 @@ import { isSpecialCharacter } from '../utils/special-utils';
 import { findTextInstruction } from '../utils/text-utils';
 import { isIgnoredCharacter } from '../utils/ignore-utils';
 
+export type MoveType = 'launcher' | 'screw' | 'finisher' | 'extension';
+
 export class Move {
     public instructions: Instruction[] = [];
+    public type?: MoveType;
 
-    constructor(notation: string) {
+    constructor(notation: string, type?: MoveType) {
         this.parse(notation);
+        this.type = type;
     }
 
     private parse(notation: string, index = 0): void {

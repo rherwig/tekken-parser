@@ -1,6 +1,5 @@
 {
     "extends": [
-        "@hrwg/eslint-config/vue",
-        "prettier"
+        "@hrwg/eslint-config/next"
     ]
 }

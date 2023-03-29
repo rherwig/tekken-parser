@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+    database:
+        image: mongo:6.0.5
+        container_name: tekken-database
+        restart: "unless-stopped"
+        ports:
+            - "27017:27017"
+        volumes:
+            - ./var/data:/data/db
