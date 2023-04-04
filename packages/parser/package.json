@@ -1,15 +1,17 @@
 {
-    "name": "@tekken/parser",
+    "name": "@tekken-tools/parser",
     "description": "Library that tokenizes and parses combos in Tekken Notation",
     "version": "0.1.0",
     "type": "module",
-    "main": "./dist/tekken-parser.js",
-    "module": "./dist/tekken-parser.mjs",
+    "main": "./dist/tekken-parser.cjs",
+    "module": "./dist/tekken-parser.js",
+    "types": "./src/index.ts",
     "exports": {
         ".": {
-            "import": "./src/index.ts",
-            "require": "./dist/tekken-parser.js"
-        }
+            "import": "./dist/tekken-parser.js",
+            "require": "./dist/tekken-parser.cjs"
+        },
+        "./package.json": "./package.json"
     },
     "scripts": {
         "build": "vite build",
@@ -17,7 +19,8 @@
         "test:watch": "vitest"
     },
     "devDependencies": {
-        "vite": "^4.0.4",
-        "vitest": "^0.26.3"
+        "typescript": "5.0.3",
+        "vite": "4.2.1",
+        "vitest": "0.29.8"
     }
 }

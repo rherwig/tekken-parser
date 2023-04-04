@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
     database:
-        image: mongo:6.0.5
+        build: infrastructure/database
         container_name: tekken-database
         restart: "unless-stopped"
         ports:

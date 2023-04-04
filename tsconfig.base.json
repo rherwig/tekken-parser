@@ -1,20 +1,26 @@
 {
+    "$schema": "https://json.schemastore.org/tsconfig",
     "compilerOptions": {
-        "target": "ESNext",
-        "useDefineForClassFields": true,
+        "target": "ES2022",
         "module": "ESNext",
         "moduleResolution": "Node",
-        "strict": true,
+        "noEmit": true,
+        "incremental": true,
+        "useDefineForClassFields": true,
+        "forceConsistentCasingInFileNames": true,
         "jsx": "preserve",
         "resolveJsonModule": true,
         "isolatedModules": true,
         "esModuleInterop": true,
         "lib": [
             "ESNext",
-            "DOM"
+            "DOM",
+            "DOM.Iterable"
         ],
+        "strict": true,
         "skipLibCheck": true,
-        "noEmit": true
+        "allowJs": true,
+        "checkJs": false
     },
     "exclude": ["node_modules"]
 }

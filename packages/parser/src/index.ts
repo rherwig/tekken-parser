@@ -1,3 +1,9 @@
 import { Combo } from './models/Combo';
 
-export default (tekkenNotation: string) => new Combo(tekkenNotation);
+export * from './models/Combo';
+export * from './models/Move';
+export * from './models/Instruction';
+
+export function parse(tekkenNotation: string): Combo {
+    return new Combo(tekkenNotation);
+}
