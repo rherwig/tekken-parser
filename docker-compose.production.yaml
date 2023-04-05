@@ -1,19 +1,26 @@
 version: '3.8'
 
 services:
-    tekken-app:
-        build: .
+    frontend:
+        image: rherwig/tekken-space-frontend:latest
         restart: "unless-stopped"
         depends_on:
             - database
         volumes:
-            - /var/hrwg/portier/.env:/app/apps/portier/.env
+            - /var/tekken/frontend/.env:/app/apps/frontend/.env
 
     database:
-        image: mongo:6.0.5
+        image: rherwig/tekken-space-database:latest
         container_name: tekken-database
         restart: "unless-stopped"
-        ports:
-            - "27017:27017"
         volumes:
-            - ./var/data:/data/db
+            - /var/tekken/data:/data/db
+
+    proxy:
+        image: rherwig/tekken-space-proxy:latest
+        restart: "always"
+        ports:
+            - "80:80"
+            - "443:443"
+        depends_on:
+            - frontend

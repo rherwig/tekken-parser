@@ -1,0 +1,16 @@
+localhost {
+    tls internal
+    reverse_proxy website:3000
+}
+
+hrwg.localhost {
+    reverse_proxy website:3000
+}
+
+engine.hrwg.localhost {
+    reverse_proxy engine:4200
+}
+
+portier.hrwg.localhost {
+    reverse_proxy portier:3000
+}
