@@ -3,9 +3,12 @@
     "version": "0.0.0",
     "private": true,
     "scripts": {
-        "dev": "pnpm -w dev",
-        "build": "pnpm -w build",
-        "test": "pnpm -w test"
+        "build": "turbo run build",
+        "clean": "turbo run clean",
+        "deploy": "turbo run deploy",
+        "dev": "turbo run dev",
+        "lint": "turbo run lint",
+        "test": "turbo run test"
     },
     "license": "MIT",
     "devDependencies": {
@@ -13,6 +16,7 @@
         "@hrwg/prettier-config": "1.0.0",
         "eslint": "8.37.0",
         "prettier": "2.8.7",
+        "turbo": "^1.8.8",
         "typescript": "5.0.3"
     }
 }

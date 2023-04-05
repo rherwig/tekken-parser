@@ -88,9 +88,11 @@ type Instruction {
 }
 
 model Character {
-    id     String  @id @default(auto()) @map("_id") @db.ObjectId
-    name   String  @unique
-    combos Combo[]
+    id       String  @id @default(auto()) @map("_id") @db.ObjectId
+    name     String  @unique
+    slug     String  @unique
+    imageUrl String?
+    combos   Combo[]
 }
 
 model Combo {

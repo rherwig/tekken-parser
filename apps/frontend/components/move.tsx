@@ -1,12 +1,31 @@
 import { FC } from 'react';
-import type { Move } from '@prisma/client';
+import { Move as ParserMove } from '@tekken-tools/parser';
+
+import Instruction from '@/components/instruction';
 
 interface Props {
-    move: Move;
+    move: ParserMove;
 }
 
 const Move: FC<Props> = (props) => {
-    return <></>;
+    return (
+        <div className="group mr-2 -ml-1 inline-flex">
+            {props.move.instructions.map((instruction, index) => (
+                <Instruction
+                    key={index}
+                    instruction={instruction}
+                />
+            ))}
+
+            <div className="pl-3 pr-2 group-last:hidden">
+                <img
+                    src="/icons/follow.svg"
+                    className="h-10"
+                    alt="Next Move"
+                />
+            </div>
+        </div>
+    );
 };
 
 export default Move;
