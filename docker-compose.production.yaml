@@ -11,7 +11,6 @@ services:
 
     database:
         image: rherwig/tekken-space-database:latest
-        container_name: tekken-database
         restart: "unless-stopped"
         volumes:
             - /var/tekken/data:/data/db
