@@ -62,7 +62,7 @@ export default function CharactersIndex(props: Props) {
             <div className="grid grid-cols-8 gap-2">
                 {characters.map((character) => (
                     <Link
-                        href={`/characters/${character.name.toLowerCase()}`}
+                        href={`/characters/${character.slug}`}
                         className="hover:shadow-xs relative flex aspect-square items-center justify-center bg-black/80 text-white transition-all hover:scale-105"
                         key={character.id}
                     >

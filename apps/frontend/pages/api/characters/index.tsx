@@ -1,7 +1,9 @@
 import { NextApiRequest } from 'next';
 import { PrismaClient } from '@prisma/client';
+import { getServerSession } from 'next-auth';
 
 import { ApiResponse } from '@/types/api-response';
+import { authOptions } from '@/pages/api/auth/[...nextauth]';
 
 const prisma = new PrismaClient();
 
@@ -22,6 +24,15 @@ async function find(req: NextApiRequest, res: ApiResponse) {
 }
 
 async function create(req: NextApiRequest, res: ApiResponse) {
+    const session = await getServerSession(req, res, authOptions);
+
+    if (session?.user.role !== 'ADMIN') {
+        return res.status(403).json({
+            error: 'Missing administator role.',
+            code: 2,
+        });
+    }
+
     try {
         const { name } = req.body;
         if (!name) {
