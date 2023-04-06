@@ -1,11 +1,23 @@
 version: '3.8'
 
 services:
-    database:
-        build: infrastructure/database
-        container_name: tekken-database
+    frontend:
+        build: .
+        container_name: tekken-space-frontend
         restart: "unless-stopped"
         ports:
-            - "27017:27017"
+            - "3000:3000"
+        volumes:
+            - ./apps/frontend/.env:/app/apps/frontend/.env
+
+    database:
+        build: infrastructure/database
+        container_name: tekken-space-database
+        restart: "unless-stopped"
+        healthcheck:
+            test: |
+                test $$(mongosh --quiet --eval "try { rs.initiate({ _id: 'rs0', members: [{ _id: 0, host: 'database' }] }).ok } catch (_) { rs.status().ok }") -eq 1
+            interval: 10s
+            start_period: 30s
         volumes:
             - ./var/data:/data/db

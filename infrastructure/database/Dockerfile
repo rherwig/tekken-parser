@@ -1,5 +1,5 @@
-FROM mongo:4.4.6
+FROM mongo:6.0.5
 
 WORKDIR .
 COPY replica.js ./docker-entrypoint-initdb.d/
-CMD ["-replSet", "rs0"]
+CMD ["--replSet", "rs0"]
