@@ -7,3 +7,6 @@ var/
 
 # Node
 node_modules/
+
+# Environment
+.env
