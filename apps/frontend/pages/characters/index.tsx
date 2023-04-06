@@ -43,32 +43,35 @@ export default function CharactersIndex(props: Props) {
     return (
         <ContainerLayout>
             <Head>
-                <title>Characters | Tekken Tools</title>
+                <title>Characters | Tekken Space</title>
             </Head>
 
             <div className="mb-6 flex items-center justify-between">
                 <h1 className="text-2xl">Characters</h1>
-                <button
-                    className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
-                    onClick={() => setIsOpen(true)}
-                >
-                    Create Character
-                </button>
+                <AdminOnly>
+                    <button
+                        type={'button'}
+                        className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                        onClick={() => setIsOpen(true)}
+                    >
+                        Create Character
+                    </button>
+                </AdminOnly>
             </div>
 
-            <div className="grid grid-cols-6 gap-2">
+            <div className="grid grid-cols-8 gap-2">
                 {characters.map((character) => (
                     <Link
                         href={`/characters/${character.name.toLowerCase()}`}
-                        className="relative flex aspect-square items-center justify-center bg-black/80 text-white"
+                        className="hover:shadow-xs relative flex aspect-square items-center justify-center bg-black/80 text-white transition-all hover:scale-105"
                         key={character.id}
                     >
                         {character.imageUrl && (
                             <Image
                                 src={character.imageUrl}
                                 alt={`Picture of ${character.name}`}
-                                width={128}
-                                height={128}
+                                width={256}
+                                height={256}
                                 className="absolute"
                                 priority={true}
                             />

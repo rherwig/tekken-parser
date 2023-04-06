@@ -6,7 +6,9 @@ export default function TheHeader() {
             <div className="container flex h-full justify-between">
                 <div className="flex h-full">
                     <div className="-ml-8 h-full">
-                        <HeaderLink href={'/'}>TekkenTools</HeaderLink>
+                        <HeaderLink href={'/'}>
+                            <span className={'font-bold'}>Tekken Space</span>
+                        </HeaderLink>
                     </div>
                     <nav className="h-full">
                         <ul className="h-full">

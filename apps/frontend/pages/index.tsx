@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <ContainerLayout>
             <Head>
-                <title>Tekken Tools</title>
+                <title>Tekken Space</title>
             </Head>
 
             <div className="prose">
