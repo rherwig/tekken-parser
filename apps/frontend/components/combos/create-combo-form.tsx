@@ -38,12 +38,26 @@ export default function CreateComboForm(props: Props) {
         ),
     });
 
-    const onSubmit = async (values: ComboValues) => {
-        if (values.id !== undefined) {
-            return updateCombo(values);
+    const onSubmit = async (values: any) => {
+        const data = {
+            ...values,
+        };
+        const { damage, hits } = data;
+
+        data.damage =
+            damage === undefined || damage === '' || damage === null
+                ? null
+                : parseInt(damage);
+        data.hits =
+            hits === undefined || hits === '' || hits === null
+                ? null
+                : parseInt(hits);
+
+        if (data.id !== undefined) {
+            return updateCombo(data);
         }
 
-        return createCombo(values);
+        return createCombo(data);
     };
 
     const createCombo = async (values: ComboValues) => {
