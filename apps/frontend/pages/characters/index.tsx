@@ -8,8 +8,7 @@ import Head from 'next/head';
 import ContainerLayout from '@/layouts/container-layout';
 import AdminOnly from '@/components/auth/admin-only';
 import CreateCharacterModal from '@/components/characters/create-character-modal';
-
-const prisma = new PrismaClient();
+import { CharactersService } from '@/services/characters-service';
 
 export async function getServerSideProps() {
     const props: Props = {
@@ -17,7 +16,7 @@ export async function getServerSideProps() {
     };
 
     try {
-        props.characters = await prisma.character.findMany();
+        props.characters = await CharactersService.findAll();
     } catch (error: any) {
         console.error(error);
     }

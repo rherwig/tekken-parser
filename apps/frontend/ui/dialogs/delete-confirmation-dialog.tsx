@@ -4,7 +4,7 @@ interface Props {
     title?: string;
     content: string;
     isOpen: boolean;
-    onConfirm: () => void;
+    onConfirm: (data: any) => void;
     onCancel: () => void;
 }
 

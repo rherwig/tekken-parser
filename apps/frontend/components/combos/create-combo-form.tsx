@@ -3,7 +3,6 @@ import * as Yup from 'yup';
 import { Combo as ComboModel } from '@prisma/client';
 
 import TkTextField from '@/ui/forms/text-field';
-import Combo from '@/components/combo';
 import TkNotationField from '@/ui/forms/notation-field';
 
 interface Props {
@@ -33,16 +32,16 @@ export default function CreateComboForm(props: Props) {
 
     const onSubmit = async (values: ComboValues) => {
         try {
-            const response = await fetch(
-                `/api/characters/${props.characterId}/combos`,
-                {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify(values),
+            const response = await fetch(`/api/combos`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
                 },
-            );
+                body: JSON.stringify({
+                    ...values,
+                    characterId: props.characterId,
+                }),
+            });
 
             const combo = await response.json();
 

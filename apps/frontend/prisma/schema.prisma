@@ -61,32 +61,6 @@ model VerificationToken {
     @@unique([identifier, token])
 }
 
-enum MoveType {
-    UNSET
-    LAUNCHER
-    SCREW
-    FINISHER
-    EXTENDER
-}
-
-enum InstructionType {
-    MOVEMENT
-    ACTION
-    SPECIAL
-}
-
-type Move {
-    name         String?
-    type         MoveType      @default(UNSET)
-    instructions Instruction[]
-}
-
-type Instruction {
-    slug     String
-    type     InstructionType
-    notation String
-}
-
 model Character {
     id       String  @id @default(auto()) @map("_id") @db.ObjectId
     name     String  @unique
@@ -96,7 +70,7 @@ model Character {
 }
 
 model Combo {
-    id          String    @id @map("_id")
+    id          String    @id @default(auto()) @map("_id") @db.ObjectId
     notation    String
     name        String?
     damage      Int?
@@ -104,5 +78,4 @@ model Combo {
     notes       String?
     character   Character @relation(fields: [characterId], references: [id])
     characterId String    @db.ObjectId
-    moves       Move[]
 }

@@ -1,5 +1,5 @@
 import { GetServerSideProps } from 'next';
-import { Character, Combo, PrismaClient } from '@prisma/client';
+import { Combo as ComboModel } from '@prisma/client';
 import Head from 'next/head';
 import { useState } from 'react';
 import { useRouter } from 'next/router';
@@ -8,12 +8,15 @@ import ContainerLayout from '@/layouts/container-layout';
 import AdminOnly from '@/components/auth/admin-only';
 import CreateComboModal from '@/components/combos/create-combo-modal';
 import DeleteConfirmationDialog from '@/ui/dialogs/delete-confirmation-dialog';
+import {
+    CharactersService,
+    CharacterWithCombos,
+} from '@/services/characters-service';
+import Combo from '@/components/combo';
 
 interface Props {
-    character: Character | null;
+    character: CharacterWithCombos | null;
 }
-
-const prisma = new PrismaClient();
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
     const props: Props = {
@@ -21,11 +24,28 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
     };
 
     try {
-        props.character = await prisma.character.findUnique({
-            where: {
-                slug: context.params?.slug?.toString(),
-            },
-        });
+        const slug = context.params?.slug?.toString();
+        if (!slug) {
+            return {
+                props,
+                redirect: {
+                    basePath: '/characters',
+                    permanent: false,
+                },
+            };
+        }
+
+        props.character = await CharactersService.findBySlug(slug);
+
+        if (!props.character) {
+            return {
+                props,
+                redirect: {
+                    basePath: '/characters',
+                    permanent: false,
+                },
+            };
+        }
     } catch (error: any) {
         console.error(error);
     }
@@ -36,6 +56,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 };
 
 export default function CharacterDetailsPage(props: Props) {
+    const [combos, setCombos] = useState(props.character?.combos ?? []);
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [showDeleteConfirmation, setShowDeleteConfirmation] = useState(false);
     const router = useRouter();
@@ -44,9 +65,12 @@ export default function CharacterDetailsPage(props: Props) {
         return null;
     }
 
-    const title = `${props.character.name} | Tekken Tools`;
+    const title = `${props.character.name} | Tekken Space`;
 
-    const handleComboCreated = (combo: Combo) => {};
+    const handleComboCreated = async (comboDto: ComboModel) => {
+        setCombos((prevCombos) => [...prevCombos, comboDto]);
+        setIsModalOpen(false);
+    };
 
     const handleCharacterDeleteConfirm = async () => {
         if (!props.character) {
@@ -64,6 +88,20 @@ export default function CharacterDetailsPage(props: Props) {
         }
     };
 
+    const handleComboDeleteConfirm = async (combo: ComboModel) => {
+        try {
+            await fetch(`/api/combos/${combo.id}`, {
+                method: 'DELETE',
+            });
+
+            setCombos((prevCombos) =>
+                prevCombos.filter((c) => c.id !== combo.id),
+            );
+        } catch (error: any) {
+            console.error(error);
+        }
+    };
+
     return (
         <ContainerLayout>
             <Head>
@@ -73,22 +111,36 @@ export default function CharacterDetailsPage(props: Props) {
             <div className="mb-6 flex items-center justify-between">
                 <h1 className="text-2xl">{props.character?.name}</h1>
 
-                <div className={'flex gap-2'}>
-                    <button
-                        className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
-                        onClick={() => setIsModalOpen(true)}
-                    >
-                        Add Combo
-                    </button>
+                <AdminOnly>
+                    <div className={'flex gap-2'}>
+                        <button
+                            className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                            onClick={() => setIsModalOpen(true)}
+                        >
+                            Add Combo
+                        </button>
 
-                    <button
-                        type={'button'}
-                        onClick={() => setShowDeleteConfirmation(true)}
-                        className="inline-flex justify-center rounded-md border border-transparent bg-red-100 px-4 py-2 text-sm font-medium text-red-900 hover:bg-red-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2"
-                    >
-                        Delete Character
-                    </button>
-                </div>
+                        <button
+                            type={'button'}
+                            onClick={() => setShowDeleteConfirmation(true)}
+                            className="inline-flex justify-center rounded-md border border-transparent bg-red-100 px-4 py-2 text-sm font-medium text-red-900 hover:bg-red-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2"
+                        >
+                            Delete Character
+                        </button>
+                    </div>
+                </AdminOnly>
+            </div>
+
+            <div>
+                {combos.map((combo) => (
+                    <div key={combo.id}>
+                        <Combo
+                            notation={combo.notation}
+                            combo={combo}
+                            onDelete={handleComboDeleteConfirm}
+                        />
+                    </div>
+                ))}
             </div>
 
             <AdminOnly>

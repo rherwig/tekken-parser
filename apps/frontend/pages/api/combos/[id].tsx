@@ -3,11 +3,11 @@ import { NextApiRequest } from 'next';
 import { ApiResponse } from '@/types/api-response';
 import { applyMiddlewares } from '@/middlewares/apply-middlewares';
 import { isAdmin } from '@/middlewares/auth';
-import { CharactersService } from '@/services/characters-service';
+import { CombosService } from '@/services/combos-service';
 
 /**
- * Remove a character by id.
- * DELETE /api/characters/:id
+ * Remove a combo by id.
+ * DELETE /api/combos/:id
  *
  * @param req
  * @param res
@@ -22,7 +22,7 @@ async function remove(req: NextApiRequest, res: ApiResponse) {
             });
         }
 
-        await CharactersService.remove(id.toString());
+        await CombosService.remove(id.toString());
 
         return res.status(200).json({
             data: true,

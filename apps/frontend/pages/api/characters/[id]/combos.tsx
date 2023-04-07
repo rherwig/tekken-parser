@@ -1,9 +1,7 @@
 import { NextApiRequest } from 'next';
 
 import { ApiResponse } from '@/types/api-response';
-import { applyMiddlewares } from '@/middlewares/apply-middlewares';
-import { isAdmin } from '@/middlewares/auth';
-import { CharactersService } from '@/services/characters-service';
+import { CombosService } from '@/services/combos-service';
 
 /**
  * Remove a character by id.
@@ -12,7 +10,7 @@ import { CharactersService } from '@/services/characters-service';
  * @param req
  * @param res
  */
-async function remove(req: NextApiRequest, res: ApiResponse) {
+async function findByCharacter(req: NextApiRequest, res: ApiResponse) {
     try {
         const { id } = req.query;
         if (!id) {
@@ -22,10 +20,10 @@ async function remove(req: NextApiRequest, res: ApiResponse) {
             });
         }
 
-        await CharactersService.remove(id.toString());
+        const combos = await CombosService.findByCharacterId(id.toString());
 
-        return res.status(200).json({
-            data: true,
+        return res.status(201).json({
+            data: combos,
             code: 0,
         });
     } catch (error: any) {
@@ -38,8 +36,8 @@ async function remove(req: NextApiRequest, res: ApiResponse) {
 
 export default function handler(req: NextApiRequest, res: ApiResponse) {
     switch (req.method) {
-        case 'DELETE':
-            return applyMiddlewares(isAdmin)(req, res, remove);
+        case 'GET':
+            return findByCharacter(req, res);
         default:
             break;
     }

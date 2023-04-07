@@ -1,12 +1,19 @@
 import { NextApiRequest } from 'next';
 import { PrismaClient } from '@prisma/client';
-import { getServerSession } from 'next-auth';
 
 import { ApiResponse } from '@/types/api-response';
-import { authOptions } from '@/pages/api/auth/[...nextauth]';
+import { isAdmin } from '@/middlewares/auth';
+import { applyMiddlewares } from '@/middlewares/apply-middlewares';
 
 const prisma = new PrismaClient();
 
+/**
+ * Find all characters.
+ * GET /api/characters
+ *
+ * @param req
+ * @param res
+ */
 async function find(req: NextApiRequest, res: ApiResponse) {
     try {
         const characters = await prisma.character.findMany();
@@ -23,16 +30,14 @@ async function find(req: NextApiRequest, res: ApiResponse) {
     }
 }
 
+/**
+ * Create a new character.
+ * POST /api/characters
+ *
+ * @param req
+ * @param res
+ */
 async function create(req: NextApiRequest, res: ApiResponse) {
-    const session = await getServerSession(req, res, authOptions);
-
-    if (session?.user.role !== 'ADMIN') {
-        return res.status(403).json({
-            error: 'Missing administator role.',
-            code: 2,
-        });
-    }
-
     try {
         const { name } = req.body;
         if (!name) {
@@ -69,7 +74,7 @@ export default function handler(req: NextApiRequest, res: ApiResponse) {
         case 'GET':
             return find(req, res);
         case 'POST':
-            return create(req, res);
+            return applyMiddlewares(isAdmin)(req, res, create);
         default:
             break;
     }
