@@ -5,6 +5,7 @@ import { Combo as ComboModel } from '@prisma/client';
 import TkTextField from '@/ui/forms/text-field';
 import TkNotationField from '@/ui/forms/notation-field';
 import TsButton from '@/ui/buttons/button';
+import TsNumberField from '@/ui/forms/number-field';
 
 interface Props {
     characterId: string;
@@ -68,6 +69,13 @@ export default function CreateComboForm(props: Props) {
             validationSchema={validationSchema}
         >
             <Form>
+                <TkNotationField
+                    name={'notation'}
+                    placeholder={'Enter the combo notation, i.e.: d/f2,1+2'}
+                    autoComplete={'off'}
+                    autoCorrect={'off'}
+                />
+
                 <TkTextField
                     label="Name"
                     name={'name'}
@@ -76,12 +84,19 @@ export default function CreateComboForm(props: Props) {
                     autoCorrect={'off'}
                 />
 
-                <TkNotationField
-                    name={'notation'}
-                    placeholder={'Enter the combo notation, i.e.: d/f2,1+2'}
-                    autoComplete={'off'}
-                    autoCorrect={'off'}
-                />
+                <div className={'grid grid-cols-2 gap-4'}>
+                    <TsNumberField
+                        label={'Damage'}
+                        name={'damage'}
+                        placeholder={'Enter the combo damage (optional).'}
+                    />
+
+                    <TsNumberField
+                        label={'Number of Hits'}
+                        name={'hits'}
+                        placeholder={'Enter the number of hits (optional).'}
+                    />
+                </div>
 
                 <div className="mt-8">
                     <TsButton type={'submit'}>Add</TsButton>

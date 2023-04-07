@@ -4,6 +4,7 @@ import { parse } from '@tekken-tools/parser';
 
 import Move from '@/components/move';
 import DeleteConfirmationDialog from '@/ui/dialogs/delete-confirmation-dialog';
+import TsTag from '@/ui/tags/tag';
 
 interface Props {
     combo?: ComboModel;
@@ -63,7 +64,18 @@ const Combo: FC<Props> = (props) => {
                 })}
             </div>
 
-            <div className="min-h-8 flex items-center gap-2 px-4 py-2"></div>
+            <div className="min-h-8 flex items-center gap-2 px-4 py-2 text-zinc-50">
+                {props.combo?.damage && (
+                    <TsTag color={'red'}>{props.combo?.damage} Damage</TsTag>
+                )}
+
+                {props.combo?.hits && (
+                    <TsTag>
+                        {props.combo?.hits} Hit
+                        {props.combo?.hits > 1 ? 's' : ''}
+                    </TsTag>
+                )}
+            </div>
         </div>
     );
 };

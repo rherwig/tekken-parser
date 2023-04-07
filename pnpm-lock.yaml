@@ -40,6 +40,9 @@ importers:
       argon2:
         specifier: ^0.30.3
         version: 0.30.3
+      classnames:
+        specifier: ^2.3.2
+        version: 2.3.2
       formik:
         specifier: ^2.2.9
         version: 2.2.9(react@18.2.0)
@@ -1210,6 +1213,10 @@ packages:
   /chownr@2.0.0:
     resolution: {integrity: sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==}
     engines: {node: '>=10'}
+    dev: false
+
+  /classnames@2.3.2:
+    resolution: {integrity: sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==}
     dev: false
 
   /cli-truncate@3.1.0:
