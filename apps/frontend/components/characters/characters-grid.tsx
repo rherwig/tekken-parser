@@ -1,4 +1,4 @@
-import { Character } from '.prisma/client';
+import { Character } from '@prisma/client';
 
 interface Props {
     characters: Character[];
