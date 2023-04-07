@@ -11,15 +11,15 @@ export default function TkNotationField({ ...props }: Props) {
     });
 
     return (
-        <div className="flex flex-col">
+        <div className="mb-4 flex flex-col">
             <label
                 htmlFor={props.id || props.name}
-                className="mb-1"
+                className="mb-1 text-zinc-200"
             >
                 Notation
             </label>
             <Field
-                className="mb-2 rounded-md border border-gray-300 p-2"
+                className="rounded-md rounded-b-none border border-black/30 bg-black/20 p-2 text-zinc-50 focus:border-teal-900 focus:outline-none"
                 {...field}
                 {...props}
             />

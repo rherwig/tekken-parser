@@ -6,6 +6,10 @@
     }
 
     body {
-        @apply text-zinc-700;
+        @apply bg-zinc-900;
+    }
+
+    * {
+        @apply text-zinc-400;
     }
 }

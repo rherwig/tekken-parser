@@ -10,7 +10,9 @@ export default function TheHeader() {
                 <div className="flex h-full">
                     <div className="-ml-8 h-full">
                         <HeaderLink href={'/'}>
-                            <span className={'font-bold'}>Tekken Space</span>
+                            <span className={'font-bold text-zinc-50'}>
+                                Tekken Space
+                            </span>
                         </HeaderLink>
                     </div>
                     <nav className="h-full">
@@ -28,7 +30,7 @@ export default function TheHeader() {
                     <GuestOnly>
                         <Link
                             href={'/api/auth/signin'}
-                            className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 transition-colors hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                            className="inline-flex justify-center rounded-md border border-transparent bg-teal-500 px-4 py-2 text-sm font-medium text-teal-900 transition-colors hover:bg-teal-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2"
                         >
                             Sign In
                         </Link>

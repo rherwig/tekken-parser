@@ -13,6 +13,7 @@ import {
     CharacterWithCombos,
 } from '@/services/characters-service';
 import Combo from '@/components/combo';
+import TsButton from '@/ui/buttons/button';
 
 interface Props {
     character: CharacterWithCombos | null;
@@ -109,21 +110,20 @@ export default function CharacterDetailsPage(props: Props) {
             </Head>
 
             <div className="mb-6 flex items-center justify-between">
-                <h1 className="text-2xl">{props.character?.name}</h1>
+                <h1 className="text-2xl text-zinc-200">
+                    {props.character?.name}
+                </h1>
 
                 <AdminOnly>
                     <div className={'flex gap-2'}>
-                        <button
-                            className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
-                            onClick={() => setIsModalOpen(true)}
-                        >
+                        <TsButton onClick={() => setIsModalOpen(true)}>
                             Add Combo
-                        </button>
+                        </TsButton>
 
                         <button
                             type={'button'}
                             onClick={() => setShowDeleteConfirmation(true)}
-                            className="inline-flex justify-center rounded-md border border-transparent bg-red-100 px-4 py-2 text-sm font-medium text-red-900 hover:bg-red-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2"
+                            className="inline-flex justify-center rounded-md border border-transparent bg-red-400 px-4 py-2 text-sm font-medium text-red-900 transition-colors hover:bg-red-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2"
                         >
                             Delete Character
                         </button>

@@ -22,9 +22,9 @@ const Combo: FC<Props> = (props) => {
     };
 
     return (
-        <div className="mb-4 bg-zinc-50">
+        <div className="mb-4 bg-black/20">
             <div className="min-h-8 flex w-full items-center justify-between px-4 py-2">
-                <div className="font-bold text-zinc-500">
+                <div className="font-bold text-zinc-200">
                     {props.combo?.name}
                 </div>
 
@@ -52,7 +52,7 @@ const Combo: FC<Props> = (props) => {
                 )}
             </div>
 
-            <div className="flex p-4">
+            <div className="flex min-h-[5rem] p-4">
                 {combo.moves.map((move, index) => {
                     return (
                         <Move

@@ -3,6 +3,7 @@ import * as Yup from 'yup';
 import { Character } from '@prisma/client';
 
 import TkTextField from '@/ui/forms/text-field';
+import TsButton from '@/ui/buttons/button';
 
 interface Props {
     onSuccess: (character: Character) => void;
@@ -65,18 +66,13 @@ export default function CreateCharacterForm(props: Props) {
                     autoCorrect={'off'}
                 />
 
-                <div className="mt-4">
-                    <button
-                        type={'submit'}
-                        className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
-                    >
-                        Add
-                    </button>
+                <div className="mt-8">
+                    <TsButton type={'submit'}>Add</TsButton>
 
                     <button
                         type={'reset'}
                         className={
-                            'ml-2 inline-flex justify-center rounded-md border border-transparent bg-gray-100 px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-500 focus-visible:ring-offset-2'
+                            'ml-2 inline-flex justify-center rounded-md border border-transparent px-4 py-2 text-sm font-medium text-zinc-200 transition-colors hover:bg-black/20 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-500 focus-visible:ring-offset-2'
                         }
                     >
                         Cancel

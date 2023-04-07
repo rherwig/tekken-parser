@@ -10,7 +10,7 @@ export default function Home() {
                 <title>Tekken Space</title>
             </Head>
 
-            <div className="prose">
+            <div className="prose prose-teal prose-invert">
                 <h1>Welcome</h1>
                 <p>
                     This website is a demo of the <code>@tekken/parser</code>{' '}

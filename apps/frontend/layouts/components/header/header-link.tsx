@@ -10,7 +10,7 @@ export default function HeaderLink({ href, children }: Props) {
     return (
         <Link
             href={href}
-            className="flex h-full items-center px-8 transition-colors hover:bg-blue-50"
+            className="flex h-full items-center px-8 text-zinc-50 transition-colors hover:bg-black/20"
         >
             {children}
         </Link>
