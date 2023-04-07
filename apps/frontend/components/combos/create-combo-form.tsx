@@ -9,20 +9,26 @@ import TsNumberField from '@/ui/forms/number-field';
 
 interface Props {
     characterId: string;
+    initialValues?: ComboValues;
     onSuccess: (combo: ComboModel) => void;
     onError?: () => void;
     onClose: () => void;
 }
 
-type ComboValues = Omit<ComboModel, 'id' | 'moves' | 'characterId'>;
+type ComboValues = Partial<ComboModel>;
+
+CreateComboForm.defaultProps = {
+    initialValues: {},
+};
 
 export default function CreateComboForm(props: Props) {
-    const initialValues: ComboValues = {
-        name: '',
-        notation: '',
-        damage: null,
-        hits: null,
-        notes: null,
+    const initialValues: any = {
+        id: props.initialValues?.id ?? undefined,
+        name: props.initialValues?.name ?? '',
+        notation: props.initialValues?.notation ?? '',
+        damage: props.initialValues?.damage ?? '',
+        hits: props.initialValues?.hits ?? '',
+        notes: props.initialValues?.notes ?? '',
     };
 
     const validationSchema = Yup.object({
@@ -33,9 +39,42 @@ export default function CreateComboForm(props: Props) {
     });
 
     const onSubmit = async (values: ComboValues) => {
+        if (values.id !== undefined) {
+            return updateCombo(values);
+        }
+
+        return createCombo(values);
+    };
+
+    const createCombo = async (values: ComboValues) => {
         try {
             const response = await fetch(`/api/combos`, {
                 method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    ...values,
+                    characterId: props.characterId,
+                }),
+            });
+
+            const combo = await response.json();
+
+            props.onSuccess(combo.data);
+        } catch (error: any) {
+            console.error(error);
+
+            if (typeof props.onError === 'function') {
+                props.onError();
+            }
+        }
+    };
+
+    const updateCombo = async (values: ComboValues) => {
+        try {
+            const response = await fetch(`/api/combos/${values.id}`, {
+                method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',
                 },
@@ -99,7 +138,11 @@ export default function CreateComboForm(props: Props) {
                 </div>
 
                 <div className="mt-8">
-                    <TsButton type={'submit'}>Add</TsButton>
+                    <TsButton type={'submit'}>
+                        {props.initialValues?.id !== undefined
+                            ? 'Update'
+                            : 'Create'}
+                    </TsButton>
 
                     <button
                         type={'reset'}

@@ -10,8 +10,6 @@ export async function isAdmin(
 ) {
     const session = await getServerSession(req, res, authOptions);
 
-    console.log(session);
-
     if (session?.user.role !== 'ADMIN') {
         return res.status(403).json({
             error: 'Missing administator role.',

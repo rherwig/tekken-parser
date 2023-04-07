@@ -103,6 +103,12 @@ export default function CharacterDetailsPage(props: Props) {
         }
     };
 
+    const handleComboEdited = async (combo: ComboModel) => {
+        setCombos((prevCombos) =>
+            prevCombos.map((c) => (c.id === combo.id ? combo : c)),
+        );
+    };
+
     return (
         <ContainerLayout>
             <Head>
@@ -138,6 +144,7 @@ export default function CharacterDetailsPage(props: Props) {
                             notation={combo.notation}
                             combo={combo}
                             onDelete={handleComboDeleteConfirm}
+                            onEdit={handleComboEdited}
                         />
                     </div>
                 ))}

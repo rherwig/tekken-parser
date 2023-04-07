@@ -20,6 +20,9 @@ export default function TkNotationField({ ...props }: Props) {
             </label>
             <Field
                 className="rounded-md rounded-b-none border border-black/30 bg-black/20 p-2 text-zinc-50 focus:border-teal-900 focus:outline-none"
+                autoComplete={'off'}
+                autoCorrect={'off'}
+                spellCheck={'false'}
                 {...field}
                 {...props}
             />

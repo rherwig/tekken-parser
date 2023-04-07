@@ -29,6 +29,15 @@ export class CombosService {
         });
     }
 
+    static async update(id: string, data: ComboCreateDto) {
+        return prisma.combo.update({
+            where: {
+                id,
+            },
+            data,
+        });
+    }
+
     static async remove(id: string) {
         return prisma.combo.delete({
             where: {
