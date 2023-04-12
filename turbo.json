@@ -39,7 +39,6 @@
             "cache": false
         },
         "proxy": {
-            "dependsOn": ["dev"],
             "cache": false
         },
         "deploy": {
