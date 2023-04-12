@@ -4,6 +4,8 @@ export const useAuth = () => {
     const session = useSession();
     const user = session?.data?.user;
 
+    const isLoading = () => session.status === 'loading';
+
     const isAuthenticated = () => {
         return Boolean(user);
     };
@@ -19,6 +21,7 @@ export const useAuth = () => {
     return {
         isAuthenticated,
         isAdmin,
+        isLoading,
         user,
     };
 };

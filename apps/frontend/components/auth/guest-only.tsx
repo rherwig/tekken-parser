@@ -3,7 +3,7 @@ import React from 'react';
 import { useAuth } from '@/hooks/auth';
 
 export default function GuestOnly(props: { children: React.ReactNode }) {
-    const { isAuthenticated } = useAuth();
+    const { isAuthenticated, isLoading } = useAuth();
 
-    return isAuthenticated() ? null : <>{props.children}</>;
+    return isAuthenticated() || isLoading() ? null : <>{props.children}</>;
 }

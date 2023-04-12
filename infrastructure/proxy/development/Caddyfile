@@ -1,3 +1,4 @@
-tekken.space {
-    reverse_proxy frontend:3000
+tekken.test {
+    reverse_proxy localhost:3000
+    tls internal
 }

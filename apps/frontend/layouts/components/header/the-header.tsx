@@ -1,9 +1,24 @@
 import Link from 'next/link';
+import { useSession } from 'next-auth/react';
 
 import HeaderLink from '@/layouts/components/header/header-link';
 import GuestOnly from '@/components/auth/guest-only';
+import TsDropdown from '@/ui/dropdowns/dropdown';
 
 export default function TheHeader() {
+    const { data: session, status } = useSession();
+
+    const layouts = [
+        {
+            label: 'Arcade',
+            value: 'arcade',
+        },
+        {
+            label: 'Gamepad',
+            value: 'gamepad',
+        },
+    ];
+
     return (
         <header className="mb-8 h-20 shadow-md">
             <div className="container flex h-full justify-between">
@@ -16,10 +31,15 @@ export default function TheHeader() {
                         </HeaderLink>
                     </div>
                     <nav className="h-full">
-                        <ul className="h-full">
+                        <ul className="flex h-full">
                             <li className="flex h-full">
                                 <HeaderLink href={'/characters'}>
                                     Characters
+                                </HeaderLink>
+                            </li>
+                            <li className="flex h-full">
+                                <HeaderLink href={'/share'}>
+                                    Share Combo
                                 </HeaderLink>
                             </li>
                         </ul>
@@ -27,6 +47,12 @@ export default function TheHeader() {
                 </div>
 
                 <div className="flex items-center">
+                    <TsDropdown
+                        className={'min-w-[150px]'}
+                        options={layouts}
+                        selected={layouts[0]}
+                        onChange={() => {}}
+                    />
                     <GuestOnly>
                         <Link
                             href={'/api/auth/signin'}
