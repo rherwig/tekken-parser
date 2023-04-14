@@ -1,15 +1,23 @@
 import { Character, Combo, PrismaClient } from '@prisma/client';
 
-const prisma = new PrismaClient();
-
 export type CharacterWithCombos = Character & { combos: Combo[] };
 
 export class CharactersService {
+    private static prisma: PrismaClient | null = null;
+
+    static getPrisma() {
+        if (!this.prisma) {
+            this.prisma = new PrismaClient();
+        }
+
+        return this.prisma;
+    }
+
     /**
      * Returns all characters from the database.
      */
     static async findAll() {
-        return prisma.character.findMany({
+        return this.getPrisma().character.findMany({
             include: {
                 combos: true,
             },
@@ -21,7 +29,7 @@ export class CharactersService {
      * @param slug Slug (sanitized name) of the character.
      */
     static async findBySlug(slug: string): Promise<CharacterWithCombos | null> {
-        return prisma.character.findUnique({
+        return this.getPrisma().character.findUnique({
             where: {
                 slug,
             },
@@ -36,7 +44,7 @@ export class CharactersService {
      * @param {Character} data Character data.
      */
     static async create(data: Character) {
-        return prisma.character.create({
+        return this.getPrisma().character.create({
             data,
         });
     }
@@ -46,7 +54,7 @@ export class CharactersService {
      * @param id Id of the character.
      */
     static async remove(id: string) {
-        return prisma.character.delete({
+        return this.getPrisma().character.delete({
             where: {
                 id,
             },

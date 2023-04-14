@@ -10,10 +10,6 @@ interface Props {
     children: ReactNode;
 }
 
-TsBaseDialog.defaultProps = {
-    className: 'max-w-md',
-};
-
 export default function TsBaseDialog(props: Props) {
     return (
         <Transition
@@ -52,7 +48,7 @@ export default function TsBaseDialog(props: Props) {
                             <Dialog.Panel
                                 className={clsx(
                                     'w-full transform overflow-hidden rounded-2xl bg-zinc-900 p-6 text-left align-middle shadow-xl shadow-black/10 transition-all',
-                                    props.className,
+                                    props.className ?? 'max-w-md',
                                 )}
                             >
                                 <Dialog.Title

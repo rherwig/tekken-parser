@@ -1,0 +1,13 @@
+html,
+body,
+#__next {
+    @apply w-full h-full;
+}
+
+body {
+    @apply bg-zinc-900;
+}
+
+* {
+    @apply text-zinc-400;
+}

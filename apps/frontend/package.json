@@ -5,7 +5,7 @@
     "scripts": {
         "clean": "rimraf .next",
         "dev": "next dev",
-        "proxy": "local-ssl-proxy --key public/localhost.key --cert public/localhost.crt --port 3443 --target 3000",
+        "proxy": "local-ssl-proxy --key public/localhost.key --cert public/localhost.crt --source 3443 --target 3000",
         "build": "next build",
         "start": "next start",
         "lint": "next lint",

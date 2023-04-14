@@ -17,10 +17,6 @@ interface Props {
 
 type ComboValues = Partial<ComboModel>;
 
-CreateComboForm.defaultProps = {
-    initialValues: {},
-};
-
 export default function CreateComboForm(props: Props) {
     const initialValues: any = {
         id: props.initialValues?.id ?? undefined,

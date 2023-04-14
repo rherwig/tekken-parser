@@ -1,34 +1,28 @@
-import Head from 'next/head';
+'use client';
+
 import { Form, Formik } from 'formik';
-import { useRouter } from 'next/router';
+import { useRouter, useSearchParams } from 'next/navigation';
 
 import ContainerLayout from '@/layouts/container-layout';
 import TkNotationField from '@/ui/forms/notation-field';
 import TsButton from '@/ui/buttons/button';
-import { useGamepad } from '@/hooks/gamepad';
 
 interface ShareComboValues {
     notation: string;
 }
 
 export default function Share() {
-    const gamepad = useGamepad();
     const router = useRouter();
-
-    console.log(gamepad);
+    const params = useSearchParams();
 
     const initialValues: ShareComboValues = {
-        notation: decodeURIComponent((router.query.notation as string) || ''),
+        notation: decodeURIComponent((params?.get('notation') as string) || ''),
     };
 
     const handleInput = async (event: any) => {
         const encodedNotation = encodeURIComponent(event.target.value);
 
-        await router.replace({
-            query: {
-                notation: encodedNotation,
-            },
-        });
+        await router.replace(`/share?notation=${encodedNotation}`);
     };
 
     const handleSubmit = async () => {
@@ -41,10 +35,6 @@ export default function Share() {
 
     return (
         <ContainerLayout>
-            <Head>
-                <title>Share Combo | Tekken Space</title>
-            </Head>
-
             <div className="prose prose-teal prose-invert mb-8">
                 <h1>Share Combo</h1>
                 <p>

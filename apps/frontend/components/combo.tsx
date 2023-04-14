@@ -1,19 +1,23 @@
+'use client';
+
 import { FC, useState } from 'react';
 import type { Combo as ComboModel } from '@prisma/client';
 import { parse } from '@tekken-tools/parser';
 import { TbTrashX, TbPencil } from 'react-icons/tb';
+import { Session } from 'next-auth';
 
 import Move from '@/components/move';
 import DeleteConfirmationDialog from '@/ui/dialogs/delete-confirmation-dialog';
 import TsTag from '@/ui/tags/tag';
-import AdminOnly from '@/components/auth/admin-only';
 import CreateComboModal from '@/components/combos/create-combo-modal';
+import AdminOnly from '@/components/auth/admin-only';
 
 interface Props {
     combo?: ComboModel;
     notation: string;
     onDelete?: (combo: ComboModel) => Promise<void>;
     onEdit?: (combo: ComboModel) => Promise<void>;
+    session?: Session | null;
 }
 
 const Combo: FC<Props> = (props) => {
@@ -41,7 +45,7 @@ const Combo: FC<Props> = (props) => {
 
                 <div className={'flex gap-1'}>
                     {props.onEdit && props.combo && (
-                        <AdminOnly>
+                        <AdminOnly session={props.session ?? null}>
                             <button
                                 className="rounded-full p-2 text-sm transition-colors hover:bg-white/10"
                                 type={'button'}
@@ -67,7 +71,7 @@ const Combo: FC<Props> = (props) => {
                     )}
 
                     {props.onDelete && props.combo && (
-                        <AdminOnly>
+                        <AdminOnly session={props.session ?? null}>
                             <button
                                 className="rounded-full p-2 text-sm transition-colors hover:bg-white/10"
                                 type={'button'}
@@ -96,7 +100,7 @@ const Combo: FC<Props> = (props) => {
                 </div>
 
                 {props.onEdit && props.combo && (
-                    <AdminOnly>
+                    <>
                         <CreateComboModal
                             initialValues={props.combo}
                             characterId={props.combo.characterId}
@@ -104,7 +108,7 @@ const Combo: FC<Props> = (props) => {
                             onSuccess={handleEditSuccess}
                             onClose={() => setShowComboEditModal(false)}
                         />
-                    </AdminOnly>
+                    </>
                 )}
             </div>
 

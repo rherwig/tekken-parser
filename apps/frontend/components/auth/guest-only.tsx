@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
+import { Session } from 'next-auth';
 
 import { useAuth } from '@/hooks/auth';
 
-export default function GuestOnly(props: { children: React.ReactNode }) {
-    const { isAuthenticated, isLoading } = useAuth();
+interface Props {
+    session: Session | null;
+    children: ReactNode;
+}
 
-    return isAuthenticated() || isLoading() ? null : <>{props.children}</>;
+export default function GuestOnly(props: Props) {
+    const { isAuthenticated } = useAuth(props.session);
+
+    return isAuthenticated() ? null : <>{props.children}</>;
 }

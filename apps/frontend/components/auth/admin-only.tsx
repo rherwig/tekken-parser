@@ -1,9 +1,15 @@
-import React from 'react';
+import { ReactNode } from 'react';
+import { Session } from 'next-auth';
 
 import { useAuth } from '@/hooks/auth';
 
-export default function AdminOnly(props: { children: React.ReactNode }) {
-    const { isAdmin } = useAuth();
+interface Props {
+    session: Session | null;
+    children: ReactNode;
+}
+
+export default function AdminOnly(props: Props) {
+    const { isAdmin } = useAuth(props.session);
 
     return isAdmin() ? <>{props.children}</> : null;
 }

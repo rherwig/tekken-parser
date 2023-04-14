@@ -7,7 +7,7 @@
         "clean": "turbo run clean",
         "deploy": "turbo run deploy",
         "dev": "turbo run dev",
-        "proxy": "turbo run dev",
+        "proxy": "turbo run proxy",
         "lint": "turbo run lint",
         "test": "turbo run test"
     },

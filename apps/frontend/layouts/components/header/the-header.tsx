@@ -1,13 +1,16 @@
 import Link from 'next/link';
 import { useSession } from 'next-auth/react';
+import { Session, User } from 'next-auth';
 
 import HeaderLink from '@/layouts/components/header/header-link';
 import GuestOnly from '@/components/auth/guest-only';
 import TsDropdown from '@/ui/dropdowns/dropdown';
 
-export default function TheHeader() {
-    const { data: session, status } = useSession();
+interface Props {
+    session: Session | null;
+}
 
+export default function TheHeader(props: Props) {
     const layouts = [
         {
             label: 'Arcade',
@@ -47,13 +50,14 @@ export default function TheHeader() {
                 </div>
 
                 <div className="flex items-center">
-                    <TsDropdown
-                        className={'min-w-[150px]'}
-                        options={layouts}
-                        selected={layouts[0]}
-                        onChange={() => {}}
-                    />
-                    <GuestOnly>
+                    {/*<TsDropdown*/}
+                    {/*    className={'min-w-[150px]'}*/}
+                    {/*    options={layouts}*/}
+                    {/*    selected={layouts[0]}*/}
+                    {/*    onChange={() => {}}*/}
+                    {/*/>*/}
+
+                    <GuestOnly session={props.session}>
                         <Link
                             href={'/api/auth/signin'}
                             className="inline-flex justify-center rounded-md border border-transparent bg-teal-500 px-4 py-2 text-sm font-medium text-teal-900 transition-colors hover:bg-teal-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2"

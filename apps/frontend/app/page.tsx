@@ -1,15 +1,12 @@
-import Head from 'next/head';
+import Link from 'next/link';
 
-import Combo from '@/components/combo';
 import ContainerLayout from '@/layouts/container-layout';
+import Combo from '@/components/combo';
+import TsButton from '@/ui/buttons/button';
 
-export default function Home() {
+export default function IndexPage() {
     return (
         <ContainerLayout>
-            <Head>
-                <title>Tekken Space</title>
-            </Head>
-
             <div className="prose prose-teal prose-invert">
                 <h1>Welcome</h1>
                 <p>
@@ -41,12 +38,12 @@ export default function Home() {
                     suggest you checkout the combo sharing functionality.
                 </p>
 
-                <a
+                <TsButton
+                    is={'a'}
                     href="/share"
-                    className="btn"
                 >
                     Get Started
-                </a>
+                </TsButton>
             </div>
         </ContainerLayout>
     );

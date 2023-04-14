@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import { Move as ParserMove } from '@tekken-tools/parser';
+import Image from 'next/image';
 
 import Instruction from '@/components/instruction';
 
@@ -18,9 +19,11 @@ const Move: FC<Props> = (props) => {
             ))}
 
             <div className="pl-3 pr-2 group-last:hidden">
-                <img
+                <Image
                     src="/icons/follow.svg"
-                    className="h-10"
+                    width={32}
+                    height={32}
+                    className="h-10 w-auto"
                     alt="Next Move"
                 />
             </div>

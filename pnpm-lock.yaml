@@ -383,7 +383,7 @@ packages:
     dependencies:
       '@next/eslint-plugin-next': 13.1.1
       '@typescript-eslint/eslint-plugin': 5.48.1(@typescript-eslint/parser@5.48.1)(eslint@8.37.0)(typescript@4.9.4)
-      '@typescript-eslint/parser': 5.48.1(eslint@8.37.0)(typescript@5.0.3)
+      '@typescript-eslint/parser': 5.48.1(eslint@8.37.0)(typescript@5.0.2)
       '@vue/eslint-config-typescript': 11.0.2(eslint-plugin-vue@9.8.0)(eslint@8.37.0)(typescript@4.9.4)
       eslint: 8.37.0
       eslint-config-prettier: 8.6.0(eslint@8.37.0)
@@ -713,7 +713,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 5.48.1(eslint@8.37.0)(typescript@5.0.3)
+      '@typescript-eslint/parser': 5.48.1(eslint@8.37.0)(typescript@5.0.2)
       '@typescript-eslint/scope-manager': 5.48.1
       '@typescript-eslint/type-utils': 5.48.1(eslint@8.37.0)(typescript@4.9.4)
       '@typescript-eslint/utils': 5.48.1(eslint@8.37.0)(typescript@4.9.4)
@@ -741,7 +741,7 @@ packages:
     dependencies:
       '@typescript-eslint/scope-manager': 5.48.1
       '@typescript-eslint/types': 5.48.1
-      '@typescript-eslint/typescript-estree': 5.48.1(typescript@5.0.3)
+      '@typescript-eslint/typescript-estree': 5.48.1(typescript@5.0.2)
       debug: 4.3.4
       eslint: 8.37.0
       typescript: 4.9.4
@@ -749,7 +749,7 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/parser@5.48.1(eslint@8.37.0)(typescript@5.0.3):
+  /@typescript-eslint/parser@5.48.1(eslint@8.37.0)(typescript@5.0.2):
     resolution: {integrity: sha512-4yg+FJR/V1M9Xoq56SF9Iygqm+r5LMXvheo6DQ7/yUWynQ4YfCRnsKuRgqH4EQ5Ya76rVwlEpw4Xu+TgWQUcdA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -761,10 +761,10 @@ packages:
     dependencies:
       '@typescript-eslint/scope-manager': 5.48.1
       '@typescript-eslint/types': 5.48.1
-      '@typescript-eslint/typescript-estree': 5.48.1(typescript@5.0.3)
+      '@typescript-eslint/typescript-estree': 5.48.1(typescript@5.0.2)
       debug: 4.3.4
       eslint: 8.37.0
-      typescript: 5.0.3
+      typescript: 5.0.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -823,7 +823,7 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/typescript-estree@5.48.1(typescript@5.0.3):
+  /@typescript-eslint/typescript-estree@5.48.1(typescript@5.0.2):
     resolution: {integrity: sha512-Hut+Osk5FYr+sgFh8J/FHjqX6HFcDzTlWLrFqGoK5kVUN3VBHF/QzZmAsIXCQ8T/W9nQNBTqalxi1P3LSqWnRA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -838,8 +838,8 @@ packages:
       globby: 11.1.0
       is-glob: 4.0.3
       semver: 7.3.8
-      tsutils: 3.21.0(typescript@5.0.3)
-      typescript: 5.0.3
+      tsutils: 3.21.0(typescript@5.0.2)
+      typescript: 5.0.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1557,7 +1557,7 @@ packages:
       eslint-import-resolver-webpack:
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 5.48.1(eslint@8.37.0)(typescript@5.0.3)
+      '@typescript-eslint/parser': 5.48.1(eslint@8.37.0)(typescript@5.0.2)
       debug: 3.2.7
       eslint: 8.37.0
       eslint-import-resolver-node: 0.3.6
@@ -1575,7 +1575,7 @@ packages:
       '@typescript-eslint/parser':
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 5.48.1(eslint@8.37.0)(typescript@5.0.3)
+      '@typescript-eslint/parser': 5.48.1(eslint@8.37.0)(typescript@5.0.2)
       array-includes: 3.1.6
       array.prototype.flat: 1.3.1
       debug: 2.6.9
@@ -3490,14 +3490,14 @@ packages:
       typescript: 4.9.4
     dev: true
 
-  /tsutils@3.21.0(typescript@5.0.3):
+  /tsutils@3.21.0(typescript@5.0.2):
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
     engines: {node: '>= 6'}
     peerDependencies:
       typescript: '>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta'
     dependencies:
       tslib: 1.14.1
-      typescript: 5.0.3
+      typescript: 5.0.2
     dev: true
 
   /turbo-darwin-64@1.9.1:
