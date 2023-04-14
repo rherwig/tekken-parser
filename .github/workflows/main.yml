@@ -23,6 +23,9 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
+          build-args: |
+              GITHUB_OAUTH_CLIENT_ID=${{ secrets.AUTH_GITHUB_CLIENT_ID }}
+              GITHUB_OAUTH_CLIENT_SECRET=${{ secrets.AUTH_GITHUB_CLIENT_SECRET }}
           push: true
           tags: |
             rherwig/tekken-space-frontend:latest

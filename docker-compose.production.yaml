@@ -10,6 +10,8 @@ services:
     proxy:
         image: rherwig/tekken-space-proxy:latest
         restart: "always"
+        volumes:
+            - /var/tekken/proxy:/data
         ports:
             - "80:80"
             - "443:443"
