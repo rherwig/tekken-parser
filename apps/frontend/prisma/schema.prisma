@@ -14,6 +14,11 @@ enum Role {
     ADMIN
 }
 
+enum ControllerLayout {
+    ARCADE
+    GAMEPAD
+}
+
 model Account {
     id                String  @id @default(auto()) @map("_id") @db.ObjectId
     userId            String  @db.ObjectId
@@ -42,14 +47,15 @@ model Session {
 }
 
 model User {
-    id            String    @id @default(auto()) @map("_id") @db.ObjectId
+    id            String       @id @default(auto()) @map("_id") @db.ObjectId
     name          String?
-    email         String?   @unique
+    email         String?      @unique
     emailVerified DateTime?
     image         String?
     accounts      Account[]
     sessions      Session[]
-    role          Role      @default(USER)
+    preferences   Preferences?
+    role          Role         @default(USER)
 }
 
 model VerificationToken {
@@ -59,6 +65,13 @@ model VerificationToken {
     expires    DateTime
 
     @@unique([identifier, token])
+}
+
+model Preferences {
+    id     String            @id @default(auto()) @map("_id") @db.ObjectId
+    userId String            @unique @db.ObjectId
+    user   User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+    layout ControllerLayout? @default(ARCADE)
 }
 
 model Character {

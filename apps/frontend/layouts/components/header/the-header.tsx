@@ -1,10 +1,13 @@
+'use client';
+
 import Link from 'next/link';
-import { useSession } from 'next-auth/react';
-import { Session, User } from 'next-auth';
+import { Session } from 'next-auth';
+import { Preferences } from '@prisma/client';
+import { useState } from 'react';
 
 import HeaderLink from '@/layouts/components/header/header-link';
 import GuestOnly from '@/components/auth/guest-only';
-import TsDropdown from '@/ui/dropdowns/dropdown';
+import TsDropdown, { DropdownOption } from '@/ui/dropdowns/dropdown';
 
 interface Props {
     session: Session | null;
@@ -14,13 +17,39 @@ export default function TheHeader(props: Props) {
     const layouts = [
         {
             label: 'Arcade',
-            value: 'arcade',
+            value: 'ARCADE',
         },
         {
             label: 'Gamepad',
-            value: 'gamepad',
+            value: 'GAMEPAD',
         },
     ];
+
+    const preferredLayoutIndex = layouts.findIndex(
+        (layout) => layout.value === props.session?.user?.preferences?.layout,
+    );
+
+    const layoutIndex = preferredLayoutIndex > -1 ? preferredLayoutIndex : 0;
+
+    const [selectedLayout, setSelectedLayout] = useState(layouts[layoutIndex]);
+
+    const handleLayoutChange = async (option: DropdownOption) => {
+        setSelectedLayout(option);
+
+        try {
+            await fetch(`/api/preferences/layout`, {
+                method: 'PATCH',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    value: option.value,
+                }),
+            });
+        } catch (error: any) {
+            console.error(error);
+        }
+    };
 
     return (
         <header className="mb-8 h-20 shadow-md">
@@ -50,12 +79,12 @@ export default function TheHeader(props: Props) {
                 </div>
 
                 <div className="flex items-center">
-                    {/*<TsDropdown*/}
-                    {/*    className={'min-w-[150px]'}*/}
-                    {/*    options={layouts}*/}
-                    {/*    selected={layouts[0]}*/}
-                    {/*    onChange={() => {}}*/}
-                    {/*/>*/}
+                    <TsDropdown
+                        className={'min-w-[150px]'}
+                        options={layouts}
+                        selected={selectedLayout}
+                        onChange={handleLayoutChange}
+                    />
 
                     <GuestOnly session={props.session}>
                         <Link

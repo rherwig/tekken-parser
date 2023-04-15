@@ -3,6 +3,8 @@ import GithubProvider from 'next-auth/providers/github';
 import { PrismaAdapter } from '@next-auth/prisma-adapter';
 import { PrismaClient } from '@prisma/client';
 
+import { PreferencesService } from '@/services/preferences-service';
+
 const prisma = new PrismaClient();
 
 const createGithubProvider = () => {
@@ -23,7 +25,18 @@ export const authOptions: AuthOptions = {
     adapter: PrismaAdapter(prisma),
     providers: [createGithubProvider()],
     callbacks: {
-        session({ session, token, user }) {
+        async session({ session, token, user }) {
+            try {
+                const preferences = await PreferencesService.findByUserId(
+                    user.id,
+                );
+                if (preferences) {
+                    user.preferences = preferences;
+                }
+            } catch (error: any) {
+                console.error(error);
+            }
+
             session.user = user;
 
             return session;

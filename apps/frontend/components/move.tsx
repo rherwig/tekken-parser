@@ -1,11 +1,13 @@
 import { FC } from 'react';
 import { Move as ParserMove } from '@tekken-tools/parser';
 import Image from 'next/image';
+import { ControllerLayout } from '@prisma/client';
 
 import Instruction from '@/components/instruction';
 
 interface Props {
     move: ParserMove;
+    layout?: ControllerLayout;
 }
 
 const Move: FC<Props> = (props) => {
@@ -15,6 +17,7 @@ const Move: FC<Props> = (props) => {
                 <Instruction
                     key={index}
                     instruction={instruction}
+                    layout={props.layout}
                 />
             ))}
 

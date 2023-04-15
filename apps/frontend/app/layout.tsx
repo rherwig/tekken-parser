@@ -7,6 +7,7 @@ import { Session } from 'next-auth';
 
 import TheHeader from '@/layouts/components/header/the-header';
 import { authOptions } from '@/pages/api/auth/[...nextauth]';
+import { PreferencesService } from '@/services/preferences-service';
 
 export const metadata = {
     title: 'Tekken Space',

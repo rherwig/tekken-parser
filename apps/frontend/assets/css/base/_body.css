@@ -5,9 +5,9 @@ body,
 }
 
 body {
-    @apply bg-zinc-900;
+    @apply bg-background;
 }
 
 * {
-    @apply text-zinc-400;
+    @apply text-copy;
 }

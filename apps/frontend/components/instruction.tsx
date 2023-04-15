@@ -1,21 +1,23 @@
 import { FC } from 'react';
 import type { Instruction as ParserInstruction } from '@tekken-tools/parser';
 import Image from 'next/image';
+import { ControllerLayout } from '@prisma/client';
 
 interface Props {
     instruction: ParserInstruction;
+    layout?: ControllerLayout;
 }
 
 const Instruction: FC<Props> = (props) => {
-    const layout = 'controller';
-    let typePath = 'default';
+    const layout = props.layout ?? ControllerLayout.ARCADE;
+    let typePath = layout.toLowerCase();
 
     switch (props.instruction.type) {
         case 'movement':
             typePath = 'movement';
             break;
         case 'action':
-            typePath = layout;
+            typePath = layout.toLowerCase();
             break;
         default:
             break;

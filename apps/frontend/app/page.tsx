@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 import ContainerLayout from '@/layouts/container-layout';
 import Combo from '@/components/combo';
 import TsButton from '@/ui/buttons/button';

@@ -26,6 +26,8 @@ const Combo: FC<Props> = (props) => {
     const [showComboEditModal, setShowComboEditModal] = useState(false);
     const combo = parse(props.notation);
 
+    const layout = props.session?.user?.preferences?.layout ?? undefined;
+
     const handleDeleteConfirm = async () => {
         await props.onDelete!(props.combo!);
         setShowComboDeleteConfirmation(false);
@@ -118,6 +120,7 @@ const Combo: FC<Props> = (props) => {
                         <Move
                             key={index}
                             move={move}
+                            layout={layout}
                         />
                     );
                 })}
