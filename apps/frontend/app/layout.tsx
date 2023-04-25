@@ -3,11 +3,14 @@ import { getServerSession } from 'next-auth';
 
 import '@/assets/css/main.css';
 
-import { Session } from 'next-auth';
-
-import TheHeader from '@/layouts/components/header/the-header';
+import TheHeader from '@/components/header/the-header';
 import { authOptions } from '@/pages/api/auth/[...nextauth]';
-import { PreferencesService } from '@/services/preferences-service';
+import { store } from '@/store';
+import { setCurrentUser } from '@/store/slices/users-slice';
+import Preloader from '@/components/preloader';
+import AppStoreProvider from '@/store/provider';
+import { CharactersService } from '@/server/services/characters-service';
+import { setCharacters } from '@/store/slices/characters-slice';
 
 export const metadata = {
     title: 'Tekken Space',
@@ -17,17 +20,27 @@ export const metadata = {
 
 interface Props {
     children: ReactNode;
-    session: Session;
 }
 
 export default async function RootLayout(props: Props) {
     const session = await getServerSession(authOptions);
+    const characters = await CharactersService.findAll();
+
+    store.dispatch(setCurrentUser(session?.user ?? null));
+    store.dispatch(setCharacters(characters ?? []));
 
     return (
         <html lang={'en'}>
             <body>
-                <TheHeader session={session} />
-                {props.children}
+                <AppStoreProvider>
+                    <Preloader
+                        session={session}
+                        characters={characters}
+                    />
+                    <TheHeader user={session?.user ?? null} />
+
+                    {props.children}
+                </AppStoreProvider>
             </body>
         </html>
     );

@@ -1,9 +1,9 @@
 import { NextApiRequest } from 'next';
 
 import { ApiResponse } from '@/types/api-response';
-import { applyMiddlewares } from '@/middlewares/apply-middlewares';
-import { isAdmin } from '@/middlewares/auth';
-import { CharactersService } from '@/services/characters-service';
+import { applyMiddlewares } from '@/server/middlewares/apply-middlewares';
+import { isAdmin } from '@/server/middlewares/auth';
+import { CharactersService } from '@/server/services/characters-service';
 
 /**
  * Remove a character by id.

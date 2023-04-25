@@ -3,7 +3,7 @@ import GithubProvider from 'next-auth/providers/github';
 import { PrismaAdapter } from '@next-auth/prisma-adapter';
 import { PrismaClient } from '@prisma/client';
 
-import { PreferencesService } from '@/services/preferences-service';
+import { PreferencesService } from '@/server/services/preferences-service';
 
 const prisma = new PrismaClient();
 

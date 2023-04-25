@@ -1,15 +1,16 @@
 import { ReactNode } from 'react';
-import { Session } from 'next-auth';
 
-import { useAuth } from '@/hooks/auth';
+import { selectCurrentUser } from '@/store/slices/users-slice';
+import { store } from '@/store';
 
 interface Props {
-    session: Session | null;
     children: ReactNode;
 }
 
 export default function AdminOnly(props: Props) {
-    const { isAdmin } = useAuth(props.session);
+    const currentUser = selectCurrentUser(store.getState());
 
-    return isAdmin() ? <>{props.children}</> : null;
+    const isAdmin = currentUser?.role === 'ADMIN';
+
+    return isAdmin ? <>{props.children}</> : null;
 }

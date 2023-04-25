@@ -1,22 +1,29 @@
-import { FC } from 'react';
-import type { Instruction as ParserInstruction } from '@tekken-tools/parser';
+'use client';
+
+import type { TekkenInstruction } from '@tekken-space/notation-parser';
+import { TekkenInstructionType } from '@tekken-space/notation-parser';
 import Image from 'next/image';
 import { ControllerLayout } from '@prisma/client';
 
+import { selectUserPreferences } from '@/store/slices/users-slice';
+import { store } from '@/store';
+
 interface Props {
-    instruction: ParserInstruction;
+    instruction: TekkenInstruction;
     layout?: ControllerLayout;
 }
 
-const Instruction: FC<Props> = (props) => {
-    const layout = props.layout ?? ControllerLayout.ARCADE;
+export default function Instruction(props: Props) {
+    const preferences = selectUserPreferences(store.getState());
+    const layout = preferences?.layout ?? ControllerLayout.ARCADE;
+
     let typePath = layout.toLowerCase();
 
     switch (props.instruction.type) {
-        case 'movement':
+        case TekkenInstructionType.MOVE:
             typePath = 'movement';
             break;
-        case 'action':
+        case TekkenInstructionType.ACTION:
             typePath = layout.toLowerCase();
             break;
         default:
@@ -27,7 +34,7 @@ const Instruction: FC<Props> = (props) => {
 
     return (
         <div className={'flex flex-col items-center gap-2'}>
-            {props.instruction.type !== 'special' ? (
+            {props.instruction.type !== TekkenInstructionType.SPECIAL ? (
                 <Image
                     src={imageUrl}
                     alt={props.instruction.slug}
@@ -48,6 +55,4 @@ const Instruction: FC<Props> = (props) => {
             )}
         </div>
     );
-};
-
-export default Instruction;
+}

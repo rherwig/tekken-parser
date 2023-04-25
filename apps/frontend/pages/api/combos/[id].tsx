@@ -1,9 +1,9 @@
 import { NextApiRequest } from 'next';
 
 import { ApiResponse } from '@/types/api-response';
-import { applyMiddlewares } from '@/middlewares/apply-middlewares';
-import { isAdmin } from '@/middlewares/auth';
-import { CombosService } from '@/services/combos-service';
+import { applyMiddlewares } from '@/server/middlewares/apply-middlewares';
+import { isAdmin } from '@/server/middlewares/auth';
+import { CombosService } from '@/server/services/combos-service';
 
 async function update(req: NextApiRequest, res: ApiResponse) {
     try {

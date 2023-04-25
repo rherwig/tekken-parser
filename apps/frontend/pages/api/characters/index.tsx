@@ -2,8 +2,8 @@ import { NextApiRequest } from 'next';
 import { PrismaClient } from '@prisma/client';
 
 import { ApiResponse } from '@/types/api-response';
-import { isAdmin } from '@/middlewares/auth';
-import { applyMiddlewares } from '@/middlewares/apply-middlewares';
+import { isAdmin } from '@/server/middlewares/auth';
+import { applyMiddlewares } from '@/server/middlewares/apply-middlewares';
 
 const prisma = new PrismaClient();
 

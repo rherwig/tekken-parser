@@ -3,8 +3,8 @@ import { PrismaClient } from '@prisma/client';
 import { getServerSession } from 'next-auth';
 
 import { ApiResponse } from '@/types/api-response';
-import { isAuthorized } from '@/middlewares/auth';
-import { applyMiddlewares } from '@/middlewares/apply-middlewares';
+import { isAuthorized } from '@/server/middlewares/auth';
+import { applyMiddlewares } from '@/server/middlewares/apply-middlewares';
 import { authOptions } from '@/pages/api/auth/[...nextauth]';
 
 const prisma = new PrismaClient();

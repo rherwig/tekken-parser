@@ -3,7 +3,7 @@
 import { Form, Formik } from 'formik';
 import { useRouter, useSearchParams } from 'next/navigation';
 
-import ContainerLayout from '@/layouts/container-layout';
+import ContainerLayout from '@/components/layouts/container-layout';
 import TkNotationField from '@/ui/forms/notation-field';
 import TsButton from '@/ui/buttons/button';
 
@@ -11,6 +11,12 @@ interface ShareComboValues {
     notation: string;
 }
 
+/**
+ * The share combo page.
+ * @route /share
+ * @constructor
+ * @todo Extract client code to a separate file, to make this a React Server Component.
+ */
 export default function Share() {
     const router = useRouter();
     const params = useSearchParams();

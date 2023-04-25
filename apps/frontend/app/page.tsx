@@ -1,7 +1,12 @@
-import ContainerLayout from '@/layouts/container-layout';
+import ContainerLayout from '@/components/layouts/container-layout';
 import Combo from '@/components/combo';
 import TsButton from '@/ui/buttons/button';
 
+/**
+ * The main page of the website.
+ * @route /
+ * @constructor
+ */
 export default function IndexPage() {
     return (
         <ContainerLayout>
@@ -19,7 +24,7 @@ export default function IndexPage() {
                 <p className="mb-2">To something like this:</p>
 
                 <div className="not-prose">
-                    <Combo notation={'d2;d/f2,1'} />
+                    <Combo notation={'d,2;d/f,2,1'} />
                 </div>
 
                 <h2>Choosing a Layout</h2>

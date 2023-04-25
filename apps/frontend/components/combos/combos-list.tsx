@@ -7,6 +7,8 @@ import { Session } from 'next-auth';
 import Combo from '@/components/combo';
 import CreateCombo from '@/components/combos/create-combo';
 import AdminOnly from '@/components/auth/admin-only';
+import { selectCurrentUser } from '@/store/slices/users-slice';
+import { store } from '@/store';
 
 interface Props {
     session: Session | null;
@@ -16,6 +18,7 @@ interface Props {
 
 export default function CombosList(props: Props) {
     const [combos, setCombos] = useState<ComboModel[]>(props.combos);
+    const currentUser = selectCurrentUser(store.getState());
 
     const handleComboDeleteConfirm = async (combo: ComboModel) => {
         try {
@@ -47,7 +50,7 @@ export default function CombosList(props: Props) {
                 <h1 className="text-2xl text-zinc-200">
                     {props.character.name}
                 </h1>
-                <AdminOnly session={props.session}>
+                <AdminOnly>
                     <div className={'flex gap-2'}>
                         <CreateCombo
                             session={props.session}
@@ -65,7 +68,6 @@ export default function CombosList(props: Props) {
                         combo={combo}
                         onDelete={handleComboDeleteConfirm}
                         onEdit={handleComboEdited}
-                        session={props.session}
                     />
                 </div>
             ))}

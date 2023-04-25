@@ -1,7 +1,7 @@
 import { getServerSession } from 'next-auth';
 
-import ContainerLayout from '@/layouts/container-layout';
-import { CharactersService } from '@/services/characters-service';
+import ContainerLayout from '@/components/layouts/container-layout';
+import { CharactersService } from '@/server/services/characters-service';
 import CombosList from '@/components/combos/combos-list';
 import { authOptions } from '@/pages/api/auth/[...nextauth]';
 

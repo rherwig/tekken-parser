@@ -1,10 +1,10 @@
 import { NextApiRequest } from 'next';
 
 import { ApiResponse } from '@/types/api-response';
-import { CombosService } from '@/services/combos-service';
-import { applyMiddlewares } from '@/middlewares/apply-middlewares';
-import { isAdmin } from '@/middlewares/auth';
-import { validate } from '@/middlewares/validate';
+import { CombosService } from '@/server/services/combos-service';
+import { applyMiddlewares } from '@/server/middlewares/apply-middlewares';
+import { isAdmin } from '@/server/middlewares/auth';
+import { validate } from '@/server/middlewares/validate';
 
 async function create(req: NextApiRequest, res: ApiResponse) {
     try {

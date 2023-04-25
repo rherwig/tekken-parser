@@ -1,16 +1,14 @@
 import { DefaultSession } from 'next-auth';
-import { Preferences } from '@prisma/client';
+import { Preferences, User as UserModel } from '@prisma/client';
 
 declare module 'next-auth' {
     interface Session {
-        user: {
-            role: 'ADMIN' | 'USER';
+        user: UserModel & {
             preferences?: Preferences;
-        } & DefaultSession['user'];
+        };
     }
 
-    interface User {
-        role: 'ADMIN' | 'USER';
+    interface User extends UserModel {
         preferences?: Preferences;
     }
 }

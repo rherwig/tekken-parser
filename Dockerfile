@@ -16,4 +16,4 @@ COPY . .
 RUN pnpm install
 RUN pnpm build
 
-CMD ["pnpm", "--filter", "@tekken-tools/frontend", "start"]
+CMD ["pnpm", "--filter", "@tekken-space/frontend", "start"]

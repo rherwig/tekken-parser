@@ -1,7 +1,7 @@
 import { NextApiRequest } from 'next';
 
 import { ApiResponse } from '@/types/api-response';
-import { CombosService } from '@/services/combos-service';
+import { CombosService } from '@/server/services/combos-service';
 
 /**
  * Remove a character by id.

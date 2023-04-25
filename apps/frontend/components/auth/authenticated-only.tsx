@@ -1,15 +1,15 @@
 import { ReactNode } from 'react';
 import { Session } from 'next-auth';
 
-import { useAuth } from '@/hooks/auth';
+import { selectCurrentUser } from '@/store/slices/users-slice';
+import { store } from '@/store';
 
 interface Props {
-    session: Session | null;
     children: ReactNode;
 }
 
 export default function AuthenticatedOnly(props: Props) {
-    const { isAuthenticated } = useAuth(props.session);
+    const currentUser = selectCurrentUser(store.getState());
 
-    return isAuthenticated() ? props.children : null;
+    return currentUser !== null ? props.children : null;
 }
