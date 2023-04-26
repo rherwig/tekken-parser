@@ -63,7 +63,11 @@ const usersSlice = createSlice({
                 return;
             }
 
-            state.currentUser.preferences![name] = value as any;
+            if (!state.currentUser.preferences) {
+                state.currentUser.preferences = {} as Preferences;
+            }
+
+            state.currentUser.preferences[name] = value as any;
         },
     },
     initialState,
