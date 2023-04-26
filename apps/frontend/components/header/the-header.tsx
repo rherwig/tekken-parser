@@ -43,8 +43,8 @@ export default function TheHeader(props: Props) {
                     </nav>
                 </div>
 
-                <div className="flex items-center">
-                    {/*<TheLayoutSelect user={props.user} />*/}
+                <div className="flex items-center gap-4">
+                    <TheLayoutSelect user={props.user} />
 
                     <GuestOnly>
                         <Link

@@ -6,10 +6,7 @@ import { ControllerLayout } from '@prisma/client';
 
 import TsDropdown, { DropdownOption } from '@/ui/dropdowns/dropdown';
 import { useAppDispatch } from '@/hooks/dispatch';
-import {
-    setUserPreferences,
-    updateUserPreferences,
-} from '@/store/slices/users-slice';
+import { updateUserPreferences } from '@/store/slices/users-slice';
 
 interface Props {
     user: User | null;
@@ -40,6 +37,17 @@ export default function TheLayoutSelect(props: Props) {
         setSelectedLayout(option);
 
         try {
+            dispatch(
+                updateUserPreferences({
+                    name: 'layout',
+                    value: option.value as ControllerLayout,
+                }),
+            );
+
+            if (!props.user) {
+                return;
+            }
+
             await fetch(`/api/preferences/layout`, {
                 method: 'PATCH',
                 headers: {
@@ -49,13 +57,6 @@ export default function TheLayoutSelect(props: Props) {
                     value: option.value,
                 }),
             });
-
-            dispatch(
-                updateUserPreferences({
-                    name: 'layout',
-                    value: option.value as ControllerLayout,
-                }),
-            );
         } catch (error: any) {
             console.error(error);
         }

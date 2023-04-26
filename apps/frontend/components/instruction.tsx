@@ -4,9 +4,9 @@ import type { TekkenInstruction } from '@tekken-space/notation-parser';
 import { TekkenInstructionType } from '@tekken-space/notation-parser';
 import Image from 'next/image';
 import { ControllerLayout } from '@prisma/client';
+import { useSelector } from 'react-redux';
 
 import { selectUserPreferences } from '@/store/slices/users-slice';
-import { store } from '@/store';
 
 interface Props {
     instruction: TekkenInstruction;
@@ -14,7 +14,7 @@ interface Props {
 }
 
 export default function Instruction(props: Props) {
-    const preferences = selectUserPreferences(store.getState());
+    const preferences = useSelector(selectUserPreferences);
     const layout = preferences?.layout ?? ControllerLayout.ARCADE;
 
     let typePath = layout.toLowerCase();
