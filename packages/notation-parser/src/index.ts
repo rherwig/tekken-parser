@@ -1,9 +1,9 @@
-import { CharStream, CommonTokenStream } from 'antlr4';
-import Lexer from '@generated/TekkenNotationLexer';
-import Parser from '@generated/TekkenNotationParser';
+import { ANTLRInputStream, CommonTokenStream } from 'antlr4ts';
 
-import { TekkenCombo } from '@/types';
-import { TekkenVisitor } from '@/visitor';
+import { TekkenNotationLexer } from './parser/TekkenNotationLexer';
+import { TekkenNotationParser } from './parser/TekkenNotationParser';
+import { TekkenCombo } from './types';
+import { TekkenVisitor } from './visitor';
 
 export * from './types';
 export * from './visitor';
@@ -14,13 +14,15 @@ export * from './visitor';
  * @example parse('d/f,2;b,4');
  */
 export function parseTekkenNotation(notation: string): TekkenCombo {
-    const chars = new CharStream(notation);
-    const lexer = new Lexer(chars);
+    const chars = new ANTLRInputStream(notation);
+    const lexer = new TekkenNotationLexer(chars as any);
     const tokens = new CommonTokenStream(lexer);
-    const parser = new Parser(tokens);
+    const parser = new TekkenNotationParser(tokens);
     const tree = parser.combo();
 
     const visitor = new TekkenVisitor();
 
-    return visitor.visit(tree);
+    return visitor.visit(tree) as TekkenCombo;
 }
+
+console.log(parseTekkenNotation('d/f,2;b,4'));

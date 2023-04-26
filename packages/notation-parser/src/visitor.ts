@@ -1,23 +1,33 @@
+import { AbstractParseTreeVisitor } from 'antlr4ts/tree';
+
 import {
     ComboContext,
     InputContext,
     InstructionContext,
     MoveContext,
-} from '@generated/TekkenNotationParser';
-import TekkenNotationVisitor from '@generated/TekkenNotationVisitor';
-
+} from './parser/TekkenNotationParser';
+import { TekkenNotationVisitor } from './parser/TekkenNotationVisitor';
 import {
     TekkenCombo,
     TekkenInstruction,
     TekkenInstructionType,
     TekkenMove,
-} from '@/types';
+} from './types';
 
 /**
  * Visitor for the TekkenNotationParser that converts the parse tree into a
  * TekkenCombo object.
  */
-export class TekkenVisitor extends TekkenNotationVisitor<any> {
+export class TekkenVisitor
+    extends AbstractParseTreeVisitor<TekkenCombo>
+    implements TekkenNotationVisitor<any>
+{
+    protected defaultResult(): TekkenCombo {
+        return {
+            moves: [],
+        };
+    }
+
     /**
      * Visit a parse tree produced by `TekkenNotationParser.combo`.
      * This is the entrypoint of the program.
@@ -30,7 +40,7 @@ export class TekkenVisitor extends TekkenNotationVisitor<any> {
             moves: [],
         };
 
-        for (const moveCtx of ctx.move_list()) {
+        for (const moveCtx of ctx.move()) {
             const moveResult = this.visitMove(moveCtx);
             if (!moveResult) {
                 continue;
@@ -50,14 +60,14 @@ export class TekkenVisitor extends TekkenNotationVisitor<any> {
     visitMove: (ctx: MoveContext) => TekkenMove | null = (
         ctx: MoveContext,
     ): TekkenMove | null => {
-        if (!ctx.getChildCount()) {
+        if (!ctx.childCount) {
             return null;
         }
 
-        const notation = ctx.getText();
+        const notation = ctx.text;
         const instructions: TekkenInstruction[] = [];
 
-        for (const instructionCtx of ctx.instruction_list()) {
+        for (const instructionCtx of ctx.instruction()) {
             const instructionResult = this.visitInstruction(instructionCtx);
             if (!instructionResult) {
                 continue;
@@ -80,14 +90,14 @@ export class TekkenVisitor extends TekkenNotationVisitor<any> {
     visitInstruction: (ctx: InstructionContext) => TekkenInstruction | null = (
         ctx: InstructionContext,
     ): TekkenInstruction | null => {
-        if (!ctx.getChildCount()) {
+        if (!ctx.childCount) {
             return null;
         }
 
-        const notation = ctx.getText();
+        const notation = ctx.text;
         const slug = notation.replace(/[^a-zA-Z0-9]/g, '');
         const type: TekkenInstructionType = ctx
-            .input_list()
+            .input()
             .reduce(
                 (
                     instructionType: TekkenInstructionType,

@@ -26,26 +26,11 @@ movement_input
     | MOVEMENT_NEUTRAL_INPUT
     ;
 
-ACTION_INPUT
-    : '1'
-    | '2'
-    | '3'
-    | '4'
-    ;
+ACTION_INPUT: [1234] ;
 
-MOVEMENT_TAP_INPUT
-    : 'f'
-    | 'b'
-    | 'u'
-    | 'd'
-    ;
+MOVEMENT_TAP_INPUT: [fbdu] ;
 
-MOVEMENT_HOLD_INPUT
-    : 'F'
-    | 'B'
-    | 'U'
-    | 'D'
-    ;
+MOVEMENT_HOLD_INPUT: [FBUD] ;
 
 MOVEMENT_NEUTRAL_INPUT
     : 'n'

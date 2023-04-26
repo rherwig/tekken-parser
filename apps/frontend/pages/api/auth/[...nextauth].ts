@@ -37,7 +37,7 @@ export const authOptions: AuthOptions = {
                 console.error(error);
             }
 
-            session.user = user;
+            session.user = user as any;
 
             return session;
         },
