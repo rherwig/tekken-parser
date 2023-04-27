@@ -2,7 +2,6 @@ import { AbstractParseTreeVisitor } from 'antlr4ts/tree';
 
 import {
     ComboContext,
-    InputContext,
     InstructionContext,
     MoveContext,
 } from './parser/TekkenNotationParser';
@@ -96,25 +95,14 @@ export class TekkenVisitor
 
         const notation = ctx.text;
         const slug = notation.replace(/[^a-zA-Z0-9]/g, '');
-        const type: TekkenInstructionType = ctx
-            .input()
-            .reduce(
-                (
-                    instructionType: TekkenInstructionType,
-                    inputCtx: InputContext,
-                ) => {
-                    if (inputCtx.action_input()) {
-                        return TekkenInstructionType.ACTION;
-                    }
 
-                    if (inputCtx.movement_input()) {
-                        return TekkenInstructionType.MOVE;
-                    }
+        let type: TekkenInstructionType = TekkenInstructionType.UNKNOWN;
 
-                    return instructionType;
-                },
-                TekkenInstructionType.UNKNOWN,
-            );
+        if (ctx.action_input().length) {
+            type = TekkenInstructionType.ACTION;
+        } else if (ctx.movement_input().length) {
+            type = TekkenInstructionType.MOVE;
+        }
 
         return {
             type,

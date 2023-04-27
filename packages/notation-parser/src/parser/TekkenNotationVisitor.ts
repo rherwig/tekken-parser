@@ -6,7 +6,6 @@ import { ParseTreeVisitor } from "antlr4ts/tree/ParseTreeVisitor";
 import { ComboContext } from "./TekkenNotationParser";
 import { MoveContext } from "./TekkenNotationParser";
 import { InstructionContext } from "./TekkenNotationParser";
-import { InputContext } from "./TekkenNotationParser";
 import { Action_inputContext } from "./TekkenNotationParser";
 import { Movement_inputContext } from "./TekkenNotationParser";
 
@@ -39,13 +38,6 @@ export interface TekkenNotationVisitor<Result> extends ParseTreeVisitor<Result> 
 	 * @return the visitor result
 	 */
 	visitInstruction?: (ctx: InstructionContext) => Result;
-
-	/**
-	 * Visit a parse tree produced by `TekkenNotationParser.input`.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	visitInput?: (ctx: InputContext) => Result;
 
 	/**
 	 * Visit a parse tree produced by `TekkenNotationParser.action_input`.

@@ -17,7 +17,6 @@ export * from './visitor';
 export function parseTekkenNotation(notation: string): TekkenCombo {
     const charStream = new TekkenInputStream(notation);
 
-    // const chars = new ANTLRInputStream(notation);
     const lexer = new TekkenNotationLexer(charStream);
     const tokens = new CommonTokenStream(lexer);
     const parser = new TekkenNotationParser(tokens);

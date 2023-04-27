@@ -5,17 +5,14 @@ combo: (move ';')* move ;
 move: (instruction ',')* instruction ;
 
 instruction
-    : combineMoves = input '/' input
-    | combineActions = input '+' input
-    | combineJustFrame = input '~' input
-    | input
+    : (movement_input '/')? movement_input
+    | (movement_input '/')? movement_input ':' action_input
+    | (action_input '+'){0,3} action_input
+    | action_input '~' action_input
+    | action_input
+    | movement_input
     | SPECIAL
     | TEXT
-    ;
-
-input
-    : movement_input
-    | action_input
     ;
 
 action_input: ACTION_INPUT ;

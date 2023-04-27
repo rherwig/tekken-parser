@@ -17,7 +17,6 @@
         "start": "vite-node src/index.ts",
         "build": "vite build",
         "generate": "antlr4ts -visitor -no-listener -o src/parser src/grammar/TekkenNotation.g4",
-        "generate2": "antlr4 -Dlanguage=TypeScript -visitor -no-listener -o src/parser src/grammar/TekkenNotation.g4",
         "test": "vitest run",
         "test:watch": "vitest"
     },
