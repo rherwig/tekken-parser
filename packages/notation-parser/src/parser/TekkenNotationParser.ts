@@ -177,25 +177,18 @@ export class TekkenNotationParser extends Parser {
 		let _localctx: InstructionContext = new InstructionContext(this._ctx, this.state);
 		this.enterRule(_localctx, 4, TekkenNotationParser.RULE_instruction);
 		try {
-			this.state = 59;
+			let _alt: number;
+			this.state = 57;
 			this._errHandler.sync(this);
-			switch ( this.interpreter.adaptivePredict(this._input, 4, this._ctx) ) {
+			switch ( this.interpreter.adaptivePredict(this._input, 3, this._ctx) ) {
 			case 1:
 				this.enterOuterAlt(_localctx, 1);
 				{
-				this.state = 33;
-				this._errHandler.sync(this);
-				switch ( this.interpreter.adaptivePredict(this._input, 2, this._ctx) ) {
-				case 1:
-					{
-					this.state = 30;
-					this.movement_input();
-					this.state = 31;
-					this.match(TekkenNotationParser.T__2);
-					}
-					break;
-				}
-				this.state = 35;
+				this.state = 30;
+				this.movement_input();
+				this.state = 31;
+				this.match(TekkenNotationParser.T__2);
+				this.state = 32;
 				this.movement_input();
 				}
 				break;
@@ -203,23 +196,15 @@ export class TekkenNotationParser extends Parser {
 			case 2:
 				this.enterOuterAlt(_localctx, 2);
 				{
-				this.state = 39;
-				this._errHandler.sync(this);
-				switch ( this.interpreter.adaptivePredict(this._input, 3, this._ctx) ) {
-				case 1:
-					{
-					this.state = 36;
-					this.movement_input();
-					this.state = 37;
-					this.match(TekkenNotationParser.T__2);
-					}
-					break;
-				}
-				this.state = 41;
+				this.state = 34;
 				this.movement_input();
-				this.state = 42;
+				this.state = 35;
+				this.match(TekkenNotationParser.T__2);
+				this.state = 36;
+				this.movement_input();
+				this.state = 37;
 				this.match(TekkenNotationParser.T__3);
-				this.state = 43;
+				this.state = 38;
 				this.action_input();
 				}
 				break;
@@ -227,14 +212,29 @@ export class TekkenNotationParser extends Parser {
 			case 3:
 				this.enterOuterAlt(_localctx, 3);
 				{
-				{
-				this.state = 45;
-				this.action_input();
-				this.state = 46;
-				this.match(TekkenNotationParser.T__4);
-				}
-				0,3
-				this.state = 49;
+				this.state = 43;
+				this._errHandler.sync(this);
+				_alt = 1;
+				do {
+					switch (_alt) {
+					case 1:
+						{
+						{
+						this.state = 40;
+						this.action_input();
+						this.state = 41;
+						this.match(TekkenNotationParser.T__4);
+						}
+						}
+						break;
+					default:
+						throw new NoViableAltException(this);
+					}
+					this.state = 45;
+					this._errHandler.sync(this);
+					_alt = this.interpreter.adaptivePredict(this._input, 2, this._ctx);
+				} while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
+				this.state = 47;
 				this.action_input();
 				}
 				break;
@@ -242,11 +242,11 @@ export class TekkenNotationParser extends Parser {
 			case 4:
 				this.enterOuterAlt(_localctx, 4);
 				{
-				this.state = 51;
+				this.state = 49;
 				this.action_input();
-				this.state = 52;
+				this.state = 50;
 				this.match(TekkenNotationParser.T__5);
-				this.state = 53;
+				this.state = 51;
 				this.action_input();
 				}
 				break;
@@ -254,7 +254,7 @@ export class TekkenNotationParser extends Parser {
 			case 5:
 				this.enterOuterAlt(_localctx, 5);
 				{
-				this.state = 55;
+				this.state = 53;
 				this.action_input();
 				}
 				break;
@@ -262,7 +262,7 @@ export class TekkenNotationParser extends Parser {
 			case 6:
 				this.enterOuterAlt(_localctx, 6);
 				{
-				this.state = 56;
+				this.state = 54;
 				this.movement_input();
 				}
 				break;
@@ -270,7 +270,7 @@ export class TekkenNotationParser extends Parser {
 			case 7:
 				this.enterOuterAlt(_localctx, 7);
 				{
-				this.state = 57;
+				this.state = 55;
 				this.match(TekkenNotationParser.SPECIAL);
 				}
 				break;
@@ -278,7 +278,7 @@ export class TekkenNotationParser extends Parser {
 			case 8:
 				this.enterOuterAlt(_localctx, 8);
 				{
-				this.state = 58;
+				this.state = 56;
 				this.match(TekkenNotationParser.TEXT);
 				}
 				break;
@@ -305,7 +305,7 @@ export class TekkenNotationParser extends Parser {
 		try {
 			this.enterOuterAlt(_localctx, 1);
 			{
-			this.state = 61;
+			this.state = 59;
 			this.match(TekkenNotationParser.ACTION_INPUT);
 			}
 		}
@@ -331,7 +331,7 @@ export class TekkenNotationParser extends Parser {
 		try {
 			this.enterOuterAlt(_localctx, 1);
 			{
-			this.state = 63;
+			this.state = 61;
 			_la = this._input.LA(1);
 			if (!((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << TekkenNotationParser.MOVEMENT_TAP_INPUT) | (1 << TekkenNotationParser.MOVEMENT_HOLD_INPUT) | (1 << TekkenNotationParser.MOVEMENT_NEUTRAL_INPUT))) !== 0))) {
 			this._errHandler.recoverInline(this);
@@ -361,36 +361,35 @@ export class TekkenNotationParser extends Parser {
 	}
 
 	public static readonly _serializedATN: string =
-		"\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x0FD\x04\x02" +
+		"\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x0FB\x04\x02" +
 		"\t\x02\x04\x03\t\x03\x04\x04\t\x04\x04\x05\t\x05\x04\x06\t\x06\x03\x02" +
 		"\x03\x02\x03\x02\x07\x02\x10\n\x02\f\x02\x0E\x02\x13\v\x02\x03\x02\x03" +
 		"\x02\x03\x03\x03\x03\x03\x03\x07\x03\x1A\n\x03\f\x03\x0E\x03\x1D\v\x03" +
-		"\x03\x03\x03\x03\x03\x04\x03\x04\x03\x04\x05\x04$\n\x04\x03\x04\x03\x04" +
-		"\x03\x04\x03\x04\x05\x04*\n\x04\x03\x04\x03\x04\x03\x04\x03\x04\x03\x04" +
-		"\x03\x04\x03\x04\x03\x04\x03\x04\x03\x04\x03\x04\x03\x04\x03\x04\x03\x04" +
-		"\x03\x04\x03\x04\x03\x04\x03\x04\x05\x04>\n\x04\x03\x05\x03\x05\x03\x06" +
-		"\x03\x06\x03\x06\x02\x02\x02\x07\x02\x02\x04\x02\x06\x02\b\x02\n\x02\x02" +
-		"\x03\x03\x02\n\f\x02I\x02\x11\x03\x02\x02\x02\x04\x1B\x03\x02\x02\x02" +
-		"\x06=\x03\x02\x02\x02\b?\x03\x02\x02\x02\nA\x03\x02\x02\x02\f\r\x05\x04" +
-		"\x03\x02\r\x0E\x07\x03\x02\x02\x0E\x10\x03\x02\x02\x02\x0F\f\x03\x02\x02" +
-		"\x02\x10\x13\x03\x02\x02\x02\x11\x0F\x03\x02\x02\x02\x11\x12\x03\x02\x02" +
-		"\x02\x12\x14\x03\x02\x02\x02\x13\x11\x03\x02\x02\x02\x14\x15\x05\x04\x03" +
-		"\x02\x15\x03\x03\x02\x02\x02\x16\x17\x05\x06\x04\x02\x17\x18\x07\x04\x02" +
-		"\x02\x18\x1A\x03\x02\x02\x02\x19\x16\x03\x02\x02\x02\x1A\x1D\x03\x02\x02" +
-		"\x02\x1B\x19\x03\x02\x02\x02\x1B\x1C\x03\x02\x02\x02\x1C\x1E\x03\x02\x02" +
-		"\x02\x1D\x1B\x03\x02\x02\x02\x1E\x1F\x05\x06\x04\x02\x1F\x05\x03\x02\x02" +
-		"\x02 !\x05\n\x06\x02!\"\x07\x05\x02\x02\"$\x03\x02\x02\x02# \x03\x02\x02" +
-		"\x02#$\x03\x02\x02\x02$%\x03\x02\x02\x02%>\x05\n\x06\x02&\'\x05\n\x06" +
-		"\x02\'(\x07\x05\x02\x02(*\x03\x02\x02\x02)&\x03\x02\x02\x02)*\x03\x02" +
-		"\x02\x02*+\x03\x02\x02\x02+,\x05\n\x06\x02,-\x07\x06\x02\x02-.\x05\b\x05" +
-		"\x02.>\x03\x02\x02\x02/0\x05\b\x05\x0201\x07\x07\x02\x0212\x03\x02\x02" +
-		"\x0223\b\x04\x01\x0234\x05\b\x05\x024>\x03\x02\x02\x0256\x05\b\x05\x02" +
-		"67\x07\b\x02\x0278\x05\b\x05\x028>\x03\x02\x02\x029>\x05\b\x05\x02:>\x05" +
-		"\n\x06\x02;>\x07\x0F\x02\x02<>\x07\x0E\x02\x02=#\x03\x02\x02\x02=)\x03" +
-		"\x02\x02\x02=/\x03\x02\x02\x02=5\x03\x02\x02\x02=9\x03\x02\x02\x02=:\x03" +
-		"\x02\x02\x02=;\x03\x02\x02\x02=<\x03\x02\x02\x02>\x07\x03\x02\x02\x02" +
-		"?@\x07\t\x02\x02@\t\x03\x02\x02\x02AB\t\x02\x02\x02B\v\x03\x02\x02\x02" +
-		"\x07\x11\x1B#)=";
+		"\x03\x03\x03\x03\x03\x04\x03\x04\x03\x04\x03\x04\x03\x04\x03\x04\x03\x04" +
+		"\x03\x04\x03\x04\x03\x04\x03\x04\x03\x04\x03\x04\x06\x04.\n\x04\r\x04" +
+		"\x0E\x04/\x03\x04\x03\x04\x03\x04\x03\x04\x03\x04\x03\x04\x03\x04\x03" +
+		"\x04\x03\x04\x03\x04\x05\x04<\n\x04\x03\x05\x03\x05\x03\x06\x03\x06\x03" +
+		"\x06\x02\x02\x02\x07\x02\x02\x04\x02\x06\x02\b\x02\n\x02\x02\x03\x03\x02" +
+		"\n\f\x02F\x02\x11\x03\x02\x02\x02\x04\x1B\x03\x02\x02\x02\x06;\x03\x02" +
+		"\x02\x02\b=\x03\x02\x02\x02\n?\x03\x02\x02\x02\f\r\x05\x04\x03\x02\r\x0E" +
+		"\x07\x03\x02\x02\x0E\x10\x03\x02\x02\x02\x0F\f\x03\x02\x02\x02\x10\x13" +
+		"\x03\x02\x02\x02\x11\x0F\x03\x02\x02\x02\x11\x12\x03\x02\x02\x02\x12\x14" +
+		"\x03\x02\x02\x02\x13\x11\x03\x02\x02\x02\x14\x15\x05\x04\x03\x02\x15\x03" +
+		"\x03\x02\x02\x02\x16\x17\x05\x06\x04\x02\x17\x18\x07\x04\x02\x02\x18\x1A" +
+		"\x03\x02\x02\x02\x19\x16\x03\x02\x02\x02\x1A\x1D\x03\x02\x02\x02\x1B\x19" +
+		"\x03\x02\x02\x02\x1B\x1C\x03\x02\x02\x02\x1C\x1E\x03\x02\x02\x02\x1D\x1B" +
+		"\x03\x02\x02\x02\x1E\x1F\x05\x06\x04\x02\x1F\x05\x03\x02\x02\x02 !\x05" +
+		"\n\x06\x02!\"\x07\x05\x02\x02\"#\x05\n\x06\x02#<\x03\x02\x02\x02$%\x05" +
+		"\n\x06\x02%&\x07\x05\x02\x02&\'\x05\n\x06\x02\'(\x07\x06\x02\x02()\x05" +
+		"\b\x05\x02)<\x03\x02\x02\x02*+\x05\b\x05\x02+,\x07\x07\x02\x02,.\x03\x02" +
+		"\x02\x02-*\x03\x02\x02\x02./\x03\x02\x02\x02/-\x03\x02\x02\x02/0\x03\x02" +
+		"\x02\x0201\x03\x02\x02\x0212\x05\b\x05\x022<\x03\x02\x02\x0234\x05\b\x05" +
+		"\x0245\x07\b\x02\x0256\x05\b\x05\x026<\x03\x02\x02\x027<\x05\b\x05\x02" +
+		"8<\x05\n\x06\x029<\x07\x0F\x02\x02:<\x07\x0E\x02\x02; \x03\x02\x02\x02" +
+		";$\x03\x02\x02\x02;-\x03\x02\x02\x02;3\x03\x02\x02\x02;7\x03\x02\x02\x02" +
+		";8\x03\x02\x02\x02;9\x03\x02\x02\x02;:\x03\x02\x02\x02<\x07\x03\x02\x02" +
+		"\x02=>\x07\t\x02\x02>\t\x03\x02\x02\x02?@\t\x02\x02\x02@\v\x03\x02\x02" +
+		"\x02\x06\x11\x1B/;";
 	public static __ATN: ATN;
 	public static get _ATN(): ATN {
 		if (!TekkenNotationParser.__ATN) {

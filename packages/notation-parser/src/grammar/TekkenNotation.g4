@@ -5,9 +5,9 @@ combo: (move ';')* move ;
 move: (instruction ',')* instruction ;
 
 instruction
-    : (movement_input '/')? movement_input
-    | (movement_input '/')? movement_input ':' action_input
-    | (action_input '+'){0,3} action_input
+    : movement_input '/' movement_input
+    | movement_input '/' movement_input ':' action_input
+    | (action_input '+')+ action_input
     | action_input '~' action_input
     | action_input
     | movement_input
