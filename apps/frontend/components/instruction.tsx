@@ -34,7 +34,7 @@ export default function Instruction(props: Props) {
 
     return (
         <div className={'flex flex-col items-center gap-2'}>
-            {props.instruction.type !== TekkenInstructionType.SPECIAL ? (
+            {props.instruction.type !== TekkenInstructionType.UNKNOWN ? (
                 <Image
                     src={imageUrl}
                     alt={props.instruction.slug}

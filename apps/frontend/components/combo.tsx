@@ -29,12 +29,15 @@ export default function Combo(props: Props) {
     const [showComboEditModal, setShowComboEditModal] = useState(false);
 
     useEffect(() => {
+        let nextCombo = combo;
+
         try {
-            setCombo(parseTekkenNotation(props.notation));
+            nextCombo = parseTekkenNotation(props.notation);
         } catch (error: any) {
-            setCombo(null);
             // TODO: handle syntax errors emitted by antlr.
         }
+
+        setCombo(nextCombo);
     }, [props.notation]);
 
     const handleDeleteConfirm = async () => {
