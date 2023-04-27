@@ -19,7 +19,7 @@ export default function IndexPage() {
                 </p>
                 <p>
                     It can, for example, transform a combo like this:{' '}
-                    <code>d2;d/f2,1</code>
+                    <code>d,2;d/f,2,1</code>
                 </p>
                 <p className="mb-2">To something like this:</p>
 
