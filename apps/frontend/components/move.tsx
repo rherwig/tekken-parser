@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { TekkenMove } from '@tekken-space/notation-parser';
-import Image from 'next/image';
 import { ControllerLayout } from '@prisma/client';
+import { TbChevronRight } from 'react-icons/tb';
 
 import Instruction from '@/components/instruction';
 
@@ -12,7 +12,7 @@ interface Props {
 
 const Move: FC<Props> = (props) => {
     return (
-        <div className="group mr-2 -ml-1 inline-flex">
+        <div className="group mr-2 -ml-1 inline-flex gap-2">
             {props.move.instructions.map((instruction, index) => (
                 <Instruction
                     key={index}
@@ -21,14 +21,8 @@ const Move: FC<Props> = (props) => {
                 />
             ))}
 
-            <div className="pl-3 pr-2 group-last:hidden">
-                <Image
-                    src="/icons/follow.svg"
-                    width={32}
-                    height={32}
-                    className="h-10 w-auto"
-                    alt="Next Move"
-                />
+            <div className="mr-2 flex items-center px-2 group-last:hidden">
+                <TbChevronRight />
             </div>
         </div>
     );

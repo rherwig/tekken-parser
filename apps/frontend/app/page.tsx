@@ -27,6 +27,8 @@ export default function IndexPage() {
                     <Combo notation={'d,2;d/f,2,1'} />
                 </div>
 
+                <div className="not-prose"></div>
+
                 <h2>Choosing a Layout</h2>
                 <p>
                     In order to help newer players or those unfamiliar with

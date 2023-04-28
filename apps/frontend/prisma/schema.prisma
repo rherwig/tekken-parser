@@ -15,8 +15,11 @@ enum Role {
 }
 
 enum ControllerLayout {
-    ARCADE
     GAMEPAD
+    XBOX
+    PLAYSTATION
+    ARCADE
+    HITBOX
 }
 
 model Account {

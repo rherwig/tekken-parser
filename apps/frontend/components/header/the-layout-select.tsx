@@ -16,12 +16,24 @@ export default function TheLayoutSelect(props: Props) {
     const dispatch = useAppDispatch();
     const layouts = [
         {
+            label: 'Gamepad',
+            value: 'GAMEPAD',
+        },
+        {
+            label: 'Xbox',
+            value: 'XBOX',
+        },
+        {
+            label: 'Playstation',
+            value: 'PLAYSTATION',
+        },
+        {
             label: 'Arcade',
             value: 'ARCADE',
         },
         {
-            label: 'Gamepad',
-            value: 'GAMEPAD',
+            label: 'Hitbox',
+            value: 'HITBOX',
         },
     ];
 

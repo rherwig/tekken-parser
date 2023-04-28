@@ -1,6 +1,7 @@
 import { AbstractParseTreeVisitor } from 'antlr4ts/tree';
 
 import {
+    Action_inputContext,
     ComboContext,
     InstructionContext,
     MoveContext,
@@ -8,6 +9,7 @@ import {
 import { TekkenNotationVisitor } from './parser/TekkenNotationVisitor';
 import {
     TekkenCombo,
+    TekkenInput,
     TekkenInstruction,
     TekkenInstructionType,
     TekkenMove,
@@ -95,6 +97,21 @@ export class TekkenVisitor
 
         const notation = ctx.text;
         const slug = notation.replace(/[^a-zA-Z0-9]/g, '');
+        const actionInputs: TekkenInput[] = ctx
+            .action_input()
+            .map((actionInputCtx) => {
+                return {
+                    notation: actionInputCtx.text,
+                };
+            });
+        const movementInputs: TekkenInput[] = ctx
+            .movement_input()
+            .map((movementInputCtx) => {
+                return {
+                    notation: movementInputCtx.text,
+                };
+            });
+        const inputs: TekkenInput[] = [...actionInputs, ...movementInputs];
 
         let type: TekkenInstructionType = TekkenInstructionType.UNKNOWN;
 
@@ -108,6 +125,11 @@ export class TekkenVisitor
             type,
             notation,
             slug,
+            inputs,
         };
     };
+
+    visitAction_input: (ctx: Action_inputContext) => any = (
+        ctx: Action_inputContext,
+    ) => {};
 }

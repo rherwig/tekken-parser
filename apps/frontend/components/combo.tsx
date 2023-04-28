@@ -126,7 +126,7 @@ export default function Combo(props: Props) {
                 )}
             </div>
 
-            <div className="flex min-h-[5rem] py-4">
+            <div className="flex min-h-[5.5rem] py-4">
                 {combo !== null &&
                     combo.moves.map((move: TekkenMove, index: number) => {
                         return (

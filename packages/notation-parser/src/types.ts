@@ -6,10 +6,15 @@ export enum TekkenInstructionType {
     TEXT = 'TEXT',
 }
 
+export interface TekkenInput {
+    notation: string;
+}
+
 export interface TekkenInstruction {
     type: TekkenInstructionType;
     notation: string;
     slug: string;
+    inputs: TekkenInput[];
 }
 
 export interface TekkenMove {
