@@ -1,7 +1,7 @@
 import { Field, FieldHookConfig, useField } from 'formik';
 
 interface CustomProps {
-    label: string;
+    label?: string;
 }
 
 type Props = CustomProps & FieldHookConfig<string>;
@@ -14,12 +14,14 @@ export default function TkTextField({ label, ...props }: Props) {
 
     return (
         <div className="mb-4 flex flex-col">
-            <label
-                htmlFor={props.id || props.name}
-                className="mb-1 text-zinc-200"
-            >
-                {label}
-            </label>
+            {label && (
+                <label
+                    htmlFor={props.id || props.name}
+                    className="mb-1 text-zinc-200"
+                >
+                    {label}
+                </label>
+            )}
             <Field
                 className="rounded-md border border-black/30 bg-black/20 p-2 text-zinc-50 focus:border-teal-900 focus:outline-none"
                 {...field}

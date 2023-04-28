@@ -4,29 +4,65 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Character } from '@prisma/client';
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 import CreateCharacter from '@/components/characters/create-character';
+import CharactersFilter from '@/components/characters/characters-filter';
 
 interface Props {
     characters: Character[];
 }
 
 export default function CharactersGrid(props: Props) {
+    const router = useRouter();
     const [characters, setCharacters] = useState<Character[]>(props.characters);
+    const [sortedCharacters, setSortedCharacters] = useState<Character[]>(
+        characters.sort((a, b) => a.name.localeCompare(b.name)),
+    );
+    const [filteredCharacters, setFilteredCharacters] =
+        useState<Character[]>(sortedCharacters);
 
     const handleCharacterCreated = (character: Character) => {
         setCharacters((prevCharacters) => prevCharacters.concat(character));
     };
 
+    const handleNameFilterChange = (name: string) => {
+        const newCharacters = characters.filter((character) =>
+            character.name.toLowerCase().includes(name.toLowerCase()),
+        );
+
+        setFilteredCharacters(newCharacters);
+    };
+
+    const handleFilterSubmit = () => {
+        if (!filteredCharacters.length) {
+            return;
+        }
+
+        const firstCharacter = filteredCharacters.at(0);
+        if (!firstCharacter) {
+            return;
+        }
+
+        router.push(`/characters/${firstCharacter.slug}`);
+    };
+
     return (
         <>
-            <div className="mb-6 flex items-center justify-between">
+            <div className="mb-4 flex items-center justify-between">
                 <h1 className="text-2xl">Characters</h1>
                 <CreateCharacter onSuccess={handleCharacterCreated} />
             </div>
 
+            <div className="mb-6">
+                <CharactersFilter
+                    onNameFilterChange={handleNameFilterChange}
+                    onSubmit={handleFilterSubmit}
+                />
+            </div>
+
             <div className="grid grid-cols-8 gap-2">
-                {characters.map((character) => (
+                {filteredCharacters.map((character) => (
                     <Link
                         href={`/characters/${character.slug}`}
                         className="hover:shadow-xs relative flex aspect-square items-center justify-center bg-black/40 text-white transition-all hover:scale-105"
