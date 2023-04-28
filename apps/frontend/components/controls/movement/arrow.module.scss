@@ -34,6 +34,11 @@ $arrow-color: white;
     }
 }
 
+.hold {
+    @apply bg-black;
+    @apply after:border-l-black;
+}
+
 .forward {
     transform: rotate(0deg);
     margin-left: -1em;

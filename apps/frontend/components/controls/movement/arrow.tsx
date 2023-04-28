@@ -15,14 +15,22 @@ const ARROW_DIRECTIONS = {
 
 interface Props {
     direction: keyof typeof ARROW_DIRECTIONS;
+    hold?: boolean;
 }
 
 export default function Arrow(props: Props) {
     const direction = ARROW_DIRECTIONS[props.direction];
+    const isHoldInput = props.hold ?? false;
 
     return (
         <div className={styles.arrowContainer}>
-            <div className={clsx(styles.arrow, styles[direction])}></div>
+            <div
+                className={clsx(
+                    styles.arrow,
+                    isHoldInput && styles.hold,
+                    styles[direction],
+                )}
+            ></div>
         </div>
     );
 }
