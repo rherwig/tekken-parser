@@ -1,0 +1,828 @@
+{
+  "name": "Kazuya",
+  "slug": "kazuya",
+  "moves": [
+    {
+      "name": "Rage Art",
+      "notation": "\"Rage\",d/f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55
+    },
+    {
+      "name": "Rage Drive",
+      "notation": "\"Rage\",f,N,d,d/f,1+4,U/F",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 63
+    },
+    {
+      "name": "Devil Transformation",
+      "notation": "\"Rage\",u/b,1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Inferno",
+      "notation": "\"While in Devil Transformation\",1+2",
+      "hitLevels": [
+        "Unblockable 2"
+      ],
+      "isThrow": false,
+      "damage": 40
+    },
+    {
+      "name": "Devil Blaster",
+      "notation": "\"While in Devil Transformation\",3+4",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Reverse Devil Blaster",
+      "notation": "\"While in Devil Transformation\",3+4,3+4",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Elkeid",
+      "notation": "\"While in Devil Transformation\",f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Twin Pistons",
+      "notation": "\"While in Devil Transformation\",d/f,1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Air Inferno",
+      "notation": "\"While in Devil Transformation\",u/f,1+2",
+      "hitLevels": [
+        "Anti Air"
+      ],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Devil Fist",
+      "notation": "\"While in Devil Transformation\",f,F,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Heaven's Door",
+      "notation": "\"While in Devil Transformation\",f,N,d,d/f,1,U/F",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 45
+    },
+    {
+      "name": "Devil Twister",
+      "notation": "\"While in Devil Transformation\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Sorai Zanba",
+      "notation": "\"While in Devil Transformation\",d,1+2",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Flash Punch Combo",
+      "notation": "1,1,2",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Demon Slayer",
+      "notation": "1,2,2",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Twin Fang Double Kick",
+      "notation": "1,2,4,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "Double Back Fist",
+      "notation": "2,2",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Agony Spear",
+      "notation": "3,1,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 38
+    },
+    {
+      "name": "Roundhouse",
+      "notation": "4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Demon Scissors",
+      "notation": "【4,3,】",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Acute Pain",
+      "notation": "1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Soul Thrust",
+      "notation": "f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Oni Front Kick",
+      "notation": "f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Right Splits Kick",
+      "notation": "f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Glorious Demon God Fist",
+      "notation": "f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Slicing Blade",
+      "notation": "d/f,1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Slaughter High Kick",
+      "notation": "d/f,1,4",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Devastator",
+      "notation": "d/f,1,f,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "Abolishing Fist",
+      "notation": "d/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Impaling Knee",
+      "notation": "d/f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 13
+    },
+    {
+      "name": "Impaling Knee Twin Thrust",
+      "notation": "d/f,3,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 49
+    },
+    {
+      "name": "Tsunami Kick",
+      "notation": "d/f,4,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Nejiri Uraken",
+      "notation": "d,1+2",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Lion Slayer",
+      "notation": "d/b,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Sliding Low Kick",
+      "notation": "d/b,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 14
+    },
+    {
+      "name": "Stature Smash",
+      "notation": "d/b,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Sokushitsu Goda",
+      "notation": "b,1,2",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "Rampaging Demon",
+      "notation": "b,2,4,1",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 46
+    },
+    {
+      "name": "Demon's Wrath",
+      "notation": "b,3,1,4,1",
+      "hitLevels": [
+        "High",
+        "High",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 50
+    },
+    {
+      "name": "Reign of Terror",
+      "notation": "b,3,1,4,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 47
+    },
+    {
+      "name": "Flash Tornado",
+      "notation": "b,4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Kumo Kiri",
+      "notation": "b,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Lightning Uppercut",
+      "notation": "b,1+4",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Lightning Screw Uppercut",
+      "notation": "B,1+4",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 60
+    },
+    {
+      "name": "Searing Edge",
+      "notation": "u/f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Roundhouse to Triple Spin Kick",
+      "notation": "u/f,4,4,4,4",
+      "hitLevels": [
+        "Mid",
+        "Low",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 45
+    },
+    {
+      "name": "Zankyosho",
+      "notation": "f,F,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Left Splits Kick",
+      "notation": "f,F,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Devil's Steel Petal",
+      "notation": "f,F,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Mist Step",
+      "notation": "f,N",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Dragon Uppercut",
+      "notation": "f,N,d,d/f,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Wind God Fist",
+      "notation": "f,N,d,d/f,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Electric Wind God Fist",
+      "notation": "f,N,d,d/f,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Hell Lancer",
+      "notation": "f,N,d,d/f,3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 40
+    },
+    {
+      "name": "Spinning Demon to Left Hook",
+      "notation": "f,N,d,d/f,4,1",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "Spinning Demon",
+      "notation": "f,N,d,d/f,4,4",
+      "hitLevels": [
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Leaping Sidekick",
+      "notation": "f,f,f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Twin Pistons",
+      "notation": "\"WS\",1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Demon God Fist",
+      "notation": "\"WS\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Engetsusen",
+      "notation": "\"WS\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Tsunami Kick",
+      "notation": "\"WS\",4,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Tombstone Crusher",
+      "notation": "\"FC\",d/f,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Shattered Spine",
+      "notation": "\"SS\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Jaw Breaker",
+      "notation": "\"SS\",1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Oni Stomp",
+      "notation": "d,3+4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "10 Hit Combo 1",
+      "notation": "f,f,N,2,1,2,2,3,4,4,3,2,1",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "High",
+        "High",
+        "Mid",
+        "Low",
+        "Low",
+        "Mid",
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 113
+    },
+    {
+      "name": "10 Hit Combo 2",
+      "notation": "f,f,N,2,1,4,4,2,4,3,2,1",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid",
+        "Mid",
+        "Special Mid",
+        "Mid",
+        "Low",
+        "Mid",
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 107
+    },
+    {
+      "name": "Double Face Kick",
+      "notation": "1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Double Face Kick",
+      "notation": "f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Hip Throw",
+      "notation": "2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Hip Throw",
+      "notation": "f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Steel Pedal Drop",
+      "notation": "\"Approach from left side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Skull Smash",
+      "notation": "\"Approach from right side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Reverse Neck Throw",
+      "notation": "\"Back\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 50
+    },
+    {
+      "name": "Stonehead",
+      "notation": "f,F,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Ultimate Tackle",
+      "notation": "d/b,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 5
+    },
+    {
+      "name": "Ultimate Punch",
+      "notation": "\"Tackle\",2,1,2,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Gates of Hell",
+      "notation": "\"FC\",d/f,d,d/f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Sample Combo 1",
+      "notation": "\"WS\",1,2;2,2;f,3",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 50
+    },
+    {
+      "name": "Sample Combo 2",
+      "notation": "f,F,4,\"CH\";d/f,1,4;d/f,3,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 58
+    },
+    {
+      "name": "Sample Combo 3",
+      "notation": "f,N,d,d/f,2;d/f,3;d/f,1,4;f,N,d,d/f,4,1",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid",
+        "High",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 57
+    },
+    {
+      "name": "Sample Combo 4",
+      "notation": "d/f,2,\"CH\";3,1,4;d/f,1,4;\"Rage\",d/f,1+2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 81
+    },
+    {
+      "name": "Sample Combo 5",
+      "notation": "f,N,d,d/f,2",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "High",
+        "High",
+        "Low",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 86
+    }
+  ]
+}

@@ -1,0 +1,857 @@
+{
+  "name": "Josie",
+  "slug": "josie",
+  "moves": [
+    {
+      "name": "Rage Art",
+      "notation": "\"Rage\",d/f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55
+    },
+    {
+      "name": "Rage Drive",
+      "notation": "\"Rage\",f,N,d,d/f,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Papilio Combo",
+      "notation": "1,2,2",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Graphium Combo",
+      "notation": "1,2,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "One Two High Kick to Switch Stance",
+      "notation": "1,2,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 37
+    },
+    {
+      "name": "Iligan Switch",
+      "notation": "\"During Switch Stance\",1",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 55
+    },
+    {
+      "name": "Ormoc Switch",
+      "notation": "\"During Switch Stance\",2",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 37
+    },
+    {
+      "name": "Sapu Switch",
+      "notation": "\"During Switch Stance\",3",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 37
+    },
+    {
+      "name": "Side Strike Switch",
+      "notation": "\"During Switch Stance\",4",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 37
+    },
+    {
+      "name": "Slide In",
+      "notation": "\"During Switch Stance\",F",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 37
+    },
+    {
+      "name": "One Two Low High Spin Kick",
+      "notation": "1,2,d,4,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 53
+    },
+    {
+      "name": "Sunrise Combo",
+      "notation": "1,4,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Quick Graphium",
+      "notation": "2,3",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "High Kick Combo to Switch Stance",
+      "notation": "2,4",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Right Straight to Low High Spin Kick",
+      "notation": "2,d,4,4",
+      "hitLevels": [
+        "High",
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 46
+    },
+    {
+      "name": "Hollow Point Shot",
+      "notation": "3,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Hollow Point to Slide In",
+      "notation": "3,2,F",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 11
+    },
+    {
+      "name": "Intercept Kick",
+      "notation": "3,3",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Intercept Cannon",
+      "notation": "3,f,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 38
+    },
+    {
+      "name": "Spinning Scythe",
+      "notation": "3+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Subic Ring",
+      "notation": "f,2,3,4",
+      "hitLevels": [
+        "High",
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 43
+    },
+    {
+      "name": "Panquil Ring",
+      "notation": "f,2,4",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "Piercing Needle",
+      "notation": "f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Step In Toe Kick",
+      "notation": "f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 13
+    },
+    {
+      "name": "Step In Knee Combo",
+      "notation": "f,4,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Flying Elbow",
+      "notation": "f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Heavy Knee",
+      "notation": "f,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Liver Shot to Straight Punch",
+      "notation": "d/f,1,2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Liver Shot to Flying Punch Combo",
+      "notation": "d/f,1,4,2",
+      "hitLevels": [
+        "Mid",
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 47
+    },
+    {
+      "name": "Liver Blow to Feint Knee",
+      "notation": "d/f,1,【4,4,】",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Sonic Upper",
+      "notation": "d/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 10
+    },
+    {
+      "name": "Cyclone Sweep Combo",
+      "notation": "d/f,3,2",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "Cyclone Sweep to Slide In",
+      "notation": "d/f,3,2,F",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Triaina Middle to Switch Stance",
+      "notation": "d/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Boost Knee Launcher",
+      "notation": "d/f,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Kawasan Falls",
+      "notation": "d,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 16
+    },
+    {
+      "name": "Left Low Kick & High Kick to Switch Stance",
+      "notation": "d,3,4",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Triaina Low",
+      "notation": "d,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 8
+    },
+    {
+      "name": "Full Blast Kick",
+      "notation": "d,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Middle Straight",
+      "notation": "d/b,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Lexias Chain",
+      "notation": "d/b,4,2,3",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 46
+    },
+    {
+      "name": "Twin Rippers",
+      "notation": "b,1,1",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Arnis Combo",
+      "notation": "b,1,2,4,4",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 54
+    },
+    {
+      "name": "Quick Elbow",
+      "notation": "b,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 12
+    },
+    {
+      "name": "Disarm Drop",
+      "notation": "\"During Counter Hit\",b,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 39
+    },
+    {
+      "name": "Tracer Kick",
+      "notation": "b,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Streamline Combo",
+      "notation": "b,4,3,4",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Streamline to Low Kick",
+      "notation": "b,4,3,d,4",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Streamline to Feint Knee",
+      "notation": "b,4,3,d,【4,4,】",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Spinning Back Blow",
+      "notation": "b,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Sway Back",
+      "notation": "b,3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Jaw Clipper",
+      "notation": "\"During Sway Back\",1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 10
+    },
+    {
+      "name": "Spine Hook",
+      "notation": "\"During Sway Back\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Spiral Typhoon",
+      "notation": "b,2+3",
+      "hitLevels": [
+        "Unblockable 2"
+      ],
+      "isThrow": false,
+      "damage": 50
+    },
+    {
+      "name": "Butterfly Edge",
+      "notation": "u/f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Carabao Horn",
+      "notation": "u/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 13
+    },
+    {
+      "name": "Rapid Double Knee",
+      "notation": "u/f,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Needle Shot",
+      "notation": "f,F,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Step In Tracer",
+      "notation": "f,F,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Slide In Tornado Combo",
+      "notation": "f,N,d,d/f,1,3",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Slide In Elbow",
+      "notation": "f,N,d,d/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Slide In Low Kick",
+      "notation": "f,N,d,d/f,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Target Slash",
+      "notation": "f,f,f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Interrupting Upper",
+      "notation": "\"WS\",1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 12
+    },
+    {
+      "name": "Double Boomerang",
+      "notation": "\"WS\",2,1",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Double Boomerang to Sway Back",
+      "notation": "\"WS\",2,1,B",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Vertical Knee",
+      "notation": "\"WS\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Whip Kick",
+      "notation": "\"FC\",d/f,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Taunt",
+      "notation": "1+2+3",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "10 Hit Combo",
+      "notation": "2,2,1,4,2,1,4,3,3,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid",
+        "Low",
+        "High",
+        "High",
+        "Mid",
+        "Low",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 73
+    },
+    {
+      "name": "Suppressing Strike",
+      "notation": "1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Suppressing Strike",
+      "notation": "f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Neck Hold Slash",
+      "notation": "2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Neck Hold Slash",
+      "notation": "f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Break Down",
+      "notation": "\"Approach from left side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Heart's Cry",
+      "notation": "\"Approach from right side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Lingayen Stomp",
+      "notation": "\"Back\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 50
+    },
+    {
+      "name": "Spirited Barrage",
+      "notation": "f,F,3+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Reverse Sampaguita",
+      "notation": "\"Time with enemy right punch\",1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 50
+    },
+    {
+      "name": "Sample Combo 1",
+      "notation": "d/f,2;f,3;3,3;f,F,3",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 42
+    },
+    {
+      "name": "Sample Combo 2",
+      "notation": "f,3+4,\"CH\";f,2,3,4;d/f,4;\"During Switch Stance\",4",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Low",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 58
+    },
+    {
+      "name": "Sample Combo 3",
+      "notation": "u/f,3;f,3;4;f,2,3,4;3,f,3",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "High",
+        "Low",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 64
+    },
+    {
+      "name": "Sample Combo 4",
+      "notation": "4,\"CH\";f,1+2;f,2,3,4;f,3;\"Rage\",d/f,1+2",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "Low",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 80
+    },
+    {
+      "name": "Sample Combo 5",
+      "notation": "\"WS\",1,\"CH\";f,1+2;\"Rage\",f,N,d,d/f,3+4;f,1+2;1,2,4;\"During Switch Stance\",F,1,3;u/f,3+4",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "Mid",
+        "High",
+        "High",
+        "High",
+        "High",
+        "High",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 99
+    }
+  ]
+}

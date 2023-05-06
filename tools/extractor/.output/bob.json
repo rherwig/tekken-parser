@@ -1,0 +1,1021 @@
+{
+  "name": "Bob",
+  "slug": "bob",
+  "moves": [
+    {
+      "name": "Rage Art",
+      "notation": "\"Rage\",d/f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55
+    },
+    {
+      "name": "Rage Drive",
+      "notation": "\"Rage\",f,f,f,3+4,\"Hold\",F",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 43
+    },
+    {
+      "name": "Straight Rondel",
+      "notation": "1,1,2",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "One Two Punch",
+      "notation": "1,2",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Fast Break",
+      "notation": "1,2,1+2",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 37
+    },
+    {
+      "name": "Course Picante",
+      "notation": "1,3,3",
+      "hitLevels": [
+        "High",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Course Sarat",
+      "notation": "1,4",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Course Achuto",
+      "notation": "1,d,4",
+      "hitLevels": [
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Barista Swirl",
+      "notation": "2,1,4",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 38
+    },
+    {
+      "name": "Croque-Monsieur",
+      "notation": "3,4",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Sparkling Hop",
+      "notation": "4,3,3+4",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Black Poêlé",
+      "notation": "1+2,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 38
+    },
+    {
+      "name": "Circle Whopper",
+      "notation": "f,2,3",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Merguez Kick Combo",
+      "notation": "f,3,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 41
+    },
+    {
+      "name": "Spinning Linguine",
+      "notation": "f,4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Giga Jacker",
+      "notation": "f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Spinner Ball",
+      "notation": "f,3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Lyonnaise Break",
+      "notation": "\"During Spinner Ball\",1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Galette Slicer",
+      "notation": "\"During Spinner Ball\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Snail Kick",
+      "notation": "\"During Spinner Ball\",3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Stealing Home",
+      "notation": "\"During Spinner Ball\",4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 14
+    },
+    {
+      "name": "Perfect Press",
+      "notation": "\"During Spinner Ball\",3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Escalope Elbow",
+      "notation": "d/f,1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Slash Darne",
+      "notation": "d/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 14
+    },
+    {
+      "name": "Gaufrettes Cutter",
+      "notation": "d/f,3,1,1",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 42
+    },
+    {
+      "name": "Gaufrettes Punch",
+      "notation": "d/f,3,2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Gaufrettes Kick",
+      "notation": "d/f,3,4,4",
+      "hitLevels": [
+        "Mid",
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 40
+    },
+    {
+      "name": "Runner Flip",
+      "notation": "d/f,3+4,4",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Coupé Chop",
+      "notation": "d,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Combination Mince",
+      "notation": "d,2,1,2,2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 65
+    },
+    {
+      "name": "Combination Ble",
+      "notation": "d,2,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "Combination Baldo",
+      "notation": "d,2,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "Panini Sweep",
+      "notation": "d,3,4",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Tornado Mixer",
+      "notation": "d,4,3,4",
+      "hitLevels": [
+        "Low",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 50
+    },
+    {
+      "name": "Apicius Special",
+      "notation": "d,1+2,2,1",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Duck Flip",
+      "notation": "d,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Bite Uppercut",
+      "notation": "d/b,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Liaison Spike",
+      "notation": "d/b,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Contorno Farce",
+      "notation": "d/b,4,4,3,3",
+      "hitLevels": [
+        "Low",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 59
+    },
+    {
+      "name": "Contorno Mist",
+      "notation": "d/b,4,4,4",
+      "hitLevels": [
+        "Low",
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Abats Snipe",
+      "notation": "d/b,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 16
+    },
+    {
+      "name": "Huile Slip",
+      "notation": "d/b,3+4,4",
+      "hitLevels": [
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Ravenous",
+      "notation": "b,1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Combination Bitter ",
+      "notation": "b,2,2,4,4",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 58
+    },
+    {
+      "name": "Whopping Kick",
+      "notation": "b,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Pretzel Crush",
+      "notation": "b,4,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Combination Bittersweet",
+      "notation": "b,4,4",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Three Star Combo",
+      "notation": "b,1+2,1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 50
+    },
+    {
+      "name": "Reverse Spinner Ball",
+      "notation": "b,3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Reverse Duck Flip",
+      "notation": "u/b,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Egg Bound",
+      "notation": "u,1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Hatching Punch",
+      "notation": "u,1+2,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Strainer",
+      "notation": "u,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Flying Jambon",
+      "notation": "u/f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Faisan Crow",
+      "notation": "u/f,4,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Cracker Tariata",
+      "notation": "u/f,1+2,4",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Cracker Jacker",
+      "notation": "u/f,1+2,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 40
+    },
+    {
+      "name": "Rolling Kebab",
+      "notation": "u/f,3+4,4",
+      "hitLevels": [
+        "Low",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 42
+    },
+    {
+      "name": "Zip Cutter",
+      "notation": "f,F,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Jumping Beans",
+      "notation": "f,F,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Double Chapati",
+      "notation": "f,F,4,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Huitres Crush ",
+      "notation": "f,F,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Hot Cross Bun",
+      "notation": "b,f,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Langouste Tail",
+      "notation": "b,B,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Grater Langouste",
+      "notation": "b,B,3+4",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 60
+    },
+    {
+      "name": "Grater Langouste Feint Knuckle",
+      "notation": "b,B,3+4,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Quick Langouste",
+      "notation": "b,B,2+3",
+      "hitLevels": [
+        "Unblockable 2"
+      ],
+      "isThrow": false,
+      "damage": 40
+    },
+    {
+      "name": "Langue Washer",
+      "notation": "f,N,d,d/f,1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Spiral Rocky ",
+      "notation": "f,N,d,d/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Gambero Knee",
+      "notation": "f,N,d,d/f,3,2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Cutting Coppa",
+      "notation": "f,N,d,d/f,4,1+2",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "Granchi Canon ",
+      "notation": "f,N,d,d/f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Perfect Slash",
+      "notation": "f,f,f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Supersize Missile",
+      "notation": "f,f,f,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Cross Butcher",
+      "notation": "\"WS\",1,2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Hot Guimauve",
+      "notation": "\"WS\",1,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Spinach Upper",
+      "notation": "\"WS\",2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Spinach Hammer",
+      "notation": "\"WS\",2,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Brioche Star",
+      "notation": "\"WS\",3,3+4",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 45
+    },
+    {
+      "name": "Rising Matzo ",
+      "notation": "\"WS\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Polpo Swing",
+      "notation": "\"FC\",d/f,2,1,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 51
+    },
+    {
+      "name": "Seppia Swing ",
+      "notation": "\"FC\",d/f,2,4,1+2",
+      "hitLevels": [
+        "Mid",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 51
+    },
+    {
+      "name": "Bánh mì Strike",
+      "notation": "\"SS\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Plague Pick",
+      "notation": "\"Back towards enemy\",d,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Sucre Tile",
+      "notation": "1+2+3+4,4",
+      "hitLevels": [
+        "Unblockable 2"
+      ],
+      "isThrow": false,
+      "damage": 42
+    },
+    {
+      "name": "10 Hit Combo 1",
+      "notation": "u/f,2,1,2,2,1,1+2,3,1,2,3+4",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Low",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 112
+    },
+    {
+      "name": "10 Hit Combo 2",
+      "notation": "u/f,2,3,3+4,4",
+      "hitLevels": [
+        "High",
+        "Low",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 69
+    },
+    {
+      "name": "Quarter Deck",
+      "notation": "1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Quarter Deck",
+      "notation": "f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Cooler Shaker",
+      "notation": "2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Cooler Shaker",
+      "notation": "f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Corkscrew",
+      "notation": "\"Approach from left side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Eye Opener",
+      "notation": "\"Approach from right side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Déglacer Throw",
+      "notation": "\"Back\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 50
+    },
+    {
+      "name": "Flying Cask",
+      "notation": "f,F,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 30
+    },
+    {
+      "name": "Sparkling Death",
+      "notation": "\"FC\",d/f,d,D/F,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 30
+    },
+    {
+      "name": "Sample Combo 1",
+      "notation": "u/f,3;b,4,4;1+2,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 53
+    },
+    {
+      "name": "Sample Combo 2",
+      "notation": "b,3,\"CH\";b,2,2,4,4;f,N,d,d/f,4,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 60
+    },
+    {
+      "name": "Sample Combo 3",
+      "notation": "d/b,1+2;f,4;f,F,3;d,2,3;b,3",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55
+    },
+    {
+      "name": "Sample Combo 4",
+      "notation": "\"WS\",2,1;d/b,2;d/f,1;d,3,4;\"Rage\",d/f,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Low",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 78
+    },
+    {
+      "name": "Sample Combo 5",
+      "notation": "f,N,d,d/f,2;f,F,3;d/b,2;1;u/f,1+2,4;\"Rage\",f,f,f,3+4,\"Hold\"",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 89
+    }
+  ]
+}

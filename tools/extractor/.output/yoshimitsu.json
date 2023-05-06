@@ -1,0 +1,1638 @@
+{
+  "name": "YOSHIMITSU",
+  "slug": "yoshimitsu",
+  "moves": [
+    {
+      "name": "Rage Art",
+      "notation": "\"Rage\",b,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55
+    },
+    {
+      "name": "Supreme Soul Stealer",
+      "notation": "\"Rage Parry\",u/b,1+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Rage Drive",
+      "notation": "\"Rage\",f,N,d,d/f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Naguri Kabuto Wari",
+      "notation": "1,1",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Seiken Douharai",
+      "notation": "2,1",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "Flash Punch",
+      "notation": "2,2",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Flash Attack",
+      "notation": "2,3",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Flash Punch Low Kick",
+      "notation": "2,d,3",
+      "hitLevels": [
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Tobi Ushiwaka",
+      "notation": "【3,4,】",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Kangaroo Kick",
+      "notation": "【4,3,】",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Triple Roundhouse Combo",
+      "notation": "4,4,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 44
+    },
+    {
+      "name": "Kincho",
+      "notation": "1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Doushi Kiri",
+      "notation": "\"During Kincho\",1,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Tenshu Kuzushi",
+      "notation": "\"During Kincho\",2,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Shibakari",
+      "notation": "\"During Kincho\",3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Whirlwind",
+      "notation": "\"During Kincho\",4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Ashura Blade",
+      "notation": "\"During Kincho\",1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Ganto",
+      "notation": "\"During Kincho\",f,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Mumyo Juji Ken",
+      "notation": "\"During Kincho\",b,1+2",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Kincho Dragonfly",
+      "notation": "\"During Kincho\",u,1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Meditation ",
+      "notation": "3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Back Handspring",
+      "notation": "\"During Meditation\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Meditation Healing",
+      "notation": "\"During Meditation\",1+2",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Soul Stealer",
+      "notation": "1+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Spirit Shield",
+      "notation": "1+2+3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Manji Backfist",
+      "notation": "f,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Backfist to Stone Fist",
+      "notation": "f,2,D/B,2,2,2,2,2,2",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 38
+    },
+    {
+      "name": "Oni Kick Combo",
+      "notation": "f,3,3",
+      "hitLevels": [
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Zig Zag",
+      "notation": "f,3,4",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Toita Daoshi",
+      "notation": "f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Tsuka Splitter",
+      "notation": "f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Kamikaze",
+      "notation": "f,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Tsuka Atemi to Back Knuckle",
+      "notation": "d/f,1,2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Autumn Leaves",
+      "notation": "d/f,1,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Basic Uppercut",
+      "notation": "d/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 13
+    },
+    {
+      "name": "Wood Cutter",
+      "notation": "d/f,3,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Nebular Burst",
+      "notation": "d/f,1+2,2",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Quick Slash",
+      "notation": "d,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Death Slash",
+      "notation": "d,1,\"Hold\",N",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 180
+    },
+    {
+      "name": "Heshikirigari",
+      "notation": "d,2,1",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Heshikiribarai",
+      "notation": "d,2,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 49
+    },
+    {
+      "name": "Heshikirinagi",
+      "notation": "d,2,2,d,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 46
+    },
+    {
+      "name": "Heshikirimutou",
+      "notation": "d,2,2,2+3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Flea",
+      "notation": "d,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Flea Roll",
+      "notation": "\"During Flea\",1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Flea to Sliding Headbutt",
+      "notation": "\"During Flea\",2",
+      "hitLevels": [
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Flea Dance",
+      "notation": "\"During Flea\",3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Skull Splitter",
+      "notation": "\"During Flea\",1+2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Flea to Kangaroo Kick",
+      "notation": "\"During Flea\",3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Flea Step",
+      "notation": "\"During Flea\",f",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Sakanobori",
+      "notation": "\"During Flea Step\",3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 57
+    },
+    {
+      "name": "Tsurubebi",
+      "notation": "\"During Flea Step\",4",
+      "hitLevels": [
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Running Flea",
+      "notation": "\"During Flea\",f,f",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 9
+    },
+    {
+      "name": "Flea Digger",
+      "notation": "\"During Flea\",d",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Flea Indian Stance",
+      "notation": "\"During Flea\",d,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Flea to Manji Dragonfly",
+      "notation": "\"During Flea\",u,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Flea to Dragonfly Feint",
+      "notation": "\"During Flea\",u,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Jumping Flea",
+      "notation": "\"During Flea\",u/f",
+      "hitLevels": [
+        "Mid",
+        "Unblockable 1",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Indian Stance",
+      "notation": "d,3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Indian Stance Healing",
+      "notation": "d,3+4,N",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Indian Stance Storm",
+      "notation": "\"During Indian Stance Healing\",1",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Indian Stance Stone Fists",
+      "notation": "\"During Indian Stance Healing\",2,D/B,2,2,2,2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 19
+    },
+    {
+      "name": "Indian Stance Cannon",
+      "notation": "\"During Indian Stance Healing\",3,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Indian Stance Knee Cap",
+      "notation": "\"During Indian Stance Healing\",4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Indian Stance Flea",
+      "notation": "\"During Indian Stance Healing\",1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Indian Levitation",
+      "notation": "\"During Indian Stance Healing\",3+4,\"Hold\"",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Indian Stance Vacuum Dance",
+      "notation": "\"During Indian Stance Healing\",b",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Indian Stance Manji Dragonfly",
+      "notation": "\"During Indian Stance Healing\",u,1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Harakiri",
+      "notation": "d,1+4",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Harakiri to Manji Blood Dance",
+      "notation": "d,1+4,B,1,1,1,1,1",
+      "hitLevels": [
+        "Unblockable 1",
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 48
+    },
+    {
+      "name": "Nade Kujaku",
+      "notation": "d/b,1,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 39
+    },
+    {
+      "name": "Stone Fists",
+      "notation": "D/B,2,2,2,2,2,2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Manji Spin Low Kicks",
+      "notation": "D/B,3,3,3,3,3,3",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Low",
+        "Low",
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Manji Spin Low Kicks Front Kick",
+      "notation": "\"During Manji Spin Low Kicks\",4",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Nozuchi Fumi",
+      "notation": "d/b,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 14
+    },
+    {
+      "name": "Bad Stomach",
+      "notation": "D/B,1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Poison Breath",
+      "notation": "\"During Bad Stomach\",1",
+      "hitLevels": [
+        "Unblockable 2"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Bad Stomach to Backflip Kick",
+      "notation": "\"During Bad Stomach\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Slap U Silly",
+      "notation": "b,1,1,1,1,1,1",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Slap U Silly to Side Spin",
+      "notation": "\"During Slap U\",\"Silly\",b,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Oma Gehosen",
+      "notation": "b,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Oma Kugiuchi",
+      "notation": "b,2,2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "Spinning Evade",
+      "notation": "B,3,3,3,3,3,3",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Sword Stab",
+      "notation": "u/b,1+2",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 40
+    },
+    {
+      "name": "Face Splitter",
+      "notation": "u/b,1+2,1+2",
+      "hitLevels": [
+        "Unblockable 2"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Sword Poke Windmill",
+      "notation": "u/b,1+2,N,1",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Manji Dragonfly",
+      "notation": "u,1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Dragonfly Blade",
+      "notation": "\"During Manji Dragonfly\",1",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Dragonfly Fist",
+      "notation": "\"During Manji Dragonfly\",2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Dragonfly Sweep",
+      "notation": "\"During Manji Dragonfly\",3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Dragonfly Twister",
+      "notation": "\"During Manji Dragonfly\",4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Manji Dragonfly to Flea",
+      "notation": "\"During Manji Dragonfly\",1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Spirited Away",
+      "notation": "\"During Manji Dragonfly\",3+4",
+      "hitLevels": [
+        "Unblockable 2"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Dragonfly Slash",
+      "notation": "\"During Manji Dragonfly\",f,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Manji Dragonfly to Indian Stance",
+      "notation": "\"During Manji Dragonfly\",d,3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Guillotine Crow Kick",
+      "notation": "u,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Helmet Strike",
+      "notation": "u/f,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Kurama Itto",
+      "notation": "u/f,2",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Rising Knee",
+      "notation": "u/f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Avoiding the Puddle",
+      "notation": "u/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Death Copter",
+      "notation": "u/f,1+2",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 40
+    },
+    {
+      "name": "Death Copter Slice",
+      "notation": "u/f,1+2,d",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Death Copter Trick",
+      "notation": "u/f,1+2,b",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Poison Wind",
+      "notation": "u/f,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Poison Wind to Kangaroo Kick",
+      "notation": "u/f,3+4,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 37
+    },
+    {
+      "name": "Poison Wind to Flea",
+      "notation": "u/f,3+4,d,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Poison Wind to Indian Stance",
+      "notation": "u/f,3+4,d,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Poison Wind Gold Fist",
+      "notation": "u/f,3+4,b,1,4,d,1",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Poison Wind Bronze Fist Steel Fist",
+      "notation": "u/f,3+4,b,1,3+4",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Poison Wind Eclipse Kick",
+      "notation": "u/f,3+4,u,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Sword Smash",
+      "notation": "f,F,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Yomi Kakenuke",
+      "notation": "f,F,2,\"Hit from front\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Iwatsubute",
+      "notation": "f,F,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Fubuki",
+      "notation": "f,F,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Solar Kick",
+      "notation": "f,F,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Reverse Cartwheel",
+      "notation": "f,F,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Solar Kick Shark Attack",
+      "notation": "f,F,3+4,1+2,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 44
+    },
+    {
+      "name": "Suicide",
+      "notation": "f,F,1+4",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 60
+    },
+    {
+      "name": "Confusion",
+      "notation": "f,F,1+4,N",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Double Suicide",
+      "notation": "f,F,1+4,F",
+      "hitLevels": [
+        "Unblockable 1",
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 60
+    },
+    {
+      "name": "Thunder Blade",
+      "notation": "b,B,1+4",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 50
+    },
+    {
+      "name": "Gehosen",
+      "notation": "f,N,d,d/f,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Flashing Steel",
+      "notation": "f,N,d,d/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Moonsault Slayer",
+      "notation": "d,d/f,f,1",
+      "hitLevels": [
+        "Unblockable 1",
+        "Unblockable 1",
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Manji Spin Kick",
+      "notation": "f,f,f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Door Knocker",
+      "notation": "\"WS\",1,1,1,1",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 57
+    },
+    {
+      "name": "Door Knocker to Back Knuckle",
+      "notation": "\"WS\",1,2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Scowling Moon God",
+      "notation": "\"WS\",2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Kimon Matagi",
+      "notation": "\"WS\",3,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Knee Cap",
+      "notation": "\"FC\",d/f,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Samurai Cutter",
+      "notation": "\"FC\",D/F,1",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 12
+    },
+    {
+      "name": "Inner Palm",
+      "notation": "\"SS\",1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Shrine",
+      "notation": "\"SS\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Aratama",
+      "notation": "\"Back towards enemy\",1,2",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Magatama",
+      "notation": "\"Back towards enemy\",1,3",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 41
+    },
+    {
+      "name": "Perilous Spirit",
+      "notation": "\"Back towards enemy\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Shisetsu Genman",
+      "notation": "\"Back towards enemy\",d,1",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Indian Stance Healing",
+      "notation": "\"While down\",d,3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Kaishaku",
+      "notation": "u,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 19
+    },
+    {
+      "name": "Mutou no Kiwami",
+      "notation": "2+3",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Karakuri Uzumaki",
+      "notation": "\"During Mutou no Kiwami\",2,1",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Utsusemi",
+      "notation": "\"During Mutou no Kiwami\",1+2,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Battou",
+      "notation": "\"During Mutou no Kiwami\",2+3",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Prison Gate",
+      "notation": "\"During Mutou no Kiwami\",f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Ishiusu Tsubushi",
+      "notation": "\"During Mutou no Kiwami\",u,1+2",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Scowling Aratama",
+      "notation": "\"During Mutou no Kiwami\",2,1,2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 47
+    },
+    {
+      "name": "Scowling Spirit",
+      "notation": "\"During Mutou no Kiwami\",2,1,3",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 54
+    },
+    {
+      "name": "Agonbaku",
+      "notation": "\"During Mutou no Kiwami\",D/F,1,2",
+      "hitLevels": [
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Spinning Cleave",
+      "notation": "\"During Mutou no Kiwami\",d/f,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 12
+    },
+    {
+      "name": "10 Hit Combo 1",
+      "notation": "1,2,1,4,4,4,1,1,1,1",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "High",
+        "High",
+        "High",
+        "Low",
+        "Mid",
+        "Unblockable 1",
+        "Unblockable 1",
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 95
+    },
+    {
+      "name": "10 Hit Combo 2",
+      "notation": "1,2,1,4,2,2,2,4,1,1",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "High",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 87
+    },
+    {
+      "name": "10 Hit Combo 3",
+      "notation": "4,4,2,2,1",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid",
+        "High",
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 65
+    },
+    {
+      "name": "Oni Killer",
+      "notation": "1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Oni Killer",
+      "notation": "f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Sword Face Smash",
+      "notation": "2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Sword Face Smash",
+      "notation": "f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Wheels of Hell",
+      "notation": "\"Approach from left side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 45
+    },
+    {
+      "name": "Neck Breaker",
+      "notation": "\"Approach from right side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Tornado Drop",
+      "notation": "\"Back\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 50
+    },
+    {
+      "name": "Soul Siphon",
+      "notation": "d,d/f,f,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 22
+    },
+    {
+      "name": "Rainbow Drop",
+      "notation": "d,d/b,b,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 50
+    },
+    {
+      "name": "Soul Possession",
+      "notation": "d,d/b,b,f,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 0
+    },
+    {
+      "name": "Sample Combo 1",
+      "notation": "d/f,2;f,3;d,2,2,d,1",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 46
+    },
+    {
+      "name": "Sample Combo 2",
+      "notation": "u/f,3;2,3;f,3+4;\"During Flea\",2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 53
+    },
+    {
+      "name": "Sample Combo 3",
+      "notation": "\"WS\",2,1;\"During Manji Dragonfly\",4;b,2,1,1+2;\"During Kincho\",f,2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 65
+    },
+    {
+      "name": "Sample Combo 4",
+      "notation": "\"FC\",D/F,1;【3,4,】U;\"During Manji Dragonfly\",4;\"Rage\",b,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 63
+    },
+    {
+      "name": "Sample Combo 5",
+      "notation": "【4,3,】;U/F,4;f,N,d,d/f,2;【3,4,】;\"Rage\",f,N,d,d/f,1+2;f,F,2,\"Hit from front\",2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 84
+    }
+  ]
+}

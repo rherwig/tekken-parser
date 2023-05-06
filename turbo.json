@@ -43,6 +43,11 @@
         },
         "deploy": {
             "dependsOn": ["build", "test"]
+        },
+        "extract": {
+            "outputs": [
+                ".output/**"
+            ]
         }
     }
 }

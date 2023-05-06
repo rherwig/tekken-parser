@@ -1,0 +1,1078 @@
+{
+  "name": "Lee",
+  "slug": "lee",
+  "moves": [
+    {
+      "name": "Rage Art",
+      "notation": "\"Rage\",d,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55
+    },
+    {
+      "name": "Rage Drive",
+      "notation": "\"Rage\",d/f,3+4,f,N",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Left Right Combo",
+      "notation": "1,2",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 16
+    },
+    {
+      "name": "Left Right Combo to Revolution Zwei",
+      "notation": "1,2,2,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 53
+    },
+    {
+      "name": "Left Right Mid Kick",
+      "notation": "1,2,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Left Right Max Mid",
+      "notation": "1,2,4,\"Hold\"",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 38
+    },
+    {
+      "name": "Left Right Combo to Mist Step",
+      "notation": "1,2,f,N",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 16
+    },
+    {
+      "name": "Acid Rain Kick Combination",
+      "notation": "1,3,\"Hit\",3,\"Hit\",3",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Combination Drei",
+      "notation": "2,1,1",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Combination Fünf",
+      "notation": "2,1,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 38
+    },
+    {
+      "name": "Combination Vier",
+      "notation": "2,1,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Right Cross to Revolution Zwei",
+      "notation": "2,2,3",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 47
+    },
+    {
+      "name": "Mist Kick",
+      "notation": "3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 16
+    },
+    {
+      "name": "Mist Wolf Combination",
+      "notation": "3,3",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Trick Kick",
+      "notation": "【3,3,】",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Mist Trap Throw",
+      "notation": "【3,3,】4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 38
+    },
+    {
+      "name": "Spinning Hammer Kick",
+      "notation": "4,3,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 47
+    },
+    {
+      "name": "Spin Kick Somersault Combo",
+      "notation": "4,3,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55
+    },
+    {
+      "name": "Machinegun Kicks",
+      "notation": "4,4,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Lee Somersault",
+      "notation": "4,u,3",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 41
+    },
+    {
+      "name": "Pirouette Punch",
+      "notation": "1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Hitman",
+      "notation": "3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Freaker Jab",
+      "notation": "\"Hitman\",1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 10
+    },
+    {
+      "name": "Freaker Jab Rush",
+      "notation": "\"Hitman\",1,1,1,1",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Excellent Combo",
+      "notation": "\"Hitman\",1,4",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Scatter Blow",
+      "notation": "\"Hitman\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Scatter Kick",
+      "notation": "\"Hitman\",3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 41
+    },
+    {
+      "name": "Shin Slicer",
+      "notation": "\"Hitman\",4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Poison Touch",
+      "notation": "\"Hitman\",1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Silver Slash",
+      "notation": "\"Hitman\",u/f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Silver Circle",
+      "notation": "\"Hitman\",u/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Double Signal",
+      "notation": "f,2,1",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Acid Storm",
+      "notation": "f,3,3,3,3,3,4",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Deadly Arc",
+      "notation": "f,4,3",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Aggressive One-Two",
+      "notation": "f,1+2",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Feather Landing",
+      "notation": "f,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Mist Step",
+      "notation": "f,N",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Inverted Axle",
+      "notation": "\"During Mist Step\",3,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Lee Sliding",
+      "notation": "\"During Mist Step\",3+4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Sway",
+      "notation": "\"During Mist Step\",b,N",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Spinning Axe Kick",
+      "notation": "\"During Mist Step\",b,N,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Mercury Drive",
+      "notation": "d/f,3,2,3",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 48
+    },
+    {
+      "name": "Front Kick",
+      "notation": "d/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 16
+    },
+    {
+      "name": "Revolution Zwei",
+      "notation": "d/f,1+2,3",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 41
+    },
+    {
+      "name": "Gut Polisher",
+      "notation": "d,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Silver Low",
+      "notation": "d,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Shin to Head Kick",
+      "notation": "d,4,N,4",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Shin to Spinning Hammer Kick",
+      "notation": "d,4,N,4,3,3",
+      "hitLevels": [
+        "Low",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 52
+    },
+    {
+      "name": "Shin to Spin Kick Somersault Combo",
+      "notation": "d,4,N,4,3,4",
+      "hitLevels": [
+        "Low",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 60
+    },
+    {
+      "name": "Laser Edge Machine Gun Kick",
+      "notation": "d,4,N,4,4,4",
+      "hitLevels": [
+        "Low",
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Laser Edge Lee Somersault",
+      "notation": "d,4,N,4,u,3",
+      "hitLevels": [
+        "Low",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 48
+    },
+    {
+      "name": "Laser Edge Kick Combo",
+      "notation": "D,4,4,4,4",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Silver Cyclone",
+      "notation": "d,3+4",
+      "hitLevels": [
+        "Unblockable 2"
+      ],
+      "isThrow": false,
+      "damage": 60
+    },
+    {
+      "name": "Bump Kick",
+      "notation": "d/b,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 13
+    },
+    {
+      "name": "Death Touch",
+      "notation": "d/b,1+2",
+      "hitLevels": [
+        "Unblockable 1",
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 50
+    },
+    {
+      "name": "Grass Snake",
+      "notation": "d/b,3+4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Triple Fang",
+      "notation": "b,1,1,2",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Triple Fang to Hitman",
+      "notation": "b,1,1,3+4",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 14
+    },
+    {
+      "name": "Triple Fang to Mist Step",
+      "notation": "b,1,1,f,N",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 8
+    },
+    {
+      "name": "Rear Cross Punch",
+      "notation": "b,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 13
+    },
+    {
+      "name": "Right Cross to Mist Step",
+      "notation": "b,2,f,N",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 13
+    },
+    {
+      "name": "Super High Combination",
+      "notation": "b,2,4,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Stinging Rush",
+      "notation": "b,3,3",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Stinging Rush to Mist Step",
+      "notation": "b,3,3,f,N",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Silver Heel",
+      "notation": "b,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Mist Flash",
+      "notation": "b,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Wheel of Fate",
+      "notation": "u/b,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Fake",
+      "notation": "u,3",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Brilliant Rosé",
+      "notation": "u/f,3,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Double Mazurek",
+      "notation": "u/f,3,4",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Silver Arrow",
+      "notation": "u/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 13
+    },
+    {
+      "name": "Silver Bullet",
+      "notation": "u/f,3+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Pulse Blast",
+      "notation": "f,F,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Deadly Edge",
+      "notation": "f,F,4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Blazing Kick",
+      "notation": "d,D/B,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Lee Cutter",
+      "notation": "b,B,4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Back Handspring to Hitman",
+      "notation": "u/b,b",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Waxing Crescent",
+      "notation": "f,f,f,3,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Rocket Heel",
+      "notation": "\"WS\",2,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Twister Heel",
+      "notation": "\"WS\",2,4",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Infinite Kick Chain 1",
+      "notation": "\"WS\",3,3,D,3,N,3,3,…",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Low",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 45
+    },
+    {
+      "name": "Infinite Kick Chain 2",
+      "notation": "\"WS\",3,3,D/F,3,N,3,3,…",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 47
+    },
+    {
+      "name": "Low Variation",
+      "notation": "\"During Infinite Kick Chain\",D,3,3,…",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Low",
+        "Mid",
+        "High",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55
+    },
+    {
+      "name": "High Variation",
+      "notation": "\"During Infinite Kick Chain\",U,3,3,…",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Low",
+        "Mid",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 45
+    },
+    {
+      "name": "Silver Tail",
+      "notation": "\"FC\",d/f,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Catapult Kick Low",
+      "notation": "\"FC\",u/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Catapult Kick High",
+      "notation": "\"FC\",U/F,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Catapult Drop",
+      "notation": "\"FC\",U/F,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Sliding",
+      "notation": "\"FC\",d/f,d,D/F,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Lee Screw Left",
+      "notation": "\"During\",\"sidestep\",3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Lee Screw Right ",
+      "notation": "\"During\",\"sidestep\",3+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "10 Hit Combo",
+      "notation": "d/f,1,2,2,1,3,3,3,4,3,4",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "High",
+        "High",
+        "Low",
+        "High",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 88
+    },
+    {
+      "name": "Forearm Drop",
+      "notation": "1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Forearm Drop",
+      "notation": "f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Axle Throw",
+      "notation": "2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Axle Throw",
+      "notation": "f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Lee Harassment",
+      "notation": "\"Approach from left side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Lee Stunner",
+      "notation": "\"Approach from right side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Face Crusher",
+      "notation": "\"Back\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 60
+    },
+    {
+      "name": "Knee Drive",
+      "notation": "f,F,3+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 30
+    },
+    {
+      "name": "Mist Illusion",
+      "notation": "\"Time with enemy punch\",b,1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Sample Combo 1",
+      "notation": "3+4;\"Hitman\",2;u/f,3,4;f,F,3",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 52
+    },
+    {
+      "name": "Sample Combo 2",
+      "notation": "\"WS\",2,3;f,F,3",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 54
+    },
+    {
+      "name": "Sample Combo 3",
+      "notation": "f,N;\"During Mist Step\",3,4;4;b,1,1,f,N;2,1,3;f,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "High",
+        "High",
+        "High",
+        "High",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 57
+    },
+    {
+      "name": "Sample Combo 4",
+      "notation": "u/f,4;d,2;b,2,f,N;b,2,4,3;\"Rage\",d,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "High",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 71
+    },
+    {
+      "name": "Sample Combo 5",
+      "notation": "d,D/B,4;U/F,4;\"Rage\",d/f,3+4,f,N;b,2,f,N;\"During Mist Step\",b,N;\"WS\",2,4;f,f,f,3,4",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 81
+    }
+  ]
+}

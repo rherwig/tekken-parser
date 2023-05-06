@@ -1,0 +1,950 @@
+{
+  "name": "Dragunov",
+  "slug": "dragunov",
+  "moves": [
+    {
+      "name": "Rage Art",
+      "notation": "\"Rage\",d,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55
+    },
+    {
+      "name": "Rage Drive",
+      "notation": "\"Rage\",f,f,f,1+2,d/b,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 30
+    },
+    {
+      "name": "Eye Gouge to Hilt",
+      "notation": "1,1,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 37
+    },
+    {
+      "name": "Salvo",
+      "notation": "1,2,1",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Hammer and Sickle",
+      "notation": "1,3,2",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 41
+    },
+    {
+      "name": "One Two Scud Kick",
+      "notation": "2,1,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 42
+    },
+    {
+      "name": "One Two Mine Kick",
+      "notation": "2,1,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Disconnector",
+      "notation": "3,1,2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 42
+    },
+    {
+      "name": "Karnov Hook",
+      "notation": "4,1",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Karnov Kick",
+      "notation": "4,3",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Karnov Avalanche",
+      "notation": "4,4",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 43
+    },
+    {
+      "name": "Bloodhound Strike",
+      "notation": "1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Iron Flail",
+      "notation": "3+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Stun Gun",
+      "notation": "f,2,4",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 40
+    },
+    {
+      "name": "High Salute to Sneak",
+      "notation": "f,3,D/F",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 11
+    },
+    {
+      "name": "Step-in Bardiche",
+      "notation": "f,3,2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Step-in Mantis",
+      "notation": "f,3,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 45
+    },
+    {
+      "name": "Cougar Combination",
+      "notation": "f,4,4,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 50
+    },
+    {
+      "name": "Cougar Maul",
+      "notation": "f,4,d,4",
+      "hitLevels": [
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Scabbard",
+      "notation": "f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Switchblade Ripper",
+      "notation": "d/f,1,4",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Scimitar",
+      "notation": "d/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 14
+    },
+    {
+      "name": "Mantis Heel",
+      "notation": "d/f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Bunker-buster Elbow",
+      "notation": "d,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Razer",
+      "notation": "d,2",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "March of Tyranny",
+      "notation": "d,3,4",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Separator",
+      "notation": "d,4,1,3",
+      "hitLevels": [
+        "Low",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 41
+    },
+    {
+      "name": "Stiletto",
+      "notation": "d,4,4",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Death's Door",
+      "notation": "d/b,2,1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 42
+    },
+    {
+      "name": "Clipping Sweep",
+      "notation": "d/b,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Clipping Heel Hook",
+      "notation": "d/b,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 55
+    },
+    {
+      "name": "Clipping Sweep to Feint & Catch",
+      "notation": "\"Approach\",d/b,3,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 45
+    },
+    {
+      "name": "Pommel Swing",
+      "notation": "b,1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Eye Gouge to Stingray",
+      "notation": "b,2,1,3",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Serrated Edge",
+      "notation": "b,3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Death March to Ear Grab",
+      "notation": "b,4,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 47
+    },
+    {
+      "name": "Death March to Takedown",
+      "notation": "b,4,2,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "War Machine",
+      "notation": "b,4,3",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 37
+    },
+    {
+      "name": "Blizzard Hammer",
+      "notation": "b,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Inertia Kick",
+      "notation": "b,3+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Sub-Zero",
+      "notation": "b,2+3",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 60
+    },
+    {
+      "name": "Counterstrike",
+      "notation": "u/b,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Eye Blast",
+      "notation": "u/f,1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Under Pressure",
+      "notation": "u/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Slicing Sobat",
+      "notation": "u/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Scorpion Scissors",
+      "notation": "u/f,3+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 36
+    },
+    {
+      "name": "Russian Sickle",
+      "notation": "f,F,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Feint & Catch",
+      "notation": "f,F,2,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Stinger Kick",
+      "notation": "f,F,3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Rolling Thunder",
+      "notation": "f,F,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Cocked Hammer",
+      "notation": "d,d/f,f,1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Stinger Elbow",
+      "notation": "d,d/f,f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Slay Ride",
+      "notation": "d,d/f,f,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Snap Knee",
+      "notation": "d,d/f,f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Pinpoint Fracture",
+      "notation": "d,d/f,f,4,\"Hit\",1,3,4,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55
+    },
+    {
+      "name": "Mass Elbow",
+      "notation": "d,d/b,b,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Russian Assault",
+      "notation": "f,f,f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Spetsnaz Assault",
+      "notation": "f,f,f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 50
+    },
+    {
+      "name": "Chernobog Sweep",
+      "notation": "\"Run more than 3\",\"steps\",3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 40
+    },
+    {
+      "name": "Qullion",
+      "notation": "\"WS\",1,2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Double Hilt",
+      "notation": "\"WS\",1,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Ballistic Upper",
+      "notation": "\"WS\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Glacial Hilt",
+      "notation": "\"WS\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Frost Tackle",
+      "notation": "\"WS\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Integral Slicer",
+      "notation": "\"SS\",2,3",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "Integral Blitz",
+      "notation": "\"SS\",2,1+2,4",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 56
+    },
+    {
+      "name": "Integral Takedown",
+      "notation": "\"SS\",2,1+2,1+2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 33
+    },
+    {
+      "name": "Pigeon Roll",
+      "notation": "\"SS\",3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Cane Stab",
+      "notation": "\"Back towards enemy\",d,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Living Dead",
+      "notation": "\"While down\",1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Death's Embrace",
+      "notation": "\"While down\",1+2,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 5
+    },
+    {
+      "name": "Six Feet Under",
+      "notation": "d,3+4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 19
+    },
+    {
+      "name": "10 Hit Combo 1",
+      "notation": "1,3,1,2,1,1,4,1,3,2",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "Mid",
+        "High",
+        "Mid",
+        "Low",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 107
+    },
+    {
+      "name": "10 Hit Combo 2",
+      "notation": "1,3,1,2,4,1+2",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 74
+    },
+    {
+      "name": "Volk Clutch",
+      "notation": "1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Volk Clutch",
+      "notation": "f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Purge Slam",
+      "notation": "2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Purge Slam",
+      "notation": "f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Tarantula Sting",
+      "notation": "\"Approach from left side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Reverse Fracture",
+      "notation": "\"Approach from right side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Absolute Silence",
+      "notation": "\"Back\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 50
+    },
+    {
+      "name": "Reverse Victor Clutch",
+      "notation": "f,1+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Victor Clutch",
+      "notation": "f,2+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Blizzard Rush",
+      "notation": "f,F,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 45
+    },
+    {
+      "name": "Ambush Tackle",
+      "notation": "d/b,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 5
+    },
+    {
+      "name": "Frost Bite",
+      "notation": "\"Tackle\",1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Achilles' Hold",
+      "notation": "\"Tackle\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Iron Curtain",
+      "notation": "\"Tackle\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Cold Fate",
+      "notation": "\"Approach\"",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 45
+    },
+    {
+      "name": "Red Alert",
+      "notation": "\"Parry\",b,1+3",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Pit Fall",
+      "notation": "\"Time with enemy low attack\",d/f,1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Sample Combo 1",
+      "notation": "u/f,4;d,4,1,3",
+      "hitLevels": [
+        "Mid",
+        "Low",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 41
+    },
+    {
+      "name": "Sample Combo 2",
+      "notation": "d/f,2;4,4;3,1,2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 51
+    },
+    {
+      "name": "Sample Combo 3",
+      "notation": "d,d/b,b,2;f,4,4,3;b,4,3;f,f,f,2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "High",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 66
+    },
+    {
+      "name": "Sample Combo 4",
+      "notation": "d/b,3;d,2;\"WS\",4;b,1,2;\"Rage\",d,1+2",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 77
+    },
+    {
+      "name": "Sample Combo 5",
+      "notation": "f,f,f,2,\"CH\";d,2;\"WS\",4;1;f,3,D/F;1;f,3,2;\"Rage\",f,f,f,1+2;d,3+4",
+      "hitLevels": [
+        "Mid",
+        "Low",
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 97
+    }
+  ]
+}

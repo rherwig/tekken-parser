@@ -1,0 +1,972 @@
+{
+  "name": "Feng",
+  "slug": "feng",
+  "moves": [
+    {
+      "name": "Rage Art",
+      "notation": "\"Rage\",d,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55
+    },
+    {
+      "name": "Rage Drive",
+      "notation": "\"Rage\",b,1+2,\"Hold\"",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Jab Spear Fist",
+      "notation": "1,1",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Firestorm",
+      "notation": "1,2,2",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Jab Roundhouse Combo",
+      "notation": "1,3",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "San Lian Heng",
+      "notation": "2,4,1",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 38
+    },
+    {
+      "name": "Peacock Sweep",
+      "notation": "3,3,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 56
+    },
+    {
+      "name": "Mad Windmill",
+      "notation": "【2,1,】1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Leaping Whirlwind Combo",
+      "notation": "【3,4,】3",
+      "hitLevels": [
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 41
+    },
+    {
+      "name": "Headspring",
+      "notation": "【4,3,】",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Iron Shield",
+      "notation": "1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Xuan Jiao Xiao Yan Shou",
+      "notation": "1+4",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Boar's Tusk",
+      "notation": "f,2,1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 42
+    },
+    {
+      "name": "Climbing Dragon",
+      "notation": "f,3,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Tornado Stomp",
+      "notation": "f,4,3",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Tornado Sweep",
+      "notation": "f,4,4",
+      "hitLevels": [
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Tiger's Claw",
+      "notation": "f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Shifting Clouds",
+      "notation": "f,3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Bao Dan Po",
+      "notation": "f,3+4,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Poison Chalice",
+      "notation": "f,3+4,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Scorpion Sting",
+      "notation": "f,3+4,3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Jin Bu Zhen",
+      "notation": "f,3+4,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Feng Ya Lian Ji",
+      "notation": "f,3+4,1+2,1,2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "God Fist",
+      "notation": "d/f,2,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Lift Kick",
+      "notation": "d/f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Front Kick",
+      "notation": "d/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Ruinous Halberd",
+      "notation": "d/f,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Heavy Hammer",
+      "notation": "d,2",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Parting Heavens",
+      "notation": "d,4,1+2",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Spear of Lu Bu",
+      "notation": "d/b,1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Spinning Neck Strike",
+      "notation": "d/b,1,4",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Hellwinds",
+      "notation": "d/b,2,2,2",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Piercing Arrow",
+      "notation": "d/b,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 12
+    },
+    {
+      "name": "Sweep Kick",
+      "notation": "d/b,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Dragon Slayer",
+      "notation": "d/b,1+2,2",
+      "hitLevels": [
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Iron Palm",
+      "notation": "b,1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Hungry Tiger",
+      "notation": "b,2,3,4,2",
+      "hitLevels": [
+        "Mid",
+        "Low",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 49
+    },
+    {
+      "name": "Zhuan Shen Lian Wu",
+      "notation": "b,3,3",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Zhuan Shen Huan Wu",
+      "notation": "B,【3,4,】",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Backfist",
+      "notation": "\"Back towards enemy\",1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 12
+    },
+    {
+      "name": "Circling Tiger",
+      "notation": "\"Back towards enemy\",2,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Hustle Elbow",
+      "notation": "\"Back towards enemy\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Reverse Sweep Kick",
+      "notation": "\"Back towards enemy\",d,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Pao Lau Impaler",
+      "notation": "\"Back towards enemy\",1+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 50
+    },
+    {
+      "name": "Fish Hook",
+      "notation": "b,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 14
+    },
+    {
+      "name": "Iron Fortress",
+      "notation": "b,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Deceptive Step",
+      "notation": "b,3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Fractured Diamond",
+      "notation": "b,3+4,1",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Fei He Zhang",
+      "notation": "b,3+4,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Rising Swallow Kick",
+      "notation": "b,3+4,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Leaping Lion",
+      "notation": "b,3+4,4,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Throat Gouge",
+      "notation": "u/b,2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Death Palm",
+      "notation": "u/b,1+2",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 70
+    },
+    {
+      "name": "Leaping Hammer Fist",
+      "notation": "u,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Eagle Claw",
+      "notation": "u/f,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 12
+    },
+    {
+      "name": "Evading Palm Strike",
+      "notation": "u/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Side Swipe",
+      "notation": "u/f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Soaring Eagle",
+      "notation": "u/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 13
+    },
+    {
+      "name": "Assassin's Bow",
+      "notation": "u/f,3+4,3",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 37
+    },
+    {
+      "name": "Exploding Dagger",
+      "notation": "f,F,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Tremor Stomp",
+      "notation": "f,F,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Spreading Wings",
+      "notation": "f,F,4,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Nian Zhang Mie Ba",
+      "notation": "f,F,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Falcon's Beak",
+      "notation": "b,f,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Lingering Shadow",
+      "notation": "d,d/f,f",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Landslide",
+      "notation": "d,d/f,f,1",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Mountain Crusher",
+      "notation": "d,d/f,f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Yan Wang's Wrath",
+      "notation": "d,d/f,f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Severing Sword",
+      "notation": "f,f,f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Dancing Dragon",
+      "notation": "\"WS\",1,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 43
+    },
+    {
+      "name": "Adamantine Uppercut",
+      "notation": "\"WS\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Bow Kick",
+      "notation": "\"WS\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 16
+    },
+    {
+      "name": "Rising Heel Kick",
+      "notation": "\"WS\",4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Push Hands",
+      "notation": "\"WS\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Silent Arrow",
+      "notation": "\"FC\",d/f,1",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Monkey Strike",
+      "notation": "\"FC\",d/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Hidden Intentions",
+      "notation": "\"SS\",2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Jade Spear to Hustle Elbow",
+      "notation": "\"SS\",3,2",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Sweep Kick",
+      "notation": "\"SS\",4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Enlightened Circle",
+      "notation": "\"SS\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Spring Up",
+      "notation": "\"While down\",3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Thunder Stomp",
+      "notation": "d,3+4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 19
+    },
+    {
+      "name": "Taunt",
+      "notation": "1+3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "10 Hit Combo 1",
+      "notation": "1,1,2,1,3,4,2,2,2,2",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Low",
+        "Mid",
+        "Low",
+        "Low",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 83
+    },
+    {
+      "name": "10 Hit Combo 2",
+      "notation": "1,1,2,1,3,4,2,4,3,1+2",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Low",
+        "Mid",
+        "Low",
+        "High",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 110
+    },
+    {
+      "name": "Neck Twister",
+      "notation": "1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Neck Twister",
+      "notation": "f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Serpent Slayer",
+      "notation": "2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Serpent Slayer",
+      "notation": "f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Jaws of Death",
+      "notation": "\"Approach from left side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Wandering Soul",
+      "notation": "\"Approach from right side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Violent Storm",
+      "notation": "\"Back\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 50
+    },
+    {
+      "name": "Avalanche",
+      "notation": "d/f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Attack Reversal",
+      "notation": "\"Time with enemy punch\",b,1+3",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Shifting Clouds",
+      "notation": "\"Parry\",f,3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Sample Combo 1",
+      "notation": "f,F,4,3;d,4,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 38
+    },
+    {
+      "name": "Sample Combo 2",
+      "notation": "u/f,4;f,1+2;f,3,4;b,1+2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 54
+    },
+    {
+      "name": "Sample Combo 3",
+      "notation": "f,3,4;d/f,1;d/b,1,4;【3,4,】3",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 67
+    },
+    {
+      "name": "Sample Combo 4",
+      "notation": "\"WS\",3;3,3;d/b,1,4;\"Rage\",d,1+2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 72
+    },
+    {
+      "name": "Sample Combo 5",
+      "notation": "f,F,4,3;f,1+2;f,3,4;\"Rage\",b,1+2,\"Hold\"",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 65
+    }
+  ]
+}

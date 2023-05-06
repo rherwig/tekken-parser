@@ -1,0 +1,1295 @@
+{
+  "name": "Steve",
+  "slug": "steve",
+  "moves": [
+    {
+      "name": "Rage Art",
+      "notation": "\"Rage\",1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 55
+    },
+    {
+      "name": "Rage Drive",
+      "notation": "\"Rage\",d/f,3+4,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 59
+    },
+    {
+      "name": "Double Jab",
+      "notation": "1,1",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 14
+    },
+    {
+      "name": "Lightning Combo",
+      "notation": "1,1,2",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Double Jab Body Blow",
+      "notation": "1,1,d,1",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Double Jab Body Blow to Flicker Stance",
+      "notation": "1,1,d,1,B",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Left Right",
+      "notation": "1,2",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Jab Body Blow",
+      "notation": "1,d,1",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Jab Body Blow to Flicker Stance",
+      "notation": "1,d,1,B",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Left Right Left",
+      "notation": "1,2,1",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Left Right Left to Peekaboo",
+      "notation": "1,2,1,F",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Left Right Left to Flicker Stance",
+      "notation": "1,2,1,B",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "British Edge Combo",
+      "notation": "1,2,1,2",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 47
+    },
+    {
+      "name": "British Edge Combo 2",
+      "notation": "1,2,1,d,2",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Straight Body to Peekaboo",
+      "notation": "2,1,F",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Straight Body to Flicker Stance",
+      "notation": "2,1,B",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Vanguard Rush",
+      "notation": "2,1,2",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 48
+    },
+    {
+      "name": "Ducking Left",
+      "notation": "3",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Double Stinger",
+      "notation": "\"During Ducking Left\",1,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Left Body to Flicker Stance",
+      "notation": "\"During Ducking Left\",1,B",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 14
+    },
+    {
+      "name": "Centurion Rush",
+      "notation": "\"During Ducking Left\",1,f,1,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Centurion Rush to Flicker Stance",
+      "notation": "\"During Ducking Left\",1,f,1,1,B",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Right Shoulder Rush to Peekaboo",
+      "notation": "\"During Ducking Left\",2,F",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 13
+    },
+    {
+      "name": "Right Shoulder Rush to Billy Club",
+      "notation": "\"During Ducking Left\",2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Ducking Right",
+      "notation": "4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Left Shoulder Rush to Peekaboo",
+      "notation": "\"During Ducking Right\",1,F",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 13
+    },
+    {
+      "name": "Left Shoulder Rush to Uppercut",
+      "notation": "\"During Ducking Right\",1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Gut Drill",
+      "notation": "\"During Ducking Right\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Quick Spin",
+      "notation": "3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Spin to Peekaboo",
+      "notation": "\"During Quick Spin\",F",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Cyclone Punch",
+      "notation": "\"During Quick Spin\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Cyclone Knee Clip",
+      "notation": "\"During Quick Spin\",d,2",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Cyclone Left (Right)",
+      "notation": "\"During Quick Spin\",U",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Double Cyclone Punch",
+      "notation": "\"During Quick Spin\",U,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Spin to Peekaboo",
+      "notation": "\"During Quick Spin\",U,F",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Double Cyclone Knee Punch",
+      "notation": "\"During Quick Spin\",U,d,1",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Ducking Body Blow to Left Hook",
+      "notation": "f,2,1",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Ducking Psyche-out Body",
+      "notation": "f,2,【1,2,】",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Ducking Body Blow to Left Hook to Peekaboo",
+      "notation": "f,2,1,F",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Ducking Body Blow to Left Hook to Flicker Stance",
+      "notation": "f,2,1,B",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Ducking",
+      "notation": "f,3",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Fox Hunt",
+      "notation": "\"While Ducking\",1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Skyscraper",
+      "notation": "\"While Ducking\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Punisher",
+      "notation": "\"While Ducking\",f,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Gatling Gun",
+      "notation": "\"While Ducking\",1+2,1,2,1,2,1,2,1,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 39
+    },
+    {
+      "name": "Ducking In",
+      "notation": "f,3,\"Hold\",F",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Power Fox Hunt",
+      "notation": "\"While Ducking I\",n1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Power Skyscraper",
+      "notation": "\"While Ducking I\",n2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Power Punisher",
+      "notation": "\"While Ducking I\",nf,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Shotgun Combination",
+      "notation": "f,1+2,2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 42
+    },
+    {
+      "name": "Peekaboo",
+      "notation": "f,3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Albion Combination",
+      "notation": "\"During Peekaboo\",1,2,1",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 45
+    },
+    {
+      "name": "Spite Hook",
+      "notation": "\"During Peekaboo\",2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 19
+    },
+    {
+      "name": "Ten Count",
+      "notation": "\"During Peekaboo\",1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 45
+    },
+    {
+      "name": "Straight Punch Combination",
+      "notation": "\"During Peekaboo\",f,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Break",
+      "notation": "\"During Peekaboo\",f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 5
+    },
+    {
+      "name": "Argos Rush",
+      "notation": "\"During Peekaboo\",d/f,1,1,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 56
+    },
+    {
+      "name": "Cross Cut",
+      "notation": "\"During Peekaboo\",d/f,1,2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Cutting Elbow",
+      "notation": "\"During Peekaboo\",d/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 16
+    },
+    {
+      "name": "Patella Smash",
+      "notation": "\"During Peekaboo\",d,1",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 12
+    },
+    {
+      "name": "Knuckle Plow",
+      "notation": "\"During Peekaboo\",d,2",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Lancaster Combination",
+      "notation": "\"During Peekaboo\",b,1,1,2,1",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 58
+    },
+    {
+      "name": "Lancaster Combination to Flicker Stance",
+      "notation": "\"During Peekaboo\",b,1,1,2,1,B",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 58
+    },
+    {
+      "name": "Swaying Hook",
+      "notation": "\"During Peekaboo\",b,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Dreadnought Uppercut",
+      "notation": "\"During Peekaboo\",u/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Left Uppercut",
+      "notation": "d/f,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 12
+    },
+    {
+      "name": "Uppercut Cross Combo",
+      "notation": "d/f,1,2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Uppercut Psyche-out Hook",
+      "notation": "d/f,1,【2,1,】",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Uppercut Psyche-out Hook to Flicker Stance",
+      "notation": "d/f,1,【2,1,】B",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Uppercut Psyche-out Body",
+      "notation": "d/f,1,【2,2,】",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Uppercut Psyche-out Left Right Combo",
+      "notation": "d/f,1,【2,f,1+2,】",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Crescent Hook",
+      "notation": "d/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Sonic Fang",
+      "notation": "d/f,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Knee Blaster",
+      "notation": "d,1",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 14
+    },
+    {
+      "name": "Wildman Combo 1",
+      "notation": "D,2,1,2",
+      "hitLevels": [
+        "Low",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Scorpion's Claw",
+      "notation": "d,【2,N,1,】2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Wildman Combo 2",
+      "notation": "d,【2,N,1,】f,2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Knee Clipper",
+      "notation": "d/b,2",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Foot Stomp Right Hook",
+      "notation": "d/b,3,2",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Stun Gun",
+      "notation": "d/b,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Quick Hook",
+      "notation": "b,1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Quick Hook to Flicker Stance",
+      "notation": "b,1,B",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Quick Hook & Straight",
+      "notation": "b,1,2",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Quick Hook & Straight to Peekaboo",
+      "notation": "b,1,2,F",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Frigate to Peekaboo",
+      "notation": "b,1,d,2,F",
+      "hitLevels": [
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Frigate Combo",
+      "notation": "b,1,d,2,1",
+      "hitLevels": [
+        "High",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 47
+    },
+    {
+      "name": "Body Bomb",
+      "notation": "b,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Swaying",
+      "notation": "b,3",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Billy Club",
+      "notation": "\"While Swaying\",1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Snake Charmer",
+      "notation": "\"While Swaying\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Position Change",
+      "notation": "\"While Swaying\",1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 0
+    },
+    {
+      "name": "Flicker Stance",
+      "notation": "b,3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Spitfire Combo",
+      "notation": "\"During Flicker Stance\",1,1,1,2",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 48
+    },
+    {
+      "name": "Tempest Combo",
+      "notation": "\"During Flicker Stance\",1,f,1",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Power Hook Combo",
+      "notation": "\"During Flicker Stance\",1,d,1",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "Fly Swatter",
+      "notation": "\"During Flicker Stance\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Griffin Throw",
+      "notation": "\"During Flicker Stance\",1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "British Lancer",
+      "notation": "\"During Flicker Stance\",b,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Over the Top",
+      "notation": "u/f,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Burst Hammer",
+      "notation": "u/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Jump-in Foot Stomp Right Hook",
+      "notation": "u/f,3,2",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Jumping Duck Kick",
+      "notation": "u/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Beat Down",
+      "notation": "f,F,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Rocket Launcher",
+      "notation": "d,d/f,f,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Rocket Launcher to Flicker Stance",
+      "notation": "d,d/f,f,1,B",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Hellfire",
+      "notation": "d,d/b,b,f,2+3",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 70
+    },
+    {
+      "name": "Eraser",
+      "notation": "f,f,f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Sliding Low Punch",
+      "notation": "\"Run more than 3\",\"steps\",1",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Eagle Jab",
+      "notation": "\"WS\",1,1",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 19
+    },
+    {
+      "name": "Wildman",
+      "notation": "\"WS\",1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Right Uppercut",
+      "notation": "\"WS\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Finishing Blow",
+      "notation": "\"FC\",d/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Cheapshot",
+      "notation": "d,1+2",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 12
+    },
+    {
+      "name": "Taunt",
+      "notation": "2+3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "10 Hit Combo 1",
+      "notation": "d/f,1,【2,f,1+2,】1,1,2,1,1,2,1,2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "High",
+        "Low",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 98
+    },
+    {
+      "name": "10 Hit Combo 2",
+      "notation": "d/f,1,【2,f,1+2,】1,1,2,1,1,2,1,b,2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "High",
+        "Low",
+        "Mid",
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 116
+    },
+    {
+      "name": "Gut Wrencher",
+      "notation": "1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Gut Wrencher",
+      "notation": "f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Brain Pulverizer",
+      "notation": "2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Brain Pulverizer",
+      "notation": "f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Choker Slam",
+      "notation": "\"Approach from left side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Throw Down",
+      "notation": "\"Approach from right side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Schoolyard Bully",
+      "notation": "\"Back\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 55
+    },
+    {
+      "name": "Armlock Throw",
+      "notation": "f,F,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Spinning Elbow Drop",
+      "notation": "d,d/b,b,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Parry",
+      "notation": "\"Time with enemy punch\",b,1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Sample Combo 1",
+      "notation": "b,3+4;\"During Flicker Stance\",b,2;3+4;\"During Quick Spin\",2",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 44
+    },
+    {
+      "name": "Sample Combo 2",
+      "notation": "\"FC\",d/f,2;f,2,1,B;\"During Flicker Stance\",1,d,1;f,F,2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 50
+    },
+    {
+      "name": "Sample Combo 3",
+      "notation": "f,3+4;\"During Peekaboo\",d/f,2;\"During Peekaboo\",d/f,1,2;d/f,1,【2,1,】B;\"During Flicker Stance\",1,B;3+4;\"During Quick Spin\",2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 52
+    },
+    {
+      "name": "Sample Combo 4",
+      "notation": "u/f,2;b,1,d,2,1;f,2,1,B;f,3;\"During Ducking\",f,2;d/f,1+2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Low",
+        "Mid",
+        "Mid",
+        "High",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 66
+    },
+    {
+      "name": "Sample Combo 5",
+      "notation": "f,3;\"During Ducking\",2;b,2;d/f,1,【2,1,】B;f,3;\"During Ducking\",f,2;f,3,\"Hold\",F;\"During Ducking I\",n1;\"Rage\",1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "High",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 80
+    }
+  ]
+}

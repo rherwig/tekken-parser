@@ -1,0 +1,1032 @@
+{
+  "name": "Kuma",
+  "slug": "kuma",
+  "moves": [
+    {
+      "name": "Rage Art",
+      "notation": "\"Rage\",b,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55
+    },
+    {
+      "name": "Rage Drive",
+      "notation": "\"Rage\",f,F,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Left Right Bear Claw",
+      "notation": "1,2",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Jab Elbow Smash",
+      "notation": "2,1,2",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 43
+    },
+    {
+      "name": "Jab Elbow Stomp",
+      "notation": "2,1,3",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Triple Hammer",
+      "notation": "1+2,1+2,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 51
+    },
+    {
+      "name": "Hunting",
+      "notation": "3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Double Bear Claw",
+      "notation": "\"During Hunting\",1,2",
+      "hitLevels": [
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Bear Claw",
+      "notation": "\"During Hunting\",2",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 16
+    },
+    {
+      "name": "Bear Fling",
+      "notation": "\"During Hunting\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Bear Tackle",
+      "notation": "\"During Hunting\",3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Bear Toss",
+      "notation": "\"During Hunting\",f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 30
+    },
+    {
+      "name": "Killing Uppercut Grizzly Scratch",
+      "notation": "\"During Hunting\",d/f,1,1",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 39
+    },
+    {
+      "name": "Big Tree",
+      "notation": "\"During Hunting\",d/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Frolicking Bear",
+      "notation": "\"During Hunting\",d,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Break'n",
+      "notation": "\"During Hunting\",b,1+2,1+2",
+      "hitLevels": [
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 39
+    },
+    {
+      "name": "Hunting Hip Smash",
+      "notation": "\"During Hunting\",b,3+4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Hunting to Roll Over",
+      "notation": "\"During Hunting\",3",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Hunting to Play Dead",
+      "notation": "\"During Hunting\",d,3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Hunting to Crouch ",
+      "notation": "\"During Hunting\",d/b",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Hunting to Backward Roll",
+      "notation": "\"During Hunting\",b,b",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Hunting to Standing",
+      "notation": "\"During Hunting\",u",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "G-Clef Cannon",
+      "notation": "f,1,1,1",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Wild Lumberjack",
+      "notation": "f,2,1",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Double Claw",
+      "notation": "f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Shape-Up Kick",
+      "notation": "f,3+4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Shape-Up Hip",
+      "notation": "f,3+4,1+2",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Rushing Uppercut L",
+      "notation": "d/f,1,2,1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Kuma Musou",
+      "notation": "d/f,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Honey Trap",
+      "notation": "d/f,3,2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 37
+    },
+    {
+      "name": "Ultra Kuma",
+      "notation": "d/f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Hip Smash",
+      "notation": "d,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Sit",
+      "notation": "d,3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Rebound",
+      "notation": "d,3+4,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Trout Sweep",
+      "notation": "\"During Sit\",1",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 16
+    },
+    {
+      "name": "Trout Smash",
+      "notation": "\"During Sit\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Wild Slap",
+      "notation": "d/b,1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 14
+    },
+    {
+      "name": "Double Wild Slap",
+      "notation": "d/b,1,2",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Bear Lariat",
+      "notation": "d/b,2",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 14
+    },
+    {
+      "name": "Bear Pump in Pedal",
+      "notation": "d/b,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Spinning Kuma",
+      "notation": "d/b,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Drum Roll",
+      "notation": "d/b,1+2,1+2,2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 44
+    },
+    {
+      "name": "Bear Slash",
+      "notation": "b,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Howling Bear",
+      "notation": "b,2,1,1+2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 46
+    },
+    {
+      "name": "Bear Flail Kick",
+      "notation": "b,【3,4,】",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "High Jinks",
+      "notation": "b,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Deadly Claw",
+      "notation": "u/b,1+2",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Rolling Bear",
+      "notation": "u/b,1+2,f,d/f,d,d/b,b,u/b,u,u/f",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 43
+    },
+    {
+      "name": "Bear Skip",
+      "notation": "u,1+2",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Hornet Sweep",
+      "notation": "u/f,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Bear Double Hop Kick Combo",
+      "notation": "u/f,3,4,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "Kuma Hell Axle",
+      "notation": "u/f,4,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Big Bear Attack",
+      "notation": "u/f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Pancake Press",
+      "notation": "u/f,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Demon Uppercut",
+      "notation": "f,F,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Anger Hook",
+      "notation": "b,f,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Salmon Hunter",
+      "notation": "b,f,2+3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Salmon Hunter",
+      "notation": "b,f,2+3,\"Hold\"",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 45
+    },
+    {
+      "name": "Grizzly Claws",
+      "notation": "b,d/b,d,d/f,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 43
+    },
+    {
+      "name": "Grizzly Claw Smash",
+      "notation": "b,d/b,d,d/f,2,2",
+      "hitLevels": [
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 40
+    },
+    {
+      "name": "Leaping Side Kick",
+      "notation": "f,f,f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Rabid Bear",
+      "notation": "f,f,f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Killing Uppercut Grizzly Scratch",
+      "notation": "\"WS\",1,1",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 39
+    },
+    {
+      "name": "Killing Uppercut Grizzly Claw",
+      "notation": "\"WS\",1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 48
+    },
+    {
+      "name": "Mad Angler",
+      "notation": "\"WS\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Spinning Bear Kick",
+      "notation": "\"WS\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Double Hammer",
+      "notation": "\"WS\",1+2,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Hammer Rush 2 High",
+      "notation": "\"WS\",f,1,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Hammer Rush 2 Mid",
+      "notation": "\"WS\",f,1,2,d/f,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 39
+    },
+    {
+      "name": "Hammer Rush 2 Low",
+      "notation": "\"WS\",f,1,2,d,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Hammer Rush 1 High",
+      "notation": "\"FC\",1,1,1,2,1",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 48
+    },
+    {
+      "name": "Hammer Rush 1 Mid",
+      "notation": "\"FC\",1,1,1,2,d/f,1",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 51
+    },
+    {
+      "name": "Hammer Rush 1 Low",
+      "notation": "\"FC\",1,1,1,2,d,1",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Mid",
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 44
+    },
+    {
+      "name": "Windmill Punch",
+      "notation": "\"FC\",d/f,1,2,1,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Triple Uppercut Right",
+      "notation": "\"FC\",d/f,2,d/f,1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Hammer Rush 3 Low",
+      "notation": "\"FC\",d/f,2,d,1",
+      "hitLevels": [
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Forward Roll",
+      "notation": "\"FC\",d/f,1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Bear Shove",
+      "notation": "\"During Forward Roll\",1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Bear Backhand",
+      "notation": "\"During Forward Roll\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Bear Slide",
+      "notation": "\"During Forward Roll\",3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Bear Rolling Kick",
+      "notation": "\"During Forward Roll\",4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Giant Roll",
+      "notation": "\"During Forward Roll\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Hunting",
+      "notation": "\"During Forward Roll\",3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Salmon Swipe",
+      "notation": "\"SS\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Bear Backstroke",
+      "notation": "\"While down\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Get Up Punch",
+      "notation": "\"While down\",d,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Bear Butterfly",
+      "notation": "\"While down\",1+2",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Dance With Me",
+      "notation": "d,1+4",
+      "hitLevels": [
+        "Low",
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 64
+    },
+    {
+      "name": "You're Welcome",
+      "notation": "1+3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "10 Hit Combo 1",
+      "notation": "\"FC\",d/f,2,1,1+2,3,1+2,1+2,1+2,1,2,1+2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "Low",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Low",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 87
+    },
+    {
+      "name": "10 Hit Combo 2",
+      "notation": "\"FC\",d/f,2,1,1+2,3,1+2,3+4,1+2,2,3,1",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "Low",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 106
+    },
+    {
+      "name": "Bear's Bite",
+      "notation": "1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Bear's Bite",
+      "notation": "f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Bear Hug",
+      "notation": "2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Bear Hug",
+      "notation": "f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Bear Slam",
+      "notation": "\"Approach from left side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 50
+    },
+    {
+      "name": "Choke Slam",
+      "notation": "\"Approach from right side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Swing Swung",
+      "notation": "\"Back\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 70
+    },
+    {
+      "name": "Headbutt",
+      "notation": "f,F,1+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Rock'n Roll Circus",
+      "notation": "f,d/f,d,d/b,b,f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 50
+    },
+    {
+      "name": "Sample Combo 1",
+      "notation": "u/f,3;f,2,1;d/f,1+2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 42
+    },
+    {
+      "name": "Sample Combo 2",
+      "notation": "d/b,4;\"WS\",3;u/f,3,4,1+2",
+      "hitLevels": [
+        "Low",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 51
+    },
+    {
+      "name": "Sample Combo 3",
+      "notation": "f,F,2;u/f,1+2;d/f,3,2;b,2,1,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 70
+    },
+    {
+      "name": "Sample Combo 4",
+      "notation": "d/f,2,1;b,2,1,3+4;\"During Hunting\",d/f,1,1;\"Rage\",b,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 76
+    },
+    {
+      "name": "Sample Combo 5",
+      "notation": "f,1+2;\"Rage\",f,F,1+2;b,f,2;b,2,1,3+4;\"During Hunting\",d/f,1,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 75
+    }
+  ]
+}

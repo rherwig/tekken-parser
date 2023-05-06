@@ -1,0 +1,1386 @@
+{
+  "name": "Nina",
+  "slug": "nina",
+  "moves": [
+    {
+      "name": "Rage Art",
+      "notation": "\"Rage\",d,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55
+    },
+    {
+      "name": "Rage Drive",
+      "notation": "\"Rage\",f,2+3,D/F",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 50
+    },
+    {
+      "name": "Left Right Combo",
+      "notation": "1,2",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Biting Snake",
+      "notation": "1,2,1,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Left Right to Spider Knee",
+      "notation": "1,2,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Bermuda Triangle",
+      "notation": "1,2,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 39
+    },
+    {
+      "name": "Double Explosion 1",
+      "notation": "1,2,f,1+2",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 39
+    },
+    {
+      "name": "Double Explosion 2",
+      "notation": "1,2,1,2,f,1+2",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 51
+    },
+    {
+      "name": "PK Combo to Assassin's Blade",
+      "notation": "1,4,1",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 43
+    },
+    {
+      "name": "Right Left Combo",
+      "notation": "2,1",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 16
+    },
+    {
+      "name": "Biting Snake (Short)",
+      "notation": "2,1,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Double Smash",
+      "notation": "2,3",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Jab Roundhouse",
+      "notation": "2,4",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Double Explosion (Short)",
+      "notation": "2,f,1+2",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Spike Combo to Right Uppercut",
+      "notation": "3,3,2",
+      "hitLevels": [
+        "High",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Spike Combo to Easy Prey",
+      "notation": "3,3,4,3",
+      "hitLevels": [
+        "High",
+        "Low",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 62
+    },
+    {
+      "name": "Head Ringer",
+      "notation": "3,4",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Left High Kick to Right Roll",
+      "notation": "3,d",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 14
+    },
+    {
+      "name": "Left High Kick to Spiral Explosion",
+      "notation": "3,d,1+2",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Right High to Left Spin Low Kick",
+      "notation": "4,3",
+      "hitLevels": [
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Blonde to Right Uppercut",
+      "notation": "4,3,2",
+      "hitLevels": [
+        "High",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 38
+    },
+    {
+      "name": "Blonde to Easy Prey",
+      "notation": "4,3,4,3",
+      "hitLevels": [
+        "High",
+        "Low",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 66
+    },
+    {
+      "name": "Right High Kick to Left Roll",
+      "notation": "4,u",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Right High Kick to Spiral Explosion",
+      "notation": "4,u,1+2",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 37
+    },
+    {
+      "name": "Ivory Cutter",
+      "notation": "1+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Dead Drop",
+      "notation": "f,2,1,2",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 38
+    },
+    {
+      "name": "Mimosa Combo",
+      "notation": "f,2,1,4",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 39
+    },
+    {
+      "name": "Siren's Kiss",
+      "notation": "f,3",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Sweeper Combo",
+      "notation": "f,4,3,3",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Double Whip",
+      "notation": "f,4,4",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Blonde Bomb",
+      "notation": "f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Uppercut to Jab",
+      "notation": "d/f,1,2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Leg Slicer Combo",
+      "notation": "d/f,3,1,2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Assault Bomb",
+      "notation": "d/f,3,1,2,f,1+2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 51
+    },
+    {
+      "name": "Creeping Step",
+      "notation": "d/f,3,2,D/F",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Creeping Snake",
+      "notation": "d/f,3,2,1,4",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 43
+    },
+    {
+      "name": "Creeping Snake to Geyser Cannon",
+      "notation": "d/f,3,2,3",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Creeping Snake to Right High Kick",
+      "notation": "d/f,3,2,4",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Creeping Snake to Left Low Right Uppercut",
+      "notation": "d/f,3,2,d,3,2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Creeping Snake to Easy Prey",
+      "notation": "d/f,3,2,d,3,4,3",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Low",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 63
+    },
+    {
+      "name": "Flash Kicks",
+      "notation": "d/f,3,3,3,4",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 47
+    },
+    {
+      "name": "Deadly Assault",
+      "notation": "d/f,3,4,4",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 54
+    },
+    {
+      "name": "Deadly Hunter",
+      "notation": "d/f,3,4,3+4",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55
+    },
+    {
+      "name": "Left Middle to Right High Kick",
+      "notation": "d/f,3,f,4",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "Ray Hands",
+      "notation": "d/f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Below the Belt Combo",
+      "notation": "d,1,2,4",
+      "hitLevels": [
+        "Special Mid",
+        "Special Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Jab to Mid Kick",
+      "notation": "d,1,4",
+      "hitLevels": [
+        "Special Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Cutthroat",
+      "notation": "d,2,3",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "Left Spin Low Kick to Right Upper",
+      "notation": "d,3,2",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Easy Prey",
+      "notation": "d,3,4,3",
+      "hitLevels": [
+        "Low",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 50
+    },
+    {
+      "name": "Right Low Kick to Back Spin Chop",
+      "notation": "d,4,1",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Right Backhand Body Blow",
+      "notation": "d/b,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Stiletto Heel",
+      "notation": "d/b,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Slicer",
+      "notation": "d/b,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 5
+    },
+    {
+      "name": "Geyser Cannon Combo",
+      "notation": "d/b,4,3",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Power Charge",
+      "notation": "d/b,1+2",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 50
+    },
+    {
+      "name": "Geyser Cannon",
+      "notation": "d/b,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Left Backhand Body Blow",
+      "notation": "b,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Backhand Combo",
+      "notation": "b,2,2,2",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 46
+    },
+    {
+      "name": "Stinger Heel Kick Combo",
+      "notation": "b,3,4",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Spear Kick",
+      "notation": "b,4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Shockwave Palm",
+      "notation": "b,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Reverse Ivory Cutter",
+      "notation": "b,1+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Skull Splitter",
+      "notation": "u/f,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Binding Whip",
+      "notation": "u/f,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Catapult Kick",
+      "notation": "u/f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Can Opener",
+      "notation": "u/f,4,3,4",
+      "hitLevels": [
+        "High",
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 47
+    },
+    {
+      "name": "Leaping Axe Kick",
+      "notation": "U/F,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Hopping Low Kick to Right Uppercut",
+      "notation": "u/f,N,D,3,2",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Hopping Low Kick to Easy Prey",
+      "notation": "u/f,N,D,3,4,3",
+      "hitLevels": [
+        "Low",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 53
+    },
+    {
+      "name": "Sunset Strike",
+      "notation": "f,F,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Bad Habit",
+      "notation": "f,F,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Kneel Kick",
+      "notation": "f,F,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Bombshell Blast",
+      "notation": "f,F,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Wipe the Floor",
+      "notation": "d,D/F,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Hellbringer",
+      "notation": "d,d/f,f,1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Shut Up",
+      "notation": "d,d/f,f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Sideslip",
+      "notation": "d,d/f,f,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Shamrock",
+      "notation": "d,d/f,f,4,2,3",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "Ice Pick",
+      "notation": "d,d/b,B,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Evil Mist",
+      "notation": "d/b,d,d/f,f,N,D/B,2+3",
+      "hitLevels": [
+        "Unblockable 2"
+      ],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Running Jump Kick",
+      "notation": "f,f,f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Spiral Bombshell Blast",
+      "notation": "f,f,f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Diving Hornet",
+      "notation": "\"WS\",1,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Fluttering Butterfly",
+      "notation": "\"WS\",1,1+2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Palm Uppercut",
+      "notation": "\"WS\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Spider Knee",
+      "notation": "\"WS\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Flashing Escape",
+      "notation": "\"WS\",4,3",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 39
+    },
+    {
+      "name": "Helping Hand",
+      "notation": "\"WS\",b,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 13
+    },
+    {
+      "name": "Low Jab Rising Kick",
+      "notation": "\"FC\",2,4",
+      "hitLevels": [
+        "Special Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Snakeshot",
+      "notation": "\"SS\",1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Snakeshot to Rolling Dash",
+      "notation": "\"SS\",1,F",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Snakeshot to Reverse Rolling Dash",
+      "notation": "\"SS\",1,B",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Double Shot",
+      "notation": "\"SS\",1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Lift Shot",
+      "notation": "\"SS\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Heel Slicer",
+      "notation": "\"SS\",4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Spiral Explosion",
+      "notation": "\"SS\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Twisted Mind",
+      "notation": "d,3+4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 16
+    },
+    {
+      "name": "10 Hit Combo 1",
+      "notation": "1,2,1,2,3,3,2,1,2,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "High",
+        "High",
+        "Low",
+        "High",
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 93
+    },
+    {
+      "name": "10 Hit Combo 2",
+      "notation": "d/f,1,2,1,2,3,3,2,1,2,4",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "High",
+        "High",
+        "Low",
+        "High",
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 99
+    },
+    {
+      "name": "Arm Grab Flip",
+      "notation": "1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Arm Grab Flip",
+      "notation": "f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Over the Back Toss",
+      "notation": "2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Over the Back Toss",
+      "notation": "f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Shoulder Through Buster",
+      "notation": "2+4,1,2,1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Shoulder Through Arm Breaker",
+      "notation": "\"During Shoulder Through Buster\",2,1,3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 42
+    },
+    {
+      "name": "Triangle Hold",
+      "notation": "\"Approach from left side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Hammer Throw",
+      "notation": "\"Approach from right side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 38
+    },
+    {
+      "name": "Leaping Triangle Hold",
+      "notation": "\"Back\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 60
+    },
+    {
+      "name": "Elbow to Arm Grab Flip",
+      "notation": "d/f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 37
+    },
+    {
+      "name": "Reverse Neck Breaker",
+      "notation": "d/f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 37
+    },
+    {
+      "name": "Jumping Flip",
+      "notation": "u/f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Elbow Smash",
+      "notation": "d/f,d/f,1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 43
+    },
+    {
+      "name": "Attack Reversal",
+      "notation": "\"Parry\",b,1+3",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Backhand Slap",
+      "notation": "d,d/f,f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 15
+    },
+    {
+      "name": "Seoi Gyaku Juji-gatame",
+      "notation": "\"During Backhand Slap\",3,4,3,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 45
+    },
+    {
+      "name": "Triple Slaps",
+      "notation": "\"During Backhand Slap\",2,3,4,2,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Neck Crusher",
+      "notation": "\"During Triple Slaps\",1,3+4,1,2,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 65
+    },
+    {
+      "name": "Leg Stretch Arm Lock",
+      "notation": "\"During Triple Slaps\",1,2,4,3,1+2+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 70
+    },
+    {
+      "name": "Betrayer",
+      "notation": "d,d/b,B,1+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 15
+    },
+    {
+      "name": "Twisted Nightmare",
+      "notation": "\"During Betrayer\",2,1,1+2,1+2+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Neck Crusher",
+      "notation": "\"During Twisted Nightmare\",1,3+4,1,2,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 60
+    },
+    {
+      "name": "Leg Stretch Arm Lock",
+      "notation": "\"During Twisted Nightmare\",1,2,4,3,1+2+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 65
+    },
+    {
+      "name": "Arm Break",
+      "notation": "\"During Betrayer\",1,3,2,1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 33
+    },
+    {
+      "name": "Double Arm Break",
+      "notation": "\"During Arm Break\",3,1,4,1+2,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 58
+    },
+    {
+      "name": "Falling Arm Break",
+      "notation": "\"During Arm Break\",2,1,3,4,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 58
+    },
+    {
+      "name": "Crab Hold",
+      "notation": "d,d/f,f,3+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 15
+    },
+    {
+      "name": "Commando Arm Lock",
+      "notation": "\"During Crab Hold\",3+4,3,4,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 50
+    },
+    {
+      "name": "Heel Hold",
+      "notation": "\"During Crab Hold\",3+4,4,2,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 33
+    },
+    {
+      "name": "Leaping Heel Hold",
+      "notation": "f,f,f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 38
+    },
+    {
+      "name": "Double Snap",
+      "notation": "\"During Heel Hold\",3,1,4,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 63
+    },
+    {
+      "name": "Double Heel Hold",
+      "notation": "\"During Heel Hold\",1,3,2+4,3+4,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 68
+    },
+    {
+      "name": "Sample Combo 1",
+      "notation": "f,F,2;f,1+2",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 39
+    },
+    {
+      "name": "Sample Combo 2",
+      "notation": "u/f,2,1;d/b,2;d/f,3,1,2,f,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 51
+    },
+    {
+      "name": "Sample Combo 3",
+      "notation": "d,D/F,4,\"CH\";u/f,3;d,4,1;d,2,3;f,F,1+2",
+      "hitLevels": [
+        "Low",
+        "Mid",
+        "Low",
+        "High",
+        "Low",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 61
+    },
+    {
+      "name": "Sample Combo 4",
+      "notation": "u/f,1;d,4,1;f,2,1,4;\"Rage\",d,1+2",
+      "hitLevels": [
+        "Mid",
+        "Low",
+        "High",
+        "High",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 72
+    },
+    {
+      "name": "Sample Combo 5",
+      "notation": "b,1+4;u/f,4;d/f,1;d/f,3,2,D/F;\"WS\",1,1+2;\"Rage\",f,2+3",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 75
+    }
+  ]
+}

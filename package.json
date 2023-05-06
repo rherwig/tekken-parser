@@ -19,5 +19,12 @@
         "prettier": "2.8.7",
         "turbo": "1.9.3",
         "typescript": "5.0.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rherwig/tekken-parser/"
+    },
+    "engines": {
+        "node": ">=18"
     }
 }

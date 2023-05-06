@@ -1,0 +1,811 @@
+{
+  "name": "Jin",
+  "slug": "jin",
+  "moves": [
+    {
+      "name": "Rage Art",
+      "notation": "\"Rage\",b,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 55
+    },
+    {
+      "name": "Rage Drive",
+      "notation": "\"Rage\",f,N,d,d/f,1+2,3,1",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 70
+    },
+    {
+      "name": "Left Right Axe Kick",
+      "notation": "1,2,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 39
+    },
+    {
+      "name": "Left Right to Spinning Hook Kick",
+      "notation": "1,2,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 49
+    },
+    {
+      "name": "Kazama Style 5 Hit Combo",
+      "notation": "1,3,2,1,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid",
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 47
+    },
+    {
+      "name": "Ni Rengeki",
+      "notation": "1,3",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Feint Kick Combo",
+      "notation": "1,【3,3,】d/f,3",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Left Jab to Double Low",
+      "notation": "1,d,3,4",
+      "hitLevels": [
+        "High",
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Double Thrust Roundhouse",
+      "notation": "2,1,4",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Double Thrust Low Trick Kick",
+      "notation": "2,1,【4,4,】",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 38
+    },
+    {
+      "name": "Switch Blade",
+      "notation": "2,4",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Kishin Rekko",
+      "notation": "3,1,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 44
+    },
+    {
+      "name": "High Right Roundhouse",
+      "notation": "4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Spinning Flare Kick",
+      "notation": "【4,3,】",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Median Line Destruction",
+      "notation": "1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Kazama Style Turning Leg Strike",
+      "notation": "3+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Left Roundhouse",
+      "notation": "f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 16
+    },
+    {
+      "name": "Heat Seeker",
+      "notation": "f,【3,3,】d/f,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Front Thrust Kick",
+      "notation": "f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Double Chamber Punch",
+      "notation": "f,1+2",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 38
+    },
+    {
+      "name": "Mid Left Punch to High Roundhouse Kick",
+      "notation": "d/f,1,4",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Mid Left Punch to Mid Sidekick",
+      "notation": "d/f,1,【4,4,】",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Left Sidekick to Stinger",
+      "notation": "d/f,3,3",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Right Spinning Axe Kick",
+      "notation": "d/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Suigetsu Strike",
+      "notation": "d/f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Corpse Thrust",
+      "notation": "d,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Knee Popper to Sidekick",
+      "notation": "d,3,3",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Right Sweep 1",
+      "notation": "d,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 13
+    },
+    {
+      "name": "Zenshin",
+      "notation": "d,1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Double Lift Kick",
+      "notation": "d,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Savage Sword",
+      "notation": "d/b,2,2,3",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Punch to Cascade Kick",
+      "notation": "d/b,2,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Left Spinning Back Kick",
+      "notation": "d/b,3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Right Low Roundhouse ",
+      "notation": "d/b,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Power Stance",
+      "notation": "d/b,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Mental Alertness 2",
+      "notation": "b,1",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Spine Cracker",
+      "notation": "\"During Mental Alertness 2\",1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Swaying Willow",
+      "notation": "\"During Mental Alertness 2\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Halberd Heel",
+      "notation": "\"During Mental Alertness 2\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Right Sweep 2",
+      "notation": "\"During Mental Alertness 2\",4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Joudan Tsukiage Niren",
+      "notation": "\"During Mental Alertness 2\",1+2",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Leaping Side Kick",
+      "notation": "\"During Mental Alertness 2\",3+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Shun Masatsu",
+      "notation": "b,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Left Knee",
+      "notation": "b,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Spinning Sidekick",
+      "notation": "b,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Avenger",
+      "notation": "u/b,1+2",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 70
+    },
+    {
+      "name": "Evading Middle Strike",
+      "notation": "u/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Left Spinning Jump Kick",
+      "notation": "u/f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Front Jump Kick",
+      "notation": "u/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 13
+    },
+    {
+      "name": "Demon's Paw",
+      "notation": "f,F,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Left Axe Kick",
+      "notation": "f,F,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Kazama Style 6 Hit Combo",
+      "notation": "f,F,3,1,3,2,1,4",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "Mid",
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Right Axe Kick",
+      "notation": "f,F,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 19
+    },
+    {
+      "name": "Evil Intent",
+      "notation": "b,f,2,1,2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 45
+    },
+    {
+      "name": "Keito",
+      "notation": "b,f,2,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Thrusting Uppercut",
+      "notation": "f,N,d,d/f,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Wind Hook Fist",
+      "notation": "f,N,d,d/f,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Electric Wind Hook Fist",
+      "notation": "f,N,d,d/f,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "L.L.R.K. to Spinning Flare Kick",
+      "notation": "f,N,d,d/f,4,3+4",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Twin Lancer",
+      "notation": "\"WS\",1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Crouching Uppercut",
+      "notation": "\"WS\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 14
+    },
+    {
+      "name": "Bamboo Splitter",
+      "notation": "\"WS\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Black Out",
+      "notation": "d,2",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 19
+    },
+    {
+      "name": "Mental Alertness 1",
+      "notation": "1+3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "10 Hit Combo",
+      "notation": "f,2,3,3,3,2,1,2,3,4,2",
+      "hitLevels": [
+        "High",
+        "Low",
+        "Mid",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 105
+    },
+    {
+      "name": "Double Face Kick",
+      "notation": "1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Double Face Kick",
+      "notation": "f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Over the Shoulder Reverse",
+      "notation": "2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Over the Shoulder Reverse",
+      "notation": "f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Shoulder Flip",
+      "notation": "\"Approach from left side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 43
+    },
+    {
+      "name": "Over the Limit",
+      "notation": "\"Approach from right side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Pivoting Hip Throw",
+      "notation": "\"Back\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 50
+    },
+    {
+      "name": "Shun Ren Dan",
+      "notation": "d/f,2+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Tidal Wave",
+      "notation": "u/f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Complicated Wire",
+      "notation": "d,d/b,b,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Parry",
+      "notation": "\"Parry\",b,1+3",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Sample Combo 1",
+      "notation": "d,3+4;d/f,1,4;d/b,2,2,3",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 54
+    },
+    {
+      "name": "Sample Combo 2",
+      "notation": "f,N,d,d/f,4;b,2,1;4;d/b,2,3",
+      "hitLevels": [
+        "Low",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 39
+    },
+    {
+      "name": "Sample Combo 3",
+      "notation": "\"WS\",2;f,N,d,d/f,2;4;d,1+2;\"During Zenshin\",3+4;b,3,F;\"During Mental Alertness 2\",1,2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 65
+    },
+    {
+      "name": "Sample Combo 4",
+      "notation": "u/f,4;b,3,F;\"During Mental Alertness 2\",1;b,f,2,3,F;\"During Mental Alertness 2\",3;\"Rage\",b,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 73
+    },
+    {
+      "name": "Sample Combo 5",
+      "notation": "f,N,d,d/f,2;\"Rage\",f,N,d,d/f,1+2,3,1",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 78
+    }
+  ]
+}

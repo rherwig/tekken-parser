@@ -1,0 +1,635 @@
+{
+  "name": "Kazumi",
+  "slug": "kazumi",
+  "moves": [
+    {
+      "name": "Rage Art",
+      "notation": "\"Rage\",d,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55
+    },
+    {
+      "name": "Rage Drive",
+      "notation": "\"Rage\",f,F,1+2",
+      "hitLevels": [
+        "Mid",
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 37
+    },
+    {
+      "name": "Burst Punch Combo",
+      "notation": "1,1,2",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Demon Hunter",
+      "notation": "1,2,2",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Binding Blows",
+      "notation": "2,1",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Impaling Knee to Steel Slicer",
+      "notation": "3,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Impaling Knee to Right Chop",
+      "notation": "3,2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Thunder Punch Combo",
+      "notation": "1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Rolling Tiger",
+      "notation": "1+4",
+      "hitLevels": [
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Lunging Tiger",
+      "notation": "2+3",
+      "hitLevels": [
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 10
+    },
+    {
+      "name": "Soul Strike",
+      "notation": "f,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Gut Crusher",
+      "notation": "f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 13
+    },
+    {
+      "name": "Gut Crusher to Fearless Warrior",
+      "notation": "f,3,F",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 13
+    },
+    {
+      "name": "Demon's Gate Kick",
+      "notation": "f,4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Fearless Warrior",
+      "notation": "f,3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Lightning God's Rage",
+      "notation": "\"During Fearless Warrior\",1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Wind God's Fury",
+      "notation": "\"During Fearless Warrior\",2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Oroshi",
+      "notation": "\"During Fearless Warrior\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Hellfire Burst",
+      "notation": "\"During Fearless Warrior\",4,2",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Demon's Horn",
+      "notation": "\"During Fearless Warrior\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Bloody Demon's Horn",
+      "notation": "\"During Fearless Warrior\",f,1+2",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Iron Side Strike",
+      "notation": "\"During Fearless Warrior\",b,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 10
+    },
+    {
+      "name": "Crimson Dawn",
+      "notation": "d/f,1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Tiger Wind Uppercut",
+      "notation": "d/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Heel Thrust",
+      "notation": "d/f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 14
+    },
+    {
+      "name": "Diamond Cleaver",
+      "notation": "d,1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 40
+    },
+    {
+      "name": "Hellfire Spiral",
+      "notation": "d/b,2,3,4",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 39
+    },
+    {
+      "name": "Foot Breaker",
+      "notation": "d/b,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 14
+    },
+    {
+      "name": "Rolling Thunder",
+      "notation": "d/b,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Deadly Crescent",
+      "notation": "d/b,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Dragon Slice",
+      "notation": "b,1,2",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "Rajomon",
+      "notation": "b,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 12
+    },
+    {
+      "name": "Lightning Heel",
+      "notation": "b,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Last Warrior",
+      "notation": "b,3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Lethal Chop",
+      "notation": "u/f,2",
+      "hitLevels": [
+        "High",
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Hell Blade",
+      "notation": "u/f,3,4,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 40
+    },
+    {
+      "name": "Axle Kick",
+      "notation": "u/f,3,4,3",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Crushing Knee",
+      "notation": "u/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 13
+    },
+    {
+      "name": "Diamond Tiger Strike",
+      "notation": "f,F,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 37
+    },
+    {
+      "name": "Oroshi Heel",
+      "notation": "f,F,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Tiger Demon's Gate",
+      "notation": "b,f,2,1,4",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 41
+    },
+    {
+      "name": "Tiger Demon's Breath",
+      "notation": "b,f,2,1,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 48
+    },
+    {
+      "name": "Diamond Flash",
+      "notation": "f,f,f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Diamond Cutter",
+      "notation": "\"WS\",1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Demon Uppercut",
+      "notation": "\"WS\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Demon's Gate Crasher",
+      "notation": "\"WS\",4,4",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Divine Justice",
+      "notation": "d,2",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 16
+    },
+    {
+      "name": "Taunt",
+      "notation": "2+3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "10 Hit Combo",
+      "notation": "d/f,3,1,2,3,2,1,2,3,4,2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Low",
+        "Low",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 82
+    },
+    {
+      "name": "Priestess Double Kick",
+      "notation": "1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Priestess Double Kick",
+      "notation": "f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Side Circle Throw",
+      "notation": "2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Side Circle Throw",
+      "notation": "f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Slicing Shoulder Wheel",
+      "notation": "\"Approach from left side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Slicing Shoulder Wheel",
+      "notation": "\"Approach from right side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Reverse Circle Throw",
+      "notation": "\"Back\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 50
+    },
+    {
+      "name": "Lightning Wrath",
+      "notation": "d/f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Divine Guardian",
+      "notation": "\"Parry\",b,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Sample Combo 1",
+      "notation": "d/f,2;b,2;u/f,3,4,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 53
+    },
+    {
+      "name": "Sample Combo 2",
+      "notation": "b,4,\"CH\";f,3,F;\"During Fearless Warrior\",2;d/f,1;3,1;f,3+4;\"During Fearless Warrior\",4,2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 68
+    },
+    {
+      "name": "Sample Combo 3",
+      "notation": "f,F,4;f,4;f,3,F;\"During Fearless Warrior\",2;d/f,1;b,f,2,1,1+2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 66
+    },
+    {
+      "name": "Sample Combo 4",
+      "notation": "u/f,4;f,3,F;\"During Fearless Warrior\",2;d/f,1;b,f,2,1,4;\"Rage\",d,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 72
+    },
+    {
+      "name": "Sample Combo 5",
+      "notation": "\"Rage\",f,F,1+2;u/f,3,4,3;u/f,3,4,1",
+      "hitLevels": [
+        "Mid",
+        "Projectile",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 79
+    }
+  ]
+}

@@ -85,6 +85,16 @@ model Character {
     combos   Combo[]
 }
 
+model Move {
+    id        String   @id @default(auto()) @map("_id") @db.ObjectId
+    name      String
+    slug      String   @unique
+    notation  String
+    hitLevels String[]
+    damage    Int?
+    isThrow   Boolean  @default(false)
+}
+
 model Combo {
     id          String    @id @default(auto()) @map("_id") @db.ObjectId
     notation    String

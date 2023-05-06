@@ -1,0 +1,1093 @@
+{
+  "name": "Jack",
+  "slug": "jack",
+  "moves": [
+    {
+      "name": "Rage Art",
+      "notation": "\"Rage\",b,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55
+    },
+    {
+      "name": "Rage Drive",
+      "notation": "\"Rage\",b,d/b,d,d/f,1,2",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 44
+    },
+    {
+      "name": "Jab to Jackhammer",
+      "notation": "1,1",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 42
+    },
+    {
+      "name": "Jab to Stunning Hook",
+      "notation": "1,2",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 38
+    },
+    {
+      "name": "Jab Elbow Smash",
+      "notation": "2,1,2",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Tornado Punch",
+      "notation": "1+2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "Giant Foot Stomp",
+      "notation": "3+4",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 40
+    },
+    {
+      "name": "Pivot Gun",
+      "notation": "f,1,2,2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Pinpoint Assault",
+      "notation": "f,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Machine Press",
+      "notation": "f,3,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 39
+    },
+    {
+      "name": "Dark Greeting",
+      "notation": "f,【4,1,】",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 80
+    },
+    {
+      "name": "Sudden Elbow",
+      "notation": "f,【4,1,】2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Tyulpan Blast",
+      "notation": "f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Atomic Shoulder Tackle",
+      "notation": "f,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Overclocking",
+      "notation": "d/f,1,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Overdrive",
+      "notation": "d/f,1,2,1,2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Savage Uppercut",
+      "notation": "d/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 13
+    },
+    {
+      "name": "Rushing Uppercut High",
+      "notation": "d/f,2,1,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 38
+    },
+    {
+      "name": "Rushing Uppercut Mid",
+      "notation": "d/f,2,1,2,d/f,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Rushing Uppercut Low",
+      "notation": "d/f,2,1,2,d,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Combine Harvester",
+      "notation": "d/f,3,2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Megaton Earthquake",
+      "notation": "d/f,1+2",
+      "hitLevels": [
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Dumptruck",
+      "notation": "d/f,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Double Axe",
+      "notation": "d,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "Sit",
+      "notation": "d,3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Sit Pancake Press",
+      "notation": "d,3+4,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Sit Punches 1",
+      "notation": "\"During Sit\",1,2,1,2",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 40
+    },
+    {
+      "name": "Sit Punches 2",
+      "notation": "\"During Sit\",2,1,2,1",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 40
+    },
+    {
+      "name": "Ground Assault",
+      "notation": "\"During Sit\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Machinegun Blast",
+      "notation": "d/b,1,1,1,2",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Power Shovel",
+      "notation": "d/b,2",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Cossack Kicks",
+      "notation": "d/b,3,4,3,4,3,4",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Low",
+        "Low",
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 75
+    },
+    {
+      "name": "Cossack Smash",
+      "notation": "\"During Cossack Kicks\",1+2",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Low",
+        "Low",
+        "Low",
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 75
+    },
+    {
+      "name": "Cossack Compactor",
+      "notation": "\"During Cossack Kicks approach\",d,1+2",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Low",
+        "Low",
+        "Low",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 45
+    },
+    {
+      "name": "Big Boot",
+      "notation": "d/b,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 14
+    },
+    {
+      "name": "Piston Gun",
+      "notation": "d/b,1+2",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Excavator",
+      "notation": "b,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Piston Gun Assault",
+      "notation": "b,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Mad Dozer",
+      "notation": "b,3,2,2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Sherman Stomp",
+      "notation": "b,4,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "Barrel Jacket Hammer",
+      "notation": "u/b,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Patriot Fist",
+      "notation": "u,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Sky Sweeper",
+      "notation": "u/f,1",
+      "hitLevels": [
+        "Anti Air"
+      ],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Reactor Elbow",
+      "notation": "u/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Pancake Press",
+      "notation": "u/f,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Double Pancake Press",
+      "notation": "u/f,3+4,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 51
+    },
+    {
+      "name": "Jackhammer",
+      "notation": "f,F,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Rocket Uppercut",
+      "notation": "f,F,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Granite Stomping",
+      "notation": "f,F,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Rocket Kick",
+      "notation": "f,F,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Cross Cut Blast",
+      "notation": "f,F,1+2,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "High and Low Cross Cut",
+      "notation": "f,F,1+2,1+2",
+      "hitLevels": [
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Sliding Attack",
+      "notation": "f,F,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Debugger",
+      "notation": "b,d/b,d,d/f,1",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Megaton Blast",
+      "notation": "b,d/b,d,d/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 42
+    },
+    {
+      "name": "Gigaton Punch",
+      "notation": "b,d/b,d,d/f,F,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Gigaton Punch",
+      "notation": "b,d/b,d,d/f,f,1",
+      "hitLevels": [
+        "Unblockable 1",
+        "Unblockable 1",
+        "Unblockable 1",
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 199
+    },
+    {
+      "name": "Windup Uppercut",
+      "notation": "b,d/b,d,d/f,f,d/f,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Cemaho Chop",
+      "notation": "f,f,f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Killing Uppercut",
+      "notation": "\"WS\",1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 14
+    },
+    {
+      "name": "V-Twin",
+      "notation": "\"WS\",2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Double Hammer Thrash",
+      "notation": "\"WS\",1+2,1+2,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Short Hammer Rush High",
+      "notation": "\"WS\",f,1,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 50
+    },
+    {
+      "name": "Short Hammer Rush Mid",
+      "notation": "\"WS\",f,1,2,d/f,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 42
+    },
+    {
+      "name": "Short Hammer Rush Low",
+      "notation": "\"WS\",f,1,2,d,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Hammer Rush High",
+      "notation": "\"FC\",1,1,1,2,1",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 57
+    },
+    {
+      "name": "Hammer Rush Mid",
+      "notation": "\"FC\",1,1,1,2,d/f,1",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 49
+    },
+    {
+      "name": "Hammer Rush Low",
+      "notation": "\"FC\",1,1,1,2,d,1",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Mid",
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 42
+    },
+    {
+      "name": "Megaton Strike",
+      "notation": "\"FC\",1,2",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Windmill Punches",
+      "notation": "\"FC\",d/f,1,2,1,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Hammer Rush 3 High",
+      "notation": "\"FC\",d/f,2,1",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Swing R Knuckle",
+      "notation": "\"FC\",d/f,2,d/f,1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Hammer Rush 3 Low",
+      "notation": "\"FC\",d/f,2,d,1",
+      "hitLevels": [
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Low Cross Combo",
+      "notation": "\"FC\",d/f,1+2,1+2",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 37
+    },
+    {
+      "name": "Machinegun Knuckle",
+      "notation": "\"FC\",d/b,1,1,1,2",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 45
+    },
+    {
+      "name": "Discharger",
+      "notation": "\"SS\",1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Piston Gun Snipe",
+      "notation": "\"SS\",2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Get Up Punch",
+      "notation": "\"While down\",d,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "10 Hit Combo 1",
+      "notation": "d,2,1,1,1,2,1,2,1,1+2,1+2",
+      "hitLevels": [
+        "Special Mid",
+        "Low",
+        "Low",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 99
+    },
+    {
+      "name": "10 Hit Combo 2",
+      "notation": "d,2,1,1,1,2,1,2,1,d,1+2,1+2",
+      "hitLevels": [
+        "Special Mid",
+        "Low",
+        "Low",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 89
+    },
+    {
+      "name": "Rotary Catapult",
+      "notation": "1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Rotary Catapult",
+      "notation": "f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Piston Gun Back Breaker",
+      "notation": "2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Piston Gun Back Breaker",
+      "notation": "f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Side Left Bomb",
+      "notation": "\"Approach from left side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Hanging Neck Throw",
+      "notation": "\"Approach from right side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Spinal Crush",
+      "notation": "\"Back\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 70
+    },
+    {
+      "name": "Throw Away",
+      "notation": "\"Back\",2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 70
+    },
+    {
+      "name": "Body Press",
+      "notation": "d/f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 25
+    },
+    {
+      "name": "Body Press Hammer",
+      "notation": "d/f,1+3,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Volcano",
+      "notation": "d/f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 15
+    },
+    {
+      "name": "Volcano Blaster",
+      "notation": "d/f,D/F,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 20
+    },
+    {
+      "name": "Body Smash",
+      "notation": "d/b,2+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 25
+    },
+    {
+      "name": "Ground Zero",
+      "notation": "u/f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Lift Up Megaton Hit",
+      "notation": "u/f,1+2,d,d/f,2",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Pile Driver",
+      "notation": "d/b,f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 50
+    },
+    {
+      "name": "Pyramid Driver",
+      "notation": "d,d/f,f,1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Back Breaker",
+      "notation": "d,d/b,b,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 45
+    },
+    {
+      "name": "Gun Bomb",
+      "notation": "\"Approach\",d,1+3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 45
+    },
+    {
+      "name": "Iron Gunman",
+      "notation": "\"Approach\",d,2+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 45
+    },
+    {
+      "name": "Twin Drivers",
+      "notation": "\"During enemy wall stun\",1+3",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Sample Combo 1",
+      "notation": "f,2,\"CH\";f,F,4",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 48
+    },
+    {
+      "name": "Sample Combo 2",
+      "notation": "1+2;4;b,3,2,2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "Mid",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 57
+    },
+    {
+      "name": "Sample Combo 3",
+      "notation": "d/f,2;2;d/f,3,2;f,F,1+2,2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 49
+    },
+    {
+      "name": "Sample Combo 4",
+      "notation": "\"WS\",1;f,4;b,1;d/f,1,1;\"Rage\",b,1+2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 77
+    },
+    {
+      "name": "Sample Combo 5",
+      "notation": "b,d/b,d,d/f,f,d/f,1;u,1+2;1+2;\"Rage\",b,d/b,d,d/f,1,2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 77
+    }
+  ]
+}

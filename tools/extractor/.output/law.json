@@ -1,0 +1,1177 @@
+{
+  "name": "LAW",
+  "slug": "law",
+  "moves": [
+    {
+      "name": "Rage Art",
+      "notation": "\"Rage\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55
+    },
+    {
+      "name": "Rage Drive",
+      "notation": "\"Rage\",d/b,4,3+4",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 48
+    },
+    {
+      "name": "Machine Gun Arrow",
+      "notation": "1,1,1,1,1",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 12
+    },
+    {
+      "name": "Left Right Combo",
+      "notation": "1,2",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Left Right Dragon Fist Combo",
+      "notation": "1,2,2,2",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Left Right Blazing Fist Combo",
+      "notation": "1,2,2,1+2",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 46
+    },
+    {
+      "name": "Left Right to Knee",
+      "notation": "1,2,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Left Right Combo to Somersault Feint",
+      "notation": "1,2,u/f,3,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Rave War Combo",
+      "notation": "2,2,2",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Blazing Fist Combo",
+      "notation": "2,2,1+2",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 39
+    },
+    {
+      "name": "Rage Dragon Combo",
+      "notation": "2,b,2,1,2",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 45
+    },
+    {
+      "name": "Feint to Middle Kick",
+      "notation": "3,3",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "High Kick to Bloody Cleaver",
+      "notation": "3,4",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Shaolin Spin Kicks",
+      "notation": "4,3,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 40
+    },
+    {
+      "name": "Crescent Kick Combo",
+      "notation": "4,u,3",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 37
+    },
+    {
+      "name": "Pressing Kick Combo",
+      "notation": "3+4,4",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Poison Arrow",
+      "notation": "f,【2,1,】",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Dragon Hammer",
+      "notation": "f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Dragon Killer",
+      "notation": "f,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Spinning Dragon Blow",
+      "notation": "f,1+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Step in Combo",
+      "notation": "d/f,3,3,3",
+      "hitLevels": [
+        "Mid",
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 40
+    },
+    {
+      "name": "Mid Kick Combo to Somersault Kick",
+      "notation": "d/f,3,3,4",
+      "hitLevels": [
+        "Mid",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 49
+    },
+    {
+      "name": "Right Middle Kick to Somersault Kick",
+      "notation": "d/f,4,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 38
+    },
+    {
+      "name": "Banana Peel",
+      "notation": "d/f,3+4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 12
+    },
+    {
+      "name": "Low Backhand to High Kick",
+      "notation": "d,1,3",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Body Blow to Dragon Lift",
+      "notation": "d,2,3",
+      "hitLevels": [
+        "Special Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Dragon Low Kick",
+      "notation": "d,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 8
+    },
+    {
+      "name": "Dragon Low to Hook Kick",
+      "notation": "d,3,3",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Construct Kick",
+      "notation": "d,4,3",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 19
+    },
+    {
+      "name": "Dragon Charge",
+      "notation": "d,1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Dragon Knuckle",
+      "notation": "\"During Dragon Charge\",1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 14
+    },
+    {
+      "name": "Dragon Knuckle Combo",
+      "notation": "\"During Dragon Charge\",1,f,1",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Dragon Knuckle Flight",
+      "notation": "\"During Dragon Charge\",1,4",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Cloud Gates",
+      "notation": "\"During Dragon Charge\",2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Dragon Spin Kick",
+      "notation": "\"During Dragon Charge\",3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Dragon Charge Kick",
+      "notation": "\"During Dragon Charge\",4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Quick Hook",
+      "notation": "\"During Dragon Charge\",1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Dragon's Fire",
+      "notation": "\"During Dragon Charge\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Facelift",
+      "notation": "\"During Dragon Charge\",2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Dragon Roar",
+      "notation": "\"During Dragon Charge\",f,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Dragon Cannon",
+      "notation": "\"During Dragon Charge\",f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 45
+    },
+    {
+      "name": "Dragon's Flight",
+      "notation": "\"During Dragon Charge\",f,4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 40
+    },
+    {
+      "name": "Low Kick to Somersault",
+      "notation": "d,3+4,3",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Elbow Spring Kick",
+      "notation": "d/b,2,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 40
+    },
+    {
+      "name": "Shin Crusher",
+      "notation": "d/b,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Dragon's Tail to Somersault Kick",
+      "notation": "d/b,4,4",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 38
+    },
+    {
+      "name": "Charge Power Punch",
+      "notation": "d/b,1+2",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 90
+    },
+    {
+      "name": "Frogman",
+      "notation": "d/b,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Dragon Storm",
+      "notation": "b,1,2,2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 46
+    },
+    {
+      "name": "Knuckle Back Blow",
+      "notation": "b,2,1",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Knuckle Rush",
+      "notation": "b,2,2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Junkyard Kick",
+      "notation": "b,2,3,4",
+      "hitLevels": [
+        "Mid",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 45
+    },
+    {
+      "name": "Dragon Rush Combo",
+      "notation": "b,2,3,d,4",
+      "hitLevels": [
+        "Mid",
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Dragon Spin Kick",
+      "notation": "b,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Tiger Fang",
+      "notation": "b,4,3",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Fake Step",
+      "notation": "b,1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Tricky Trap",
+      "notation": "\"After Fake Step succeeds\",1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 12
+    },
+    {
+      "name": "Tricky Fist",
+      "notation": "\"After Fake Step succeeds\",2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 12
+    },
+    {
+      "name": "Tricky Mid Kick",
+      "notation": "\"After Fake Step succeeds\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Tricky Low Kick",
+      "notation": "\"After Fake Step succeeds\",4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Dragon Knuckle",
+      "notation": "\"During Fake Step\",1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 14
+    },
+    {
+      "name": "Dragon Knuckle Combo",
+      "notation": "\"During Fake Step\",1,f,1",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Dragon Knuckle Flight",
+      "notation": "\"During Fake Step\",1,4",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Fake Step Uppercut",
+      "notation": "\"During Fake Step\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Dragon Spin Kick",
+      "notation": "\"During Fake Step\",3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Dragon Charge Kick",
+      "notation": "\"During Fake Step\",4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Quick Hook",
+      "notation": "\"During Fake Step\",1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Dragon Roar",
+      "notation": "\"During Fake Step\",f,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Dragon Cannon",
+      "notation": "\"During Fake Step\",f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Dragon's Flight",
+      "notation": "\"During Fake Step\",f,4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 40
+    },
+    {
+      "name": "Dragon Arrow",
+      "notation": "b,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Blackout Muggin'",
+      "notation": "u/f,1,3",
+      "hitLevels": [
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Jumping Kick to Somersault",
+      "notation": "u/f,3,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Dragon's Descent",
+      "notation": "u/f,3+4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Somersault",
+      "notation": "U/F,3",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Somersault Fake",
+      "notation": "U/F,3,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Somersault Kick",
+      "notation": "U/F,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Backflipper",
+      "notation": "U/F,4,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 39
+    },
+    {
+      "name": "Dragon Strike Combo",
+      "notation": "f,F,2,1,3",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 47
+    },
+    {
+      "name": "Dragon Dagger",
+      "notation": "f,F,2,3",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Dragon Cannon",
+      "notation": "f,F,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 45
+    },
+    {
+      "name": "Sun and Moon",
+      "notation": "f,F,4,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Fury Fist Rush",
+      "notation": "d,d/f,F,1,2,1,2",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Running Side Kick",
+      "notation": "f,f,f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Flash Fist",
+      "notation": "\"WS\",1,2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 38
+    },
+    {
+      "name": "Dragon Uppercut",
+      "notation": "\"WS\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Side Kick",
+      "notation": "\"WS\",3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 16
+    },
+    {
+      "name": "Front Kick Somersault Variation",
+      "notation": "\"WS\",4,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Double Impact",
+      "notation": "\"FC\",3,4",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Catapult Kick",
+      "notation": "\"FC\",U/F,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Rainbow Kick",
+      "notation": "\"FC\",U/F,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Slide Kick",
+      "notation": "\"FC\",d/f,d,D/F,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Dragon Judgement",
+      "notation": "\"SS\",2,1,2,1",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 43
+    },
+    {
+      "name": "Double Dragon",
+      "notation": "\"SS\",3+4",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Blind Elbow Combo",
+      "notation": "\"Back towards enemy\",2,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 37
+    },
+    {
+      "name": "Wolf Fang",
+      "notation": "\"Back towards enemy\",4,3",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 38
+    },
+    {
+      "name": "Dragon Back Blow",
+      "notation": "\"Back towards enemy\",1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Reverse Low",
+      "notation": "\"Back towards enemy\",d,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 12
+    },
+    {
+      "name": "10 Hit Combo 1",
+      "notation": "d/f,1,2,2,1,3,3,3,4,3,4",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "High",
+        "High",
+        "Low",
+        "High",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 88
+    },
+    {
+      "name": "10 Hit Combo 2",
+      "notation": "d/f,1,3,2,2,3,3,3,4,4,4",
+      "hitLevels": [
+        "Mid",
+        "Low",
+        "Mid",
+        "High",
+        "Mid",
+        "Low",
+        "Mid",
+        "High",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 88
+    },
+    {
+      "name": "Dragon's Fire",
+      "notation": "1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Dragon's Fire",
+      "notation": "f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Hopping Frog",
+      "notation": "2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Hopping Frog",
+      "notation": "f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Headlock Kick",
+      "notation": "\"Approach from left side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Ball Breaker",
+      "notation": "\"Approach from right side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 42
+    },
+    {
+      "name": "Dragon Bites",
+      "notation": "\"Back\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 50
+    },
+    {
+      "name": "Run Up to Drop",
+      "notation": "f,2+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Headlock Punch",
+      "notation": "d/f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Headlock Drop",
+      "notation": "d/f,1+2,1,2,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Knee Lift",
+      "notation": "f,F,3+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 10
+    },
+    {
+      "name": "Parry",
+      "notation": "\"Parry\",b,1+3",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Sample Combo 1",
+      "notation": "U/F,4,3;b,4,3;f,F,2,1,3",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 65
+    },
+    {
+      "name": "Sample Combo 2",
+      "notation": "f,F,3+4;f,3,4;4,3,b,f;\"During Dragon Charge\",f,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 48
+    },
+    {
+      "name": "Sample Combo 3",
+      "notation": "3+4,4;b,2,3,4,b,f;\"During Dragon Charge\",f,4",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "Low",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 56
+    },
+    {
+      "name": "Sample Combo 4",
+      "notation": "\"WS\",2;4,u,3;1,2,3;b,2,1;\"Rage\",1+2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "High",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 81
+    },
+    {
+      "name": "Sample Combo 5",
+      "notation": "U/F,4;u/f,1;4,u,3;b,2,1;\"Rage\",d/b,4,3+4",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "Mid",
+        "Mid",
+        "High",
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 74
+    }
+  ]
+}

@@ -1,0 +1,1450 @@
+{
+  "name": "HWOARANG",
+  "slug": "hwoarang",
+  "moves": [
+    {
+      "name": "Rage Art",
+      "notation": "\"Rage During Flamingo\",d,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55
+    },
+    {
+      "name": "Rage Drive 1",
+      "notation": "\"Rage\",d,3+4,4",
+      "hitLevels": [
+        "Low",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 47
+    },
+    {
+      "name": "Rage Drive 2",
+      "notation": "\"Rage\",u/f,3,4,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 39
+    },
+    {
+      "name": "Rage Drive 3",
+      "notation": "\"Rage During Left Flamingo\",u/f,3,4,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 37
+    },
+    {
+      "name": "Home Surgery",
+      "notation": "1,1,3,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 39
+    },
+    {
+      "name": "Left Right to Left Flamingo",
+      "notation": "1,2,3",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Left Right to Right Flamingo",
+      "notation": "1,2,4",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Rejector",
+      "notation": "1,2,f,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Rejection",
+      "notation": "1,2,f,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 51
+    },
+    {
+      "name": "Right Jab to Left Flamingo",
+      "notation": "2,3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 9
+    },
+    {
+      "name": "Right Jab to Right Flamingo",
+      "notation": "2,4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 9
+    },
+    {
+      "name": "Right Jab Side Kick",
+      "notation": "2,f,3",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Right Jab to Spinning Back Kick",
+      "notation": "2,f,4",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 43
+    },
+    {
+      "name": "Left Kicks to Left Flamingo",
+      "notation": "3,3,F",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Left Kicks",
+      "notation": "3,3,3",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 42
+    },
+    {
+      "name": "Left Kicks to Right Hook Kick",
+      "notation": "3,3,4",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 42
+    },
+    {
+      "name": "Left Kicks to Backlash",
+      "notation": "3,3,f,4",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 52
+    },
+    {
+      "name": "Flying Eagle",
+      "notation": "【3,4,】",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Right Left Kick Combo",
+      "notation": "4,3",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Right Kicks to Right Flamingo",
+      "notation": "4,4",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Right Kicks to Right Stance",
+      "notation": "4,f,4",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Right Kicks to Chainsaw Heel",
+      "notation": "4,4,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 44
+    },
+    {
+      "name": "Right Kick Combo to Right Flamingo",
+      "notation": "4,4,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 34
+    },
+    {
+      "name": "Right Kick Combo to Right Stance",
+      "notation": "4,4,f,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 49
+    },
+    {
+      "name": "Right Kick Combo to Chainsaw Heel",
+      "notation": "4,4,4,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 54
+    },
+    {
+      "name": "Right Kick Combo",
+      "notation": "4,4,4,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 54
+    },
+    {
+      "name": "Disrespect",
+      "notation": "1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Motion Switch",
+      "notation": "3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Rusty Knife",
+      "notation": "f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Left Flamingo Feint",
+      "notation": "f,3",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Cheap Shot Snap Kick",
+      "notation": "f,【3,N,3,】",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Right Flamingo Feint",
+      "notation": "f,N,4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Right Hook Kick to Right Flamingo",
+      "notation": "f,4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Push Hands",
+      "notation": "f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Double Claymore",
+      "notation": "d/f,3,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 40
+    },
+    {
+      "name": "Middle Claymore",
+      "notation": "d/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Smash Low Right to Right Flamingo",
+      "notation": "d,3,4",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Firecracker",
+      "notation": "d,4,4",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Sweep Kick",
+      "notation": "d/b,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 12
+    },
+    {
+      "name": "Ankle Biter to Right Flamingo",
+      "notation": "d/b,4,F",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 12
+    },
+    {
+      "name": "Ankle Biter to Crescent Kick",
+      "notation": "d/b,4,4",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "Dynamite Heel",
+      "notation": "d/b,3+4",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 40
+    },
+    {
+      "name": "Stealth Needle",
+      "notation": "b,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Bolt Cut",
+      "notation": "b,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Left Plasma Blade",
+      "notation": "b,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Nose Bleeder",
+      "notation": "b,4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Flamingo Shuffle",
+      "notation": "u/b,3,3",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Riffle Shuffle",
+      "notation": "u/b,3,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Fade-Away Kick",
+      "notation": "u/b,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Jump Kick to Left Flamingo",
+      "notation": "u,3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Scorpion Side Kick to Right Flamingo",
+      "notation": "u,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Bloody Guillotine",
+      "notation": "u,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Flashing Trident",
+      "notation": "u/f,3+4,4",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "Bone Stinger",
+      "notation": "u/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Hunting Hawk",
+      "notation": "u/f,3,4,3",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Air Raid to Right Flamingo",
+      "notation": "u/f,4,4,4",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Spinning Axe Kick",
+      "notation": "f,F,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Peacekeeper",
+      "notation": "f,F,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Phalanx",
+      "notation": "f,N,d,d/f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Sky Rocket",
+      "notation": "f,N,d,d/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Flying Nerichagi",
+      "notation": "f,f,f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30
+    },
+    {
+      "name": "Torpedo Kick",
+      "notation": "f,f,f,4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Iron Heel",
+      "notation": "\"WS\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Tsunami Kick",
+      "notation": "\"WS\",4,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Eruption to Left Flamingo",
+      "notation": "\"SS\",3,3",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "Spinning Trip Kick",
+      "notation": "\"SS\",4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Plasma Blade",
+      "notation": "\"Left Stance back towards enemy\",4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Disrespect",
+      "notation": "1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Motion Switch",
+      "notation": "3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Migraine",
+      "notation": "1,1",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Big Fists",
+      "notation": "2,1,1",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Right PK Combo",
+      "notation": "2,3",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Chainsaw Kick Combo",
+      "notation": "2,4,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 38
+    },
+    {
+      "name": "Right Reverse Kick Combo",
+      "notation": "2,4,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 41
+    },
+    {
+      "name": "Right Jab Spin Kick",
+      "notation": "2,b,4",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 33
+    },
+    {
+      "name": "Volcannon to Right Flamingo",
+      "notation": "3,4",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Volcannon to Right Stance",
+      "notation": "3,f,4",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 29
+    },
+    {
+      "name": "Backlash",
+      "notation": "【3,4,】",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Chainsaw Kick",
+      "notation": "4,3",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Right Reverse Kick",
+      "notation": "4,4",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 35
+    },
+    {
+      "name": "Right Flamingo Feint",
+      "notation": "f,4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Grand Theft",
+      "notation": "f,【4,4,】",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Cheap Shot to Left Flamingo",
+      "notation": "f,3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Screw Kick",
+      "notation": "d/f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Right Sidekick",
+      "notation": "d/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 12
+    },
+    {
+      "name": "Heel Screw",
+      "notation": "d,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 19
+    },
+    {
+      "name": "Teaser",
+      "notation": "d/b,3,3",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 41
+    },
+    {
+      "name": "Blast Fist",
+      "notation": "b,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Nose Bleeder",
+      "notation": "b,3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Spin Kick",
+      "notation": "b,4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Hunting Heel",
+      "notation": "f,F,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22
+    },
+    {
+      "name": "Screw Kick",
+      "notation": "f,F,4,3",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 38
+    },
+    {
+      "name": "Plasma Blade",
+      "notation": "\"Right Stance back towards enemy\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Spinning Scythe to Axe Heel",
+      "notation": "\"Right Stance back towards enemy\",4,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 36
+    },
+    {
+      "name": "Spinning Low Kick",
+      "notation": "\"Right Stance back towards enemy\",d,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Flamingo Switch",
+      "notation": "\"During Left Flamingo\",3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Trick Jab",
+      "notation": "\"During Left Flamingo\",1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 7
+    },
+    {
+      "name": "Right Backhand",
+      "notation": "\"During Left Flamingo\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Flamingo Side Kick to Left Flamingo",
+      "notation": "\"During Left Flamingo\",3,F",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 12
+    },
+    {
+      "name": "Flamingo Kick Combo Middle",
+      "notation": "\"During Left Flamingo\",3,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Flamingo Side Kick to Right Hook Kick",
+      "notation": "\"During Left Flamingo\",3,4",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 27
+    },
+    {
+      "name": "Flamingo Side Kick to Backlash",
+      "notation": "\"During Left Flamingo\",3,f,4",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 37
+    },
+    {
+      "name": "Step Kick",
+      "notation": "\"During Left Flamingo\",4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Power Blast",
+      "notation": "\"During Left Flamingo\",1+4",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 80
+    },
+    {
+      "name": "Flamingo Rocket",
+      "notation": "\"During Left Flamingo\",f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25
+    },
+    {
+      "name": "Fire Storm Left",
+      "notation": "\"During Left Flamingo\",f,4,3",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 43
+    },
+    {
+      "name": "Flamingo Double Claymore",
+      "notation": "\"During Left Flamingo\",d/f,3,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 40
+    },
+    {
+      "name": "Flamingo Low to Right Hook Kick",
+      "notation": "\"During Left Flamingo\",d,3,4",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Cutter Right",
+      "notation": "\"During Left Flamingo\",d,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 12
+    },
+    {
+      "name": "Combat Low ",
+      "notation": "\"During Left Flamingo\",d/b,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 17
+    },
+    {
+      "name": "Stealth Needle",
+      "notation": "\"During Left Flamingo\",b,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Left Thunderbolt",
+      "notation": "\"During Left Flamingo\",b,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "Combat Middle",
+      "notation": "\"During Left Flamingo\",b,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Flamingo Hunting Hawk",
+      "notation": "\"During Left Flamingo\",u/f,3,4,3",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 32
+    },
+    {
+      "name": "Switch Plasma Blade",
+      "notation": "\"During Left Flamingo\",u/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Flamingo Flashing Trident",
+      "notation": "\"During Left Flamingo\",u/f,3+4,4",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 31
+    },
+    {
+      "name": "10 Hit Combo 1",
+      "notation": "\"During Left Flamingo\",2,2,3,4,3,4,4,4,4,3",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "Low",
+        "Mid",
+        "Mid",
+        "Low",
+        "High",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 106
+    },
+    {
+      "name": "Flamingo Switch",
+      "notation": "\"During Right Flamingo\",3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0
+    },
+    {
+      "name": "Left Punch",
+      "notation": "\"During Right Flamingo\",1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15
+    },
+    {
+      "name": "Right Punch",
+      "notation": "\"During Right Flamingo\",2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 7
+    },
+    {
+      "name": "Step Kick",
+      "notation": "\"During Right Flamingo\",3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 24
+    },
+    {
+      "name": "Right Kick",
+      "notation": "\"During Right Flamingo\",4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20
+    },
+    {
+      "name": "Fire Storm Right",
+      "notation": "\"During Right Flamingo\",f,3,4",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 43
+    },
+    {
+      "name": "Right Viper Combo to Right Sword",
+      "notation": "\"During Right Flamingo\",f,4,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 18
+    },
+    {
+      "name": "Snap Kick",
+      "notation": "\"During Right Flamingo\",d/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 14
+    },
+    {
+      "name": "Cutter Left",
+      "notation": "\"During Right Flamingo\",d,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 12
+    },
+    {
+      "name": "Cactus Shot",
+      "notation": "\"During Right Flamingo\",d,4,3",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28
+    },
+    {
+      "name": "Left Heel Lance",
+      "notation": "\"During Right Flamingo\",b,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21
+    },
+    {
+      "name": "Right Thunderbolt",
+      "notation": "\"During Right Flamingo\",b,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23
+    },
+    {
+      "name": "10 Hit Combo 2",
+      "notation": "\"During Right Flamingo\",1,2,3,4,3,4,4,4,4,3",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "Low",
+        "Mid",
+        "Mid",
+        "Low",
+        "High",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 106
+    },
+    {
+      "name": "Pickpocket",
+      "notation": "1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Pickpocket",
+      "notation": "f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Falcon Dice Kick",
+      "notation": "2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Falcon Dice Kick",
+      "notation": "f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35
+    },
+    {
+      "name": "Bring It On",
+      "notation": "\"Approach from left side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 45
+    },
+    {
+      "name": "Dead-End",
+      "notation": "\"Approach from right side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 44
+    },
+    {
+      "name": "Slaughterhouse",
+      "notation": "\"Back\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 60
+    },
+    {
+      "name": "Roll and Choke",
+      "notation": "2+4,B",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Human Cannonball",
+      "notation": "f,2+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Leg Hook Throw",
+      "notation": "d/b,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40
+    },
+    {
+      "name": "Door Mat",
+      "notation": "d,d/b,b,3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 45
+    },
+    {
+      "name": "Jackknife",
+      "notation": "\"During Right Stance\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 50
+    },
+    {
+      "name": "Overhead Kick",
+      "notation": "\"Approach mid\",-\"air enemy\",d/f,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26
+    },
+    {
+      "name": "Sample Combo 1",
+      "notation": "b,3;f,4;\"During Right Flamingo\",b,4;\"Approach mid\",-\"air enemy\",d/f,3+4",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 60
+    },
+    {
+      "name": "Sample Combo 2",
+      "notation": "d/f,2;1,2,4;\"During Right Flamingo\",2,4,4;f,f,f,3",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "High",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 42
+    },
+    {
+      "name": "Sample Combo 3",
+      "notation": "3+4;\"During Right Stance\",【3,4,】;f,F,4;\"During Right Stance\",3,4;\"During Right Flamingo\",b,4",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 69
+    },
+    {
+      "name": "Sample Combo 4",
+      "notation": "u/b,3,3;\"During Left Flamingo\",d/f,3,F;\"During Left Flamingo\",f,4;\"During Right Stance\",3,4;\"Rage During Flamingo\",d,3+4",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 72
+    },
+    {
+      "name": "Sample Combo 5",
+      "notation": "f,N,d/f,4;3+4;\"During Right Stance\",【3,4,】;3+4;\"During Right Stance\",f,3;\"Rage During Left Flamingo\",u/f,3,4,3+4;d/f,3,4",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "Mid",
+        "Mid",
+        "High",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 85
+    }
+  ]
+}
