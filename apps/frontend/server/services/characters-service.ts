@@ -1,6 +1,6 @@
-import { Character, Combo, PrismaClient } from '@prisma/client';
+import { Character, Combo, PrismaClient, Move } from '@prisma/client';
 
-export type CharacterWithCombos = Character & { combos: Combo[] };
+export type CharacterWithCombos = Character & { combos: Combo[], moves: Move[] };
 
 export class CharactersService {
     private static prisma: PrismaClient | null = null;
@@ -35,6 +35,7 @@ export class CharactersService {
             },
             include: {
                 combos: true,
+                moves: true,
             },
         });
     }

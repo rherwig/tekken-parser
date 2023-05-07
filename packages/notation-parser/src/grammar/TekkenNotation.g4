@@ -41,7 +41,7 @@ MOVEMENT_ALIAS_INPUT
     | 'HCB'
     ;
 
-TEXT: '"' [a-zA-Z0-9]* '"' ;
+TEXT: '"' [a-zA-Z0-9 ]* '"' ;
 
 SPECIAL
     : MOVEMENT_ALIAS

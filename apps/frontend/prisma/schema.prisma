@@ -82,17 +82,20 @@ model Character {
     name     String  @unique
     slug     String  @unique
     imageUrl String?
+    moves    Move[]
     combos   Combo[]
 }
 
 model Move {
-    id        String   @id @default(auto()) @map("_id") @db.ObjectId
-    name      String
-    slug      String   @unique
-    notation  String
-    hitLevels String[]
-    damage    Int?
-    isThrow   Boolean  @default(false)
+    id          String     @id @default(auto()) @map("_id") @db.ObjectId
+    name        String
+    slug        String     @unique
+    notation    String
+    hitLevels   String[]
+    damage      Int?
+    isThrow     Boolean    @default(false)
+    character   Character? @relation(fields: [characterId], references: [id])
+    characterId String?    @db.ObjectId
 }
 
 model Combo {
