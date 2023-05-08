@@ -17,12 +17,6 @@ export default function MovesList(props: Props) {
 
     return (
         <>
-            <div className="mb-6 flex items-center justify-between">
-                <h1 className="text-2xl text-zinc-200">
-                    {props.character.name}
-                </h1>
-            </div>
-
             {moves.map((move) => (
                 <div key={move.id}>
                     <SingleMove

@@ -2,6 +2,7 @@ import { getServerSession } from 'next-auth';
 
 import { CharactersService } from '@/server/services/characters-service';
 import { authOptions } from '@/pages/api/auth/[...nextauth]';
+import CombosList from '@/components/combos/combos-list';
 
 interface Params {
     slug: string;
@@ -20,12 +21,10 @@ export default async function CharacterDetailsPage(props: Props) {
     }
 
     return (
-        <div>
-            {/*<CombosList*/}
-            {/*    session={session}*/}
-            {/*    character={character}*/}
-            {/*    combos={character.combos}*/}
-            {/*/>*/}
-        </div>
+        <CombosList
+            session={session}
+            character={character}
+            combos={character.combos}
+        />
     );
 }

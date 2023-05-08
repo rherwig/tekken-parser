@@ -46,11 +46,8 @@ export default function CombosList(props: Props) {
 
     return (
         <>
-            <div className="mb-6 flex items-center justify-between">
-                <h1 className="text-2xl text-zinc-200">
-                    {props.character.name}
-                </h1>
-                <AdminOnly>
+            <AdminOnly>
+                <div className="mb-6 flex items-center justify-end">
                     <div className={'flex gap-2'}>
                         <CreateCombo
                             session={props.session}
@@ -58,8 +55,8 @@ export default function CombosList(props: Props) {
                             onSuccess={handleComboCreated}
                         />
                     </div>
-                </AdminOnly>
-            </div>
+                </div>
+            </AdminOnly>
 
             {combos.map((combo) => (
                 <div key={combo.id}>

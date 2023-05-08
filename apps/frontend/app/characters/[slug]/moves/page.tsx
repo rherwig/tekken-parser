@@ -22,12 +22,10 @@ export default async function CharacterMovesPage(props: Props) {
     }
 
     return (
-        <ContainerLayout>
-            <MovesList
-                session={session}
-                character={character}
-                moves={character.moves}
-            />
-        </ContainerLayout>
+        <MovesList
+            session={session}
+            character={character}
+            moves={character.moves}
+        />
     );
 }

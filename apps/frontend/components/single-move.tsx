@@ -41,7 +41,7 @@ export default function SingleMove(props: Props) {
                 </div>
             </div>
 
-            <div className="flex min-h-[5.5rem] py-4">
+            <div className="flex min-h-[5.5rem] flex-wrap gap-y-2 py-4">
                 {move !== null &&
                     move.moves.map((move: TekkenMove, index: number) => {
                         return (

@@ -64,7 +64,7 @@ export default function CharactersGrid(props: Props) {
             <div className="grid grid-cols-8 gap-2">
                 {filteredCharacters.map((character) => (
                     <Link
-                        href={`/characters/${character.slug}`}
+                        href={`/characters/${character.slug}/combos`}
                         className="hover:shadow-xs relative flex aspect-square items-center justify-center bg-black/40 text-white transition-all hover:scale-105"
                         key={character.id}
                     >
