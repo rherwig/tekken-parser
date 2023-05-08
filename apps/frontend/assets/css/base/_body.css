@@ -2,6 +2,7 @@ html,
 body,
 #__next {
     @apply w-full h-full;
+    @apply scrollbar scrollbar-thin scrollbar-track-zinc-800 scrollbar-thumb-rounded-sm scrollbar-thumb-zinc-950;
 }
 
 body {
