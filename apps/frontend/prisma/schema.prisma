@@ -96,6 +96,7 @@ model Move {
     isThrow     Boolean    @default(false)
     character   Character? @relation(fields: [characterId], references: [id])
     characterId String?    @db.ObjectId
+    index       Int        @default(0)
 }
 
 model Combo {

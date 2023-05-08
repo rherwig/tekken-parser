@@ -44,6 +44,11 @@ export interface RawMove {
     number: number;
     name: string[];
     command: string[];
+
+    /**
+     * Number of startup frames
+     */
+    s: number;
     at: RawHit[];
     ds: RawDamage[];
 }

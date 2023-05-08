@@ -3,24 +3,33 @@
   "slug": "king",
   "moves": [
     {
+      "index": 1,
       "name": "Rage Art",
       "notation": "\"Rage\",d/f,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 55
+      "damage": 55,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 2,
       "name": "Rage Drive",
       "notation": "\"Rage\",d/b,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 3,
       "name": "Palm Strike to Head Jammer",
       "notation": "1,2,2+4",
       "hitLevels": [
@@ -29,9 +38,13 @@
         "High"
       ],
       "isThrow": true,
-      "damage": 52
+      "damage": 52,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 4,
       "name": "Palm Strike to V Driver",
       "notation": "1,2,d,2+4",
       "hitLevels": [
@@ -40,9 +53,13 @@
         "Mid"
       ],
       "isThrow": true,
-      "damage": 45
+      "damage": 45,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 5,
       "name": "Palm Attack to Uppercut",
       "notation": "1,2,1",
       "hitLevels": [
@@ -51,9 +68,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 32
+      "damage": 32,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 6,
       "name": "Palm Upper to Suplex",
       "notation": "1,2,1,2+4",
       "hitLevels": [
@@ -63,9 +84,13 @@
         "High"
       ],
       "isThrow": true,
-      "damage": 72
+      "damage": 72,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 7,
       "name": "Palm Upper to V Driver",
       "notation": "1,2,1,d,2+4",
       "hitLevels": [
@@ -75,9 +100,13 @@
         "Mid"
       ],
       "isThrow": true,
-      "damage": 45
+      "damage": 45,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 8,
       "name": "Jab Uppercut",
       "notation": "2,1",
       "hitLevels": [
@@ -85,9 +114,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 22
+      "damage": 22,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 9,
       "name": "Head Spinner",
       "notation": "1+2,1",
       "hitLevels": [
@@ -95,9 +128,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 39
+      "damage": 39,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 10,
       "name": "Brutal Sting",
       "notation": "1+2,3",
       "hitLevels": [
@@ -105,50 +142,74 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 43
+      "damage": 43,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 11,
       "name": "Jaguar Step",
       "notation": "3+4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 12,
       "name": "Reverse Jaguar Step",
       "notation": "b,3+4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 13,
       "name": "Jaguar Step to Hook",
       "notation": "3+4,1",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 43
+      }
     },
     {
+      "index": 14,
       "name": "Jaguar Step to Elbow",
       "notation": "3+4,2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 35
+      }
     },
     {
+      "index": 15,
       "name": "Jaguar Step to Sobat",
       "notation": "3+4,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 23
+      "damage": 23,
+      "frames": {
+        "startup": 46
+      }
     },
     {
+      "index": 16,
       "name": "Jaguar Step to Sobat & Press",
       "notation": "3+4,3,2+3",
       "hitLevels": [
@@ -156,36 +217,52 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 23
+      "damage": 23,
+      "frames": {
+        "startup": 46
+      }
     },
     {
+      "index": 17,
       "name": "Jaguar Step to High Kick",
       "notation": "3+4,4",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 41
+      }
     },
     {
+      "index": 18,
       "name": "Jaguar Step to Mid Kick",
       "notation": "3+4,d/f,4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 41
+      }
     },
     {
+      "index": 19,
       "name": "Moonsault Body Press",
       "notation": "1+4",
       "hitLevels": [
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 23
+      "damage": 23,
+      "frames": {
+        "startup": 52
+      }
     },
     {
+      "index": 20,
       "name": "Elbow Impact",
       "notation": "f,2,1",
       "hitLevels": [
@@ -193,9 +270,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 32
+      "damage": 32,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 21,
       "name": "Jaguar Smash Combo",
       "notation": "f,2,d,1,2",
       "hitLevels": [
@@ -204,81 +285,117 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 43
+      "damage": 43,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 22,
       "name": "Front Kick",
       "notation": "f,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 18
+      "damage": 18,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 23,
       "name": "Front Kick to DDT",
       "notation": "f,3,\"Hit from front\",1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 38
+      "damage": 38,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 24,
       "name": "Rolling Sobat",
       "notation": "f,4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 25,
       "name": "Shadow Lariat",
       "notation": "f,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 23
+      "damage": 23,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 26,
       "name": "Jaguar Lariat",
       "notation": "f,1+2,\"Hold\"",
       "hitLevels": [
         "Unblockable 2"
       ],
       "isThrow": false,
-      "damage": 50
+      "damage": 50,
+      "frames": {
+        "startup": 29
+      }
     },
     {
+      "index": 27,
       "name": "Exploder",
       "notation": "f,3+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 38
+      }
     },
     {
+      "index": 28,
       "name": "Body Check",
       "notation": "f,1+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 29,
       "name": "Shoulder Tackle",
       "notation": "f,2+3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 27
+      "damage": 27,
+      "frames": {
+        "startup": 23
+      }
     },
     {
+      "index": 30,
       "name": "Elbow Sting",
       "notation": "d/f,1,2",
       "hitLevels": [
@@ -286,9 +403,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 31,
       "name": "Double Hook Disaster",
       "notation": "d/f,2,1",
       "hitLevels": [
@@ -296,9 +417,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 27
+      "damage": 27,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 32,
       "name": "Lasso Kick",
       "notation": "d/f,3,4",
       "hitLevels": [
@@ -306,9 +431,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 33,
       "name": "Mincer",
       "notation": "d/f,4,3,4",
       "hitLevels": [
@@ -317,9 +446,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 48
+      "damage": 48,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 34,
       "name": "Mincer Low",
       "notation": "d/f,4,3,d,4",
       "hitLevels": [
@@ -328,18 +461,26 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 35,
       "name": "Frankensteiner",
       "notation": "d/f,3+4",
       "hitLevels": [
         "Projectile"
       ],
       "isThrow": false,
-      "damage": 45
+      "damage": 45,
+      "frames": {
+        "startup": 28
+      }
     },
     {
+      "index": 36,
       "name": "Jab Uppercut",
       "notation": "d,1,2",
       "hitLevels": [
@@ -347,27 +488,39 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 18
+      "damage": 18,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 37,
       "name": "Stomp",
       "notation": "d,3",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 12
+      "damage": 12,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 38,
       "name": "Atlas' Hammer",
       "notation": "d,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 23
+      }
     },
     {
+      "index": 39,
       "name": "Stagger Kick",
       "notation": "d,3+4,4,4",
       "hitLevels": [
@@ -376,9 +529,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 28
+      "damage": 28,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 40,
       "name": "Stagger Kicks",
       "notation": "\"During Counter Hit\",d,3+4,4,4,4",
       "hitLevels": [
@@ -389,9 +546,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 37
+      "damage": 37,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 41,
       "name": "Stagger Kick Spinning Uppercut",
       "notation": "\"During Stagger Kick\",2",
       "hitLevels": [
@@ -401,54 +562,78 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 38
+      "damage": 38,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 42,
       "name": "Corporate Elbow",
       "notation": "d,2+3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 30
+      }
     },
     {
+      "index": 43,
       "name": "Brain Chop",
       "notation": "d/b,2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 25
+      }
     },
     {
+      "index": 44,
       "name": "Crouching Low Kick",
       "notation": "d/b,3",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 17
+      "damage": 17,
+      "frames": {
+        "startup": 23
+      }
     },
     {
+      "index": 45,
       "name": "Low Drop Kick",
       "notation": "d/b,4",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 29
+      }
     },
     {
+      "index": 46,
       "name": "Quick Hook",
       "notation": "b,1",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 13
+      "damage": 13,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 47,
       "name": "Quick Hook Uppercut",
       "notation": "b,1,2",
       "hitLevels": [
@@ -456,9 +641,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 33
+      "damage": 33,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 48,
       "name": "Quick Hook Heel Kick",
       "notation": "b,1,4",
       "hitLevels": [
@@ -466,9 +655,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 36
+      "damage": 36,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 49,
       "name": "Chupacabra to Head Butt",
       "notation": "b,2,1+2",
       "hitLevels": [
@@ -476,9 +669,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 34
+      "damage": 34,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 50,
       "name": "Chupacabra to Toe Kick",
       "notation": "b,2,4",
       "hitLevels": [
@@ -486,9 +683,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 51,
       "name": "Olympia Slam",
       "notation": "\"During Counter Hit\",b,2,4",
       "hitLevels": [
@@ -496,135 +697,195 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 41
+      "damage": 41,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 52,
       "name": "Toll Kick",
       "notation": "b,3",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 23
+      "damage": 23,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 53,
       "name": "Disgraceful Kick",
       "notation": "b,4",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 37
+      "damage": 37,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 54,
       "name": "Water Parting Chop",
       "notation": "u/b,1",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 55,
       "name": "Falling Heel Kick",
       "notation": "u/f,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 23
+      "damage": 23,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 56,
       "name": "Jumping Knee Lift",
       "notation": "u/f,4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 13
+      "damage": 13,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 57,
       "name": "Capital Punishment",
       "notation": "u/f,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 35
+      }
     },
     {
+      "index": 58,
       "name": "Burning Knuckle",
       "notation": "u/f,1+2,\"Hold\"",
       "hitLevels": [
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 45
+      "damage": 45,
+      "frames": {
+        "startup": 67
+      }
     },
     {
+      "index": 59,
       "name": "Neck Cutter Kick",
       "notation": "u/f,3+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 28
+      "damage": 28,
+      "frames": {
+        "startup": 23
+      }
     },
     {
+      "index": 60,
       "name": "High Elbow Drop",
       "notation": "u/f,2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 47
+      }
     },
     {
+      "index": 61,
       "name": "Stomach Smash",
       "notation": "f,f,N,2",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 14
+      "damage": 14,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 62,
       "name": "Jaguar Hammer",
       "notation": "\"During Counter Hit\",f,f,N,2",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 51
+      "damage": 51,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 63,
       "name": "Lay Off",
       "notation": "f,f,N,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": 9
+      }
     },
     {
+      "index": 64,
       "name": "Jaguar Hook",
       "notation": "f,F,1",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 65,
       "name": "Rolling Elbow",
       "notation": "f,F,2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 19
+      "damage": 19,
+      "frames": {
+        "startup": 31
+      }
     },
     {
+      "index": 66,
       "name": "Clothesline Combo",
       "notation": "f,F,2,1",
       "hitLevels": [
@@ -632,81 +893,117 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 44
+      "damage": 44,
+      "frames": {
+        "startup": 31
+      }
     },
     {
+      "index": 67,
       "name": "Konvict Kick ",
       "notation": "f,F,4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 68,
       "name": "Konvict Kick to DDT",
       "notation": "\"During Counter Hit\",f,F,4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 50
+      "damage": 50,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 69,
       "name": "Flying Cross Chop",
       "notation": "f,F,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 70,
       "name": "Diving Body Press",
       "notation": "f,F,2+3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 21
+      }
     },
     {
+      "index": 71,
       "name": "Jumping Knee",
       "notation": "f,N,d,D/F,4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 72,
       "name": "Black Bomb",
       "notation": "f,N,d,D/F,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 73,
       "name": "Strong Knee",
       "notation": "f,f,f,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 74,
       "name": "Running Exploder",
       "notation": "f,f,f,3+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 28
+      }
     },
     {
+      "index": 75,
       "name": "Round Trip Chop",
       "notation": "\"WS\",2,2",
       "hitLevels": [
@@ -714,81 +1011,117 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 36
+      "damage": 36,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 76,
       "name": "Snap Uppercut",
       "notation": "\"WS\",1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 77,
       "name": "Leg Breaker",
       "notation": "\"FC\",d/f,1",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 32
+      }
     },
     {
+      "index": 78,
       "name": "Body Blow",
       "notation": "\"FC\",d/f,2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 79,
       "name": "Victory Palm ",
       "notation": "\"SS\",2",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 80,
       "name": "Deadly Boomerang",
       "notation": "\"SS\",3+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 50
+      "damage": 50,
+      "frames": {
+        "startup": 27
+      }
     },
     {
+      "index": 81,
       "name": "Blind Kick",
       "notation": "\"Back towards enemy\",3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 82,
       "name": "Blind Kick to Neck Breaker",
       "notation": "\"During Blind Kick hit\",1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 83,
       "name": "Atomic Blaster",
       "notation": "\"Back towards enemy\",1+2",
       "hitLevels": [
         "Unblockable 2"
       ],
       "isThrow": false,
-      "damage": 50
+      "damage": 50,
+      "frames": {
+        "startup": 26
+      }
     },
     {
+      "index": 84,
       "name": "10 Hit Combo 1",
       "notation": "1,2,1,1,2,4,4,4,1,3",
       "hitLevels": [
@@ -804,9 +1137,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 87
+      "damage": 87,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 85,
       "name": "10 Hit Combo 2",
       "notation": "1,2,1,1,3,3,4,3,2,1+2",
       "hitLevels": [
@@ -821,847 +1158,1227 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 92
+      "damage": 92,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 86,
       "name": "Winding Nut",
       "notation": "1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 87,
       "name": "Winding Nut",
       "notation": "f,1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 88,
       "name": "Suplex",
       "notation": "2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 89,
       "name": "Suplex",
       "notation": "f,2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 90,
       "name": "Argentina Backbreaker",
       "notation": "\"Approach from left side\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 91,
       "name": "Knee Crusher",
       "notation": "\"Approach from right side\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 42
+      "damage": 42,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 92,
       "name": "Half Boston Crab",
       "notation": "\"Back\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 60
+      "damage": 60,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 93,
       "name": "Cobra Twist",
       "notation": "\"Back\",2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 60
+      "damage": 60,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 94,
       "name": "Stretch Buster",
       "notation": "\"Back\",b,F,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 75
+      "damage": 75,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 95,
       "name": "Knee Bash",
       "notation": "d/f,2+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 96,
       "name": "Figure Four Leg Lock",
       "notation": "d/b,2+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 97,
       "name": "Throw Away",
       "notation": "b,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 98,
       "name": "Throw Away Feint",
       "notation": "b,1+2,1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 99,
       "name": "Throw Away Knockdown",
       "notation": "b,1+2,2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 8
+      "damage": 8,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 100,
       "name": "Throw and Destroy",
       "notation": "b,1+2,3+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 10
+      "damage": 10,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 101,
       "name": "Turn Around",
       "notation": "b,1+2,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 102,
       "name": "Executioner Drop",
       "notation": "u,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 103,
       "name": "Tombstone Pile Driver",
       "notation": "d/b,f,2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 58
+      "damage": 58,
+      "frames": {
+        "startup": 11
+      }
     },
     {
+      "index": 104,
       "name": "Pile Driver",
       "notation": "d,d/f,F,1",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 11
+      }
     },
     {
+      "index": 105,
       "name": "Double Arm Face Buster",
       "notation": "\"During Pile Driver\",1+2,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 11
+      }
     },
     {
+      "index": 106,
       "name": "Boston Crab",
       "notation": "\"During Pile Driver\",1+2,3,4,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 45
+      "damage": 45,
+      "frames": {
+        "startup": 11
+      }
     },
     {
+      "index": 107,
       "name": "Muscle Buster",
       "notation": "d,d/b,b,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 50
+      "damage": 50,
+      "frames": {
+        "startup": 11
+      }
     },
     {
+      "index": 108,
       "name": "Giant Swing",
       "notation": "f,b,d/b,d,d/f,f,1",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 65
+      "damage": 65,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 109,
       "name": "Tijuana Twister",
       "notation": "f,b,d/b,d,d/f,f,2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 50
+      "damage": 50,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 110,
       "name": "Tomahawk",
       "notation": "f,f,f,2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 111,
       "name": "Clothesline Press",
       "notation": "\"FC\",d/b,d,d/b,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 45
+      "damage": 45,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 112,
       "name": "Ultimate Tackle",
       "notation": "\"FC\",1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": true,
-      "damage": 5
+      "damage": 5,
+      "frames": {
+        "startup": 26
+      }
     },
     {
+      "index": 113,
       "name": "Ultimate Punch",
       "notation": "\"Tackle\",2,1,2,1",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 26
+      }
     },
     {
+      "index": 114,
       "name": "Cross Arm Lock",
       "notation": "\"Tackle\",1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": true,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 26
+      }
     },
     {
+      "index": 115,
       "name": "Arm Twist",
       "notation": "\"During Cross Arm Lock\",1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": true,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 26
+      }
     },
     {
+      "index": 116,
       "name": "Leg Cross Hold",
       "notation": "\"Tackle\",3+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": true,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 26
+      }
     },
     {
+      "index": 117,
       "name": "Stretch Combo",
       "notation": "\"During Leg Cross Hold\",1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": true,
-      "damage": 55
+      "damage": 55,
+      "frames": {
+        "startup": 26
+      }
     },
     {
+      "index": 118,
       "name": "Iron Lariat",
       "notation": "\"Approach\",d,1+3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": true,
-      "damage": 45
+      "damage": 45,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 119,
       "name": "V Driver",
       "notation": "\"Approach\",d,2+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": true,
-      "damage": 45
+      "damage": 45,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 120,
       "name": "Swing Away",
       "notation": "",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": true,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 121,
       "name": "Head Bomber",
       "notation": "\"by the feet\",D/B,1+3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": true,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 122,
       "name": "Figure Four Leg Lock",
       "notation": "\"by the feet\",D/B,2+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": true,
-      "damage": 33
+      "damage": 33,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 123,
       "name": "Shoulder Cracker",
       "notation": "",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": true,
-      "damage": 28
+      "damage": 28,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 124,
       "name": "Turn Over",
       "notation": "",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": true,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 125,
       "name": "Half Boston Crab",
       "notation": "",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": true,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 126,
       "name": "Wing Tearer",
       "notation": "",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": true,
-      "damage": 32
+      "damage": 32,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 127,
       "name": "Camel Clutch",
       "notation": "",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 128,
       "name": "Bow & Arrow Stretch Hold",
       "notation": "",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": true,
-      "damage": 37
+      "damage": 37,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 129,
       "name": "Mid-Air Leg Cross Hold",
       "notation": "\"Approach mid\",-\"air enemy\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 130,
       "name": "Mid-Air Leg Screw",
       "notation": "\"Approach mid\",-\"air enemy\",2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 131,
       "name": "Aerial Jaguar Bomb",
       "notation": "\"Approach mid\",-\"air enemy\",f,b,d/b,d,d/f,f,1",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 38
+      "damage": 38,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 132,
       "name": "Running Jaguar Bomb",
       "notation": "\"Approach mid\",-\"air enemy\",f,f,f,2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 45
+      "damage": 45,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 133,
       "name": "Double Heel Hold",
       "notation": "\"Approach mid\",-\"air enemy\",d,1+3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": true,
-      "damage": 10
+      "damage": 10,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 134,
       "name": "Flapjack",
       "notation": "\"During Double Heel Hold\",1+2,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": true,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 135,
       "name": "Giant Swing",
       "notation": "\"During Double Heel Hold\",2,1,3,4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": true,
-      "damage": 27
+      "damage": 27,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 136,
       "name": "Shining Torpedo",
       "notation": "\"During enemy wall stun\",f,b,d/b,d,d/f,f,1",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 137,
       "name": "Arm Whip",
       "notation": "\"Time with enemy right punch\",b,1+3",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 138,
       "name": "Spinning Heel Hold",
       "notation": "\"Time with enemy left kick\",b,2+4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 139,
       "name": "Leg Screw",
       "notation": "\"Time with enemy right kick\",b,2+4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 140,
       "name": "Standing Heel Hold",
       "notation": "f,N,d,D/F,2+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 141,
       "name": "Indian Death Lock",
       "notation": "\"During Standing Heel Hold\",1+2,1,3,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 50
+      "damage": 50,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 142,
       "name": "King's Bridge",
       "notation": "\"During Indian Death Lock\",1,3,4,1+2,3+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 95
+      "damage": 95,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 143,
       "name": "S・T・F・",
       "notation": "\"During Standing Heel Hold\",1,2,3,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 60
+      "damage": 60,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 144,
       "name": "Scorpion Death Lock",
       "notation": "\"During Standing Heel Hold\",1+2,3,1,1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 65
+      "damage": 65,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 145,
       "name": "Arm Breaker",
       "notation": "f,N,d,D/F,1+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 146,
       "name": "Triple Arm Breaker",
       "notation": "\"During Arm Breaker\",1+2,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 50
+      "damage": 50,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 147,
       "name": "Head Jammer",
       "notation": "\"During Arm Breaker\",1+2,4,2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 148,
       "name": "Struggle Combination",
       "notation": "\"During Head Jammer\",4,3,4,3+4,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 65
+      "damage": 65,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 149,
       "name": "Chicken Wing Face Lock",
       "notation": "\"During Arm Breaker\",2,1,1+2+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 150,
       "name": "Dragon Sleeper Finish",
       "notation": "\"During Chicken Wing Face Lock\",2,1,3,1+2+4,1+2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 70
+      "damage": 70,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 151,
       "name": "Rolling Death Cradle",
       "notation": "\"During Chicken Wing Face Lock\",1+3,3+4,2+4,1+2,1+2+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 110
+      "damage": 110,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 152,
       "name": "Reverse Arm Slam",
       "notation": "d/f,1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 22
+      "damage": 22,
+      "frames": {
+        "startup": 32
+      }
     },
     {
+      "index": 153,
       "name": "Backdrop",
       "notation": "\"During Reverse Arm Slam\",2,1,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 37
+      "damage": 37,
+      "frames": {
+        "startup": 32
+      }
     },
     {
+      "index": 154,
       "name": "German Suplex",
       "notation": "\"During Backdrop\",3+4,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 52
+      "damage": 52,
+      "frames": {
+        "startup": 32
+      }
     },
     {
+      "index": 155,
       "name": "Power Bomb",
       "notation": "\"During German Suplex\",1,2,3+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 74
+      "damage": 74,
+      "frames": {
+        "startup": 32
+      }
     },
     {
+      "index": 156,
       "name": "Giant Swing",
       "notation": "\"During Power Bomb\",2,1,3,4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 99
+      "damage": 99,
+      "frames": {
+        "startup": 32
+      }
     },
     {
+      "index": 157,
       "name": "Muscle Buster",
       "notation": "\"During Power Bomb\",3,1,2,3+4,1+2+3+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 104
+      "damage": 104,
+      "frames": {
+        "startup": 32
+      }
     },
     {
+      "index": 158,
       "name": "Reverse Special Stretch Bomb",
       "notation": "d/f,2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 32
+      }
     },
     {
+      "index": 159,
       "name": "Reverse Special Stretch Bomb",
       "notation": "\"Approach\"",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": true,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 160,
       "name": "Reverse Special Stretch Bomb",
       "notation": "\"SS\",2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 38
+      }
     },
     {
+      "index": 161,
       "name": "Cannonball Buster",
       "notation": "\"During Reverse Special Stretch Bomb\",2,2,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 32
+      }
     },
     {
+      "index": 162,
       "name": "Manhattan Drop",
       "notation": "\"During Cannonball Buster\",3+4,1+2,1+2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 55
+      "damage": 55,
+      "frames": {
+        "startup": 32
+      }
     },
     {
+      "index": 163,
       "name": "Victory Bomb",
       "notation": "\"During Manhattan Drop\",1,2,3+4,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 73
+      "damage": 73,
+      "frames": {
+        "startup": 32
+      }
     },
     {
+      "index": 164,
       "name": "Giant Swing",
       "notation": "\"During Victory Bomb\",2,1,3,4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 98
+      "damage": 98,
+      "frames": {
+        "startup": 32
+      }
     },
     {
+      "index": 165,
       "name": "Muscle Buster",
       "notation": "\"During Victory Bomb\",3,1,2,3+4,1+2+3+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 103
+      "damage": 103,
+      "frames": {
+        "startup": 32
+      }
     },
     {
+      "index": 166,
       "name": "Cobra Clutch",
       "notation": "3+4,1+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 36
+      }
     },
     {
+      "index": 167,
       "name": "Flinging Half Nelson",
       "notation": "\"During Cobra Clutch\",2+4,1+2,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 45
+      "damage": 45,
+      "frames": {
+        "startup": 36
+      }
     },
     {
+      "index": 168,
       "name": "Sleeper ",
       "notation": "\"During Cobra Clutch\",3+4,3+4,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 36
+      }
     },
     {
+      "index": 169,
       "name": "Triple Trouble",
       "notation": "\"During Sleeper\",1,1,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 55
+      "damage": 55,
+      "frames": {
+        "startup": 36
+      }
     },
     {
+      "index": 170,
       "name": "Human Necktie",
       "notation": "\"During Sleeper\",3,4,1+2,3+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 58
+      "damage": 58,
+      "frames": {
+        "startup": 36
+      }
     },
     {
+      "index": 171,
       "name": "Cobra Clutch",
       "notation": "3+4,1+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 36
+      }
     },
     {
+      "index": 172,
       "name": "Cobra Twist",
       "notation": "\"During Cobra Clutch\",1,4,2,3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 32
+      "damage": 32,
+      "frames": {
+        "startup": 36
+      }
     },
     {
+      "index": 173,
       "name": "Reverse DDT",
       "notation": "\"During Cobra Twist\",2,1,1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 45
+      "damage": 45,
+      "frames": {
+        "startup": 36
+      }
     },
     {
+      "index": 174,
       "name": "Reverse Special Stretch Bomb",
       "notation": "\"During Reverse DDT\",1+2,1,2,1+2+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 61
+      "damage": 61,
+      "frames": {
+        "startup": 36
+      }
     },
     {
+      "index": 175,
       "name": "Samurai Rock",
       "notation": "\"During Reverse DDT\",2,3,1,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 69
+      "damage": 69,
+      "frames": {
+        "startup": 36
+      }
     },
     {
+      "index": 176,
       "name": "Backdrop",
       "notation": "\"During Reverse Special Stretch Bomb\",3+4,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 76
+      "damage": 76,
+      "frames": {
+        "startup": 36
+      }
     },
     {
+      "index": 177,
       "name": "Sol Naciente",
       "notation": "\"During Backdrop\",1+2,4,1+2,1+2+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 103
+      "damage": 103,
+      "frames": {
+        "startup": 36
+      }
     },
     {
+      "index": 178,
       "name": "Burning Hammer",
       "notation": "\"During Backdrop\",1+2,3,4,1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 94
+      "damage": 94,
+      "frames": {
+        "startup": 36
+      }
     },
     {
+      "index": 179,
       "name": "Screwdriver",
       "notation": "\"During Burning Hammer\",2+4,3+4,1+3,1+2,1+2+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 126
+      "damage": 126,
+      "frames": {
+        "startup": 36
+      }
     },
     {
+      "index": 180,
       "name": "Sample Combo 1",
       "notation": "\"FC\",d/f,1;\"WS\",2,2;f,2+3",
       "hitLevels": [
@@ -1671,9 +2388,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 49
+      "damage": 49,
+      "frames": {
+        "startup": 32
+      }
     },
     {
+      "index": 181,
       "name": "Sample Combo 2",
       "notation": "u/f,4;4;d/f,2,1;f,2,1",
       "hitLevels": [
@@ -1685,9 +2406,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 48
+      "damage": 48,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 182,
       "name": "Sample Combo 3",
       "notation": "\"WS\",1+2;1+2,3;\"Approach mid\",-\"air enemy\",f,f,f,2+4",
       "hitLevels": [
@@ -1697,9 +2422,13 @@
         "High"
       ],
       "isThrow": true,
-      "damage": 70
+      "damage": 70,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 183,
       "name": "Sample Combo 4",
       "notation": "\"FC\",d/f,2;d/f,4,3;d/f,2,1;\"Rage\",d/f,1+2",
       "hitLevels": [
@@ -1711,9 +2440,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 68
+      "damage": 68,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 184,
       "name": "Sample Combo 5",
       "notation": "\"Rage\",d/b,1+2;U/F,4;d/f,4,3;1,2;f,F,1;\"Approach mid\",-\"air enemy\",f,f,f,2+4",
       "hitLevels": [
@@ -1727,7 +2460,10 @@
         "High"
       ],
       "isThrow": true,
-      "damage": 81
+      "damage": 81,
+      "frames": {
+        "startup": 20
+      }
     }
   ]
 }

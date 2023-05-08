@@ -3,42 +3,59 @@
   "slug": "eliza",
   "moves": [
     {
+      "index": 1,
       "name": "Rage Art",
       "notation": "\"Rage\",b,3+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 55
+      "damage": 55,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 2,
       "name": "Dark Wave",
       "notation": "d,d/f,f,1",
       "hitLevels": [
         "Projectile"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 28
+      }
     },
     {
+      "index": 3,
       "name": "Dark Wave",
       "notation": "d,d/f,f,2",
       "hitLevels": [
         "Projectile"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 25
+      }
     },
     {
+      "index": 4,
       "name": "Dark Blade",
       "notation": "f,d,d/f,1",
       "hitLevels": [
         "Projectile"
       ],
       "isThrow": false,
-      "damage": 12
+      "damage": 12,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 5,
       "name": "Dark Blade",
       "notation": "f,d,d/f,2",
       "hitLevels": [
@@ -47,45 +64,65 @@
         "Projectile"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 6,
       "name": "Dark Storm",
       "notation": "d,d/b,b,1",
       "hitLevels": [
         "Projectile"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 7,
       "name": "Dark Tempest",
       "notation": "d,d/b,b,2",
       "hitLevels": [
         "Projectile"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 8,
       "name": "Dark Cannon",
       "notation": "d,d/b,b,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 27
+      }
     },
     {
+      "index": 9,
       "name": "Dark Cannon",
       "notation": "d,d/b,b,4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 14
+      "damage": 14,
+      "frames": {
+        "startup": 26
+      }
     },
     {
+      "index": 10,
       "name": "Dazzling Wave",
       "notation": "f,F,4,2,d,d/f,f,1",
       "hitLevels": [
@@ -94,45 +131,65 @@
         "Projectile"
       ],
       "isThrow": false,
-      "damage": 34
+      "damage": 34,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 11,
       "name": "AirBorne Dark Cannon",
       "notation": "\"Jump\",d,d/b,b,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 12,
       "name": "AirBorne Dark Cannon",
       "notation": "\"Jump\",d,d/b,b,4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 14
+      "damage": 14,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 13,
       "name": "Dark Wave to Moon Glide",
       "notation": "d,d/f,f,1,f,d,d/f,3+4",
       "hitLevels": [
         "Projectile"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 28
+      }
     },
     {
+      "index": 14,
       "name": "Dark Wave Chaos",
       "notation": "d,d/f,f,1+2",
       "hitLevels": [
         "Projectile"
       ],
       "isThrow": false,
-      "damage": 34
+      "damage": 34,
+      "frames": {
+        "startup": 24
+      }
     },
     {
+      "index": 15,
       "name": "Dark Blade Chaos",
       "notation": "f,d,d/f,1+2",
       "hitLevels": [
@@ -143,9 +200,13 @@
         "Projectile"
       ],
       "isThrow": false,
-      "damage": 34
+      "damage": 34,
+      "frames": {
+        "startup": 11
+      }
     },
     {
+      "index": 16,
       "name": "Dark Tempest Chaos",
       "notation": "d,d/b,b,1+2",
       "hitLevels": [
@@ -153,9 +214,13 @@
         "Projectile"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 17,
       "name": "Dark Cannon Chaos",
       "notation": "d,d/b,b,3+4",
       "hitLevels": [
@@ -163,9 +228,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 25
+      }
     },
     {
+      "index": 18,
       "name": "Dazzling Wave to Moon Glide",
       "notation": "f,F,4,2,d,d/f,f,1,f,d,d/f,3+4",
       "hitLevels": [
@@ -174,9 +243,13 @@
         "Projectile"
       ],
       "isThrow": false,
-      "damage": 34
+      "damage": 34,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 19,
       "name": "Dazzling Wave Chaos",
       "notation": "f,F,4,2,d,d/f,f,1+2",
       "hitLevels": [
@@ -185,9 +258,13 @@
         "Projectile"
       ],
       "isThrow": false,
-      "damage": 34
+      "damage": 34,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 20,
       "name": "AirBorne Dark Cannon Chaos",
       "notation": "\"Jump\",d,d/b,b,3+4",
       "hitLevels": [
@@ -195,27 +272,39 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 21,
       "name": "Bloody Horn",
       "notation": "d,d/f,f,d,d/f,f,1+2",
       "hitLevels": [
         "Projectile"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 22,
       "name": "Needle Jab",
       "notation": "1",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 7
+      "damage": 7,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 23,
       "name": "Double Needle",
       "notation": "1,1",
       "hitLevels": [
@@ -223,9 +312,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 14
+      "damage": 14,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 24,
       "name": "Left Right Slap",
       "notation": "1,2",
       "hitLevels": [
@@ -233,9 +326,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 17
+      "damage": 17,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 25,
       "name": "Left Right Moonrise",
       "notation": "1,2,3",
       "hitLevels": [
@@ -244,9 +341,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 37
+      "damage": 37,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 26,
       "name": "Left Right Arc Kick",
       "notation": "1,2,4",
       "hitLevels": [
@@ -255,9 +356,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 37
+      "damage": 37,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 27,
       "name": "Binary Star",
       "notation": "2,2",
       "hitLevels": [
@@ -265,52 +370,76 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 28,
       "name": "Arc Kick",
       "notation": "4",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 29,
       "name": "Meteor Burst",
       "notation": "1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 30,
       "name": "Shadow Ring",
       "notation": "3+4",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 33
+      }
     },
     {
+      "index": 31,
       "name": "Fierce Sting",
       "notation": "f,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 17
+      "damage": 17,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 32,
       "name": "Moon Glide",
       "notation": "f,4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 33,
       "name": "Stardust",
       "notation": "\"During Moon Glide\",1,2",
       "hitLevels": [
@@ -318,9 +447,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 23
+      "damage": 23,
+      "frames": {
+        "startup": 25
+      }
     },
     {
+      "index": 34,
       "name": "Stardust Break",
       "notation": "\"During Moon Glide\",1,2,1+2",
       "hitLevels": [
@@ -329,27 +462,39 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 44
+      "damage": 44,
+      "frames": {
+        "startup": 25
+      }
     },
     {
+      "index": 35,
       "name": "Bloody Claw to Deadly Slumber",
       "notation": "\"During Moon Glide\",2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 29
+      }
     },
     {
+      "index": 36,
       "name": "Bloody Claw to Standing ",
       "notation": "\"During Moon Glide\",2,B",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 29
+      }
     },
     {
+      "index": 37,
       "name": "Helical Flow",
       "notation": "\"During Moon Glide\",3,4",
       "hitLevels": [
@@ -357,36 +502,52 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 26
+      "damage": 26,
+      "frames": {
+        "startup": 31
+      }
     },
     {
+      "index": 38,
       "name": "Queen Needle",
       "notation": "\"During Moon Glide\",4",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 33
+      }
     },
     {
+      "index": 39,
       "name": "Death Impact",
       "notation": "\"During Moon Glide\",1+2",
       "hitLevels": [
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 66
+      }
     },
     {
+      "index": 40,
       "name": "Broken Dream",
       "notation": "f,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 25
+      }
     },
     {
+      "index": 41,
       "name": "Moonlight",
       "notation": "d/f,1,2",
       "hitLevels": [
@@ -394,9 +555,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 29
+      "damage": 29,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 42,
       "name": "Daylight",
       "notation": "d/f,1,4",
       "hitLevels": [
@@ -404,9 +569,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 26
+      "damage": 26,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 43,
       "name": "Rending Claw",
       "notation": "d/f,2,3",
       "hitLevels": [
@@ -414,61 +583,89 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 44,
       "name": "Astral Shot",
       "notation": "d/f,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 25
+      }
     },
     {
+      "index": 45,
       "name": "Sitting Jab",
       "notation": "d,1",
       "hitLevels": [
         "Special Mid"
       ],
       "isThrow": false,
-      "damage": 5
+      "damage": 5,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 46,
       "name": "Sitting Claw",
       "notation": "d,2",
       "hitLevels": [
         "Special Mid"
       ],
       "isThrow": false,
-      "damage": 8
+      "damage": 8,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 47,
       "name": "Sweeping Scarlet",
       "notation": "d,3",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 7
+      "damage": 7,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 48,
       "name": "Horizon Ring",
       "notation": "d,4",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 49,
       "name": "Endless Sleep",
       "notation": "d,1+2",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 50,
       "name": "Rising Chaos",
       "notation": "b,1,2,4",
       "hitLevels": [
@@ -477,9 +674,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 42
+      "damage": 42,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 51,
       "name": "Leading Knee",
       "notation": "b,2,3",
       "hitLevels": [
@@ -487,9 +688,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 11
+      }
     },
     {
+      "index": 52,
       "name": "Dust Tail",
       "notation": "b,3,1",
       "hitLevels": [
@@ -497,9 +702,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 34
+      "damage": 34,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 53,
       "name": "Ion Tail",
       "notation": "b,3,4",
       "hitLevels": [
@@ -507,18 +716,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 34
+      "damage": 34,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 54,
       "name": "Flare Knee",
       "notation": "b,4",
       "hitLevels": [
         "Projectile"
       ],
       "isThrow": false,
-      "damage": 12
+      "damage": 12,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 55,
       "name": "Burst Claw",
       "notation": "b,1+2",
       "hitLevels": [
@@ -526,9 +743,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 27
+      }
     },
     {
+      "index": 56,
       "name": "Splendid Edge",
       "notation": "f,F,4,2",
       "hitLevels": [
@@ -536,9 +757,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 57,
       "name": "Assault Barrage",
       "notation": "f,F,1+2",
       "hitLevels": [
@@ -547,111 +772,163 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 31
+      "damage": 31,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 58,
       "name": "Noble Execution",
       "notation": "f,f,f,1",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 59,
       "name": "Noble Slash",
       "notation": "f,f,f,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 27
+      "damage": 27,
+      "frames": {
+        "startup": 24
+      }
     },
     {
+      "index": 60,
       "name": "Stabbing Scarlet",
       "notation": "\"WS\",1",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 10
+      "damage": 10,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 61,
       "name": "Rising Shadow",
       "notation": "\"WS\",2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 18
+      "damage": 18,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 62,
       "name": "Rose Thorn",
       "notation": "\"WS\",3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 63,
       "name": "Deadly Slumber",
       "notation": "\"FC\",D",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 64,
       "name": "Vampire Needle",
       "notation": "\"Jump\",1",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 10
+      "damage": 10,
+      "frames": {
+        "startup": 7
+      }
     },
     {
+      "index": 65,
       "name": "Vampire Claw",
       "notation": "\"Jump\",2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 9
+      }
     },
     {
+      "index": 66,
       "name": "Swan Shot",
       "notation": "\"Jump\",3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 10
+      "damage": 10,
+      "frames": {
+        "startup": 7
+      }
     },
     {
+      "index": 67,
       "name": "Poison Orbit",
       "notation": "\"Jump\",4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 9
+      }
     },
     {
+      "index": 68,
       "name": "Endless Sleep",
       "notation": "\"While down\",1+2",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 69,
       "name": "Auger",
       "notation": "2+3+4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 70,
       "name": "10 Hit Combo",
       "notation": "3,1,4,1,2,2,4,2,1,2",
       "hitLevels": [
@@ -669,81 +946,117 @@
         "Projectile"
       ],
       "isThrow": false,
-      "damage": 93
+      "damage": 93,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 71,
       "name": "Grave Digger",
       "notation": "1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 72,
       "name": "Grave Digger",
       "notation": "f,1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 73,
       "name": "Salamander",
       "notation": "2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 74,
       "name": "Salamander",
       "notation": "f,2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 75,
       "name": "Phantom Rave",
       "notation": "\"Approach from left side\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 76,
       "name": "Phantom Rave",
       "notation": "\"Approach from right side\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 77,
       "name": "Deep Shadow",
       "notation": "\"Back\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 45
+      "damage": 45,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 78,
       "name": "Phantom Rave",
       "notation": "d/f,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 11
+      }
     },
     {
+      "index": 79,
       "name": "Sample Combo 1",
       "notation": "\"Jump\",4;1;f,d,d/f,2",
       "hitLevels": [
@@ -754,9 +1067,13 @@
         "Projectile"
       ],
       "isThrow": false,
-      "damage": 46
+      "damage": 46,
+      "frames": {
+        "startup": 9
+      }
     },
     {
+      "index": 80,
       "name": "Sample Combo 2",
       "notation": "\"WS\",3;1,2,4;d,3;d,d/b,b,2",
       "hitLevels": [
@@ -768,9 +1085,13 @@
         "Projectile"
       ],
       "isThrow": false,
-      "damage": 46
+      "damage": 46,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 81,
       "name": "Sample Combo 3",
       "notation": "\"WS\",1;f,d,d/f,1;b,2,3;2,2;d,d/b,b,1;f,4;\"During Moon Glide\",2",
       "hitLevels": [
@@ -784,9 +1105,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 56
+      "damage": 56,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 82,
       "name": "Sample Combo 4",
       "notation": "f,F,4,2,d,d/f,f,1,f,d,d/f,3+4;\"During Moon Glide\",3,4;\"Jump\",2;\"Rage\",b,3+4",
       "hitLevels": [
@@ -799,9 +1124,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 79
+      "damage": 79,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 83,
       "name": "Sample Combo 5",
       "notation": "\"Jump\",2;b,4;d,d/f,f,d,d/f,f,1+2;f,f,f,1;\"Jump\",d,d/b,b,4;1;f,4;\"During Moon Glide\",1,2,1+2",
       "hitLevels": [
@@ -816,7 +1145,10 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 84
+      "damage": 84,
+      "frames": {
+        "startup": 9
+      }
     }
   ]
 }

@@ -3,33 +3,46 @@
   "slug": "yoshimitsu",
   "moves": [
     {
+      "index": 1,
       "name": "Rage Art",
       "notation": "\"Rage\",b,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 55
+      "damage": 55,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 2,
       "name": "Supreme Soul Stealer",
       "notation": "\"Rage Parry\",u/b,1+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 23
+      }
     },
     {
+      "index": 3,
       "name": "Rage Drive",
       "notation": "\"Rage\",f,N,d,d/f,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 4,
       "name": "Naguri Kabuto Wari",
       "notation": "1,1",
       "hitLevels": [
@@ -37,9 +50,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 26
+      "damage": 26,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 5,
       "name": "Seiken Douharai",
       "notation": "2,1",
       "hitLevels": [
@@ -47,9 +64,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 33
+      "damage": 33,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 6,
       "name": "Flash Punch",
       "notation": "2,2",
       "hitLevels": [
@@ -57,9 +78,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 18
+      "damage": 18,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 7,
       "name": "Flash Attack",
       "notation": "2,3",
       "hitLevels": [
@@ -67,9 +92,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 34
+      "damage": 34,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 8,
       "name": "Flash Punch Low Kick",
       "notation": "2,d,3",
       "hitLevels": [
@@ -77,9 +106,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 9,
       "name": "Tobi Ushiwaka",
       "notation": "【3,4,】",
       "hitLevels": [
@@ -87,18 +120,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 28
+      "damage": 28,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 10,
       "name": "Kangaroo Kick",
       "notation": "【4,3,】",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 27
+      }
     },
     {
+      "index": 11,
       "name": "Triple Roundhouse Combo",
       "notation": "4,4,4",
       "hitLevels": [
@@ -107,16 +148,24 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 44
+      "damage": 44,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 12,
       "name": "Kincho",
       "notation": "1+2",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 13,
       "name": "Doushi Kiri",
       "notation": "\"During Kincho\",1,1",
       "hitLevels": [
@@ -125,9 +174,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 41
+      }
     },
     {
+      "index": 14,
       "name": "Tenshu Kuzushi",
       "notation": "\"During Kincho\",2,1+2",
       "hitLevels": [
@@ -135,27 +188,39 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 36
+      "damage": 36,
+      "frames": {
+        "startup": 45
+      }
     },
     {
+      "index": 15,
       "name": "Shibakari",
       "notation": "\"During Kincho\",3",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 17
+      "damage": 17,
+      "frames": {
+        "startup": 49
+      }
     },
     {
+      "index": 16,
       "name": "Whirlwind",
       "notation": "\"During Kincho\",4",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 23
+      "damage": 23,
+      "frames": {
+        "startup": 40
+      }
     },
     {
+      "index": 17,
       "name": "Ashura Blade",
       "notation": "\"During Kincho\",1+2",
       "hitLevels": [
@@ -165,86 +230,126 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 36
+      "damage": 36,
+      "frames": {
+        "startup": 36
+      }
     },
     {
+      "index": 18,
       "name": "Ganto",
       "notation": "\"During Kincho\",f,2",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 37
+      }
     },
     {
+      "index": 19,
       "name": "Mumyo Juji Ken",
       "notation": "\"During Kincho\",b,1+2",
       "hitLevels": [
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 72
+      }
     },
     {
+      "index": 20,
       "name": "Kincho Dragonfly",
       "notation": "\"During Kincho\",u,1+2",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 21,
       "name": "Meditation ",
       "notation": "3+4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 22,
       "name": "Back Handspring",
       "notation": "\"During Meditation\",3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 97
+      }
     },
     {
+      "index": 23,
       "name": "Meditation Healing",
       "notation": "\"During Meditation\",1+2",
       "hitLevels": [
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": 110
+      }
     },
     {
+      "index": 24,
       "name": "Soul Stealer",
       "notation": "1+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": 6
+      }
     },
     {
+      "index": 25,
       "name": "Spirit Shield",
       "notation": "1+2+3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 26,
       "name": "Manji Backfist",
       "notation": "f,2",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 18
+      "damage": 18,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 27,
       "name": "Backfist to Stone Fist",
       "notation": "f,2,D/B,2,2,2,2,2,2",
       "hitLevels": [
@@ -257,9 +362,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 38
+      "damage": 38,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 28,
       "name": "Oni Kick Combo",
       "notation": "f,3,3",
       "hitLevels": [
@@ -267,9 +376,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 29,
       "name": "Zig Zag",
       "notation": "f,3,4",
       "hitLevels": [
@@ -277,27 +390,39 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 30,
       "name": "Toita Daoshi",
       "notation": "f,4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 31,
       "name": "Tsuka Splitter",
       "notation": "f,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 22
+      "damage": 22,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 32,
       "name": "Kamikaze",
       "notation": "f,3+4",
       "hitLevels": [
@@ -309,9 +434,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 26
+      "damage": 26,
+      "frames": {
+        "startup": 21
+      }
     },
     {
+      "index": 33,
       "name": "Tsuka Atemi to Back Knuckle",
       "notation": "d/f,1,2",
       "hitLevels": [
@@ -319,9 +448,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 32
+      "damage": 32,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 34,
       "name": "Autumn Leaves",
       "notation": "d/f,1,4",
       "hitLevels": [
@@ -329,18 +462,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 31
+      "damage": 31,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 35,
       "name": "Basic Uppercut",
       "notation": "d/f,2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 13
+      "damage": 13,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 36,
       "name": "Wood Cutter",
       "notation": "d/f,3,1",
       "hitLevels": [
@@ -348,9 +489,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 37,
       "name": "Nebular Burst",
       "notation": "d/f,1+2,2",
       "hitLevels": [
@@ -358,27 +503,39 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 26
+      }
     },
     {
+      "index": 38,
       "name": "Quick Slash",
       "notation": "d,1",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 24
+      }
     },
     {
+      "index": 39,
       "name": "Death Slash",
       "notation": "d,1,\"Hold\",N",
       "hitLevels": [
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 180
+      "damage": 180,
+      "frames": {
+        "startup": 238
+      }
     },
     {
+      "index": 40,
       "name": "Heshikirigari",
       "notation": "d,2,1",
       "hitLevels": [
@@ -386,9 +543,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 41,
       "name": "Heshikiribarai",
       "notation": "d,2,2,1",
       "hitLevels": [
@@ -397,9 +558,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 49
+      "damage": 49,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 42,
       "name": "Heshikirinagi",
       "notation": "d,2,2,d,1",
       "hitLevels": [
@@ -408,9 +573,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 46
+      "damage": 46,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 43,
       "name": "Heshikirimutou",
       "notation": "d,2,2,2+3",
       "hitLevels": [
@@ -418,9 +587,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 29
+      "damage": 29,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 44,
       "name": "Flea",
       "notation": "d,1+2",
       "hitLevels": [
@@ -428,18 +601,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 45,
       "name": "Flea Roll",
       "notation": "\"During Flea\",1",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 46,
       "name": "Flea to Sliding Headbutt",
       "notation": "\"During Flea\",2",
       "hitLevels": [
@@ -447,9 +628,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 47,
       "name": "Flea Dance",
       "notation": "\"During Flea\",3",
       "hitLevels": [
@@ -457,9 +642,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 48,
       "name": "Skull Splitter",
       "notation": "\"During Flea\",1+2",
       "hitLevels": [
@@ -467,9 +656,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 49,
       "name": "Flea to Kangaroo Kick",
       "notation": "\"During Flea\",3+4",
       "hitLevels": [
@@ -477,9 +670,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 50,
       "name": "Flea Step",
       "notation": "\"During Flea\",f",
       "hitLevels": [
@@ -487,9 +684,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 51,
       "name": "Sakanobori",
       "notation": "\"During Flea Step\",3",
       "hitLevels": [
@@ -497,9 +698,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 57
+      "damage": 57,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 52,
       "name": "Tsurubebi",
       "notation": "\"During Flea Step\",4",
       "hitLevels": [
@@ -507,9 +712,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 53,
       "name": "Running Flea",
       "notation": "\"During Flea\",f,f",
       "hitLevels": [
@@ -522,9 +731,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 9
+      "damage": 9,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 54,
       "name": "Flea Digger",
       "notation": "\"During Flea\",d",
       "hitLevels": [
@@ -532,27 +745,39 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 55,
       "name": "Flea Indian Stance",
       "notation": "\"During Flea\",d,3+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 56,
       "name": "Flea to Manji Dragonfly",
       "notation": "\"During Flea\",u,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 57,
       "name": "Flea to Dragonfly Feint",
       "notation": "\"During Flea\",u,3+4",
       "hitLevels": [
@@ -560,9 +785,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 58,
       "name": "Jumping Flea",
       "notation": "\"During Flea\",u/f",
       "hitLevels": [
@@ -571,32 +800,48 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 59,
       "name": "Indian Stance",
       "notation": "d,3+4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 60,
       "name": "Indian Stance Healing",
       "notation": "d,3+4,N",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 61,
       "name": "Indian Stance Storm",
       "notation": "\"During Indian Stance Healing\",1",
       "hitLevels": [
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 134
+      }
     },
     {
+      "index": 62,
       "name": "Indian Stance Stone Fists",
       "notation": "\"During Indian Stance Healing\",2,D/B,2,2,2,2",
       "hitLevels": [
@@ -607,9 +852,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 19
+      "damage": 19,
+      "frames": {
+        "startup": 120
+      }
     },
     {
+      "index": 63,
       "name": "Indian Stance Cannon",
       "notation": "\"During Indian Stance Healing\",3,3+4",
       "hitLevels": [
@@ -617,18 +866,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 29
+      "damage": 29,
+      "frames": {
+        "startup": 113
+      }
     },
     {
+      "index": 64,
       "name": "Indian Stance Knee Cap",
       "notation": "\"During Indian Stance Healing\",4",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 128
+      }
     },
     {
+      "index": 65,
       "name": "Indian Stance Flea",
       "notation": "\"During Indian Stance Healing\",1+2",
       "hitLevels": [
@@ -636,39 +893,59 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": 113
+      }
     },
     {
+      "index": 66,
       "name": "Indian Levitation",
       "notation": "\"During Indian Stance Healing\",3+4,\"Hold\"",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 67,
       "name": "Indian Stance Vacuum Dance",
       "notation": "\"During Indian Stance Healing\",b",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 68,
       "name": "Indian Stance Manji Dragonfly",
       "notation": "\"During Indian Stance Healing\",u,1+2",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 69,
       "name": "Harakiri",
       "notation": "d,1+4",
       "hitLevels": [
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": 29
+      }
     },
     {
+      "index": 70,
       "name": "Harakiri to Manji Blood Dance",
       "notation": "d,1+4,B,1,1,1,1,1",
       "hitLevels": [
@@ -676,9 +953,13 @@
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 48
+      "damage": 48,
+      "frames": {
+        "startup": 29
+      }
     },
     {
+      "index": 71,
       "name": "Nade Kujaku",
       "notation": "d/b,1,1",
       "hitLevels": [
@@ -686,9 +967,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 39
+      "damage": 39,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 72,
       "name": "Stone Fists",
       "notation": "D/B,2,2,2,2,2,2",
       "hitLevels": [
@@ -700,9 +985,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 26
+      "damage": 26,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 73,
       "name": "Manji Spin Low Kicks",
       "notation": "D/B,3,3,3,3,3,3",
       "hitLevels": [
@@ -714,9 +1003,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 34
+      "damage": 34,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 74,
       "name": "Manji Spin Low Kicks Front Kick",
       "notation": "\"During Manji Spin Low Kicks\",4",
       "hitLevels": [
@@ -726,43 +1019,63 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 75,
       "name": "Nozuchi Fumi",
       "notation": "d/b,4",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 14
+      "damage": 14,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 76,
       "name": "Bad Stomach",
       "notation": "D/B,1+2",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 77,
       "name": "Poison Breath",
       "notation": "\"During Bad Stomach\",1",
       "hitLevels": [
         "Unblockable 2"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 72
+      }
     },
     {
+      "index": 78,
       "name": "Bad Stomach to Backflip Kick",
       "notation": "\"During Bad Stomach\",3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": 68
+      }
     },
     {
+      "index": 79,
       "name": "Slap U Silly",
       "notation": "b,1,1,1,1,1,1",
       "hitLevels": [
@@ -774,9 +1087,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 31
+      "damage": 31,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 80,
       "name": "Slap U Silly to Side Spin",
       "notation": "\"During Slap U\",\"Silly\",b,3",
       "hitLevels": [
@@ -785,9 +1102,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 81,
       "name": "Oma Gehosen",
       "notation": "b,2,1",
       "hitLevels": [
@@ -795,9 +1116,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 32
+      "damage": 32,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 82,
       "name": "Oma Kugiuchi",
       "notation": "b,2,2",
       "hitLevels": [
@@ -805,86 +1130,126 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 33
+      "damage": 33,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 83,
       "name": "Spinning Evade",
       "notation": "B,3,3,3,3,3,3",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 84,
       "name": "Sword Stab",
       "notation": "u/b,1+2",
       "hitLevels": [
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 50
+      }
     },
     {
+      "index": 85,
       "name": "Face Splitter",
       "notation": "u/b,1+2,1+2",
       "hitLevels": [
         "Unblockable 2"
       ],
       "isThrow": false,
-      "damage": 18
+      "damage": 18,
+      "frames": {
+        "startup": 38
+      }
     },
     {
+      "index": 86,
       "name": "Sword Poke Windmill",
       "notation": "u/b,1+2,N,1",
       "hitLevels": [
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 34
+      }
     },
     {
+      "index": 87,
       "name": "Manji Dragonfly",
       "notation": "u,1+2",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 88,
       "name": "Dragonfly Blade",
       "notation": "\"During Manji Dragonfly\",1",
       "hitLevels": [
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 85
+      }
     },
     {
+      "index": 89,
       "name": "Dragonfly Fist",
       "notation": "\"During Manji Dragonfly\",2",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 71
+      }
     },
     {
+      "index": 90,
       "name": "Dragonfly Sweep",
       "notation": "\"During Manji Dragonfly\",3",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 18
+      "damage": 18,
+      "frames": {
+        "startup": 77
+      }
     },
     {
+      "index": 91,
       "name": "Dragonfly Twister",
       "notation": "\"During Manji Dragonfly\",4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 74
+      }
     },
     {
+      "index": 92,
       "name": "Manji Dragonfly to Flea",
       "notation": "\"During Manji Dragonfly\",1+2",
       "hitLevels": [
@@ -892,34 +1257,50 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": 86
+      }
     },
     {
+      "index": 93,
       "name": "Spirited Away",
       "notation": "\"During Manji Dragonfly\",3+4",
       "hitLevels": [
         "Unblockable 2"
       ],
       "isThrow": false,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 75
+      }
     },
     {
+      "index": 94,
       "name": "Dragonfly Slash",
       "notation": "\"During Manji Dragonfly\",f,2",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 23
+      "damage": 23,
+      "frames": {
+        "startup": 75
+      }
     },
     {
+      "index": 95,
       "name": "Manji Dragonfly to Indian Stance",
       "notation": "\"During Manji Dragonfly\",d,3+4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 96,
       "name": "Guillotine Crow Kick",
       "notation": "u,3+4",
       "hitLevels": [
@@ -927,81 +1308,117 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 22
+      "damage": 22,
+      "frames": {
+        "startup": 39
+      }
     },
     {
+      "index": 97,
       "name": "Helmet Strike",
       "notation": "u/f,1",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 24
+      }
     },
     {
+      "index": 98,
       "name": "Kurama Itto",
       "notation": "u/f,2",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 35
+      }
     },
     {
+      "index": 99,
       "name": "Rising Knee",
       "notation": "u/f,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 100,
       "name": "Avoiding the Puddle",
       "notation": "u/f,4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 101,
       "name": "Death Copter",
       "notation": "u/f,1+2",
       "hitLevels": [
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 112
+      }
     },
     {
+      "index": 102,
       "name": "Death Copter Slice",
       "notation": "u/f,1+2,d",
       "hitLevels": [
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 55
+      }
     },
     {
+      "index": 103,
       "name": "Death Copter Trick",
       "notation": "u/f,1+2,b",
       "hitLevels": [
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 92
+      }
     },
     {
+      "index": 104,
       "name": "Poison Wind",
       "notation": "u/f,3+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 31
+      }
     },
     {
+      "index": 105,
       "name": "Poison Wind to Kangaroo Kick",
       "notation": "u/f,3+4,3+4",
       "hitLevels": [
@@ -1009,9 +1426,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 37
+      "damage": 37,
+      "frames": {
+        "startup": 31
+      }
     },
     {
+      "index": 106,
       "name": "Poison Wind to Flea",
       "notation": "u/f,3+4,d,1+2",
       "hitLevels": [
@@ -1019,18 +1440,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 31
+      }
     },
     {
+      "index": 107,
       "name": "Poison Wind to Indian Stance",
       "notation": "u/f,3+4,d,3+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 31
+      }
     },
     {
+      "index": 108,
       "name": "Poison Wind Gold Fist",
       "notation": "u/f,3+4,b,1,4,d,1",
       "hitLevels": [
@@ -1040,9 +1469,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 31
+      }
     },
     {
+      "index": 109,
       "name": "Poison Wind Bronze Fist Steel Fist",
       "notation": "u/f,3+4,b,1,3+4",
       "hitLevels": [
@@ -1051,9 +1484,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 31
+      }
     },
     {
+      "index": 110,
       "name": "Poison Wind Eclipse Kick",
       "notation": "u/f,3+4,u,3+4",
       "hitLevels": [
@@ -1062,63 +1499,91 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 31
+      }
     },
     {
+      "index": 111,
       "name": "Sword Smash",
       "notation": "f,F,2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 112,
       "name": "Yomi Kakenuke",
       "notation": "f,F,2,\"Hit from front\",2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 113,
       "name": "Iwatsubute",
       "notation": "f,F,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 23
+      }
     },
     {
+      "index": 114,
       "name": "Fubuki",
       "notation": "f,F,4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 115,
       "name": "Solar Kick",
       "notation": "f,F,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 22
+      "damage": 22,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 116,
       "name": "Reverse Cartwheel",
       "notation": "f,F,3+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 117,
       "name": "Solar Kick Shark Attack",
       "notation": "f,F,3+4,1+2,3+4",
       "hitLevels": [
@@ -1127,25 +1592,37 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 44
+      "damage": 44,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 118,
       "name": "Suicide",
       "notation": "f,F,1+4",
       "hitLevels": [
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 60
+      "damage": 60,
+      "frames": {
+        "startup": 45
+      }
     },
     {
+      "index": 119,
       "name": "Confusion",
       "notation": "f,F,1+4,N",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 120,
       "name": "Double Suicide",
       "notation": "f,F,1+4,F",
       "hitLevels": [
@@ -1153,36 +1630,52 @@
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 60
+      "damage": 60,
+      "frames": {
+        "startup": 45
+      }
     },
     {
+      "index": 121,
       "name": "Thunder Blade",
       "notation": "b,B,1+4",
       "hitLevels": [
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 50
+      "damage": 50,
+      "frames": {
+        "startup": 59
+      }
     },
     {
+      "index": 122,
       "name": "Gehosen",
       "notation": "f,N,d,d/f,1",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 123,
       "name": "Flashing Steel",
       "notation": "f,N,d,d/f,2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 124,
       "name": "Moonsault Slayer",
       "notation": "d,d/f,f,1",
       "hitLevels": [
@@ -1191,18 +1684,26 @@
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 28
+      }
     },
     {
+      "index": 125,
       "name": "Manji Spin Kick",
       "notation": "f,f,f,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 126,
       "name": "Door Knocker",
       "notation": "\"WS\",1,1,1,1",
       "hitLevels": [
@@ -1212,9 +1713,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 57
+      "damage": 57,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 127,
       "name": "Door Knocker to Back Knuckle",
       "notation": "\"WS\",1,2",
       "hitLevels": [
@@ -1222,9 +1727,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 128,
       "name": "Scowling Moon God",
       "notation": "\"WS\",2,1",
       "hitLevels": [
@@ -1232,9 +1741,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 27
+      "damage": 27,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 129,
       "name": "Kimon Matagi",
       "notation": "\"WS\",3,2",
       "hitLevels": [
@@ -1242,43 +1755,63 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 32
+      "damage": 32,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 130,
       "name": "Knee Cap",
       "notation": "\"FC\",d/f,4",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 131,
       "name": "Samurai Cutter",
       "notation": "\"FC\",D/F,1",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 12
+      "damage": 12,
+      "frames": {
+        "startup": 26
+      }
     },
     {
+      "index": 132,
       "name": "Inner Palm",
       "notation": "\"SS\",1",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 133,
       "name": "Shrine",
       "notation": "\"SS\",2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 134,
       "name": "Aratama",
       "notation": "\"Back towards enemy\",1,2",
       "hitLevels": [
@@ -1286,9 +1819,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 34
+      "damage": 34,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 135,
       "name": "Magatama",
       "notation": "\"Back towards enemy\",1,3",
       "hitLevels": [
@@ -1296,50 +1833,74 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 41
+      "damage": 41,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 136,
       "name": "Perilous Spirit",
       "notation": "\"Back towards enemy\",3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 24
+      }
     },
     {
+      "index": 137,
       "name": "Shisetsu Genman",
       "notation": "\"Back towards enemy\",d,1",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 138,
       "name": "Indian Stance Healing",
       "notation": "\"While down\",d,3+4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 139,
       "name": "Kaishaku",
       "notation": "u,1",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 19
+      "damage": 19,
+      "frames": {
+        "startup": 27
+      }
     },
     {
+      "index": 140,
       "name": "Mutou no Kiwami",
       "notation": "2+3",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 141,
       "name": "Karakuri Uzumaki",
       "notation": "\"During Mutou no Kiwami\",2,1",
       "hitLevels": [
@@ -1348,43 +1909,63 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 85
+      }
     },
     {
+      "index": 142,
       "name": "Utsusemi",
       "notation": "\"During Mutou no Kiwami\",1+2,1",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 121
+      }
     },
     {
+      "index": 143,
       "name": "Battou",
       "notation": "\"During Mutou no Kiwami\",2+3",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 144,
       "name": "Prison Gate",
       "notation": "\"During Mutou no Kiwami\",f,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 91
+      }
     },
     {
+      "index": 145,
       "name": "Ishiusu Tsubushi",
       "notation": "\"During Mutou no Kiwami\",u,1+2",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 18
+      "damage": 18,
+      "frames": {
+        "startup": 101
+      }
     },
     {
+      "index": 146,
       "name": "Scowling Aratama",
       "notation": "\"During Mutou no Kiwami\",2,1,2",
       "hitLevels": [
@@ -1393,9 +1974,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 47
+      "damage": 47,
+      "frames": {
+        "startup": 111
+      }
     },
     {
+      "index": 147,
       "name": "Scowling Spirit",
       "notation": "\"During Mutou no Kiwami\",2,1,3",
       "hitLevels": [
@@ -1404,9 +1989,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 54
+      "damage": 54,
+      "frames": {
+        "startup": 111
+      }
     },
     {
+      "index": 148,
       "name": "Agonbaku",
       "notation": "\"During Mutou no Kiwami\",D/F,1,2",
       "hitLevels": [
@@ -1414,18 +2003,26 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 26
+      "damage": 26,
+      "frames": {
+        "startup": 126
+      }
     },
     {
+      "index": 149,
       "name": "Spinning Cleave",
       "notation": "\"During Mutou no Kiwami\",d/f,3",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 12
+      "damage": 12,
+      "frames": {
+        "startup": 115
+      }
     },
     {
+      "index": 150,
       "name": "10 Hit Combo 1",
       "notation": "1,2,1,4,4,4,1,1,1,1",
       "hitLevels": [
@@ -1441,9 +2038,13 @@
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 95
+      "damage": 95,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 151,
       "name": "10 Hit Combo 2",
       "notation": "1,2,1,4,2,2,2,4,1,1",
       "hitLevels": [
@@ -1458,9 +2059,13 @@
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 87
+      "damage": 87,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 152,
       "name": "10 Hit Combo 3",
       "notation": "4,4,2,2,1",
       "hitLevels": [
@@ -1471,99 +2076,143 @@
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 65
+      "damage": 65,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 153,
       "name": "Oni Killer",
       "notation": "1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 154,
       "name": "Oni Killer",
       "notation": "f,1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 155,
       "name": "Sword Face Smash",
       "notation": "2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 156,
       "name": "Sword Face Smash",
       "notation": "f,2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 157,
       "name": "Wheels of Hell",
       "notation": "\"Approach from left side\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 45
+      "damage": 45,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 158,
       "name": "Neck Breaker",
       "notation": "\"Approach from right side\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 159,
       "name": "Tornado Drop",
       "notation": "\"Back\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 50
+      "damage": 50,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 160,
       "name": "Soul Siphon",
       "notation": "d,d/f,f,2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 22
+      "damage": 22,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 161,
       "name": "Rainbow Drop",
       "notation": "d,d/b,b,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 50
+      "damage": 50,
+      "frames": {
+        "startup": 11
+      }
     },
     {
+      "index": 162,
       "name": "Soul Possession",
       "notation": "d,d/b,b,f,2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 163,
       "name": "Sample Combo 1",
       "notation": "d/f,2;f,3;d,2,2,d,1",
       "hitLevels": [
@@ -1574,9 +2223,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 46
+      "damage": 46,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 164,
       "name": "Sample Combo 2",
       "notation": "u/f,3;2,3;f,3+4;\"During Flea\",2",
       "hitLevels": [
@@ -1591,9 +2244,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 53
+      "damage": 53,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 165,
       "name": "Sample Combo 3",
       "notation": "\"WS\",2,1;\"During Manji Dragonfly\",4;b,2,1,1+2;\"During Kincho\",f,2",
       "hitLevels": [
@@ -1605,9 +2262,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 65
+      "damage": 65,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 166,
       "name": "Sample Combo 4",
       "notation": "\"FC\",D/F,1;【3,4,】U;\"During Manji Dragonfly\",4;\"Rage\",b,1+2",
       "hitLevels": [
@@ -1617,9 +2278,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 63
+      "damage": 63,
+      "frames": {
+        "startup": 26
+      }
     },
     {
+      "index": 167,
       "name": "Sample Combo 5",
       "notation": "【4,3,】;U/F,4;f,N,d,d/f,2;【3,4,】;\"Rage\",f,N,d,d/f,1+2;f,F,2,\"Hit from front\",2",
       "hitLevels": [
@@ -1632,7 +2297,10 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 84
+      "damage": 84,
+      "frames": {
+        "startup": 28
+      }
     }
   ]
 }

@@ -3,15 +3,20 @@
   "slug": "lucky-chloe",
   "moves": [
     {
+      "index": 1,
       "name": "Rage Art",
       "notation": "\"Rage\",3+4",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 50
+      "damage": 50,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 2,
       "name": "Rage Drive 1",
       "notation": "\"Rage\",d/f,3+4,\"Hit\",1+2",
       "hitLevels": [
@@ -21,9 +26,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 78
+      "damage": 78,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 3,
       "name": "Rage Drive 2",
       "notation": "\"Rage F\",Cd/f,3+4,\"Hit\",1+2",
       "hitLevels": [
@@ -33,9 +42,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 78
+      "damage": 78,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 4,
       "name": "Left Point to C Uprock Hit",
       "notation": "1,2,1",
       "hitLevels": [
@@ -44,9 +57,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 39
+      "damage": 39,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 5,
       "name": "Left Point to C Uprock Clap",
       "notation": "1,2,2",
       "hitLevels": [
@@ -55,9 +72,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 39
+      "damage": 39,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 6,
       "name": "Left Point to C Uprock Swing",
       "notation": "1,2,1+2",
       "hitLevels": [
@@ -67,9 +88,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 51
+      "damage": 51,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 7,
       "name": "Right Point to High Five",
       "notation": "2,2",
       "hitLevels": [
@@ -77,9 +102,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 29
+      "damage": 29,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 8,
       "name": "Right Point to Left Twist",
       "notation": "2,\"in time with the rhythm\",3",
       "hitLevels": [
@@ -87,9 +116,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 22
+      "damage": 22,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 9,
       "name": "Right Middle Shift",
       "notation": "3,4",
       "hitLevels": [
@@ -97,9 +130,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 33
+      "damage": 33,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 10,
       "name": "Double Swing",
       "notation": "1+2",
       "hitLevels": [
@@ -107,9 +144,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 32
+      "damage": 32,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 11,
       "name": "C Uprock Hit",
       "notation": "f,2,1",
       "hitLevels": [
@@ -117,9 +158,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 32
+      "damage": 32,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 12,
       "name": "C Uprock Clap",
       "notation": "f,2,2",
       "hitLevels": [
@@ -127,9 +172,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 32
+      "damage": 32,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 13,
       "name": "C Uprock Swing",
       "notation": "f,2,1+2",
       "hitLevels": [
@@ -138,27 +187,39 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 44
+      "damage": 44,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 14,
       "name": "Hopping",
       "notation": "f,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 15,
       "name": "Axe Aerial",
       "notation": "f,4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 14
+      "damage": 14,
+      "frames": {
+        "startup": 27
+      }
     },
     {
+      "index": 16,
       "name": "Double Axe Aerial",
       "notation": "f,4,4",
       "hitLevels": [
@@ -166,18 +227,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 27
+      }
     },
     {
+      "index": 17,
       "name": "Elbow Beat",
       "notation": "f,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 32
+      "damage": 32,
+      "frames": {
+        "startup": 25
+      }
     },
     {
+      "index": 18,
       "name": "Touchdown Raiz",
       "notation": "f,3+4",
       "hitLevels": [
@@ -186,9 +255,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 29
+      }
     },
     {
+      "index": 19,
       "name": "Touchdown Raiz to Buffalo",
       "notation": "f,3+4,3",
       "hitLevels": [
@@ -197,18 +270,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 29
+      }
     },
     {
+      "index": 20,
       "name": "C Krump",
       "notation": "d/f,2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 14
+      "damage": 14,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 21,
       "name": "C Krump Special",
       "notation": "d/f,2,\"Hit\",4,\"Hit\",3,\"Hit\",1",
       "hitLevels": [
@@ -218,9 +299,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 43
+      "damage": 43,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 22,
       "name": "Punking Twirl",
       "notation": "d/f,3,2",
       "hitLevels": [
@@ -228,9 +313,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 36
+      "damage": 36,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 23,
       "name": "Punking Marionette",
       "notation": "d/f,3,3",
       "hitLevels": [
@@ -238,27 +327,39 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 24,
       "name": "Down Step",
       "notation": "d/f,4",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 23
+      "damage": 23,
+      "frames": {
+        "startup": 27
+      }
     },
     {
+      "index": 25,
       "name": "Waacking",
       "notation": "d,2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 17
+      "damage": 17,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 26,
       "name": "C Windmill",
       "notation": "d,3+4",
       "hitLevels": [
@@ -267,9 +368,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 23
+      }
     },
     {
+      "index": 27,
       "name": "Double C Windmill",
       "notation": "d,3+4,3+4",
       "hitLevels": [
@@ -280,9 +385,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 27
+      "damage": 27,
+      "frames": {
+        "startup": 23
+      }
     },
     {
+      "index": 28,
       "name": "C Windmill to Air Tracks",
       "notation": "d,3+4,\"in time with the rhythm\",d,3+4",
       "hitLevels": [
@@ -294,9 +403,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 41
+      "damage": 41,
+      "frames": {
+        "startup": 23
+      }
     },
     {
+      "index": 29,
       "name": "C Windmill to Air Tracks to Chair",
       "notation": "d,3+4,\"in time with the rhythm\",d,3+4,F",
       "hitLevels": [
@@ -308,18 +421,26 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 41
+      "damage": 41,
+      "frames": {
+        "startup": 23
+      }
     },
     {
+      "index": 30,
       "name": "Left Twist",
       "notation": "d/b,3",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 17
+      "damage": 17,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 31,
       "name": "Double Twist",
       "notation": "d/b,3,4",
       "hitLevels": [
@@ -327,9 +448,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 29
+      "damage": 29,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 32,
       "name": "Left Point to C Uprock Hit",
       "notation": "\"During Left Twist\",1,2,1",
       "hitLevels": [
@@ -339,9 +464,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 49
+      "damage": 49,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 33,
       "name": "Left Point to C Uprock Clap",
       "notation": "\"During Left Twist\",1,2,2",
       "hitLevels": [
@@ -351,9 +480,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 49
+      "damage": 49,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 34,
       "name": "Left Point to C Uprock Swing",
       "notation": "\"During Left Twist\",1,2,1+2",
       "hitLevels": [
@@ -364,9 +497,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 61
+      "damage": 61,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 35,
       "name": "C Uprock Hit",
       "notation": "\"During Left Twist\",2,1",
       "hitLevels": [
@@ -375,9 +512,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 37
+      "damage": 37,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 36,
       "name": "C Uprock Clap",
       "notation": "\"During Left Twist\",2,2",
       "hitLevels": [
@@ -386,9 +527,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 37
+      "damage": 37,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 37,
       "name": "C Uprock Swing",
       "notation": "\"During Left Twist\",2,1+2",
       "hitLevels": [
@@ -398,9 +543,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 49
+      "damage": 49,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 38,
       "name": "Left Twist to Axe Heel",
       "notation": "\"During Left Twist\",3",
       "hitLevels": [
@@ -408,9 +557,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 37
+      "damage": 37,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 39,
       "name": "Left Twist to Scoot",
       "notation": "\"During Left Twist\",4",
       "hitLevels": [
@@ -418,9 +571,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 38
+      "damage": 38,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 40,
       "name": "Coffee Grinder to Scoot",
       "notation": "\"During Left Twist\",d/b,4,4",
       "hitLevels": [
@@ -429,9 +586,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 17
+      "damage": 17,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 41,
       "name": "Left Twist to Right Twist",
       "notation": "\"During Left Twist in time with the rhythm\",d/b,4",
       "hitLevels": [
@@ -439,9 +600,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 36
+      "damage": 36,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 42,
       "name": "Right Twist to Left Twist",
       "notation": "\"During Right Twist in time with the rhythm\",d/b,3",
       "hitLevels": [
@@ -450,9 +615,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 36
+      "damage": 36,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 43,
       "name": "Coffee Grinder to Scoot",
       "notation": "d/b,4,4",
       "hitLevels": [
@@ -460,54 +629,78 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 44,
       "name": "Aerial Arc",
       "notation": "d/b,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 25
+      }
     },
     {
+      "index": 45,
       "name": "Hands Up",
       "notation": "b,1",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 27
+      "damage": 27,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 46,
       "name": "Circle Clap",
       "notation": "b,2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 47,
       "name": "Graceful Turn",
       "notation": "b,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 48,
       "name": "Walking Knee",
       "notation": "b,4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 17
+      "damage": 17,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 49,
       "name": "Happy Swing",
       "notation": "b,1+2",
       "hitLevels": [
@@ -517,27 +710,39 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 50,
       "name": "Lucky Corkscrew",
       "notation": "u/b,4",
       "hitLevels": [
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 60
+      "damage": 60,
+      "frames": {
+        "startup": 76
+      }
     },
     {
+      "index": 51,
       "name": "Surprise Hop",
       "notation": "u/f,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 18
+      "damage": 18,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 52,
       "name": "Double Leg to Left Twist",
       "notation": "u/f,3+4,3",
       "hitLevels": [
@@ -545,9 +750,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 32
+      "damage": 32,
+      "frames": {
+        "startup": 27
+      }
     },
     {
+      "index": 53,
       "name": "Double Leg to C Backflip Combo",
       "notation": "u/f,3+4,3+4,4",
       "hitLevels": [
@@ -556,27 +765,39 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 27
+      }
     },
     {
+      "index": 54,
       "name": "Cat Stamp",
       "notation": "f,F,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 55,
       "name": "Scoot",
       "notation": "f,F,4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 26
+      }
     },
     {
+      "index": 56,
       "name": "Double Corkscrew",
       "notation": "\"During Scoot\",4,4",
       "hitLevels": [
@@ -585,9 +806,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 38
+      "damage": 38,
+      "frames": {
+        "startup": 26
+      }
     },
     {
+      "index": 57,
       "name": "C Backflip Combo",
       "notation": "\"During Scoot\",3+4,4",
       "hitLevels": [
@@ -596,9 +821,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 41
+      "damage": 41,
+      "frames": {
+        "startup": 26
+      }
     },
     {
+      "index": 58,
       "name": "Coffee Grinder to Scoot",
       "notation": "\"During Scoot\",d/b,4,4",
       "hitLevels": [
@@ -607,18 +836,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 36
+      "damage": 36,
+      "frames": {
+        "startup": 26
+      }
     },
     {
+      "index": 59,
       "name": "Air Drop Heel",
       "notation": "f,f,f,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 27
+      "damage": 27,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 60,
       "name": "Right Cross Shift",
       "notation": "\"WS\",1,4",
       "hitLevels": [
@@ -626,54 +863,78 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 61,
       "name": "Left Cross Shift",
       "notation": "\"WS\",3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 62,
       "name": "Hand Snap",
       "notation": "\"FC\",d/f,1",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 63,
       "name": "Spin and Roll",
       "notation": "\"FC\",d/f,2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 21
+      }
     },
     {
+      "index": 64,
       "name": "Step Up",
       "notation": "\"FC\",d/f,4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 65,
       "name": "Cat Tail",
       "notation": "\"SS\",4",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 17
+      "damage": 17,
+      "frames": {
+        "startup": 21
+      }
     },
     {
+      "index": 66,
       "name": "Donkey Kick",
       "notation": "\"Back towards enemy\",3,3+4",
       "hitLevels": [
@@ -681,18 +942,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 37
+      "damage": 37,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 67,
       "name": "C Backflip",
       "notation": "\"Back towards enemy\",4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 23
+      }
     },
     {
+      "index": 68,
       "name": "Turning Coffee Grinder to Scoot",
       "notation": "\"Back towards enemy\",d,4,4",
       "hitLevels": [
@@ -700,18 +969,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 18
+      "damage": 18,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 69,
       "name": "Cat Slide",
       "notation": "\"Back towards enemy\",d,3+4",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 18
+      "damage": 18,
+      "frames": {
+        "startup": 23
+      }
     },
     {
+      "index": 70,
       "name": "C Backflip Combo",
       "notation": "\"Back towards enemy\",3+4,4",
       "hitLevels": [
@@ -719,16 +996,24 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 28
+      }
     },
     {
+      "index": 71,
       "name": "Rollback",
       "notation": "\"Back towards enemy\",f,3+4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 72,
       "name": "C Freeze to Chair",
       "notation": "\"Back towards enemy\",f,3+4,3+4",
       "hitLevels": [
@@ -736,9 +1021,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 37
+      "damage": 37,
+      "frames": {
+        "startup": 24
+      }
     },
     {
+      "index": 73,
       "name": "Kick Up",
       "notation": "\"Back towards enemy\",f,3+4,3+4,3+4",
       "hitLevels": [
@@ -747,23 +1036,35 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 58
+      "damage": 58,
+      "frames": {
+        "startup": 24
+      }
     },
     {
+      "index": 74,
       "name": "Taunt 1",
       "notation": "1+2+3",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 75,
       "name": "Taunt 2",
       "notation": "1+2+4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 76,
       "name": "10 Hit Combo",
       "notation": "f,3,1,2,1+2,3,2,\"Hit\",4,\"Hit\",3,\"Hit\",1",
       "hitLevels": [
@@ -779,81 +1080,117 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 82
+      "damage": 82,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 77,
       "name": "C Drill",
       "notation": "1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 78,
       "name": "C Drill",
       "notation": "f,1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 79,
       "name": "Donkey Flip",
       "notation": "2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 80,
       "name": "Donkey Flip",
       "notation": "f,2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 81,
       "name": "Rolling Beat",
       "notation": "\"Approach from left side\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 82,
       "name": "Rolling Toss",
       "notation": "\"Approach from right side\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 83,
       "name": "Aerial Acrobat",
       "notation": "\"Back\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 50
+      "damage": 50,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 84,
       "name": "Lollipop",
       "notation": "d/f,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 85,
       "name": "Sample Combo 1",
       "notation": "u/f,3;1,2,1+2;f,2,1+2",
       "hitLevels": [
@@ -867,9 +1204,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 50
+      "damage": 50,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 86,
       "name": "Sample Combo 2",
       "notation": "d/f,2;d/f,1;f,2,1+2;f,F,4,3+4,4",
       "hitLevels": [
@@ -883,9 +1224,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 55
+      "damage": 55,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 87,
       "name": "Sample Combo 3",
       "notation": "u/f,4;b,4;d/f,1;d/f,1;f,2,1+2;f,f,f,3",
       "hitLevels": [
@@ -899,9 +1244,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 55
+      "damage": 55,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 88,
       "name": "Sample Combo 4",
       "notation": "f,4,4,B;\"Back towards enemy\",f,3+4,3+4,3+4;d/f,3,3;\"Rage\",3+4,\"Hit\",3",
       "hitLevels": [
@@ -915,9 +1264,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 96
+      "damage": 96,
+      "frames": {
+        "startup": 27
+      }
     },
     {
+      "index": 89,
       "name": "Sample Combo 5",
       "notation": "\"Rage\",d/f,3+4,B;d/f,2,\"Hit\",4,\"Hit\",3,\"Hit\",1;f,2,1+2",
       "hitLevels": [
@@ -933,7 +1286,10 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 78
+      "damage": 78,
+      "frames": {
+        "startup": 17
+      }
     }
   ]
 }

@@ -142,18 +142,24 @@ function parseMove(move: RawMove): Record<string, any> | null {
         return null;
     }
 
+    const index = move.number;
     const name = move.name[LANGUAGE_INDEX];
     const notation = parseCommand(move.command[LANGUAGE_INDEX]);
     const hitLevels = parseHitLevels(move);
     const isThrow = parseIsThrow(move);
     const damage = parseDamage(move);
+    const startup = move.s;
 
     return {
+        index,
         name,
         notation,
         hitLevels,
         isThrow,
         damage,
+        frames: {
+            startup,
+        },
     };
 }
 

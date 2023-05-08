@@ -3,15 +3,20 @@
   "slug": "heihachi",
   "moves": [
     {
+      "index": 1,
       "name": "Rage Art",
       "notation": "\"Rage\",d,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 55
+      "damage": 55,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 2,
       "name": "Rage Drive",
       "notation": "\"Rage\",b,2,1+2",
       "hitLevels": [
@@ -19,9 +24,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 41
+      "damage": 41,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 3,
       "name": "Flash Punch Combo",
       "notation": "1,1,2",
       "hitLevels": [
@@ -30,9 +39,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 4,
       "name": "Demon Slayer",
       "notation": "1,2,2",
       "hitLevels": [
@@ -41,9 +54,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 27
+      "damage": 27,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 5,
       "name": "Demon Executioner",
       "notation": "1,2,【2,1+2,】",
       "hitLevels": [
@@ -52,9 +69,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 6,
       "name": "Demon Kicker",
       "notation": "1,2,4",
       "hitLevels": [
@@ -63,9 +84,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 36
+      "damage": 36,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 7,
       "name": "Demon Massacre",
       "notation": "1,b,2,1",
       "hitLevels": [
@@ -74,9 +99,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 48
+      "damage": 48,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 8,
       "name": "Demon Lair",
       "notation": "1,b,2,4",
       "hitLevels": [
@@ -85,9 +114,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 58
+      "damage": 58,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 9,
       "name": "Demon Backhand Spin",
       "notation": "2,2",
       "hitLevels": [
@@ -95,9 +128,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 28
+      "damage": 28,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 10,
       "name": "Quick Executioner",
       "notation": "2,【2,1+2,】",
       "hitLevels": [
@@ -105,9 +142,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 11,
       "name": "Monzenbarai",
       "notation": "3,4",
       "hitLevels": [
@@ -115,27 +156,39 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 12,
       "name": "Demon Scissors",
       "notation": "【4,3,】",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 37
+      }
     },
     {
+      "index": 13,
       "name": "Demon Breath",
       "notation": "1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 14,
       "name": "Pressure Point",
       "notation": "f,2,3",
       "hitLevels": [
@@ -143,61 +196,89 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 33
+      "damage": 33,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 15,
       "name": "Demon Shout",
       "notation": "f,【2,1+2,】",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 21
+      }
     },
     {
+      "index": 16,
       "name": "Lightning Crush",
       "notation": "f,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 17,
       "name": "Right Splits Kick",
       "notation": "f,4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 18,
       "name": "Chrome Dome",
       "notation": "f,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 19,
       "name": "Raijin Stance",
       "notation": "f,3+4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 20,
       "name": "Fusatsujin Hasaiken",
       "notation": "\"During Raijin Stance\",1",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 37
+      }
     },
     {
+      "index": 21,
       "name": "Raijin's Wrath",
       "notation": "\"During Raijin Stance\",2,1",
       "hitLevels": [
@@ -205,18 +286,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 43
+      "damage": 43,
+      "frames": {
+        "startup": 35
+      }
     },
     {
+      "index": 22,
       "name": "Lightning Bolt",
       "notation": "\"During Raijin Stance\",1+2",
       "hitLevels": [
         "Unblockable 2"
       ],
       "isThrow": false,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 76
+      }
     },
     {
+      "index": 23,
       "name": "Double Palm Strike",
       "notation": "d/f,1,1",
       "hitLevels": [
@@ -224,9 +313,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 18
+      "damage": 18,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 24,
       "name": "Muso Tettsui",
       "notation": "d/f,1,2",
       "hitLevels": [
@@ -234,27 +327,39 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 31
+      "damage": 31,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 25,
       "name": "Demon's Wings",
       "notation": "d/f,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 24
+      }
     },
     {
+      "index": 26,
       "name": "Hammer Punch",
       "notation": "d,1",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 16
+      "damage": 16,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 27,
       "name": "Hammer Beating",
       "notation": "d,1,2",
       "hitLevels": [
@@ -262,45 +367,65 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 33
+      "damage": 33,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 28,
       "name": "Jichinsai",
       "notation": "d,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 29,
       "name": "Lightning Hammer",
       "notation": "d,1+4",
       "hitLevels": [
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 50
+      "damage": 50,
+      "frames": {
+        "startup": 60
+      }
     },
     {
+      "index": 30,
       "name": "Battering Ram",
       "notation": "d,2+3",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": 62
+      }
     },
     {
+      "index": 31,
       "name": "Eishomon",
       "notation": "d/b,2",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 23
+      "damage": 23,
+      "frames": {
+        "startup": 23
+      }
     },
     {
+      "index": 32,
       "name": "Angekisai",
       "notation": "d/b,1+2",
       "hitLevels": [
@@ -308,9 +433,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 21
+      }
     },
     {
+      "index": 33,
       "name": "Funkei Uraken",
       "notation": "b,1,2",
       "hitLevels": [
@@ -318,9 +447,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 34
+      "damage": 34,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 34,
       "name": "Funkei Goshoha",
       "notation": "b,1,【2,1+2,】",
       "hitLevels": [
@@ -328,18 +461,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 39
+      "damage": 39,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 35,
       "name": "Rashomon",
       "notation": "b,2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 36,
       "name": "Hooking Crescent Kick",
       "notation": "b,3,3",
       "hitLevels": [
@@ -347,18 +488,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 39
+      "damage": 39,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 37,
       "name": "Shingetsusen",
       "notation": "b,4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 38,
       "name": "Twin Hammer Volley",
       "notation": "b,1+2,1+2",
       "hitLevels": [
@@ -366,9 +515,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 42
+      "damage": 42,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 39,
       "name": "Hell Axle",
       "notation": "u/f,3,4",
       "hitLevels": [
@@ -376,36 +529,52 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 31
+      "damage": 31,
+      "frames": {
+        "startup": 28
+      }
     },
     {
+      "index": 40,
       "name": "Wind Slicer",
       "notation": "u/f,4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 24
+      }
     },
     {
+      "index": 41,
       "name": "Demon Uppercut",
       "notation": "f,F,2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 42,
       "name": "Left Splits Kick",
       "notation": "f,F,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 43,
       "name": "Tenma Destroyer",
       "notation": "b,f,2,1",
       "hitLevels": [
@@ -413,9 +582,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 36
+      "damage": 36,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 44,
       "name": "Subjugator",
       "notation": "b,f,2,2",
       "hitLevels": [
@@ -423,9 +596,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 33
+      "damage": 33,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 45,
       "name": "Tenma Barrage",
       "notation": "b,f,2,3",
       "hitLevels": [
@@ -433,70 +610,102 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 32
+      "damage": 32,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 46,
       "name": "Deity Slayer",
       "notation": "b,B,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 35
+      }
     },
     {
+      "index": 47,
       "name": "Shadow Step",
       "notation": "b,B,3+4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 48,
       "name": "Dragon Uppercut",
       "notation": "f,N,d,d/f,1",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 49,
       "name": "Wind God Fist",
       "notation": "f,N,d,d/f,2",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 23
+      "damage": 23,
+      "frames": {
+        "startup": 11
+      }
     },
     {
+      "index": 50,
       "name": "Electric Wind God Fist",
       "notation": "f,N,d,d/f,2",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 23
+      "damage": 23,
+      "frames": {
+        "startup": 11
+      }
     },
     {
+      "index": 51,
       "name": "Jumping Mid Kick",
       "notation": "f,N,d,d/f,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 27
+      }
     },
     {
+      "index": 52,
       "name": "Jumping Low Kick",
       "notation": "f,N,d,D/F,3",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 33
+      }
     },
     {
+      "index": 53,
       "name": "Spinning Demon Uppercut",
       "notation": "f,N,d,d/f,4,1",
       "hitLevels": [
@@ -504,9 +713,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 54,
       "name": "Tsunami Kick",
       "notation": "f,N,d,d/f,4,N,4,4",
       "hitLevels": [
@@ -515,9 +728,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 45
+      "damage": 45,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 55,
       "name": "Spinning Demon",
       "notation": "f,N,d,D/F,4,4,4",
       "hitLevels": [
@@ -526,45 +743,65 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 56,
       "name": "Iron Hand",
       "notation": "d,d/f,f,2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 57,
       "name": "Leaping Side Kick",
       "notation": "f,f,f,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 58,
       "name": "Quick Iron Fist",
       "notation": "\"WS\",1",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 59,
       "name": "Dark Thrust",
       "notation": "\"WS\",2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 60,
       "name": "Tsunami Kick",
       "notation": "\"WS\",4,4",
       "hitLevels": [
@@ -572,18 +809,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 29
+      "damage": 29,
+      "frames": {
+        "startup": 11
+      }
     },
     {
+      "index": 61,
       "name": "Crouching Dragon Kick",
       "notation": "\"FC\",d/f,4",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 23
+      "damage": 23,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 62,
       "name": "Kidney Crush Combo",
       "notation": "\"SS\",2,1",
       "hitLevels": [
@@ -591,25 +836,37 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 36
+      "damage": 36,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 63,
       "name": "Geta Stomp",
       "notation": "d,4",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 64,
       "name": "Auger",
       "notation": "2+3+4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 65,
       "name": "10 Hit Combo 1",
       "notation": "f,f,N,2,1,2,2,3,4,4,1,2,1",
       "hitLevels": [
@@ -625,9 +882,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 93
+      "damage": 93,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 66,
       "name": "10 Hit Combo 2",
       "notation": "d/f,3,2,2,4,4,1,4,1,2,4",
       "hitLevels": [
@@ -643,9 +904,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 105
+      "damage": 105,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 67,
       "name": "10 Hit Combo 3",
       "notation": "d/f,3,2,2,4,4,1,2,1,2,1",
       "hitLevels": [
@@ -661,106 +926,154 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 100
+      "damage": 100,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 68,
       "name": "Neck Breaker",
       "notation": "1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 69,
       "name": "Neck Breaker",
       "notation": "f,1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 70,
       "name": "Jumping Powerbomb",
       "notation": "2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 71,
       "name": "Jumping Powerbomb",
       "notation": "f,2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 72,
       "name": "Guillotine Chop",
       "notation": "\"Approach from left side\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 73,
       "name": "Freefall",
       "notation": "\"Approach from right side\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 46
+      "damage": 46,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 74,
       "name": "Atomic Drop",
       "notation": "\"Back\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 60
+      "damage": 60,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 75,
       "name": "Fire Starter",
       "notation": "d/f,2+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 76,
       "name": "Stonehead",
       "notation": "f,F,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 77,
       "name": "Broken Toy",
       "notation": "d,d/f,f,1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 45
+      "damage": 45,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 78,
       "name": "Heaven's Wrath ",
       "notation": "\"Parry\",b,1+4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 79,
       "name": "Sample Combo 1",
       "notation": "\"WS\",1;d,3",
       "hitLevels": [
@@ -768,9 +1081,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 80,
       "name": "Sample Combo 2",
       "notation": "u/f,3,4;d/f,1,1;b,f,2,1",
       "hitLevels": [
@@ -782,9 +1099,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 49
+      "damage": 49,
+      "frames": {
+        "startup": 28
+      }
     },
     {
+      "index": 81,
       "name": "Sample Combo 3",
       "notation": "f,F,2;u/f,4;f,N,d,d/f,4,4,1;1+2",
       "hitLevels": [
@@ -796,9 +1117,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 66
+      "damage": 66,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 82,
       "name": "Sample Combo 4",
       "notation": "f,N,d,d/f,2;b,1,2;\"Rage\",d,1+2",
       "hitLevels": [
@@ -809,9 +1134,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 80
+      "damage": 80,
+      "frames": {
+        "startup": 11
+      }
     },
     {
+      "index": 83,
       "name": "Sample Combo 5",
       "notation": "f,N,d/f,1;f,N,d,d/f,2,d,4",
       "hitLevels": [
@@ -826,7 +1155,10 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 110
+      "damage": 110,
+      "frames": {
+        "startup": 19
+      }
     }
   ]
 }

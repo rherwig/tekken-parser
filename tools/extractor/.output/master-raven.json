@@ -3,15 +3,20 @@
   "slug": "master-raven",
   "moves": [
     {
+      "index": 1,
       "name": "Rage Art",
       "notation": "\"Rage\",d/b,3+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 55
+      "damage": 55,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 2,
       "name": "Rage Drive 1",
       "notation": "\"Rage\",f,3+4,\"Hit from front\",2",
       "hitLevels": [
@@ -19,9 +24,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 3,
       "name": "Rage Drive 2",
       "notation": "\"Rage\",f,3+4,\"Hit from front\",d,2",
       "hitLevels": [
@@ -29,9 +38,13 @@
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 54
+      "damage": 54,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 4,
       "name": "Left Right Combo",
       "notation": "1,2",
       "hitLevels": [
@@ -39,9 +52,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 19
+      "damage": 19,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 5,
       "name": "Left Right Combo to Haze",
       "notation": "1,2,3+4",
       "hitLevels": [
@@ -49,9 +66,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 19
+      "damage": 19,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 6,
       "name": "Right Straight to Left Low Kick",
       "notation": "2,3",
       "hitLevels": [
@@ -59,9 +80,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 7,
       "name": "PK Combo",
       "notation": "2,4",
       "hitLevels": [
@@ -69,9 +94,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 27
+      "damage": 27,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 8,
       "name": "Valkyrie Lance Combo",
       "notation": "3,3,4",
       "hitLevels": [
@@ -80,9 +109,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 22
+      "damage": 22,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 9,
       "name": "Brocken Connect",
       "notation": "4,1",
       "hitLevels": [
@@ -90,9 +123,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 29
+      "damage": 29,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 10,
       "name": "Chariot",
       "notation": "【3,4,】",
       "hitLevels": [
@@ -100,9 +137,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 28
+      "damage": 28,
+      "frames": {
+        "startup": 25
+      }
     },
     {
+      "index": 11,
       "name": "Hydra Bite Low",
       "notation": "【4,3,】1",
       "hitLevels": [
@@ -111,9 +152,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 12,
       "name": "Hydra Bite High",
       "notation": "【4,3,】3",
       "hitLevels": [
@@ -122,9 +167,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 13,
       "name": "Hydra Bite Mid",
       "notation": "【4,3,】4",
       "hitLevels": [
@@ -133,77 +182,113 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 14,
       "name": "Crusader",
       "notation": "1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 15,
       "name": "Haze",
       "notation": "3+4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 16,
       "name": "Kronos Cutter",
       "notation": "\"During Haze\",1",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 49
+      }
     },
     {
+      "index": 17,
       "name": "Death from Above",
       "notation": "\"During Haze\",2",
       "hitLevels": [
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 23
+      "damage": 23,
+      "frames": {
+        "startup": 76
+      }
     },
     {
+      "index": 18,
       "name": "Aqua Spider",
       "notation": "\"During Haze\",3",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 17
+      "damage": 17,
+      "frames": {
+        "startup": 51
+      }
     },
     {
+      "index": 19,
       "name": "Blind Ghost",
       "notation": "\"During Haze\",4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 31
+      "damage": 31,
+      "frames": {
+        "startup": 48
+      }
     },
     {
+      "index": 20,
       "name": "Crossing Paths",
       "notation": "\"During Haze\",1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 45
+      }
     },
     {
+      "index": 21,
       "name": "White Hole",
       "notation": "\"During Haze\",U",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 22,
       "name": "Tartaros",
       "notation": "f,2,3",
       "hitLevels": [
@@ -211,9 +296,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 31
+      "damage": 31,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 23,
       "name": "Circling Winds",
       "notation": "f,3,2",
       "hitLevels": [
@@ -221,36 +310,52 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 39
+      "damage": 39,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 24,
       "name": "Lance Kick",
       "notation": "f,4",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 25,
       "name": "Alondite",
       "notation": "f,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 26,
       "name": "Body Blow",
       "notation": "d/f,1",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 27,
       "name": "Meat Hook",
       "notation": "d/f,2,3",
       "hitLevels": [
@@ -258,9 +363,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 16
+      "damage": 16,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 28,
       "name": "Bolt Stunner",
       "notation": "d/f,2,4",
       "hitLevels": [
@@ -268,18 +377,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 16
+      "damage": 16,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 29,
       "name": "Shadow Snap Kick",
       "notation": "d/f,3",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 30,
       "name": "Pendulum Kick to Shadow",
       "notation": "d/f,4,4,3",
       "hitLevels": [
@@ -288,9 +405,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 28
+      "damage": 28,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 31,
       "name": "Pendulum Kick to White Hole",
       "notation": "d/f,4,4,U",
       "hitLevels": [
@@ -298,36 +419,52 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 28
+      "damage": 28,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 32,
       "name": "Low Kick",
       "notation": "d,3",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 12
+      "damage": 12,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 33,
       "name": "Basilisk Fang",
       "notation": "d,4",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 18
+      "damage": 18,
+      "frames": {
+        "startup": 21
+      }
     },
     {
+      "index": 34,
       "name": "Assassin's Sting",
       "notation": "d/b,2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 13
+      "damage": 13,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 35,
       "name": "Assassin's Sting Combo",
       "notation": "d/b,2,1",
       "hitLevels": [
@@ -335,36 +472,52 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 36,
       "name": "Killer Bee",
       "notation": "d/b,3",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 19
+      "damage": 19,
+      "frames": {
+        "startup": 29
+      }
     },
     {
+      "index": 37,
       "name": "Shinobi Cyclone",
       "notation": "d/b,4",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 24
+      }
     },
     {
+      "index": 38,
       "name": "Elbow Strike",
       "notation": "b,1",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 39,
       "name": "Unicorn's Tail",
       "notation": "b,2,2,3",
       "hitLevels": [
@@ -373,9 +526,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 44
+      "damage": 44,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 40,
       "name": "Deadly Talon",
       "notation": "b,2,2,1+2",
       "hitLevels": [
@@ -384,9 +541,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 39
+      "damage": 39,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 41,
       "name": "Missing Talon to Galatine",
       "notation": "b,2,4,2",
       "hitLevels": [
@@ -395,9 +556,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 27
+      "damage": 27,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 42,
       "name": "Missing Talon to White Hole",
       "notation": "b,2,4,U",
       "hitLevels": [
@@ -405,18 +570,26 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 27
+      "damage": 27,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 43,
       "name": "Hades Heel",
       "notation": "b,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 27
+      }
     },
     {
+      "index": 44,
       "name": "Skull Smasher",
       "notation": "b,4,4",
       "hitLevels": [
@@ -424,9 +597,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 45,
       "name": "Skull Smasher Feint",
       "notation": "b,4,b,4",
       "hitLevels": [
@@ -434,9 +611,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 46,
       "name": "Skull Rave",
       "notation": "b,4,b,4,3,4,2",
       "hitLevels": [
@@ -446,9 +627,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 41
+      "damage": 41,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 47,
       "name": "Skull Frenzy",
       "notation": "b,4,b,4,3,f,4,2",
       "hitLevels": [
@@ -458,9 +643,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 44
+      "damage": 44,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 48,
       "name": "Skull Rave Shadow",
       "notation": "b,4,b,4,3,f,4,3",
       "hitLevels": [
@@ -469,9 +658,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 33
+      "damage": 33,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 49,
       "name": "Skull Rave White Hole",
       "notation": "b,4,b,4,3,f,4,U",
       "hitLevels": [
@@ -479,9 +672,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 11
+      "damage": 11,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 50,
       "name": "Skull Spin",
       "notation": "b,4,b,4,3,3+4",
       "hitLevels": [
@@ -490,9 +687,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 26
+      "damage": 26,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 51,
       "name": "Illusion Strike",
       "notation": "b,1+2,2",
       "hitLevels": [
@@ -500,9 +701,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 28
+      "damage": 28,
+      "frames": {
+        "startup": 31
+      }
     },
     {
+      "index": 52,
       "name": "Illusion Sweep",
       "notation": "b,1+2,3",
       "hitLevels": [
@@ -510,16 +715,24 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 45
+      "damage": 45,
+      "frames": {
+        "startup": 31
+      }
     },
     {
+      "index": 53,
       "name": "Labyrinth",
       "notation": "b,3+4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 54,
       "name": "Blind Lance",
       "notation": "\"Back towards enemy\",1,4",
       "hitLevels": [
@@ -527,9 +740,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 59
+      }
     },
     {
+      "index": 55,
       "name": "Backfist & Straight",
       "notation": "\"Back towards enemy\",2,1",
       "hitLevels": [
@@ -537,9 +754,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 18
+      "damage": 18,
+      "frames": {
+        "startup": 61
+      }
     },
     {
+      "index": 56,
       "name": "Blinding Knife",
       "notation": "\"Back towards enemy\",2,2",
       "hitLevels": [
@@ -547,9 +768,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 28
+      "damage": 28,
+      "frames": {
+        "startup": 61
+      }
     },
     {
+      "index": 57,
       "name": "Crescent Mirage",
       "notation": "\"Back towards enemy\",3,4,3",
       "hitLevels": [
@@ -558,9 +783,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 42
+      "damage": 42,
+      "frames": {
+        "startup": 61
+      }
     },
     {
+      "index": 58,
       "name": "Fafnir",
       "notation": "\"Back towards enemy\",3,4,4",
       "hitLevels": [
@@ -569,9 +798,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 41
+      "damage": 41,
+      "frames": {
+        "startup": 61
+      }
     },
     {
+      "index": 59,
       "name": "Fafnir White Hole",
       "notation": "\"Back towards enemy\",3,4,U",
       "hitLevels": [
@@ -579,18 +812,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 61
+      }
     },
     {
+      "index": 60,
       "name": "Crusader",
       "notation": "\"Back towards enemy\",1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 66
+      }
     },
     {
+      "index": 61,
       "name": "Spiral Cannon",
       "notation": "\"Back towards enemy\",3+4",
       "hitLevels": [
@@ -598,18 +839,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 19
+      "damage": 19,
+      "frames": {
+        "startup": 66
+      }
     },
     {
+      "index": 62,
       "name": "Soul Steal",
       "notation": "\"Back towards enemy\",f,1",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 18
+      "damage": 18,
+      "frames": {
+        "startup": 67
+      }
     },
     {
+      "index": 63,
       "name": "Cold Massacre",
       "notation": "\"Back towards enemy\",f,2,3",
       "hitLevels": [
@@ -617,9 +866,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 28
+      "damage": 28,
+      "frames": {
+        "startup": 68
+      }
     },
     {
+      "index": 64,
       "name": "Massacre to Galatine",
       "notation": "\"Back towards enemy\",f,2,4,2",
       "hitLevels": [
@@ -628,9 +881,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 28
+      "damage": 28,
+      "frames": {
+        "startup": 68
+      }
     },
     {
+      "index": 65,
       "name": "Massacre to White Hole",
       "notation": "\"Back towards enemy\",f,2,4,U",
       "hitLevels": [
@@ -638,18 +895,26 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 28
+      "damage": 28,
+      "frames": {
+        "startup": 68
+      }
     },
     {
+      "index": 66,
       "name": "Demon Knee",
       "notation": "\"Back towards enemy\",f,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 17
+      "damage": 17,
+      "frames": {
+        "startup": 64
+      }
     },
     {
+      "index": 67,
       "name": "Kama Kick Combo",
       "notation": "\"Back towards enemy\",f,4,3",
       "hitLevels": [
@@ -657,27 +922,39 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 67
+      }
     },
     {
+      "index": 68,
       "name": "Reverse Chakram",
       "notation": "\"Back towards enemy\",f,3+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 76
+      }
     },
     {
+      "index": 69,
       "name": "Shinobi Cyclone",
       "notation": "\"Back towards enemy\",d,3",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 76
+      }
     },
     {
+      "index": 70,
       "name": "Abyss Cannon",
       "notation": "\"Back towards enemy\",b,2,3",
       "hitLevels": [
@@ -686,9 +963,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 36
+      "damage": 36,
+      "frames": {
+        "startup": 67
+      }
     },
     {
+      "index": 71,
       "name": "Abyss Spear",
       "notation": "\"Back towards enemy\",b,2,4",
       "hitLevels": [
@@ -696,50 +977,74 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 67
+      }
     },
     {
+      "index": 72,
       "name": "Cannon Tail",
       "notation": "\"Back towards enemy\",b,3",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 27
+      "damage": 27,
+      "frames": {
+        "startup": 69
+      }
     },
     {
+      "index": 73,
       "name": "Labyrinth",
       "notation": "\"Back towards enemy\",b,3+4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 74,
       "name": "Gremlin Smasher",
       "notation": "\"Back towards enemy\",f,F,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 86
+      }
     },
     {
+      "index": 75,
       "name": "Vermillion",
       "notation": "\"Back towards enemy\",f,F,3+4",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 17
+      "damage": 17,
+      "frames": {
+        "startup": 88
+      }
     },
     {
+      "index": 76,
       "name": "Phantom Warp",
       "notation": "\"Back towards enemy\",f,f,f",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 77,
       "name": "Gate Keeper",
       "notation": "u/b,1,2",
       "hitLevels": [
@@ -747,9 +1052,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 78,
       "name": "Deathbringer Mid",
       "notation": "u,3,3",
       "hitLevels": [
@@ -757,9 +1066,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 45
+      "damage": 45,
+      "frames": {
+        "startup": 26
+      }
     },
     {
+      "index": 79,
       "name": "Deathbringer High",
       "notation": "u,3,4",
       "hitLevels": [
@@ -767,9 +1080,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 62
+      "damage": 62,
+      "frames": {
+        "startup": 26
+      }
     },
     {
+      "index": 80,
       "name": "Deathbringer Low",
       "notation": "u,3,d,3",
       "hitLevels": [
@@ -777,9 +1094,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 26
+      }
     },
     {
+      "index": 81,
       "name": "Deathbringer Low to Shadow",
       "notation": "u,3,d,3,3",
       "hitLevels": [
@@ -788,9 +1109,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 26
+      }
     },
     {
+      "index": 82,
       "name": "Deathbringer Low to White Hole",
       "notation": "u,3,d,3,U",
       "hitLevels": [
@@ -798,18 +1123,26 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 26
+      }
     },
     {
+      "index": 83,
       "name": "Shadow Scythe",
       "notation": "u/f,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 29
+      }
     },
     {
+      "index": 84,
       "name": "Stormbringer",
       "notation": "u/f,4,4",
       "hitLevels": [
@@ -817,9 +1150,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 85,
       "name": "Chakram",
       "notation": "u/f,3+4,4,2",
       "hitLevels": [
@@ -828,9 +1165,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 36
+      "damage": 36,
+      "frames": {
+        "startup": 23
+      }
     },
     {
+      "index": 86,
       "name": "Heavy Chakram",
       "notation": "u/f,3+4,f,4,2",
       "hitLevels": [
@@ -839,9 +1180,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 38
+      "damage": 38,
+      "frames": {
+        "startup": 23
+      }
     },
     {
+      "index": 87,
       "name": "Chakram Shadow",
       "notation": "u/f,3+4,f,4,3",
       "hitLevels": [
@@ -849,18 +1194,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 23
+      }
     },
     {
+      "index": 88,
       "name": "Chakram White Hole",
       "notation": "u/f,3+4,f,4,U",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 23
+      }
     },
     {
+      "index": 89,
       "name": "Spinning Chakram",
       "notation": "u/f,3+4,3+4",
       "hitLevels": [
@@ -868,36 +1221,52 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 23
+      }
     },
     {
+      "index": 90,
       "name": "Shadow Spear",
       "notation": "f,F,2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 26
+      "damage": 26,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 91,
       "name": "Sudden Strike",
       "notation": "f,F,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 92,
       "name": "Iron Maul",
       "notation": "f,F,4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 93,
       "name": "War Hound",
       "notation": "b,B,2",
       "hitLevels": [
@@ -905,9 +1274,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 36
+      "damage": 36,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 94,
       "name": "Pandora Spin",
       "notation": "u/b,b,3+4",
       "hitLevels": [
@@ -916,61 +1289,89 @@
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 44
+      "damage": 44,
+      "frames": {
+        "startup": 57
+      }
     },
     {
+      "index": 95,
       "name": "Shadow Sprint",
       "notation": "d,d/f,f",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 96,
       "name": "Fatal Elbow",
       "notation": "d,d/f,f,1",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 19
+      "damage": 19,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 97,
       "name": "Fatal Blow to Haze",
       "notation": "d,d/f,f,1,3+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 19
+      "damage": 19,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 98,
       "name": "Buzzsaw",
       "notation": "d,d/f,f,2",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 10
+      "damage": 10,
+      "frames": {
+        "startup": 27
+      }
     },
     {
+      "index": 99,
       "name": "Laevateinn",
       "notation": "d,d/f,f,【2,1,】",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 40
+      }
     },
     {
+      "index": 100,
       "name": "Poison Needle",
       "notation": "d,d/f,f,3",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 14
+      "damage": 14,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 101,
       "name": "Poison Needle to Blind Ghost",
       "notation": "d,d/f,f,3,\"Hit\",4",
       "hitLevels": [
@@ -978,18 +1379,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 102,
       "name": "Black Hole",
       "notation": "d,d/f,f,4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 103,
       "name": "Hellhound",
       "notation": "d,d/f,f,1+2",
       "hitLevels": [
@@ -997,54 +1406,78 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 33
+      "damage": 33,
+      "frames": {
+        "startup": 24
+      }
     },
     {
+      "index": 104,
       "name": "Rising Uppercut",
       "notation": "\"WS\",1",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 14
+      "damage": 14,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 105,
       "name": "Jackknife Elbow",
       "notation": "\"WS\",2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 17
+      "damage": 17,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 106,
       "name": "Trident Kick",
       "notation": "\"WS\",3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 107,
       "name": "Shadow Snap Kick",
       "notation": "\"WS\",4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 18
+      "damage": 18,
+      "frames": {
+        "startup": 11
+      }
     },
     {
+      "index": 108,
       "name": "Spinning Middle Kick",
       "notation": "\"WS\",3+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 23
+      "damage": 23,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 109,
       "name": "Quicksand Catastrophe",
       "notation": "\"FC\",d/f,3+4,\"Hit\",4",
       "hitLevels": [
@@ -1052,25 +1485,37 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 38
+      "damage": 38,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 110,
       "name": "Crouch Step",
       "notation": "\"FC\",d/f,d,D/F",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 111,
       "name": "Dead End",
       "notation": "1+2+3+4,b,f,1+2",
       "hitLevels": [
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 60
+      "damage": 60,
+      "frames": {
+        "startup": 103
+      }
     },
     {
+      "index": 112,
       "name": "10 Hit Combo 1",
       "notation": "u/b,1,2,2,2,4,2,3,4,2,1+2",
       "hitLevels": [
@@ -1086,9 +1531,13 @@
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 94
+      "damage": 94,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 113,
       "name": "10 Hit Combo 2",
       "notation": "\"Back towards enemy\",2,2,1,2,4,2,3,4,2,1+2",
       "hitLevels": [
@@ -1104,122 +1553,178 @@
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 102
+      "damage": 102,
+      "frames": {
+        "startup": 61
+      }
     },
     {
+      "index": 114,
       "name": "Grave Digger",
       "notation": "1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 115,
       "name": "Grave Digger",
       "notation": "f,1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 116,
       "name": "Salamander",
       "notation": "2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 117,
       "name": "Salamander",
       "notation": "f,2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 118,
       "name": "Neck Ringer",
       "notation": "\"Approach from left side\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 119,
       "name": "Swift Assassin",
       "notation": "\"Approach from right side\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 120,
       "name": "Dark Matter",
       "notation": "\"Back\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 50
+      "damage": 50,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 121,
       "name": "Orbiting Moon",
       "notation": "d/f,1+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 38
+      "damage": 38,
+      "frames": {
+        "startup": 11
+      }
     },
     {
+      "index": 122,
       "name": "Undertaker",
       "notation": "f,d/f,d,d/b,b,f,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 48
+      "damage": 48,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 123,
       "name": "Ultimate Tackle",
       "notation": "d/b,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": true,
-      "damage": 5
+      "damage": 5,
+      "frames": {
+        "startup": 26
+      }
     },
     {
+      "index": 124,
       "name": "Ultimate Punch",
       "notation": "\"Tackle\",2,1,2,1",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 26
+      }
     },
     {
+      "index": 125,
       "name": "Utsusemi Escape",
       "notation": "\"Parry\",b,1+3",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 126,
       "name": "Sixth Sense",
       "notation": "\"With back to enemy\",,\"Parry\",f,1+2",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 127,
       "name": "Sample Combo 1",
       "notation": "d/f,2;\"Back towards enemy\",f,2,4,2;f,2,3",
       "hitLevels": [
@@ -1231,9 +1736,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 48
+      "damage": 48,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 128,
       "name": "Sample Combo 2",
       "notation": "d,d/f,f,4;\"Back towards enemy\",f,4,3;d,d/f,f,3,\"Hit\",4",
       "hitLevels": [
@@ -1244,9 +1753,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 48
+      "damage": 48,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 129,
       "name": "Sample Combo 3",
       "notation": "【3,4,】;\"Back towards enemy\",b,2,3;b,2,4,2;f,F,2",
       "hitLevels": [
@@ -1261,9 +1774,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 69
+      "damage": 69,
+      "frames": {
+        "startup": 25
+      }
     },
     {
+      "index": 130,
       "name": "Sample Combo 4",
       "notation": "\"WS\",1;f,F,3;d/f,2,3;f,F,3;\"Rage\",d/b,3+4",
       "hitLevels": [
@@ -1275,9 +1792,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 77
+      "damage": 77,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 131,
       "name": "Sample Combo 5",
       "notation": "f,F,3;f,F,3;1;f,F,3;1;\"Rage\",f,3+4,\"Hit from front\",2;f,F,3;f,F,4",
       "hitLevels": [
@@ -1292,7 +1813,10 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 75
+      "damage": 75,
+      "frames": {
+        "startup": 15
+      }
     }
   ]
 }

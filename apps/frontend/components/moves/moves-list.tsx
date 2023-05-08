@@ -13,7 +13,9 @@ interface Props {
 }
 
 export default function MovesList(props: Props) {
-    const [moves, setMoves] = useState<MoveModel[]>(props.moves);
+    const [moves, setMoves] = useState<MoveModel[]>(
+        props.moves.sort((a, b) => a.index - b.index),
+    );
 
     return (
         <>

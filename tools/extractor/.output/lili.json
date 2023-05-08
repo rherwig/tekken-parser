@@ -3,15 +3,20 @@
   "slug": "lili",
   "moves": [
     {
+      "index": 1,
       "name": "Rage Art",
       "notation": "\"Rage\",3+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 55
+      "damage": 55,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 2,
       "name": "Rage Drive",
       "notation": "\"Rage\",d/f,3+4,3",
       "hitLevels": [
@@ -19,9 +24,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 32
+      "damage": 32,
+      "frames": {
+        "startup": 24
+      }
     },
     {
+      "index": 3,
       "name": "Left Right Back Strike",
       "notation": "1,2,3",
       "hitLevels": [
@@ -30,9 +39,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 29
+      "damage": 29,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 4,
       "name": "Left Right Piercing Thorn",
       "notation": "1,2,4",
       "hitLevels": [
@@ -41,9 +54,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 39
+      "damage": 39,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 5,
       "name": "Sunrise Sunset",
       "notation": "2,3",
       "hitLevels": [
@@ -51,9 +68,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 18
+      "damage": 18,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 6,
       "name": "Bed Time",
       "notation": "2,4",
       "hitLevels": [
@@ -61,9 +82,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 28
+      "damage": 28,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 7,
       "name": "Peacock Waltz",
       "notation": "3,1",
       "hitLevels": [
@@ -71,9 +96,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 32
+      "damage": 32,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 8,
       "name": "Peacock Jive",
       "notation": "3,2,3",
       "hitLevels": [
@@ -82,18 +111,26 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 42
+      "damage": 42,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 9,
       "name": "Broken Heart",
       "notation": "1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 26
+      "damage": 26,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 10,
       "name": "Mars Sword",
       "notation": "f,2,3",
       "hitLevels": [
@@ -101,36 +138,52 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 32
+      "damage": 32,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 11,
       "name": "Circle Knee",
       "notation": "f,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 26
+      "damage": 26,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 12,
       "name": "Bélier Attaque",
       "notation": "f,4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 23
+      "damage": 23,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 13,
       "name": "Kitty Claws",
       "notation": "f,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 19
+      "damage": 19,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 14,
       "name": "Sundial",
       "notation": "f,3+4",
       "hitLevels": [
@@ -138,9 +191,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 23
+      "damage": 23,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 15,
       "name": "Delayed Sundial",
       "notation": "f,3+4,3",
       "hitLevels": [
@@ -148,9 +205,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 22
+      "damage": 22,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 16,
       "name": "Garland Kick Combo",
       "notation": "f,3+4,3,4",
       "hitLevels": [
@@ -159,27 +220,39 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 32
+      "damage": 32,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 17,
       "name": "Orleans Sword",
       "notation": "d/f,2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 16
+      "damage": 16,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 18,
       "name": "Submissive Heel",
       "notation": "d/f,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 23
+      "damage": 23,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 19,
       "name": "Dominating Heel",
       "notation": "d/f,4,4",
       "hitLevels": [
@@ -187,9 +260,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 20,
       "name": "Backflip Spinning Edge",
       "notation": "d/f,3+4,3+4",
       "hitLevels": [
@@ -198,9 +275,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 27
+      "damage": 27,
+      "frames": {
+        "startup": 24
+      }
     },
     {
+      "index": 21,
       "name": "Heavy Languish",
       "notation": "d,1,2,4",
       "hitLevels": [
@@ -209,9 +290,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 42
+      "damage": 42,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 22,
       "name": "Bloody Masquerade Piton",
       "notation": "d,2,2,3",
       "hitLevels": [
@@ -220,9 +305,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 26
+      "damage": 26,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 23,
       "name": "Bloody Masquerade Lance",
       "notation": "d,2,2,4",
       "hitLevels": [
@@ -231,63 +320,91 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 50
+      "damage": 50,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 24,
       "name": "Thorn Whip",
       "notation": "d,3",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 14
+      "damage": 14,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 25,
       "name": "Matterhorn Ascension",
       "notation": "d,3+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 23
+      "damage": 23,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 26,
       "name": "Twist of Fate",
       "notation": "d/b,3",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 27,
       "name": "Edelweiss",
       "notation": "d/b,4",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 30
+      }
     },
     {
+      "index": 28,
       "name": "Freesia Thrust",
       "notation": "d/b,3+4",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 24
+      }
     },
     {
+      "index": 29,
       "name": "Élysée Le Bras Allongé to Dew Glide",
       "notation": "b,1,F",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 16
+      "damage": 16,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 30,
       "name": "Élysée Le Bras Allongé Caracole",
       "notation": "b,1,4",
       "hitLevels": [
@@ -295,9 +412,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 38
+      "damage": 38,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 31,
       "name": "Heliotrope",
       "notation": "b,2,1",
       "hitLevels": [
@@ -305,9 +426,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 28
+      "damage": 28,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 32,
       "name": "Heliotrope Corsage",
       "notation": "b,2,1,1+2",
       "hitLevels": [
@@ -316,57 +441,85 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 55
+      "damage": 55,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 33,
       "name": "Feisty Rabbit",
       "notation": "b,3",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 34,
       "name": "Feisty Rabbit to Dew Glide",
       "notation": "\"During Feisty Rabbit\",F",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 35,
       "name": "Rabbit's Foot",
       "notation": "\"During Feisty Rabbit\",3",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 49
+      }
     },
     {
+      "index": 36,
       "name": "Rabbit Thorn",
       "notation": "\"During Feisty Rabbit\",4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 27
+      "damage": 27,
+      "frames": {
+        "startup": 48
+      }
     },
     {
+      "index": 37,
       "name": "Dendrobium",
       "notation": "b,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 23
+      }
     },
     {
+      "index": 38,
       "name": "Mirror Image",
       "notation": "b,3+4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 39,
       "name": "Cancer Une-Deux",
       "notation": "\"Back towards enemy\",1,2",
       "hitLevels": [
@@ -374,18 +527,26 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 59
+      }
     },
     {
+      "index": 40,
       "name": "Rompez Fleuret",
       "notation": "\"Back towards enemy\",2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 17
+      "damage": 17,
+      "frames": {
+        "startup": 65
+      }
     },
     {
+      "index": 41,
       "name": "Shears to Spinning Edge",
       "notation": "\"Back towards enemy\",4,3+4",
       "hitLevels": [
@@ -395,9 +556,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 52
+      "damage": 52,
+      "frames": {
+        "startup": 77
+      }
     },
     {
+      "index": 42,
       "name": "Tempest",
       "notation": "\"Back towards enemy\",1+2",
       "hitLevels": [
@@ -405,9 +570,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 64
+      }
     },
     {
+      "index": 43,
       "name": "Twist Backflip Fleuret",
       "notation": "\"Back towards enemy\",3+4,2",
       "hitLevels": [
@@ -415,9 +584,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 39
+      "damage": 39,
+      "frames": {
+        "startup": 80
+      }
     },
     {
+      "index": 44,
       "name": "Autumn Wind",
       "notation": "\"Back towards enemy\",d,3,4",
       "hitLevels": [
@@ -425,36 +598,52 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 69
+      }
     },
     {
+      "index": 45,
       "name": "Orchid Ring",
       "notation": "\"Back towards enemy\",d,3+4",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 74
+      }
     },
     {
+      "index": 46,
       "name": "Piercing Thorn Fortissimo",
       "notation": "b,1+4",
       "hitLevels": [
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 50
+      "damage": 50,
+      "frames": {
+        "startup": 63
+      }
     },
     {
+      "index": 47,
       "name": "Moonsault to Dew Glide",
       "notation": "u,3,F",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 48,
       "name": "Moonsault Narcissus to Dew Glide",
       "notation": "u,3,3,F",
       "hitLevels": [
@@ -462,9 +651,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 49,
       "name": "Moonsault Alstroemeria",
       "notation": "u,3,3,3+4",
       "hitLevels": [
@@ -474,36 +667,52 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 45
+      "damage": 45,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 50,
       "name": "Divine Step",
       "notation": "u,3+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 28
+      "damage": 28,
+      "frames": {
+        "startup": 36
+      }
     },
     {
+      "index": 51,
       "name": "Stinging Nettle",
       "notation": "u/f,2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 52,
       "name": "Capricorn Kick",
       "notation": "u/f,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 13
+      "damage": 13,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 53,
       "name": "Sunflower Lance",
       "notation": "u/f,4,3",
       "hitLevels": [
@@ -511,9 +720,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 41
+      "damage": 41,
+      "frames": {
+        "startup": 28
+      }
     },
     {
+      "index": 54,
       "name": "Angel Knee to Front Kick",
       "notation": "u/f,3+4,3",
       "hitLevels": [
@@ -521,9 +734,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 33
+      "damage": 33,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 55,
       "name": "Angel Knee Ascension",
       "notation": "u/f,3+4,3+4",
       "hitLevels": [
@@ -531,27 +748,39 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 37
+      "damage": 37,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 56,
       "name": "Allonger Le Bras",
       "notation": "f,F,2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 57,
       "name": "Narcissus to Dew Glide",
       "notation": "f,F,3,F",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 58,
       "name": "Alstroemeria",
       "notation": "f,F,3,3+4",
       "hitLevels": [
@@ -560,52 +789,76 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 59,
       "name": "Root of Evil",
       "notation": "f,F,4",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 23
+      "damage": 23,
+      "frames": {
+        "startup": 22
+      }
     },
     {
+      "index": 60,
       "name": "Lashing Iris",
       "notation": "f,F,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 28
+      "damage": 28,
+      "frames": {
+        "startup": 28
+      }
     },
     {
+      "index": 61,
       "name": "Lashing Iris",
       "notation": "f,F,1+2,\"Hold\"",
       "hitLevels": [
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 50
+      "damage": 50,
+      "frames": {
+        "startup": 73
+      }
     },
     {
+      "index": 62,
       "name": "Piercing Thorn",
       "notation": "f,F,3+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 63,
       "name": "Dew Glide",
       "notation": "d,d/f,f",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 64,
       "name": "Rose Pique",
       "notation": "d,d/f,f,1,2",
       "hitLevels": [
@@ -613,9 +866,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 36
+      "damage": 36,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 65,
       "name": "Nocturne",
       "notation": "d,d/f,f,2,1",
       "hitLevels": [
@@ -623,9 +880,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 33
+      "damage": 33,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 66,
       "name": "Cloisonne",
       "notation": "d,d/f,f,3+4",
       "hitLevels": [
@@ -633,18 +894,26 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 26
+      "damage": 26,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 67,
       "name": "Sabre Slash",
       "notation": "f,f,f,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 23
+      }
     },
     {
+      "index": 68,
       "name": "Sullen Daisy",
       "notation": "\"WS\",1,2,4",
       "hitLevels": [
@@ -653,18 +922,26 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 51
+      "damage": 51,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 69,
       "name": "Delicate Uprising",
       "notation": "\"WS\",2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 17
+      "damage": 17,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 70,
       "name": "Honeysuckle",
       "notation": "\"WS\",3,4",
       "hitLevels": [
@@ -672,45 +949,65 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 37
+      "damage": 37,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 71,
       "name": "Slashing Vine",
       "notation": "\"FC\",d/f,1",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 72,
       "name": "Horizon Slide",
       "notation": "\"FC\",d/f,3",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 19
+      "damage": 19,
+      "frames": {
+        "startup": 23
+      }
     },
     {
+      "index": 73,
       "name": "Stunning Toe Kick",
       "notation": "\"SS\",3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 74,
       "name": "Minuet",
       "notation": "\"SS\",1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 75,
       "name": "10 Hit Combo 1",
       "notation": "4,1,3,4,4,3,4,4,3+4",
       "hitLevels": [
@@ -725,9 +1022,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 85
+      "damage": 85,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 76,
       "name": "10 Hit Combo 2",
       "notation": "4,1,3,3+4,3,4,3,1,3+4,4",
       "hitLevels": [
@@ -743,9 +1044,13 @@
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 104
+      "damage": 104,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 77,
       "name": "10 Hit Combo 3",
       "notation": "4,1,3,3+4",
       "hitLevels": [
@@ -756,95 +1061,139 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 51
+      "damage": 51,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 78,
       "name": "Kiss of Devotion",
       "notation": "1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 79,
       "name": "Kiss of Devotion",
       "notation": "f,1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 80,
       "name": "Femme Fatale",
       "notation": "2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 81,
       "name": "Femme Fatale",
       "notation": "f,2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 82,
       "name": "Soleil",
       "notation": "\"Approach from left side\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 42
+      "damage": 42,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 83,
       "name": "Monaco Mixer",
       "notation": "\"Approach from right side\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 43
+      "damage": 43,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 84,
       "name": "Ravaging Beauty",
       "notation": "\"Back\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 60
+      "damage": 60,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 85,
       "name": "Rafflesia",
       "notation": "d/f,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 86,
       "name": "Larkspur",
       "notation": "\"During enemy wall stun\",1+3",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 87,
       "name": "Attack Reversal",
       "notation": "\"Time with enemy punch\",b,1+3",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 88,
       "name": "Sample Combo 1",
       "notation": "\"SS\",3;f,4",
       "hitLevels": [
@@ -852,9 +1201,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 38
+      "damage": 38,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 89,
       "name": "Sample Combo 2",
       "notation": "u/f,3;d/f,2;2,4;3,2,3",
       "hitLevels": [
@@ -867,9 +1220,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 47
+      "damage": 47,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 90,
       "name": "Sample Combo 3",
       "notation": "d/f,2;f,2,3;d/f,3+4;\"Back towards enemy\",2;d/f,3+4,3+4",
       "hitLevels": [
@@ -883,9 +1240,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 55
+      "damage": 55,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 91,
       "name": "Sample Combo 4",
       "notation": "d/b,4;\"FC\",d/f,1;4,1;d,2,2,3;\"Rage\",3+4",
       "hitLevels": [
@@ -899,9 +1260,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 88
+      "damage": 88,
+      "frames": {
+        "startup": 30
+      }
     },
     {
+      "index": 92,
       "name": "Sample Combo 5",
       "notation": "d,3+4;U/F,4;1;\"Rage\",d/f,3+4,3;d,d/f,f,3+4;f,F,3,F;1,2",
       "hitLevels": [
@@ -917,7 +1282,10 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 79
+      "damage": 79,
+      "frames": {
+        "startup": 17
+      }
     }
   ]
 }

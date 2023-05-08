@@ -3,15 +3,20 @@
   "slug": "alisa",
   "moves": [
     {
+      "index": 1,
       "name": "Rage Art",
       "notation": "\"Rage\",b,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 55
+      "damage": 55,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 2,
       "name": "Rage Drive",
       "notation": "\"Rage\",f,2+3,3+4",
       "hitLevels": [
@@ -19,9 +24,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 37
+      "damage": 37,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 3,
       "name": "Stop Bit",
       "notation": "1,1",
       "hitLevels": [
@@ -29,9 +38,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 4,
       "name": "Stop Bit to Destructive Form",
       "notation": "1,1,1+2",
       "hitLevels": [
@@ -39,9 +52,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 5,
       "name": "Coil Punch Combo",
       "notation": "1,2,2",
       "hitLevels": [
@@ -50,9 +67,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 17
+      "damage": 17,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 6,
       "name": "Accelerator Combo",
       "notation": "1,2,4",
       "hitLevels": [
@@ -61,9 +82,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 38
+      "damage": 38,
+      "frames": {
+        "startup": 10
+      }
     },
     {
+      "index": 7,
       "name": "Down Time ",
       "notation": "2,3,3",
       "hitLevels": [
@@ -72,9 +97,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 37
+      "damage": 37,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 8,
       "name": "Down Link",
       "notation": "2,3,4",
       "hitLevels": [
@@ -83,9 +112,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 37
+      "damage": 37,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 9,
       "name": "Right Jab to Accelerator",
       "notation": "2,4",
       "hitLevels": [
@@ -93,9 +126,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 31
+      "damage": 31,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 10,
       "name": "Quick Access",
       "notation": "3,2",
       "hitLevels": [
@@ -103,27 +140,39 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 32
+      "damage": 32,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 11,
       "name": "Accelerator",
       "notation": "4",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 12,
       "name": "Gigabyte Hammer",
       "notation": "1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 33
+      }
     },
     {
+      "index": 13,
       "name": "Dual Session",
       "notation": "f,2,1",
       "hitLevels": [
@@ -131,18 +180,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 32
+      "damage": 32,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 14,
       "name": "Session to Destructive Form",
       "notation": "f,2,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 12
+      "damage": 12,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 15,
       "name": "Triple Session",
       "notation": "f,2,3,3",
       "hitLevels": [
@@ -151,9 +208,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 16,
       "name": "Lost Access",
       "notation": "f,3,2",
       "hitLevels": [
@@ -161,9 +222,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 33
+      "damage": 33,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 17,
       "name": "Automatic Transmission",
       "notation": "f,3,1+2",
       "hitLevels": [
@@ -171,9 +236,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 38
+      "damage": 38,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 18,
       "name": "Logic Bomb",
       "notation": "f,4,1,4",
       "hitLevels": [
@@ -182,50 +251,74 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 47
+      "damage": 47,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 19,
       "name": "Overflow",
       "notation": "f,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 20,
       "name": "Overflow to Boot",
       "notation": "f,1+2,3+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 21,
       "name": "Overflow to Dual Boot",
       "notation": "f,1+2,f,3+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 22,
       "name": "Boot",
       "notation": "f,3+4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 23,
       "name": "Abort",
       "notation": "\"During Boot\",D",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 24,
       "name": "Hard Reset",
       "notation": "\"During Boot\",1,2,1,3+4",
       "hitLevels": [
@@ -236,9 +329,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 65
+      "damage": 65,
+      "frames": {
+        "startup": 55
+      }
     },
     {
+      "index": 25,
       "name": "Hard Reset to Destructive Form",
       "notation": "\"During Boot\",1,2,1,3+4,1+2",
       "hitLevels": [
@@ -249,45 +346,65 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 65
+      "damage": 65,
+      "frames": {
+        "startup": 55
+      }
     },
     {
+      "index": 26,
       "name": "Linear Elbow",
       "notation": "\"During Boot\",2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 58
+      }
     },
     {
+      "index": 27,
       "name": "Linear Elbow to Destructive Form",
       "notation": "\"During Boot\",2,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 58
+      }
     },
     {
+      "index": 28,
       "name": "Eject Slider",
       "notation": "\"During Boot\",3",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 17
+      "damage": 17,
+      "frames": {
+        "startup": 58
+      }
     },
     {
+      "index": 29,
       "name": "Upstream",
       "notation": "\"During Boot\",4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 27
+      "damage": 27,
+      "frames": {
+        "startup": 60
+      }
     },
     {
+      "index": 30,
       "name": "Cyclone Mixer",
       "notation": "d/f,1,1,2",
       "hitLevels": [
@@ -296,9 +413,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 58
+      "damage": 58,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 31,
       "name": "Cyclone Hacker",
       "notation": "d/f,1,4",
       "hitLevels": [
@@ -306,18 +427,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 27
+      "damage": 27,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 32,
       "name": "Pickup",
       "notation": "d/f,2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 16
+      "damage": 16,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 33,
       "name": "Double Socket",
       "notation": "d/f,3,3",
       "hitLevels": [
@@ -325,18 +454,26 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 31
+      "damage": 31,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 34,
       "name": "Transmission",
       "notation": "d/f,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 35,
       "name": "Deadlock",
       "notation": "d,2,4",
       "hitLevels": [
@@ -344,9 +481,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 41
+      "damage": 41,
+      "frames": {
+        "startup": 24
+      }
     },
     {
+      "index": 36,
       "name": "Deadlock to Destructive Form",
       "notation": "d,2,4,1+2",
       "hitLevels": [
@@ -354,18 +495,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 41
+      "damage": 41,
+      "frames": {
+        "startup": 24
+      }
     },
     {
+      "index": 37,
       "name": "Quick Slider",
       "notation": "d,3",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 17
+      "damage": 17,
+      "frames": {
+        "startup": 23
+      }
     },
     {
+      "index": 38,
       "name": "Optimizer",
       "notation": "d,4,1+2",
       "hitLevels": [
@@ -373,70 +522,102 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 39,
       "name": "Harpoon Sweep",
       "notation": "d,3+4",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 27
+      }
     },
     {
+      "index": 40,
       "name": "Harpoon Sweep to Destructive Form",
       "notation": "d,3+4,1+2",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 27
+      }
     },
     {
+      "index": 41,
       "name": "Backup ",
       "notation": "d/b,1",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 42,
       "name": "Recovery Hook",
       "notation": "d/b,【1,1,】",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 31
+      "damage": 31,
+      "frames": {
+        "startup": 26
+      }
     },
     {
+      "index": 43,
       "name": "Rocket Punch",
       "notation": "d/b,【1,2,】",
       "hitLevels": [
         "Unblockable 2"
       ],
       "isThrow": false,
-      "damage": 23
+      "damage": 23,
+      "frames": {
+        "startup": 49
+      }
     },
     {
+      "index": 44,
       "name": "Meteor Kick",
       "notation": "d/b,【1,3,】",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 39
+      }
     },
     {
+      "index": 45,
       "name": "Uplink Knee",
       "notation": "d/b,【1,4,】",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 33
+      }
     },
     {
+      "index": 46,
       "name": "Daisy Chain",
       "notation": "d/b,2,2",
       "hitLevels": [
@@ -444,9 +625,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 47,
       "name": "Daisy Chain to Destructive Form",
       "notation": "d/b,2,2,1+2",
       "hitLevels": [
@@ -454,27 +639,39 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 48,
       "name": "Deep Link",
       "notation": "d/b,3",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 11
+      "damage": 11,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 49,
       "name": "Deep Web ",
       "notation": "d/b,4",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 23
+      "damage": 23,
+      "frames": {
+        "startup": 24
+      }
     },
     {
+      "index": 50,
       "name": "Gadget Found",
       "notation": "b,1,1+2",
       "hitLevels": [
@@ -483,9 +680,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 45
+      "damage": 45,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 51,
       "name": "Trance Hammer",
       "notation": "b,2,1",
       "hitLevels": [
@@ -493,9 +694,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 29
+      "damage": 29,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 52,
       "name": "Trance Accelerator Kick",
       "notation": "b,2,4",
       "hitLevels": [
@@ -503,18 +708,26 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 32
+      "damage": 32,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 53,
       "name": "Spinning Top",
       "notation": "b,3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 26
+      "damage": 26,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 54,
       "name": "Double Threading",
       "notation": "b,4,3",
       "hitLevels": [
@@ -522,9 +735,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 32
+      "damage": 32,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 55,
       "name": "Double Threading to Destructive Form",
       "notation": "b,4,3,1+2",
       "hitLevels": [
@@ -532,9 +749,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 32
+      "damage": 32,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 56,
       "name": "Dynamic Range",
       "notation": "b,3+4,3+4",
       "hitLevels": [
@@ -542,18 +763,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 44
+      "damage": 44,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 57,
       "name": "Hang-Up",
       "notation": "b,2+3",
       "hitLevels": [
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 50
+      "damage": 50,
+      "frames": {
+        "startup": 75
+      }
     },
     {
+      "index": 58,
       "name": "Docking Bay",
       "notation": "u/b,3+4,1+2",
       "hitLevels": [
@@ -561,9 +790,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 37
+      }
     },
     {
+      "index": 59,
       "name": "Cradle Star",
       "notation": "u/f,3,2",
       "hitLevels": [
@@ -571,36 +804,52 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 45
+      "damage": 45,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 60,
       "name": "Cradle Star to Boot",
       "notation": "u/f,3,3+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 61,
       "name": "Cradle Star to Dual Boot",
       "notation": "u/f,3,f,3+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 62,
       "name": "Downstream",
       "notation": "u/f,3+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 28
+      "damage": 28,
+      "frames": {
+        "startup": 38
+      }
     },
     {
+      "index": 63,
       "name": "Inbound Kick",
       "notation": "u/f,4,4",
       "hitLevels": [
@@ -608,9 +857,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 64,
       "name": "Jumper Switch",
       "notation": "f,F,2,3",
       "hitLevels": [
@@ -618,9 +871,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 65,
       "name": "Double Cut to Destructive Form",
       "notation": "f,F,3,4,1+2",
       "hitLevels": [
@@ -628,9 +885,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 27
+      "damage": 27,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 66,
       "name": "Cutover",
       "notation": "f,F,3,4,4",
       "hitLevels": [
@@ -639,9 +900,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 44
+      "damage": 44,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 67,
       "name": "Cutover to Destructive Form",
       "notation": "f,F,3,4,4,1+2",
       "hitLevels": [
@@ -650,9 +915,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 44
+      "damage": 44,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 68,
       "name": "Sandbox",
       "notation": "f,F,4,\"Hit from front\",f,1",
       "hitLevels": [
@@ -660,9 +929,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 69,
       "name": "Worm Virus",
       "notation": "f,F,1+2",
       "hitLevels": [
@@ -670,9 +943,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 23
+      "damage": 23,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 70,
       "name": "Killer Worm Virus",
       "notation": "f,F,1+2,\"Hit\",2",
       "hitLevels": [
@@ -686,36 +963,52 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 71,
       "name": "Overload ",
       "notation": "b,f,2",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 26
+      "damage": 26,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 72,
       "name": "Double Rocket Punch",
       "notation": "b,B,1+4",
       "hitLevels": [
         "Unblockable 2"
       ],
       "isThrow": false,
-      "damage": 50
+      "damage": 50,
+      "frames": {
+        "startup": 63
+      }
     },
     {
+      "index": 73,
       "name": "Linear Punch",
       "notation": "f,f,f,2",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 74,
       "name": "Linear Dropkick",
       "notation": "f,f,f,3,4",
       "hitLevels": [
@@ -723,18 +1016,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 75,
       "name": "Thruster Double Punch",
       "notation": "\"Run more than 3\",\"steps\",1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 18
+      }
     },
     {
+      "index": 76,
       "name": "Spear Fishing",
       "notation": "\"WS\",1,2,3",
       "hitLevels": [
@@ -743,9 +1044,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 44
+      "damage": 44,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 77,
       "name": "Spear Fishing to Destructive Form",
       "notation": "\"WS\",1,2,3,1+2",
       "hitLevels": [
@@ -754,45 +1059,65 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 44
+      "damage": 44,
+      "frames": {
+        "startup": 13
+      }
     },
     {
+      "index": 78,
       "name": "Digital Lift",
       "notation": "\"WS\",2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 79,
       "name": "Digital Lift to Boot",
       "notation": "\"WS\",2,3+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 80,
       "name": "Digital Lift to Dual Boot",
       "notation": "\"WS\",2,f,3+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 81,
       "name": "Clockwork",
       "notation": "\"WS\",3",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 18
+      "damage": 18,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 82,
       "name": "Clockwork Spring Middle",
       "notation": "\"During Clockwork\",3",
       "hitLevels": [
@@ -800,9 +1125,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 38
+      "damage": 38,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 83,
       "name": "Clockwork Spring Low",
       "notation": "\"During Clockwork\",d,3",
       "hitLevels": [
@@ -810,18 +1139,26 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 38
+      "damage": 38,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 84,
       "name": "Cute But Deadly",
       "notation": "\"WS\",1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 20
+      }
     },
     {
+      "index": 85,
       "name": "Sad Hound",
       "notation": "\"FC\",d/f,1+2",
       "hitLevels": [
@@ -829,9 +1166,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 26
+      "damage": 26,
+      "frames": {
+        "startup": 21
+      }
     },
     {
+      "index": 86,
       "name": "Sad Hound to Destructive Form",
       "notation": "\"FC\",d/f,1+2,N,1+2",
       "hitLevels": [
@@ -839,9 +1180,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 26
+      "damage": 26,
+      "frames": {
+        "startup": 21
+      }
     },
     {
+      "index": 87,
       "name": "Happy Propeller",
       "notation": "\"SS\",4,1+2",
       "hitLevels": [
@@ -852,50 +1197,74 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 24
+      }
     },
     {
+      "index": 88,
       "name": "Goody Two Shoes",
       "notation": "\"Back towards enemy\",4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 89,
       "name": "Reboot",
       "notation": "\"While down\",1+2",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 90,
       "name": "Reboot Meteor Kick",
       "notation": "\"While down\",1+2,3+4",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 42
+      }
     },
     {
+      "index": 91,
       "name": "Ground Rocket Punch",
       "notation": "d/b,1+2",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 25
+      }
     },
     {
+      "index": 92,
       "name": "Destructive Form",
       "notation": "d,1+2",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 93,
       "name": "Shredder",
       "notation": "\"During Destructive Form\",1",
       "hitLevels": [
@@ -903,18 +1272,26 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 96
+      }
     },
     {
+      "index": 94,
       "name": "Shredding Uppercut",
       "notation": "\"During Destructive Form\",2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 15
+      "damage": 15,
+      "frames": {
+        "startup": 102
+      }
     },
     {
+      "index": 95,
       "name": "Shredding Sky Punch",
       "notation": "\"During Destructive Form\",2,\"Hit\",1",
       "hitLevels": [
@@ -922,16 +1299,24 @@
         "Unblockable 2"
       ],
       "isThrow": false,
-      "damage": 29
+      "damage": 29,
+      "frames": {
+        "startup": 102
+      }
     },
     {
+      "index": 96,
       "name": "Idling",
       "notation": "\"During Destructive Form\",3",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 97,
       "name": "Death Marionette",
       "notation": "\"During Destructive Form\",1+2",
       "hitLevels": [
@@ -940,27 +1325,39 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 34
+      "damage": 34,
+      "frames": {
+        "startup": 98
+      }
     },
     {
+      "index": 98,
       "name": "Hertz Blade",
       "notation": "\"During Destructive Form\",f,1",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 21
+      "damage": 21,
+      "frames": {
+        "startup": 94
+      }
     },
     {
+      "index": 99,
       "name": "Hertz Blade Aegis",
       "notation": "\"During Destructive Form\",f,2",
       "hitLevels": [
         "Anti Air"
       ],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": 92
+      }
     },
     {
+      "index": 100,
       "name": "Hertz Blade Diablo",
       "notation": "\"During Destructive Form\",f,1+2,1+2",
       "hitLevels": [
@@ -968,34 +1365,50 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 44
+      "damage": 44,
+      "frames": {
+        "startup": 105
+      }
     },
     {
+      "index": 101,
       "name": "Dual Boot",
       "notation": "\"During Destructive Form\",f,3+4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 102,
       "name": "Thruster Left",
       "notation": "\"During Dual Boot\",1",
       "hitLevels": [
         "High"
       ],
       "isThrow": false,
-      "damage": 30
+      "damage": 30,
+      "frames": {
+        "startup": 137
+      }
     },
     {
+      "index": 103,
       "name": "Thruster Right",
       "notation": "\"During Dual Boot\",2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 32
+      "damage": 32,
+      "frames": {
+        "startup": 129
+      }
     },
     {
+      "index": 104,
       "name": "Thruster Right - Burst",
       "notation": "\"During Dual Boot\",2,1",
       "hitLevels": [
@@ -1003,27 +1416,39 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 38
+      "damage": 38,
+      "frames": {
+        "startup": 129
+      }
     },
     {
+      "index": 105,
       "name": "Thruster Drill",
       "notation": "\"During Dual Boot\",1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 125
+      }
     },
     {
+      "index": 106,
       "name": "Hertz Blade Scud",
       "notation": "\"During Destructive Form\",d,1",
       "hitLevels": [
         "Low"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 102
+      }
     },
     {
+      "index": 107,
       "name": "Clock Setting",
       "notation": "\"During Destructive Form\",d,2",
       "hitLevels": [
@@ -1033,9 +1458,13 @@
         "Low"
       ],
       "isThrow": false,
-      "damage": 20
+      "damage": 20,
+      "frames": {
+        "startup": 112
+      }
     },
     {
+      "index": 108,
       "name": "Hertz Blade - Tomahawk",
       "notation": "\"During Destructive Form\",b,2,1",
       "hitLevels": [
@@ -1043,64 +1472,96 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 33
+      "damage": 33,
+      "frames": {
+        "startup": 100
+      }
     },
     {
+      "index": 109,
       "name": "Retro Rockets",
       "notation": "\"During Destructive Form\",b,3+4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 110,
       "name": "Evasive Action",
       "notation": "\"During Destructive Form\",u,3+4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 111,
       "name": "Evasive Slash",
       "notation": "\"During Destructive Form\",u,3+4,1",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 127
+      }
     },
     {
+      "index": 112,
       "name": "Spindle Slash",
       "notation": "\"During Destructive Form\",u/f,1+2",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 27
+      "damage": 27,
+      "frames": {
+        "startup": 111
+      }
     },
     {
+      "index": 113,
       "name": "Hertz Blade - Flare",
       "notation": "\"Back towards enemy\",,\"during Destructive Form\",1",
       "hitLevels": [
         "Mid"
       ],
       "isThrow": false,
-      "damage": 24
+      "damage": 24,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 114,
       "name": "Taunt 1",
       "notation": "1+2+3",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 115,
       "name": "Taunt 2",
       "notation": "1+2+4",
       "hitLevels": [],
       "isThrow": false,
-      "damage": 0
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
     },
     {
+      "index": 116,
       "name": "10 Hit Combo",
       "notation": "u/b,4,1,1,2,1,1,3+4,3,2,2",
       "hitLevels": [
@@ -1116,99 +1577,143 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 90
+      "damage": 90,
+      "frames": {
+        "startup": 17
+      }
     },
     {
+      "index": 117,
       "name": "Trigger Shuffle",
       "notation": "1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 118,
       "name": "Trigger Shuffle",
       "notation": "f,1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 119,
       "name": "Back Door",
       "notation": "2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 120,
       "name": "Back Door",
       "notation": "f,2+4",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 35
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 121,
       "name": "Compression",
       "notation": "\"Approach from left side\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 122,
       "name": "Hat Trick",
       "notation": "\"Approach from right side\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 123,
       "name": "Random Typing",
       "notation": "\"Back\",1+3",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 55
+      "damage": 55,
+      "frames": {
+        "startup": 12
+      }
     },
     {
+      "index": 124,
       "name": "Spam Bomb",
       "notation": "u/f,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 40
+      "damage": 40,
+      "frames": {
+        "startup": 15
+      }
     },
     {
+      "index": 125,
       "name": "Double Bull Shoot",
       "notation": "\"FC\",d/b,1+2",
       "hitLevels": [
         "High"
       ],
       "isThrow": true,
-      "damage": 45
+      "damage": 45,
+      "frames": {
+        "startup": 11
+      }
     },
     {
+      "index": 126,
       "name": "Model Change",
       "notation": "\"Time with enemy high attack\",b,1+3",
       "hitLevels": [
         "Unblockable 1"
       ],
       "isThrow": false,
-      "damage": 25
+      "damage": 25,
+      "frames": {
+        "startup": 29
+      }
     },
     {
+      "index": 127,
       "name": "Sample Combo 1",
       "notation": "d/f,2;4;f,F,2,3",
       "hitLevels": [
@@ -1218,9 +1723,13 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 51
+      "damage": 51,
+      "frames": {
+        "startup": 16
+      }
     },
     {
+      "index": 128,
       "name": "Sample Combo 2",
       "notation": "f,3,2;\"During Destructive Form\",f,3+4;\"During Dual Boot\",2,1",
       "hitLevels": [
@@ -1230,9 +1739,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 58
+      "damage": 58,
+      "frames": {
+        "startup": 14
+      }
     },
     {
+      "index": 129,
       "name": "Sample Combo 3",
       "notation": "b,3+4;f,2;d/f,1,1;d,4,1+2;d,3,1",
       "hitLevels": [
@@ -1246,9 +1759,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 65
+      "damage": 65,
+      "frames": {
+        "startup": 19
+      }
     },
     {
+      "index": 130,
       "name": "Sample Combo 4",
       "notation": "f,3+4;\"During Boot\",4;\"WS\",1+2,\"Hold\";\"WS\",1,2;b,2,4;\"Rage\",b,1+2",
       "hitLevels": [
@@ -1261,9 +1778,13 @@
         "High"
       ],
       "isThrow": false,
-      "damage": 89
+      "damage": 89,
+      "frames": {
+        "startup": 60
+      }
     },
     {
+      "index": 131,
       "name": "Sample Combo 5",
       "notation": "u/f,4,4;\"WS\",1,2,3;\"Rage\",f,2+3;f,f,f,3,4;f,f,f,3,4",
       "hitLevels": [
@@ -1280,7 +1801,10 @@
         "Mid"
       ],
       "isThrow": false,
-      "damage": 75
+      "damage": 75,
+      "frames": {
+        "startup": 15
+      }
     }
   ]
 }
