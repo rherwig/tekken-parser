@@ -1,6 +1,4 @@
 import ContainerLayout from '@/components/layouts/container-layout';
-import Combo from '@/components/combo';
-import TsButton from '@/ui/buttons/button';
 
 /**
  * The main page of the website.
@@ -24,7 +22,7 @@ export default function IndexPage() {
                 <p className="mb-2">To something like this:</p>
 
                 <div className="not-prose">
-                    <Combo notation={'d,2;d/f,2,1'} />
+                    {/*<Combo notation={'d,2;d/f,2,1'} />*/}
                 </div>
 
                 <div className="not-prose"></div>
@@ -43,12 +41,12 @@ export default function IndexPage() {
                     suggest you checkout the combo sharing functionality.
                 </p>
 
-                <TsButton
-                    is={'a'}
-                    href="/share"
-                >
-                    Get Started
-                </TsButton>
+                {/*<TsButton*/}
+                {/*    is={'a'}*/}
+                {/*    href="/share"*/}
+                {/*>*/}
+                {/*    Get Started*/}
+                {/*</TsButton>*/}
             </div>
         </ContainerLayout>
     );
