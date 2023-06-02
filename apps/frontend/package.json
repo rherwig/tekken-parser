@@ -10,7 +10,8 @@
         "start": "next start",
         "lint": "next lint",
         "prepare": "prisma generate",
-        "import:moves": "vite-node scripts/import-moves.ts"
+        "import:moves": "vite-node scripts/import-moves.ts",
+        "import:combos": "vite-node scripts/import-combos.ts"
     },
     "devDependencies": {
         "@hrwg/eslint-config": "2.1.0",
@@ -21,7 +22,7 @@
         "autoprefixer": "10.4.14",
         "local-ssl-proxy": "2.0.5",
         "postcss": "8.4.23",
-        "prisma": "4.13.0",
+        "prisma": "4.14.0",
         "rimraf": "4.4.1",
         "sass": "1.62.1",
         "tailwindcss": "3.3.2",

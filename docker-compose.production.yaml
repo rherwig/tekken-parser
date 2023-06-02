@@ -1,9 +1,22 @@
 version: '3.8'
 
 services:
+    database:
+        image: postgres
+        environment:
+            POSTGRES_USER: tekken
+            POSTGRES_PASSWORD: space
+            POSTGRES_DB: dev
+        ports:
+            - "5432:5432"
+        volumes:
+            - ./var/tekken/database:/var/lib/postgresql/data
+
     frontend:
         image: rherwig/tekken-space-frontend:latest
         restart: "unless-stopped"
+        depends_on:
+            - database
         volumes:
             - /var/tekken/frontend/.env:/app/apps/frontend/.env
 

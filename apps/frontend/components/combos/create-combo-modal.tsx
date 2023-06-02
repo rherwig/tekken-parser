@@ -1,13 +1,13 @@
-import { Combo } from '@prisma/client';
+import { Move } from '@prisma/client';
 
 import CreateComboForm from '@/components/combos/create-combo-form';
 import TsBaseDialog from '@/ui/dialogs/base-dialog';
 
 interface Props {
     characterId: string;
-    initialValues?: Combo;
+    initialValues?: Move;
     isOpen: boolean;
-    onSuccess: (combo: Combo) => void;
+    onSuccess: (move: Move) => void;
     onClose: () => void;
 }
 

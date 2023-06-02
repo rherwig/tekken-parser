@@ -1,159 +1,143 @@
 import { resolve } from 'node:path';
 import { readFileSync } from 'node:fs';
 
-import { PrismaClient } from '@prisma/client';
+import { Move } from '@prisma/client';
 
-const prisma = new PrismaClient();
+import { prisma } from '../prisma/client';
 
-const MOVELISTS_PATH = resolve(__dirname, '../../../tools/extractor/.output');
+import { findOrCreateCharacter } from './utils/character';
+
+interface ImportedMove {
+    command: string;
+    hit_level: string;
+    damage: string;
+    start_up_frame: string;
+    block_frame: string;
+    hit_frame: string;
+    counter_hit_frame: string;
+    notes: string;
+}
+
+type MoveDto = Omit<Move, 'id' | 'updatedAt' | 'createdAt'>;
+
+const MOVELISTS_PATH = resolve(__dirname, '../assets/json/moves');
+const STARTUP_FRAME_REGEX = /(\d+)~?(\d+)?\s?/;
+const BLOCK_FRAME_REGEX = /([-+]\d+)~?([-+]\d+)\s?/;
+
+const COMMAND_REPLACEMENTS: Record<string, string> = {
+    ' or ': ' "OR" ',
+    'in rage': 'RAGE',
+    '(': '"',
+    ')': '"',
+};
+
+function formatCommand(command: string): string {
+    return Object.entries(COMMAND_REPLACEMENTS).reduce(
+        (result, [search, replacement]) => {
+            return result.replaceAll(search, replacement);
+        },
+        command,
+    );
+}
+
+function formatFrames(frames: string, regex: RegExp): number[] {
+    const result: number[] = [];
+
+    const match = frames.match(regex);
+    const [, initial, secondary] = match || [];
+
+    if (initial) {
+        result.push(parseInt(initial, 10));
+    }
+
+    if (secondary) {
+        result.push(parseInt(secondary, 10));
+    }
+
+    return result;
+}
+
+async function importMovesForCharacter(characterName: string) {
+    console.info(`[Import] Starting import for ${characterName}.`);
+    const character = await findOrCreateCharacter(characterName);
+
+    console.info(`[Import] Loading move list.`);
+    const moveList: ImportedMove[] = JSON.parse(
+        readFileSync(`${MOVELISTS_PATH}/${character.slug}.json`, 'utf-8'),
+    );
+
+    console.info(`[Import] Converting moves.`);
+    const moves: MoveDto[] = moveList.map((move, index) => {
+        const damage = !move.damage
+            ? []
+            : move.damage.split(',').map((damage) => parseInt(damage, 10));
+
+        const hitLevels = move.hit_level
+            .split(',')
+            .map((hitLevel) => hitLevel.trim());
+
+        const isThrow = move.hit_level.toLocaleLowerCase().includes('throw');
+
+        const startupFrames = formatFrames(
+            move.start_up_frame,
+            STARTUP_FRAME_REGEX,
+        );
+        const blockFrames = formatFrames(move.block_frame, BLOCK_FRAME_REGEX);
+
+        return {
+            isCombo: false,
+            index: index,
+            name: '',
+            slug: '',
+            notation: formatCommand(move.command),
+            characterId: character.id,
+            notes: move.notes,
+            aliases: [],
+            damage,
+            hitLevels,
+            isThrow,
+            startupFrames,
+            blockFrames,
+            counterHitFrames: [],
+            hasTailspin: false,
+            hitFrames: [],
+            isHoming: false,
+            isPowerCrush: false,
+            isWallBounce: false,
+        };
+    });
+
+    console.info(`[Import] Writing moves to database.`);
+    const result = await prisma.$transaction([
+        prisma.move.deleteMany({
+            where: {
+                characterId: character.id,
+                isCombo: false,
+            },
+        }),
+        ...moves.map((move) => {
+            return prisma.move.create({
+                data: move,
+            });
+        }),
+    ]);
+
+    console.info(`[Import] Finished import for ${characterName}.`);
+    console.info();
+
+    return result;
+}
 
 async function importMoves() {
     if (!process.env.MAINTENANCE_MODE) {
-        console.warn(`Please enable MAINTENANCE_MODE via env to proceed.`);
+        // console.warn(`Please enable MAINTENANCE_MODE via env to proceed.`);
         // return;
     }
 
-    await prisma.move.deleteMany();
-
-    const moveLists: any[] = [
-        JSON.parse(
-            readFileSync(resolve(MOVELISTS_PATH, 'alisa.json'), 'utf-8'),
-        ),
-        JSON.parse(
-            readFileSync(resolve(MOVELISTS_PATH, 'akuma.json'), 'utf-8'),
-        ),
-        JSON.parse(readFileSync(resolve(MOVELISTS_PATH, 'bob.json'), 'utf-8')),
-        JSON.parse(
-            readFileSync(resolve(MOVELISTS_PATH, 'bryan.json'), 'utf-8'),
-        ),
-        JSON.parse(
-            readFileSync(resolve(MOVELISTS_PATH, 'asuka.json'), 'utf-8'),
-        ),
-        JSON.parse(
-            readFileSync(resolve(MOVELISTS_PATH, 'devil-jin.json'), 'utf-8'),
-        ),
-        JSON.parse(
-            readFileSync(resolve(MOVELISTS_PATH, 'dragunov.json'), 'utf-8'),
-        ),
-        JSON.parse(readFileSync(resolve(MOVELISTS_PATH, 'eddy.json'), 'utf-8')),
-        JSON.parse(
-            readFileSync(resolve(MOVELISTS_PATH, 'eliza.json'), 'utf-8'),
-        ),
-        JSON.parse(readFileSync(resolve(MOVELISTS_PATH, 'feng.json'), 'utf-8')),
-        JSON.parse(
-            readFileSync(resolve(MOVELISTS_PATH, 'gigas.json'), 'utf-8'),
-        ),
-        JSON.parse(
-            readFileSync(resolve(MOVELISTS_PATH, 'heihachi.json'), 'utf-8'),
-        ),
-        JSON.parse(
-            readFileSync(resolve(MOVELISTS_PATH, 'katarina.json'), 'utf-8'),
-        ),
-        JSON.parse(
-            readFileSync(resolve(MOVELISTS_PATH, 'kazuya.json'), 'utf-8'),
-        ),
-        JSON.parse(
-            readFileSync(resolve(MOVELISTS_PATH, 'kazumi.json'), 'utf-8'),
-        ),
-        JSON.parse(
-            readFileSync(resolve(MOVELISTS_PATH, 'hwoarang.json'), 'utf-8'),
-        ),
-        JSON.parse(readFileSync(resolve(MOVELISTS_PATH, 'jack.json'), 'utf-8')),
-        JSON.parse(readFileSync(resolve(MOVELISTS_PATH, 'jin.json'), 'utf-8')),
-        JSON.parse(
-            readFileSync(resolve(MOVELISTS_PATH, 'josie.json'), 'utf-8'),
-        ),
-        JSON.parse(readFileSync(resolve(MOVELISTS_PATH, 'king.json'), 'utf-8')),
-        JSON.parse(readFileSync(resolve(MOVELISTS_PATH, 'kuma.json'), 'utf-8')),
-        JSON.parse(
-            readFileSync(resolve(MOVELISTS_PATH, 'panda.json'), 'utf-8'),
-        ),
-        JSON.parse(
-            readFileSync(resolve(MOVELISTS_PATH, 'shaheen.json'), 'utf-8'),
-        ),
-        JSON.parse(readFileSync(resolve(MOVELISTS_PATH, 'lars.json'), 'utf-8')),
-        JSON.parse(
-            readFileSync(resolve(MOVELISTS_PATH, 'yoshimitsu.json'), 'utf-8'),
-        ),
-        JSON.parse(
-            readFileSync(resolve(MOVELISTS_PATH, 'steve.json'), 'utf-8'),
-        ),
-        JSON.parse(readFileSync(resolve(MOVELISTS_PATH, 'nina.json'), 'utf-8')),
-        JSON.parse(
-            readFileSync(resolve(MOVELISTS_PATH, 'xiaoyu.json'), 'utf-8'),
-        ),
-        JSON.parse(
-            readFileSync(resolve(MOVELISTS_PATH, 'master-raven.json'), 'utf-8'),
-        ),
-        JSON.parse(
-            readFileSync(resolve(MOVELISTS_PATH, 'lucky-chloe.json'), 'utf-8'),
-        ),
-        JSON.parse(readFileSync(resolve(MOVELISTS_PATH, 'leo.json'), 'utf-8')),
-        JSON.parse(readFileSync(resolve(MOVELISTS_PATH, 'lee.json'), 'utf-8')),
-        JSON.parse(
-            readFileSync(resolve(MOVELISTS_PATH, 'miguel.json'), 'utf-8'),
-        ),
-        JSON.parse(readFileSync(resolve(MOVELISTS_PATH, 'lili.json'), 'utf-8')),
-        JSON.parse(readFileSync(resolve(MOVELISTS_PATH, 'law.json'), 'utf-8')),
-        JSON.parse(readFileSync(resolve(MOVELISTS_PATH, 'paul.json'), 'utf-8')),
-    ];
-
-    for (const moveList of moveLists) {
-        // eslint-disable-next-line no-await-in-loop
-        const character = await prisma.character.findUnique({
-            where: {
-                slug: moveList.slug,
-            },
-        });
-
-        if (!character) {
-            console.warn(`Character with slug ${moveList.slug} not found.`);
-            continue;
-        }
-
-        console.log(`[Import] Starting to import ${character.name}.`);
-
-        for (const move of moveList.moves) {
-            console.log(move.name.startsWith('Sample Combo'), move.name);
-
-            if (!move.name.startsWith('Sample Combo')) {
-                // eslint-disable-next-line no-await-in-loop
-                await prisma.move.create({
-                    data: {
-                        index: move.index,
-                        name: move.name,
-                        slug: move.name.replace(/\s/g, '-').toLocaleLowerCase(),
-                        notation: move.notation,
-                        damage: move.damage,
-                        hitLevels: move.hitLevels,
-                        isThrow: move.isThrow,
-                        character: {
-                            connect: {
-                                id: character.id,
-                            },
-                        },
-                    },
-                });
-                continue;
-            }
-
-            // eslint-disable-next-line no-await-in-loop
-            // await prisma.combo.create({
-            //     data: {
-            //         name: move.name,
-            //         hits: move.hitLevels.length,
-            //         damage: move.damage,
-            //         notation: move.notation,
-            //         character: {
-            //             connect: {
-            //                 id: character.id,
-            //             },
-            //         },
-            //     },
-            // });
-        }
-
-        console.log(`[Import] Finished importing ${character.name}.`);
+    try {
+        await importMovesForCharacter('Akuma');
+    } catch (error: any) {
+        console.error(`Error importing moves`, error.message);
     }
 }
 

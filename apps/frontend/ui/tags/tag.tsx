@@ -19,7 +19,7 @@ export default function TsTag({ children, color, className }: Props) {
     return (
         <span
             className={clsx(
-                'rounded-md px-3 py-1 text-sm',
+                'flex items-center rounded-md px-3 py-1 text-sm',
                 colorSchemes[color || 'gray'],
                 className,
             )}

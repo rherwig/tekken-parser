@@ -1,0 +1,2310 @@
+{
+  "name": "Eddy",
+  "slug": "eddy",
+  "moves": [
+    {
+      "index": 1,
+      "name": "Rage Art",
+      "notation": "\"Rage\",b,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 2,
+      "name": "Rage Drive",
+      "notation": "\"Rage\",f,F,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 3,
+      "name": "One Two Elbows",
+      "notation": "1,2",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 19,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 4,
+      "name": "One Two Elbows to Handstand",
+      "notation": "1,2,F",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 19,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 5,
+      "name": "Combo Jilar",
+      "notation": "1,2,4",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 19,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 6,
+      "name": "Left Jab to Island Mirage",
+      "notation": "1,3",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 7,
+      "name": "Left Jab Island Mirage to Negativa",
+      "notation": "1,3,D",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 8,
+      "name": "Gancho Chibata",
+      "notation": "3,4",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 40,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 9,
+      "name": "Slippery Kick",
+      "notation": "【3,4,】",
+      "hitLevels": [
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 29
+      }
+    },
+    {
+      "index": 10,
+      "name": "Slippery Kick to Handstand",
+      "notation": "【3,4,】B",
+      "hitLevels": [
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 29
+      }
+    },
+    {
+      "index": 11,
+      "name": "Slippery Kick to Heran Bago",
+      "notation": "【3,4,】3",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34,
+      "frames": {
+        "startup": 29
+      }
+    },
+    {
+      "index": 12,
+      "name": "Slippery Kick to Side Flop",
+      "notation": "【3,4,】4",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 29
+      }
+    },
+    {
+      "index": 13,
+      "name": "Slippery Kick to Front Stinger",
+      "notation": "【3,4,】3+4",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32,
+      "frames": {
+        "startup": 29
+      }
+    },
+    {
+      "index": 14,
+      "name": "Satellite Moon",
+      "notation": "【4,3,】",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 16,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 15,
+      "name": "Satellite Moon Hot Plate Special",
+      "notation": "【4,3,】3",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 33,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 16,
+      "name": "Satellite Moon Roundhouse",
+      "notation": "【4,3,】4",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 16,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 17,
+      "name": "Handslaps",
+      "notation": "1+2",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 27,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 18,
+      "name": "Handslaps Mirage",
+      "notation": "【1+2,3,】",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 29,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 19,
+      "name": "Back Handspring",
+      "notation": "3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 36
+      }
+    },
+    {
+      "index": 20,
+      "name": "Back Handspring to Handstand Kick",
+      "notation": "3+4,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 35
+      }
+    },
+    {
+      "index": 21,
+      "name": "Shin Cutter Combo",
+      "notation": "f,2,1,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 43,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 22,
+      "name": "Handstand Kick",
+      "notation": "f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 23,
+      "name": "Samba",
+      "notation": "f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 10,
+      "frames": {
+        "startup": 23
+      }
+    },
+    {
+      "index": 24,
+      "name": "Samba Handstand",
+      "notation": "f,4,B",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 10,
+      "frames": {
+        "startup": 23
+      }
+    },
+    {
+      "index": 25,
+      "name": "Au de Sol",
+      "notation": "f,4,3,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55,
+      "frames": {
+        "startup": 23
+      }
+    },
+    {
+      "index": 26,
+      "name": "Samba Slippery Kick",
+      "notation": "f,4,3+4",
+      "hitLevels": [
+        "Mid",
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 23
+      }
+    },
+    {
+      "index": 27,
+      "name": "Reversão",
+      "notation": "f,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 28,
+      "name": "Mão Esquerda",
+      "notation": "d/f,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 10,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 29,
+      "name": "Mão Esquerda to Handstand",
+      "notation": "d/f,1,F",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 10,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 30,
+      "name": "Combinação Mão",
+      "notation": "d/f,1,1",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 18,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 31,
+      "name": "Elbow Uppercut",
+      "notation": "d/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 32,
+      "name": "Island Mirage",
+      "notation": "d/f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 33,
+      "name": "Island Mirage to Negativa",
+      "notation": "d/f,3,D",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 34,
+      "name": "Kneecap Crusher",
+      "notation": "d/f,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 35,
+      "name": "Mirage",
+      "notation": "d/f,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 36,
+      "name": "Palmares Giro",
+      "notation": "d,2,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 29,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 37,
+      "name": "Heran Bago",
+      "notation": "d,【3,3,】",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21,
+      "frames": {
+        "startup": 22
+      }
+    },
+    {
+      "index": 38,
+      "name": "Relógio",
+      "notation": "d,【3,4,】",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 21
+      }
+    },
+    {
+      "index": 39,
+      "name": "Au de Bico",
+      "notation": "d,4,3",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 40,
+      "name": "Twister Mirage",
+      "notation": "d/b,2,3",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 41,
+      "name": "Rasteira",
+      "notation": "d/b,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 10,
+      "frames": {
+        "startup": 23
+      }
+    },
+    {
+      "index": 42,
+      "name": "Rasteira to Handstand",
+      "notation": "d/b,3,B",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 10,
+      "frames": {
+        "startup": 23
+      }
+    },
+    {
+      "index": 43,
+      "name": "Rasteira Chibata",
+      "notation": "d/b,3,3",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35,
+      "frames": {
+        "startup": 23
+      }
+    },
+    {
+      "index": 44,
+      "name": "Rasteira Hot Plate Special",
+      "notation": "d/b,3,N,3",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27,
+      "frames": {
+        "startup": 23
+      }
+    },
+    {
+      "index": 45,
+      "name": "Rasteira to Circle Kick",
+      "notation": "d/b,3,4",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 27,
+      "frames": {
+        "startup": 23
+      }
+    },
+    {
+      "index": 46,
+      "name": "Rasteira to Low Kick 2",
+      "notation": "d/b,3,d/b,4",
+      "hitLevels": [
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 23
+      }
+    },
+    {
+      "index": 47,
+      "name": "Rasteira to Heran Bago",
+      "notation": "d/b,3,d/b,4,3",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 31,
+      "frames": {
+        "startup": 23
+      }
+    },
+    {
+      "index": 48,
+      "name": "Thong Bikini to Low Kick 2",
+      "notation": "d/b,3,d/b,4,4",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 23
+      }
+    },
+    {
+      "index": 49,
+      "name": "Rasteira to Crying Needle Impact",
+      "notation": "d/b,3,d/b,4,1+2,1+2",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 48,
+      "frames": {
+        "startup": 23
+      }
+    },
+    {
+      "index": 50,
+      "name": "Barbed Wire",
+      "notation": "d/b,4,4,4,…",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 51,
+      "name": "Barbed Wire Infinite Upside Down Kick",
+      "notation": "d/b,4,b,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 52,
+      "name": "Double Arm Stinger",
+      "notation": "d/b,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 12,
+      "frames": {
+        "startup": 30
+      }
+    },
+    {
+      "index": 53,
+      "name": "Meia-Lua de Compasso",
+      "notation": "d/b,3+4,4,3",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 59,
+      "frames": {
+        "startup": 30
+      }
+    },
+    {
+      "index": 54,
+      "name": "Gato to Au Batido",
+      "notation": "b,1,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 55,
+      "name": "Gato to Au Batido to Handstand",
+      "notation": "b,1,4,B",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 56,
+      "name": "Godeme to Calcanheira",
+      "notation": "b,2,4",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 37,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 57,
+      "name": "Knee Thruster",
+      "notation": "b,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 10,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 58,
+      "name": "Knee Thruster to Heran Bago",
+      "notation": "b,3,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 31,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 59,
+      "name": "Bênção Fake-out",
+      "notation": "b,3,f",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 60,
+      "name": "Armada",
+      "notation": "b,4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 61,
+      "name": "Armada to Rasteira",
+      "notation": "b,4,3",
+      "hitLevels": [
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 29,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 62,
+      "name": "Armada to Macaco",
+      "notation": "b,4,4",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 63,
+      "name": "Armada to Macaco to Negativa",
+      "notation": "b,4,4,D",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 64,
+      "name": "Leg Whip Mars Attack Flip",
+      "notation": "b,4,4,3+4",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 42,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 65,
+      "name": "Asfixiante",
+      "notation": "b,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24,
+      "frames": {
+        "startup": 22
+      }
+    },
+    {
+      "index": 66,
+      "name": "Queixada",
+      "notation": "u/b,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 30
+      }
+    },
+    {
+      "index": 67,
+      "name": "Acrobacia",
+      "notation": "u,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 38
+      }
+    },
+    {
+      "index": 68,
+      "name": "Back Summy",
+      "notation": "u,4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 69,
+      "name": "Back Summy to Firekick",
+      "notation": "u,4,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 44
+      }
+    },
+    {
+      "index": 70,
+      "name": "Back Summy to Scoot Kick",
+      "notation": "u,4,4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 27,
+      "frames": {
+        "startup": 30
+      }
+    },
+    {
+      "index": 71,
+      "name": "Firekick",
+      "notation": "u,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 72,
+      "name": "Firekick to Negativa",
+      "notation": "u,3+4,D",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 73,
+      "name": "Jumping Jacks",
+      "notation": "u/f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 26
+      }
+    },
+    {
+      "index": 74,
+      "name": "Jumping Jacks to Negativa",
+      "notation": "u/f,3,D",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 26
+      }
+    },
+    {
+      "index": 75,
+      "name": "Jumping Jacks Mirage",
+      "notation": "u/f,3,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 26
+      }
+    },
+    {
+      "index": 76,
+      "name": "Jumping Jacks Evil Stinger",
+      "notation": "u/f,3,3+4",
+      "hitLevels": [
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 26
+      }
+    },
+    {
+      "index": 77,
+      "name": "Roundhouse",
+      "notation": "u/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 22
+      }
+    },
+    {
+      "index": 78,
+      "name": "Vasuuna",
+      "notation": "u/f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 79,
+      "name": "Meia-Lua Pulando",
+      "notation": "u/f,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 80,
+      "name": "Batuque Direito",
+      "notation": "f,F,2,3",
+      "hitLevels": [
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 37,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 81,
+      "name": "Lunging Brush Fire",
+      "notation": "f,F,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 26
+      }
+    },
+    {
+      "index": 82,
+      "name": "Lunging Brush Fire to Negativa",
+      "notation": "f,F,3,D",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 26
+      }
+    },
+    {
+      "index": 83,
+      "name": "Lunging Brush Fire to Handstand",
+      "notation": "f,F,3,B",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 26
+      }
+    },
+    {
+      "index": 84,
+      "name": "Lunging Brush Fire to Perch Flop Kick",
+      "notation": "f,F,3,B,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 26
+      }
+    },
+    {
+      "index": 85,
+      "name": "Folha Ataque",
+      "notation": "f,F,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 86,
+      "name": "Fruit Picker",
+      "notation": "b,B,2+3",
+      "hitLevels": [
+        "Unblockable 1",
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 80,
+      "frames": {
+        "startup": 75
+      }
+    },
+    {
+      "index": 87,
+      "name": "Cartão Vermelho",
+      "notation": "f,f,f,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 18,
+      "frames": {
+        "startup": 24
+      }
+    },
+    {
+      "index": 88,
+      "name": "Cotovelo to Ponteira",
+      "notation": "\"WS\",1,3",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 89,
+      "name": "Cotovelo to Chapeu de Couro",
+      "notation": "\"WS\",1,4",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 27,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 90,
+      "name": "Rising Batida",
+      "notation": "\"WS\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 12,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 91,
+      "name": "Martelo",
+      "notation": "\"WS\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 92,
+      "name": "Circle Kick",
+      "notation": "\"WS\",4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 11
+      }
+    },
+    {
+      "index": 93,
+      "name": "Crying Needle Impact",
+      "notation": "\"FC\",1+2,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 94,
+      "name": "Front Stinger",
+      "notation": "\"FC\",3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18,
+      "frames": {
+        "startup": 22
+      }
+    },
+    {
+      "index": 95,
+      "name": "Front Stinger to Negativa",
+      "notation": "\"FC\",3+4,D",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18,
+      "frames": {
+        "startup": 22
+      }
+    },
+    {
+      "index": 96,
+      "name": "Front Stinger to Handstand",
+      "notation": "\"FC\",3+4,B",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18,
+      "frames": {
+        "startup": 22
+      }
+    },
+    {
+      "index": 97,
+      "name": "Bananeira Rolante",
+      "notation": "\"FC\",d/f,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 19,
+      "frames": {
+        "startup": 24
+      }
+    },
+    {
+      "index": 98,
+      "name": "Haule",
+      "notation": "\"FC\",d/b,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 19,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 99,
+      "name": "Passo para Trás",
+      "notation": "\"Back towards enemy\",3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 47
+      }
+    },
+    {
+      "index": 100,
+      "name": "Cruncher",
+      "notation": "\"SS\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18,
+      "frames": {
+        "startup": 24
+      }
+    },
+    {
+      "index": 101,
+      "name": "Hot Plate Special",
+      "notation": "\"SS\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 25
+      }
+    },
+    {
+      "index": 102,
+      "name": "Hot Plate Special Cancel to Negativa",
+      "notation": "\"SS\",3,D",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 103,
+      "name": "Hot Plate Special Cancel to Handstand",
+      "notation": "\"SS\",3,B",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 104,
+      "name": "Hot Plate Special to Handstand",
+      "notation": "\"SS\",3,N,B",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 25
+      }
+    },
+    {
+      "index": 105,
+      "name": "Hot Plate Special to Perch Flop Kick",
+      "notation": "\"SS\",3,N,B,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 37,
+      "frames": {
+        "startup": 25
+      }
+    },
+    {
+      "index": 106,
+      "name": "Twister",
+      "notation": "\"SS\",4",
+      "hitLevels": [
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 21
+      }
+    },
+    {
+      "index": 107,
+      "name": "Twister to Handstand",
+      "notation": "\"SS\",4,B",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 10,
+      "frames": {
+        "startup": 21
+      }
+    },
+    {
+      "index": 108,
+      "name": "Twister Sweep",
+      "notation": "\"SS\",4,N,3",
+      "hitLevels": [
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 35,
+      "frames": {
+        "startup": 21
+      }
+    },
+    {
+      "index": 109,
+      "name": "Dos Sole",
+      "notation": "\"SS\",【4,3,】",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 50,
+      "frames": {
+        "startup": 38
+      }
+    },
+    {
+      "index": 110,
+      "name": "Dos Sole to Handstand",
+      "notation": "\"SS\",【4,3,】B",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 50,
+      "frames": {
+        "startup": 37
+      }
+    },
+    {
+      "index": 111,
+      "name": "Twister Front Stinger",
+      "notation": "\"SS\",4,3+4",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28,
+      "frames": {
+        "startup": 21
+      }
+    },
+    {
+      "index": 112,
+      "name": "Twister Front Stinger to Negativa",
+      "notation": "\"SS\",4,3+4,D",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28,
+      "frames": {
+        "startup": 21
+      }
+    },
+    {
+      "index": 113,
+      "name": "Twister Front Stinger to Handstand",
+      "notation": "\"SS\",4,3+4,B",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28,
+      "frames": {
+        "startup": 21
+      }
+    },
+    {
+      "index": 114,
+      "name": "Wheel Kicks",
+      "notation": "\"SS\",3+4",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 12,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 115,
+      "name": "Wheel Kicks São Paulo Special",
+      "notation": "\"SS\",3+4,3+4,3+4,u/f,3+4",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 39,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 116,
+      "name": "Banda",
+      "notation": "\"SS\",1+4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 23,
+      "frames": {
+        "startup": 23
+      }
+    },
+    {
+      "index": 117,
+      "name": "Handstand",
+      "notation": "f,1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 118,
+      "name": "Crouch to Handstand",
+      "notation": "\"FC\",d/f,1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 119,
+      "name": "Down to Handstand",
+      "notation": "\"While down\",1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 120,
+      "name": "Faisão",
+      "notation": "\"During Handstand\",1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 54
+      }
+    },
+    {
+      "index": 121,
+      "name": "Flop Right",
+      "notation": "\"During Handstand\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 10,
+      "frames": {
+        "startup": 49
+      }
+    },
+    {
+      "index": 122,
+      "name": "Circus",
+      "notation": "\"During Handstand\",2,4",
+      "hitLevels": [
+        "Mid",
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 10,
+      "frames": {
+        "startup": 49
+      }
+    },
+    {
+      "index": 123,
+      "name": "Hot Plate Special",
+      "notation": "\"During Handstand\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 63
+      }
+    },
+    {
+      "index": 124,
+      "name": "Slippery Kick",
+      "notation": "\"During Handstand\",【3,4,】",
+      "hitLevels": [
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 58
+      }
+    },
+    {
+      "index": 125,
+      "name": "Helicopter",
+      "notation": "\"During Handstand\",4",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 22,
+      "frames": {
+        "startup": 43
+      }
+    },
+    {
+      "index": 126,
+      "name": "Helicopter to Slippery Kick",
+      "notation": "\"During Handstand\",4,3+4",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 22,
+      "frames": {
+        "startup": 43
+      }
+    },
+    {
+      "index": 127,
+      "name": "Batucada",
+      "notation": "\"During Handstand\",3+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 59
+      }
+    },
+    {
+      "index": 128,
+      "name": "Quick Jab",
+      "notation": "\"During Handstand\",f,1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 7,
+      "frames": {
+        "startup": 52
+      }
+    },
+    {
+      "index": 129,
+      "name": "Mola Vermelha",
+      "notation": "\"During Handstand\",f,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 49
+      }
+    },
+    {
+      "index": 130,
+      "name": "Perch",
+      "notation": "\"During Handstand\",D",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 131,
+      "name": "Perch Flop Kick",
+      "notation": "\"During Handstand\",D,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 65
+      }
+    },
+    {
+      "index": 132,
+      "name": "Scoot Kick",
+      "notation": "\"During Handstand\",b,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 54
+      }
+    },
+    {
+      "index": 133,
+      "name": "Handstand Tilt",
+      "notation": "\"During Handstand\",u,N",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 134,
+      "name": "Drop Kick",
+      "notation": "\"During Handstand\",u,N,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 82
+      }
+    },
+    {
+      "index": 135,
+      "name": "Straight Flop",
+      "notation": "\"During Handstand\",u,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 10,
+      "frames": {
+        "startup": 48
+      }
+    },
+    {
+      "index": 136,
+      "name": "Tilt Twist Sweep",
+      "notation": "\"During Handstand\",u,3,D",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 10,
+      "frames": {
+        "startup": 47
+      }
+    },
+    {
+      "index": 137,
+      "name": "Negativa",
+      "notation": "d,3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 138,
+      "name": "Negativa to Meia-lua Combo",
+      "notation": "\"During Negativa\",1,3",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 48
+      }
+    },
+    {
+      "index": 139,
+      "name": "Negativa to Armada Combo",
+      "notation": "\"During Negativa\",1,4",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 48
+      }
+    },
+    {
+      "index": 140,
+      "name": "Negativa to Flare Combo",
+      "notation": "\"During Negativa\",2,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 52
+      }
+    },
+    {
+      "index": 141,
+      "name": "Negativa to Lunging Brush Fire Combo",
+      "notation": "\"During Negativa\",2,f,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 45,
+      "frames": {
+        "startup": 52
+      }
+    },
+    {
+      "index": 142,
+      "name": "Negativa to Au Batido",
+      "notation": "\"During Negativa\",2,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 52
+      }
+    },
+    {
+      "index": 143,
+      "name": "Rio Delight Knee Slicer",
+      "notation": "\"During Negativa\",3,N,4",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 42,
+      "frames": {
+        "startup": 47
+      }
+    },
+    {
+      "index": 144,
+      "name": "S-Dobrado",
+      "notation": "\"During Negativa\",【3,4,】",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 50
+      }
+    },
+    {
+      "index": 145,
+      "name": "Knee Slicer Low Front Stinger",
+      "notation": "\"During Negativa\",4,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 37,
+      "frames": {
+        "startup": 46
+      }
+    },
+    {
+      "index": 146,
+      "name": "Ipanema Wings",
+      "notation": "\"During Negativa\",【4,3,】",
+      "hitLevels": [
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 49
+      }
+    },
+    {
+      "index": 147,
+      "name": "Low Front Stinger",
+      "notation": "\"During Negativa\",3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 66
+      }
+    },
+    {
+      "index": 148,
+      "name": "Low Front Stinger Cancel",
+      "notation": "\"During Negativa\",3+4,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 63
+      }
+    },
+    {
+      "index": 149,
+      "name": "Mola Vermelha",
+      "notation": "\"During Negativa\",f,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 49
+      }
+    },
+    {
+      "index": 150,
+      "name": "Headspring to Handstand",
+      "notation": "\"During Negativa\",b,1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 151,
+      "name": "Side Roll to Sit",
+      "notation": "\"During Negativa\",U",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 152,
+      "name": "10 Hit Combo 1",
+      "notation": "【4,3,】4,2,4,4,3+4,3+4,3+4,3+4,u/f,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 98,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 153,
+      "name": "10 Hit Combo 2",
+      "notation": "【4,3,】4,2,4,3",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 36,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 154,
+      "name": "Rio Deal",
+      "notation": "1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 155,
+      "name": "Rio Deal",
+      "notation": "f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 156,
+      "name": "Rio Special",
+      "notation": "2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 157,
+      "name": "Rio Special",
+      "notation": "f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 158,
+      "name": "Missile Launcher",
+      "notation": "\"Approach from left side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 159,
+      "name": "Shadow Dancer",
+      "notation": "\"Approach from right side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 42,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 160,
+      "name": "Back Rodeo Spin",
+      "notation": "\"Back\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 60,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 161,
+      "name": "Cabra Macaco Throw",
+      "notation": "d/f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 11
+      }
+    },
+    {
+      "index": 162,
+      "name": "Rodeo Spin",
+      "notation": "b,d/b,d,d/f,f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 50,
+      "frames": {
+        "startup": 11
+      }
+    },
+    {
+      "index": 163,
+      "name": "Adeus",
+      "notation": "\"Approach\"",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 45,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 164,
+      "name": "Sample Combo 1",
+      "notation": "\"WS\",3;3,4;f,F,3",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 49,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 165,
+      "name": "Sample Combo 2",
+      "notation": "【3,4,】4,4;u/f,3+4",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Low",
+        "Low",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 47,
+      "frames": {
+        "startup": 29
+      }
+    },
+    {
+      "index": 166,
+      "name": "Sample Combo 3",
+      "notation": "d/f,3+4;b,2,4;d/f,1,1;d,2,3",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 51,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 167,
+      "name": "Sample Combo 4",
+      "notation": "\"SS\",3+4,D;\"WS\",1,3;\"During Negativa\",4;\"Rage\",b,3+4",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 57,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 168,
+      "name": "Sample Combo 5",
+      "notation": "\"Rage\",f,F,3+4;\"During Negativa\",f,3+4;b,3,3;\"During Negativa\",2,f,3",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 72,
+      "frames": {
+        "startup": 15
+      }
+    }
+  ]
+}

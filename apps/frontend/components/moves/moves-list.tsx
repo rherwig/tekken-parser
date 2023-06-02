@@ -4,7 +4,7 @@ import { Character, Move as MoveModel } from '@prisma/client';
 import { useState } from 'react';
 import { Session } from 'next-auth';
 
-import SingleMove from '@/components/single-move';
+import MoveDisplay from '@/components/move-display/move-display';
 
 interface Props {
     session: Session | null;
@@ -21,7 +21,7 @@ export default function MovesList(props: Props) {
         <>
             {moves.map((move) => (
                 <div key={move.id}>
-                    <SingleMove
+                    <MoveDisplay
                         move={move}
                         notation={move.notation}
                     />

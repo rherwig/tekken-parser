@@ -15,5 +15,7 @@ export default defineConfig({
             fileName: 'tekken-parser',
             formats: ['cjs', 'es'],
         },
+
+        sourcemap: true,
     },
 });

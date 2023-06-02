@@ -1,5 +1,3 @@
-import { Dialog, Transition } from '@headlessui/react';
-import { Fragment } from 'react';
 import { Character } from '@prisma/client';
 
 import CreateCharacterForm from '@/components/characters/create-character-form';

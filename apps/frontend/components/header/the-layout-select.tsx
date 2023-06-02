@@ -2,11 +2,11 @@
 
 import { useState } from 'react';
 import { User } from 'next-auth';
-import { ControllerLayout } from '@prisma/client';
 
 import TsDropdown, { DropdownOption } from '@/ui/dropdowns/dropdown';
 import { useAppDispatch } from '@/hooks/dispatch';
 import { updateUserPreferences } from '@/store/slices/users-slice';
+import { ControllerLayout } from '@/components/move-display/instruction';
 
 interface Props {
     user: User | null;
@@ -38,7 +38,7 @@ export default function TheLayoutSelect(props: Props) {
     ];
 
     const preferredLayoutIndex = layouts.findIndex(
-        (layout) => layout.value === props.user?.preferences?.layout,
+        (layout) => layout.value === props.user?.preferences?.controllerLayout,
     );
 
     const layoutIndex = preferredLayoutIndex > -1 ? preferredLayoutIndex : 0;
@@ -51,7 +51,7 @@ export default function TheLayoutSelect(props: Props) {
         try {
             dispatch(
                 updateUserPreferences({
-                    name: 'layout',
+                    name: 'controllerLayout',
                     value: option.value as ControllerLayout,
                 }),
             );
@@ -60,7 +60,7 @@ export default function TheLayoutSelect(props: Props) {
                 return;
             }
 
-            await fetch(`/api/preferences/layout`, {
+            await fetch(`/api/preferences/controllerLayout`, {
                 method: 'PATCH',
                 headers: {
                     'Content-Type': 'application/json',

@@ -1,12 +1,15 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import type { User } from 'next-auth';
-import type { Preferences } from '@prisma/client';
 
 import type { RootState } from '@/store';
 
+export interface UserPreferences {
+    controllerLayout: string;
+}
+
 export interface UsersState {
     currentUser: User | null;
-    localPreferences: Partial<Preferences>;
+    localPreferences: Partial<UserPreferences>;
 }
 
 const initialState: UsersState = {
@@ -15,8 +18,8 @@ const initialState: UsersState = {
 };
 
 interface UpdatePreferencesPayload {
-    name: keyof Preferences;
-    value: Preferences[keyof Preferences];
+    name: keyof UserPreferences;
+    value: UserPreferences[keyof UserPreferences];
 }
 
 const usersSlice = createSlice({
@@ -38,7 +41,7 @@ const usersSlice = createSlice({
          */
         setUserPreferences(
             state: UsersState,
-            action: PayloadAction<Preferences>,
+            action: PayloadAction<UserPreferences>,
         ) {
             if (!state.currentUser) {
                 return;
@@ -64,7 +67,7 @@ const usersSlice = createSlice({
             }
 
             if (!state.currentUser.preferences) {
-                state.currentUser.preferences = {} as Preferences;
+                state.currentUser.preferences = {} as UserPreferences;
             }
 
             state.currentUser.preferences[name] = value as any;

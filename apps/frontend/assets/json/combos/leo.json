@@ -1,0 +1,1262 @@
+{
+  "name": "Leo",
+  "slug": "leo",
+  "moves": [
+    {
+      "index": 1,
+      "name": "Rage Art",
+      "notation": "\"Rage\",d/f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 2,
+      "name": "Rage Drive",
+      "notation": "\"Rage\",f,F,2,\"Hold\"",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 3,
+      "name": "He Zi Shou",
+      "notation": "1,2",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 4,
+      "name": "Liang Yi Zhou",
+      "notation": "1,2,1,1",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 54,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 5,
+      "name": "Wai Bai Tui",
+      "notation": "1,2,1,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 63,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 6,
+      "name": "Ye Chui",
+      "notation": "1,2,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 32,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 7,
+      "name": "Lian Tan",
+      "notation": "1,4",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 24,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 8,
+      "name": "Xiang Long Shi Chong Tian Zhang",
+      "notation": "2,1",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 21,
+      "frames": {
+        "startup": 11
+      }
+    },
+    {
+      "index": 9,
+      "name": "Xiang Long Shi Ling Zhou",
+      "notation": "2,2",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 29,
+      "frames": {
+        "startup": 11
+      }
+    },
+    {
+      "index": 10,
+      "name": "Wu Dang Xuan Feng Jiao",
+      "notation": "3,2,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 51,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 11,
+      "name": "Wu Dang Jin Ji Du Li",
+      "notation": "3,2,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 39,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 12,
+      "name": "Dual Rising Fists",
+      "notation": "1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 25
+      }
+    },
+    {
+      "index": 13,
+      "name": "Ye Kua",
+      "notation": "2+3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21,
+      "frames": {
+        "startup": 30
+      }
+    },
+    {
+      "index": 14,
+      "name": "Heng Da Er Lang Dan Shan",
+      "notation": "f,2,2",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 15,
+      "name": "Bai Tui",
+      "notation": "f,3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 23,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 16,
+      "name": "Jin Ji Du Li",
+      "notation": "f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 14,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 17,
+      "name": "Bai She Tui Chuang",
+      "notation": "\"During Jin Ji Du L\",i1,2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 31,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 18,
+      "name": "Heng Quan",
+      "notation": "\"During Jin Ji Du L\",i2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 32,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 19,
+      "name": "Er Qi Jiao",
+      "notation": "\"During Jin Ji Du L\",i3,4",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 45,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 20,
+      "name": "Cuo Ti Fu Ren",
+      "notation": "\"During Jin Ji Du L\",i4",
+      "hitLevels": [
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 32,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 21,
+      "name": "Bei Zhe Kao",
+      "notation": "f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 22,
+      "name": "Xiang Chui",
+      "notation": "f,2+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 21,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 23,
+      "name": "Shuang Huan Da",
+      "notation": "d/f,1,2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 33,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 24,
+      "name": "Sheng Pao",
+      "notation": "d/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 14,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 25,
+      "name": "Chuan Pao",
+      "notation": "d/f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 26,
+      "name": "Gui Xi",
+      "notation": "d/f,2+3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 23
+      }
+    },
+    {
+      "index": 27,
+      "name": "Fu Hu",
+      "notation": "d,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 28,
+      "name": "Pi Zhong",
+      "notation": "d,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23,
+      "frames": {
+        "startup": 21
+      }
+    },
+    {
+      "index": 29,
+      "name": "Sao Tang Ti to Shang Bu Zhuang Zhang",
+      "notation": "d,4,2",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 33,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 30,
+      "name": "Fo Bu",
+      "notation": "d,1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 31,
+      "name": "Ya Sui Ying Quan",
+      "notation": "\"During Fo B\",u1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34,
+      "frames": {
+        "startup": 34
+      }
+    },
+    {
+      "index": 32,
+      "name": "Fan Lan Chui",
+      "notation": "\"During Fo B\",u2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 40
+      }
+    },
+    {
+      "index": 33,
+      "name": "Startled Crane",
+      "notation": "\"During Fo B\",u3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 42
+      }
+    },
+    {
+      "index": 34,
+      "name": "Jin Ji Du Li",
+      "notation": "\"During Fo B\",u4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 14,
+      "frames": {
+        "startup": 41
+      }
+    },
+    {
+      "index": 35,
+      "name": "Tong Bei Shi",
+      "notation": "\"During Fo B\",u1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 26,
+      "frames": {
+        "startup": 47
+      }
+    },
+    {
+      "index": 36,
+      "name": "Chong Tian Zhang to Fu Bo",
+      "notation": "d/b,2,2",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 37,
+      "name": "Lie Huo Fan Jiao",
+      "notation": "d/b,3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 23,
+      "frames": {
+        "startup": 31
+      }
+    },
+    {
+      "index": 38,
+      "name": "Qian Sao Lei Wang Quan",
+      "notation": "d/b,4,1",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 36,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 39,
+      "name": "Ba Wang Zhe Jiang",
+      "notation": "d/b,1+2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 37,
+      "frames": {
+        "startup": 21
+      }
+    },
+    {
+      "index": 40,
+      "name": "Ding Zhou Jin Ji Du Li",
+      "notation": "b,1,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 31,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 41,
+      "name": "Wu Hu Chu Dong",
+      "notation": "b,2,1",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 22,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 42,
+      "name": "Er Lang Dan Shan",
+      "notation": "b,2,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 32,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 43,
+      "name": "Ying Mian Tui",
+      "notation": "b,3,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 31,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 44,
+      "name": "Dragon's Impact",
+      "notation": "b,4,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 36,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 45,
+      "name": "Tui Bu Jin Ji Du Li",
+      "notation": "b,3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 46,
+      "name": "Cuo Zhang",
+      "notation": "b,1+4",
+      "hitLevels": [
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 22,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 47,
+      "name": "Sky Vibration",
+      "notation": "u,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26,
+      "frames": {
+        "startup": 24
+      }
+    },
+    {
+      "index": 48,
+      "name": "Dragon Backfist",
+      "notation": "u/f,1,1",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 49,
+      "name": "Chuan Chong Quan",
+      "notation": "u/f,1,2",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 29,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 50,
+      "name": "Yue Bu Si Quan",
+      "notation": "u/f,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 51,
+      "name": "Yi Qi Jiao",
+      "notation": "u/f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 52,
+      "name": "Yue Bu San Jing Ti",
+      "notation": "u/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 13,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 53,
+      "name": "Shang Bu Zhuang Quan",
+      "notation": "f,F,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 54,
+      "name": "Tiao Shan Fu Ren",
+      "notation": "f,F,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 26
+      }
+    },
+    {
+      "index": 55,
+      "name": "Tiao Shan Pu Bu",
+      "notation": "f,F,4,3,4",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 28,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 56,
+      "name": "Xiao Jia Er Lu Liang Yi Zhou",
+      "notation": "b,2+3",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 60,
+      "frames": {
+        "startup": 70
+      }
+    },
+    {
+      "index": 57,
+      "name": "Jin Gang Hua Shan Tuo Tian Zhang",
+      "notation": "b,f,1+2,1+2,2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 44,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 58,
+      "name": "Jin Bu",
+      "notation": "d,d/f,f",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 59,
+      "name": "Lei Zhang",
+      "notation": "d,d/f,f,1",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 60,
+      "name": "Shang Bu Zhuang Zhang",
+      "notation": "d,d/f,f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 14,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 61,
+      "name": "Lightning Spear",
+      "notation": "d,d/f,f,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 31,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 62,
+      "name": "Swallow Step",
+      "notation": "d,d/f,f,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 63,
+      "name": "Tiao Shan Jiang Jiao",
+      "notation": "f,f,f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 23
+      }
+    },
+    {
+      "index": 64,
+      "name": "Huo Da Ding Zhou",
+      "notation": "\"WS\",1,4,1",
+      "hitLevels": [
+        "Mid",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 49,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 65,
+      "name": "Shang Bu Gua Shan",
+      "notation": "\"WS\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 66,
+      "name": "Liang Yi Er Tui Ya Zhou",
+      "notation": "\"WS\",3,1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 38,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 67,
+      "name": "Rising Bei Zhe Kao",
+      "notation": "\"WS\",4,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34,
+      "frames": {
+        "startup": 11
+      }
+    },
+    {
+      "index": 68,
+      "name": "Le Kua Kao",
+      "notation": "\"WS\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 69,
+      "name": "Hou Sao Xuan",
+      "notation": "\"FC\",d/f,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 24,
+      "frames": {
+        "startup": 21
+      }
+    },
+    {
+      "index": 70,
+      "name": "Da Kai",
+      "notation": "\"SS\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 71,
+      "name": "Tui Bu Dan Yi",
+      "notation": "\"Back towards enemy\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21,
+      "frames": {
+        "startup": 11
+      }
+    },
+    {
+      "index": 72,
+      "name": "Zhen Jiao",
+      "notation": "d,3+4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 19,
+      "frames": {
+        "startup": 24
+      }
+    },
+    {
+      "index": 73,
+      "name": "10 Hit Combo 1",
+      "notation": "2,1,3,2,1,2,3,1,2,1+2",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "Mid",
+        "High",
+        "Low",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 98,
+      "frames": {
+        "startup": 11
+      }
+    },
+    {
+      "index": 74,
+      "name": "10 Hit Combo 2",
+      "notation": "2,1,3,2,1,3,2,4,2,1+2",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "Mid",
+        "High",
+        "High",
+        "High",
+        "Low",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 100,
+      "frames": {
+        "startup": 11
+      }
+    },
+    {
+      "index": 75,
+      "name": "Bao Hu Gui Shan",
+      "notation": "1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 76,
+      "name": "Bao Hu Gui Shan",
+      "notation": "f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 77,
+      "name": "Dan Yang Da",
+      "notation": "2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 78,
+      "name": "Dan Yang Da",
+      "notation": "f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 79,
+      "name": "Da Zhe Jiang",
+      "notation": "\"Approach from left side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 80,
+      "name": "Chou Bie Zi",
+      "notation": "\"Approach from right side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 81,
+      "name": "Yang Di Tou",
+      "notation": "\"Back\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 50,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 82,
+      "name": "Shuang Pai Shou",
+      "notation": "f,F,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 83,
+      "name": "Bao Zhou",
+      "notation": "\"Time with enemy high punch\",u/b,1",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 84,
+      "name": "Shi Zi Xiao Zhang Kou",
+      "notation": "\"Parry\",b,1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 85,
+      "name": "Shi Zi Zhou",
+      "notation": "\"Parry\",b,1+3",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 86,
+      "name": "Sample Combo 1",
+      "notation": "u/f,2,1;d,4,2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 38,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 87,
+      "name": "Sample Combo 2",
+      "notation": "f,F,4,3;b,1,4;\"During Jin Ji Du L\",iD/F;\"WS\",3,1,2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 51,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 88,
+      "name": "Sample Combo 3",
+      "notation": "d,1+2;\"During Fo B\",u2;f,3;b,1,4;\"During Jin Ji Du L\",iD/F;u/f,1,1;f,4;\"During Jin Ji Du L\",iD/F;\"WS\",1+2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "Mid",
+        "High",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 68,
+      "frames": {
+        "startup": 39
+      }
+    },
+    {
+      "index": 89,
+      "name": "Sample Combo 4",
+      "notation": "u/f,4;4;b,1,4;\"During Jin Ji Du L\",iD/F;\"WS\",3;f,4;\"During Jin Ji Du L\",i2;\"Rage\",d/f,1+2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 75,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 90,
+      "name": "Sample Combo 5",
+      "notation": "d/b,3;f,3;b,1,4;\"During Jin Ji Du L\",iD/F;\"WS\",3;f,4;\"During Jin Ji Du L\",i2;u/f,1;\"Rage\",f,F,2,\"Hold\"",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 80,
+      "frames": {
+        "startup": 31
+      }
+    }
+  ]
+}

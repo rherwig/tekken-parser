@@ -26,14 +26,7 @@ export default async function CharacterLayout(props: Props) {
             <h1 className={'mb-8 text-3xl'}>{character.name}</h1>
 
             <div>
-                <div className="mb-4 grid grid-cols-2 gap-4">
-                    {/*<TsTab*/}
-                    {/*    segment={'overview'}*/}
-                    {/*    href={'#'}*/}
-                    {/*>*/}
-                    {/*    Overview*/}
-                    {/*</TsTab>*/}
-
+                <div className="mb-4 grid grid-cols-3 gap-4">
                     <TsTab
                         segment={'combos'}
                         href={`/characters/${character.slug}/combos`}

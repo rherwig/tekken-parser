@@ -1,26 +1,23 @@
 'use client';
 
-import { Character, Combo as ComboModel } from '@prisma/client';
+import { Character, Move } from '@prisma/client';
 import { useState } from 'react';
 import { Session } from 'next-auth';
 
-import Combo from '@/components/combo';
 import CreateCombo from '@/components/combos/create-combo';
 import AdminOnly from '@/components/auth/admin-only';
-import { selectCurrentUser } from '@/store/slices/users-slice';
-import { store } from '@/store';
+import MoveDisplay from '@/components/move-display/move-display';
 
 interface Props {
     session: Session | null;
     character: Character;
-    combos: ComboModel[];
+    moves: Move[];
 }
 
 export default function CombosList(props: Props) {
-    const [combos, setCombos] = useState<ComboModel[]>(props.combos);
-    const currentUser = selectCurrentUser(store.getState());
+    const [combos, setCombos] = useState<Move[]>(props.moves);
 
-    const handleComboDeleteConfirm = async (combo: ComboModel) => {
+    const handleComboDeleteConfirm = async (combo: Move) => {
         try {
             await fetch(`/api/combos/${combo.id}`, {
                 method: 'DELETE',
@@ -34,13 +31,13 @@ export default function CombosList(props: Props) {
         }
     };
 
-    const handleComboEdited = async (combo: ComboModel) => {
+    const handleComboEdited = async (combo: Move) => {
         setCombos((prevCombos) =>
             prevCombos.map((c) => (c.id === combo.id ? combo : c)),
         );
     };
 
-    const handleComboCreated = async (combo: ComboModel) => {
+    const handleComboCreated = async (combo: Move) => {
         setCombos((prevCombos) => [...prevCombos, combo]);
     };
 
@@ -60,9 +57,9 @@ export default function CombosList(props: Props) {
 
             {combos.map((combo) => (
                 <div key={combo.id}>
-                    <Combo
+                    <MoveDisplay
                         notation={combo.notation}
-                        combo={combo}
+                        move={combo}
                         onDelete={handleComboDeleteConfirm}
                         onEdit={handleComboEdited}
                     />

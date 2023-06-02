@@ -1,0 +1,905 @@
+{
+  "name": "Shaheen",
+  "slug": "shaheen",
+  "moves": [
+    {
+      "index": 1,
+      "name": "Rage Art",
+      "notation": "\"Rage\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 2,
+      "name": "Rage Drive",
+      "notation": "\"Rage\",d/b,2,4,D/F",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 24,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 3,
+      "name": "Spica Gut Punch",
+      "notation": "1,2,2",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 4,
+      "name": "Spica Blinding Sands",
+      "notation": "1,2,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 34,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 5,
+      "name": "Spica Wheel Spin",
+      "notation": "1,2,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 36,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 6,
+      "name": "Cut In",
+      "notation": "2,1",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 7,
+      "name": "Blinding Sands",
+      "notation": "3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 8,
+      "name": "Blinding Sands to Stealth Step",
+      "notation": "3,D/F",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 9,
+      "name": "Hallux Kick to Algenib",
+      "notation": "4,1",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 28,
+      "frames": {
+        "startup": 11
+      }
+    },
+    {
+      "index": 10,
+      "name": "Hallux Kick to High Slashing Kick",
+      "notation": "4,3",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 37,
+      "frames": {
+        "startup": 11
+      }
+    },
+    {
+      "index": 11,
+      "name": "Hallux Kick to Ra'd",
+      "notation": "4,4",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 41,
+      "frames": {
+        "startup": 11
+      }
+    },
+    {
+      "index": 12,
+      "name": "Silent Sting",
+      "notation": "f,2,3",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 32,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 13,
+      "name": "Silent Flow to Stealth Step",
+      "notation": "f,2,4,D/F",
+      "hitLevels": [
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 14,
+      "name": "Silent Flow",
+      "notation": "f,2,4,4",
+      "hitLevels": [
+        "High",
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 46,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 15,
+      "name": "Crescent Moon",
+      "notation": "f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 21
+      }
+    },
+    {
+      "index": 16,
+      "name": "Piercing Talon",
+      "notation": "f,4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 17,
+      "name": "Skyline",
+      "notation": "f,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28,
+      "frames": {
+        "startup": 22
+      }
+    },
+    {
+      "index": 18,
+      "name": "Skyline to Stealth Step",
+      "notation": "f,3+4,D/F",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28,
+      "frames": {
+        "startup": 22
+      }
+    },
+    {
+      "index": 19,
+      "name": "Rising Falcon",
+      "notation": "d/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 13,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 20,
+      "name": "Whirlwind Kick",
+      "notation": "d/f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 21,
+      "name": "Stinging Kick",
+      "notation": "d/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 16,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 22,
+      "name": "Gut Impact",
+      "notation": "d,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 23,
+      "name": "Silent Rigel",
+      "notation": "d,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 14,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 24,
+      "name": "Silent Rigel to Stealth Step",
+      "notation": "d,3,D/F",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 14,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 25,
+      "name": "Vicious Stomp",
+      "notation": "d,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 13,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 26,
+      "name": "Rapid Strikes to Stealth Step",
+      "notation": "d/b,2,D/F",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 11,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 27,
+      "name": "Rapid Strikes",
+      "notation": "d/b,2,1",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 35,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 28,
+      "name": "Snake's Bite",
+      "notation": "d/b,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 29,
+      "name": "Snake's Bite to Rising Scimitar",
+      "notation": "d/b,3,4",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 45,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 30,
+      "name": "Rising Scimitar",
+      "notation": "d/b,4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 31,
+      "name": "Shaula",
+      "notation": "d/b,1+2",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 40,
+      "frames": {
+        "startup": 64
+      }
+    },
+    {
+      "index": 32,
+      "name": "Achernar",
+      "notation": "b,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 33,
+      "name": "Heel Strike",
+      "notation": "b,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 34,
+      "name": "Broken Mirage",
+      "notation": "b,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 35,
+      "name": "Crescent Cleaver",
+      "notation": "u/f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22,
+      "frames": {
+        "startup": 25
+      }
+    },
+    {
+      "index": 36,
+      "name": "Altair",
+      "notation": "u/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 13,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 37,
+      "name": "Hunting Falcon Dive",
+      "notation": "f,F,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 38,
+      "name": "Elnath",
+      "notation": "f,F,4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 39,
+      "name": "Hornet",
+      "notation": "f,b,2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 55,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 40,
+      "name": "Stealth Step",
+      "notation": "d/f,D/F",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 41,
+      "name": "Blinding Snake",
+      "notation": "\"During Stealth Step\",1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 7,
+      "frames": {
+        "startup": 22
+      }
+    },
+    {
+      "index": 42,
+      "name": "Maelstrom",
+      "notation": "\"During Stealth Step\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 25
+      }
+    },
+    {
+      "index": 43,
+      "name": "Hunting Falcon Dive",
+      "notation": "\"During Stealth Step\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23,
+      "frames": {
+        "startup": 30
+      }
+    },
+    {
+      "index": 44,
+      "name": "Low Glide",
+      "notation": "\"During Stealth Step\",4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 18,
+      "frames": {
+        "startup": 36
+      }
+    },
+    {
+      "index": 45,
+      "name": "Assault Tackle",
+      "notation": "\"During Stealth Step\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 30,
+      "frames": {
+        "startup": 37
+      }
+    },
+    {
+      "index": 46,
+      "name": "Albireo",
+      "notation": "\"WS\",1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 16,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 47,
+      "name": "Hawk Edge",
+      "notation": "\"WS\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 48,
+      "name": "Double Scorpion",
+      "notation": "\"WS\",3,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 36,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 49,
+      "name": "Sand Storm",
+      "notation": "\"FC\",d/f,d,D/F,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 24,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 50,
+      "name": "Reverse Edge",
+      "notation": "\"Back towards enemy\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 51,
+      "name": "10 Hit Combo",
+      "notation": "2,1,4,1,3,3,3,3+4,4",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "High",
+        "High",
+        "Mid",
+        "Mid",
+        "Low",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 78,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 52,
+      "name": "Desert Fang",
+      "notation": "1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 53,
+      "name": "Desert Fang",
+      "notation": "f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 54,
+      "name": "Aldebaran",
+      "notation": "2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 55,
+      "name": "Aldebaran",
+      "notation": "f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 56,
+      "name": "Chasm Drop",
+      "notation": "\"Approach from left side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 57,
+      "name": "Axel Spinner",
+      "notation": "\"Approach from right side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 58,
+      "name": "Silent Death",
+      "notation": "\"Back\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 60,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 59,
+      "name": "Wezen",
+      "notation": "d/f,1+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 60,
+      "name": "Falcon Shield",
+      "notation": "\"Time with enemy punch\",b,1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 61,
+      "name": "Sample Combo 1",
+      "notation": "u/f,4;d/f,1;d/f,3;f,F,3",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 48,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 62,
+      "name": "Sample Combo 2",
+      "notation": "4,\"CH\",1;f,2,4,4;d/b,3,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "Low",
+        "High",
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 57,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 63,
+      "name": "Sample Combo 3",
+      "notation": "f,F,3;d/f,D/F;\"During Stealth Step\",2;4,3;d/b,2,D/F;\"During Stealth Step\",2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 62,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 64,
+      "name": "Sample Combo 4",
+      "notation": "u/f,3;d,2;4,1;f,2,4,4;\"Rage\",1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "High",
+        "High",
+        "Low",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 86,
+      "frames": {
+        "startup": 25
+      }
+    },
+    {
+      "index": 65,
+      "name": "Sample Combo 5",
+      "notation": "\"Rage\",d/b,2,4;3,D/F;\"During Stealth Step\",2;f,2,4,4;d/b,2,D/F;\"During Stealth Step\",3",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "Mid",
+        "High",
+        "Low",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 76,
+      "frames": {
+        "startup": 14
+      }
+    }
+  ]
+}

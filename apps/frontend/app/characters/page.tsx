@@ -1,6 +1,5 @@
 import ContainerLayout from '@/components/layouts/container-layout';
 import CharactersGrid from '@/components/characters/characters-grid';
-import { store } from '@/store';
 
 export const metadata = {
     title: 'Characters | Tekken Space',
@@ -11,12 +10,10 @@ export const metadata = {
  * @route /characters
  * @constructor
  */
-export default async function CharactersIndex() {
-    const characters = store.getState().characters.all;
-
+export default function CharactersIndex() {
     return (
         <ContainerLayout>
-            <CharactersGrid characters={characters} />
+            <CharactersGrid />
         </ContainerLayout>
     );
 }

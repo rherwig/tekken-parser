@@ -1,6 +1,6 @@
 import { Field, FieldHookConfig, useField } from 'formik';
 
-import Combo from '@/components/combo';
+import MoveDisplay from '@/components/move-display/move-display';
 
 type Props = FieldHookConfig<string>;
 
@@ -27,7 +27,7 @@ export default function TkNotationField({ ...props }: Props) {
                 {...props}
             />
 
-            <Combo notation={field.value} />
+            <MoveDisplay notation={field.value} />
 
             {meta.touched && meta.error && (
                 <div className="-mt-3 text-sm text-red-500">{meta.error}</div>

@@ -3,7 +3,7 @@ import { NextApiRequest } from 'next';
 import { ApiResponse } from '@/types/api-response';
 import { applyMiddlewares } from '@/server/middlewares/apply-middlewares';
 import { isAdmin } from '@/server/middlewares/auth';
-import { CombosService } from '@/server/services/combos-service';
+import { MovesService } from '@/server/services/moves-service';
 
 async function update(req: NextApiRequest, res: ApiResponse) {
     try {
@@ -23,11 +23,10 @@ async function update(req: NextApiRequest, res: ApiResponse) {
             });
         }
 
-        const combo = await CombosService.update(id.toString(), {
+        const combo = await MovesService.update(id.toString(), {
             name,
+            slug: name.toLowerCase().replace(/\s/g, '-'),
             notation,
-            damage,
-            hits,
             notes,
         });
 
@@ -60,7 +59,7 @@ async function remove(req: NextApiRequest, res: ApiResponse) {
             });
         }
 
-        await CombosService.remove(id.toString());
+        await MovesService.remove(id.toString());
 
         return res.status(200).json({
             data: true,

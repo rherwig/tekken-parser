@@ -1,25 +1,17 @@
-import { Character, Combo, PrismaClient, Move } from '@prisma/client';
+import { Character, Move } from '@prisma/client';
 
-export type CharacterWithCombos = Character & { combos: Combo[], moves: Move[] };
+import { prisma } from '@/prisma/client';
+
+export type CharacterWithMoves = Character & { moves: Move[] };
 
 export class CharactersService {
-    private static prisma: PrismaClient | null = null;
-
-    static getPrisma() {
-        if (!this.prisma) {
-            this.prisma = new PrismaClient();
-        }
-
-        return this.prisma;
-    }
-
     /**
      * Returns all characters from the database.
      */
     static async findAll() {
-        return this.getPrisma().character.findMany({
+        return prisma.character.findMany({
             include: {
-                combos: true,
+                moves: true,
             },
         });
     }
@@ -28,13 +20,12 @@ export class CharactersService {
      * Returns a single character by its slug.
      * @param slug Slug (sanitized name) of the character.
      */
-    static async findBySlug(slug: string): Promise<CharacterWithCombos | null> {
-        return this.getPrisma().character.findUnique({
+    static async findBySlug(slug: string): Promise<CharacterWithMoves | null> {
+        return prisma.character.findUnique({
             where: {
                 slug,
             },
             include: {
-                combos: true,
                 moves: true,
             },
         });
@@ -45,7 +36,7 @@ export class CharactersService {
      * @param {Character} data Character data.
      */
     static async create(data: Character) {
-        return this.getPrisma().character.create({
+        return prisma.character.create({
             data,
         });
     }
@@ -55,7 +46,7 @@ export class CharactersService {
      * @param id Id of the character.
      */
     static async remove(id: string) {
-        return this.getPrisma().character.delete({
+        return prisma.character.delete({
             where: {
                 id,
             },

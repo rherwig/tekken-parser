@@ -36,25 +36,23 @@ async function patch(req: NextApiRequest, res: ApiResponse) {
             });
         }
 
-        const preference = await prisma.preferences.upsert({
+        const preferences = {
+            ...session.user.preferences,
+            [name]: value,
+        };
+
+        await prisma.user.update({
+            data: {
+                preferences,
+            },
+
             where: {
-                userId: (session.user as any).id,
-            },
-            update: {
-                [name]: value,
-            },
-            create: {
-                [name]: value,
-                user: {
-                    connect: {
-                        id: (session.user as any).id,
-                    },
-                },
+                id: session.user.id,
             },
         });
 
         return res.status(201).json({
-            data: preference,
+            data: preferences,
             code: 0,
         });
     } catch (error: any) {

@@ -1,0 +1,1176 @@
+{
+  "name": "Paul",
+  "slug": "paul",
+  "moves": [
+    {
+      "index": 1,
+      "name": "Rage Art",
+      "notation": "\"Rage\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 2,
+      "name": "Rage Drive",
+      "notation": "\"Rage\",d,d/f,f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 60,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 3,
+      "name": "Left Right Combo",
+      "notation": "1,2",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 19,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 4,
+      "name": "Reverse PDK Combo",
+      "notation": "1,4",
+      "hitLevels": [
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 5,
+      "name": "Jab Roundhouse",
+      "notation": "2,3",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 33,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 6,
+      "name": "Jab Sweep",
+      "notation": "2,d,3",
+      "hitLevels": [
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 21,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 7,
+      "name": "Piston Fire",
+      "notation": "3,2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 31,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 8,
+      "name": "Quick PK Smash",
+      "notation": "f,2,3,1",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 48,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 9,
+      "name": "Hammer of the Gods",
+      "notation": "f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 10,
+      "name": "Shoulder Tackle",
+      "notation": "f,1+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26,
+      "frames": {
+        "startup": 21
+      }
+    },
+    {
+      "index": 11,
+      "name": "Lion's Roar",
+      "notation": "d/f,1,1,2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 44,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 12,
+      "name": "Body Blow to Sway",
+      "notation": "d/f,1,B",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 13,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 13,
+      "name": "Phoenix Wings",
+      "notation": "d/f,3,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 31,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 14,
+      "name": "The Boot",
+      "notation": "d/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 15,
+      "name": "Hammer Punch",
+      "notation": "d,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 16,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 16,
+      "name": "Hammer Punch to Power Punch",
+      "notation": "d,1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 42,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 17,
+      "name": "Hang Over",
+      "notation": "d,1,4,2",
+      "hitLevels": [
+        "Mid",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 52,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 18,
+      "name": "Bone Breaker",
+      "notation": "d,4,2",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 29,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 19,
+      "name": "Demolition Man",
+      "notation": "d,4,2,1+2",
+      "hitLevels": [
+        "Low",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 41,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 20,
+      "name": "Shoulder Smash",
+      "notation": "d,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 21,
+      "name": "Shoot the Moon",
+      "notation": "d/b,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 22,
+      "name": "Double Axe Swing",
+      "notation": "b,1,2",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 33,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 23,
+      "name": "Crushing Wind",
+      "notation": "b,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 44,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 24,
+      "name": "Lights Out",
+      "notation": "b,3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 16,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 25,
+      "name": "Leg Sweep",
+      "notation": "b,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 14,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 26,
+      "name": "Hassou Strike",
+      "notation": "b,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 28,
+      "frames": {
+        "startup": 24
+      }
+    },
+    {
+      "index": 27,
+      "name": "Wrecking Ball",
+      "notation": "u/b,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 28,
+      "name": "Mortar Punch",
+      "notation": "u/f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35,
+      "frames": {
+        "startup": 39
+      }
+    },
+    {
+      "index": 29,
+      "name": "Shredder",
+      "notation": "u/f,3,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 30,
+      "name": "Juggernaut",
+      "notation": "f,F,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 31,
+      "name": "Phoenix Bone Breaker",
+      "notation": "f,F,2,\"Hit\",1",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 38,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 32,
+      "name": "Bulldozer",
+      "notation": "f,F,2,2",
+      "hitLevels": [
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 33,
+      "name": "Double Hop Kick High",
+      "notation": "f,F,3,4,4",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 27,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 34,
+      "name": "Triple Kick Combo",
+      "notation": "f,F,3,4,f,4",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 35,
+      "name": "Double Hop Kick Low",
+      "notation": "f,F,3,4,d,4",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 27,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 36,
+      "name": "Neutron Bomb",
+      "notation": "f,F,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 23
+      }
+    },
+    {
+      "index": 37,
+      "name": "Burning Spear",
+      "notation": "b,f,1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 22,
+      "frames": {
+        "startup": 28
+      }
+    },
+    {
+      "index": 38,
+      "name": "Burning Fist",
+      "notation": "b,B,1+2",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 80,
+      "frames": {
+        "startup": 63
+      }
+    },
+    {
+      "index": 39,
+      "name": "Thruster",
+      "notation": "d,d/f,f,1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 21,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 40,
+      "name": "Phoenix Smasher",
+      "notation": "d,d/f,f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 60,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 41,
+      "name": "Gengetsu",
+      "notation": "d,d/f,f,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 42,
+      "name": "Mountain Raze",
+      "notation": "d,d/f,f,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 43,
+      "name": "Sway",
+      "notation": "d,d/b,b",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 44,
+      "name": "God Hammer Punch",
+      "notation": "d,d/b,b,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24,
+      "frames": {
+        "startup": 21
+      }
+    },
+    {
+      "index": 45,
+      "name": "Rubber Band Attack",
+      "notation": "d,d/b,b,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 31,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 46,
+      "name": "Sway and Low Kick",
+      "notation": "d,d/b,b,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 14,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 47,
+      "name": "Rapid Fire to Phoenix Smasher",
+      "notation": "d,d/b,b,3,2,1",
+      "hitLevels": [
+        "Low",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 59,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 48,
+      "name": "Rapid Fire to Lightning Bolt",
+      "notation": "d,d/b,b,3,2,3",
+      "hitLevels": [
+        "Low",
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 49,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 49,
+      "name": "Kawaragoma",
+      "notation": "d,d/b,b,4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 28,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 50,
+      "name": "Higaku",
+      "notation": "d,d/b,b,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 51,
+      "name": "Thunder Palm",
+      "notation": "\"WS\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 52,
+      "name": "Shioh",
+      "notation": "\"WS\",3,2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 37,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 53,
+      "name": "Gunba",
+      "notation": "\"FC\",d/f,1+2",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 32
+      }
+    },
+    {
+      "index": 54,
+      "name": "Incomplete Somersault",
+      "notation": "\"FC\",D,u,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 48,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 55,
+      "name": "Turn Thruster",
+      "notation": "\"SS\",1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 23,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 56,
+      "name": "Pump in Pedal",
+      "notation": "\"SS\",3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 18,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 57,
+      "name": "Down Strike",
+      "notation": "d,2",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 16,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 58,
+      "name": "10 Hit Combo 1",
+      "notation": "1,2,3,2,1,2,1,4,2,1",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "High",
+        "Low",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 87,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 59,
+      "name": "10 Hit Combo 2",
+      "notation": "1,2,3,1,4,2,1,4,2,1",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid",
+        "Mid",
+        "Low",
+        "Mid",
+        "High",
+        "Mid",
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 90,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 60,
+      "name": "10 Hit Combo 3",
+      "notation": "1,2,3,1,2",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 65,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 61,
+      "name": "Over The Shoulder",
+      "notation": "1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 62,
+      "name": "Over The Shoulder",
+      "notation": "f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 63,
+      "name": "Shoulder Pop",
+      "notation": "2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 64,
+      "name": "Shoulder Pop",
+      "notation": "f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 65,
+      "name": "Dragon Screw",
+      "notation": "\"Approach from left side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 45,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 66,
+      "name": "Fall Away",
+      "notation": "\"Approach from right side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 67,
+      "name": "Reverse Neck Throw",
+      "notation": "\"Back\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 50,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 68,
+      "name": "Piggyback Throw",
+      "notation": "\"Back\",2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 50,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 69,
+      "name": "Chest Crusher",
+      "notation": "2+4,B",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 70,
+      "name": "Twist and Shout",
+      "notation": "d/f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 71,
+      "name": "Kongo Blast",
+      "notation": "d/f,1+3,d,d/f,f,2",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 72,
+      "name": "Foot Launch",
+      "notation": "b,1+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 11
+      }
+    },
+    {
+      "index": 73,
+      "name": "Push Away",
+      "notation": "f,F,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 38,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 74,
+      "name": "Ultimate Tackle",
+      "notation": "d/b,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 5,
+      "frames": {
+        "startup": 26
+      }
+    },
+    {
+      "index": 75,
+      "name": "Ultimate Punch to Arm Breaker",
+      "notation": "\"Tackle\",2,1,2,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 45,
+      "frames": {
+        "startup": 26
+      }
+    },
+    {
+      "index": 76,
+      "name": "Ultimate Punch",
+      "notation": "\"Tackle\",2,1,2,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 26
+      }
+    },
+    {
+      "index": 77,
+      "name": "Ultimate Punishment",
+      "notation": "\"Tackle\",2,D,1,1,N,4,1,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 61,
+      "frames": {
+        "startup": 26
+      }
+    },
+    {
+      "index": 78,
+      "name": "Arm Breaker",
+      "notation": "\"Tackle\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": true,
+      "damage": 30,
+      "frames": {
+        "startup": 26
+      }
+    },
+    {
+      "index": 79,
+      "name": "Attack Reversal",
+      "notation": "\"Parry\",b,1+3",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 80,
+      "name": "Sample Combo 1",
+      "notation": "d,d/f,f,3,\"CH\";d,4,2,1+2",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 50,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 81,
+      "name": "Sample Combo 2",
+      "notation": "\"WS\",2;b,1,2;d,d/f,f,2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 62,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 82,
+      "name": "Sample Combo 3",
+      "notation": "d/f,2;b,3;1;d/f,1,B,4;f,F,4;\"WS\",3,2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "Mid",
+        "High",
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 56,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 83,
+      "name": "Sample Combo 4",
+      "notation": "\"Rage\",1+2,B;d,d/f,f,3+4;3,2;b,1,2;f,F,2,\"Hit\",1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "High",
+        "High",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 74,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 84,
+      "name": "Sample Combo 5",
+      "notation": "d,d/b,b,1+2;d,d/f,f,1;d/f,1,B,4;d,d/f,f,1;\"Rage\",d,d/f,f,1+2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 83,
+      "frames": {
+        "startup": 18
+      }
+    }
+  ]
+}

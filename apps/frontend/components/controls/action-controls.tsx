@@ -1,8 +1,8 @@
 import { TekkenInput } from '@tekken-space/notation-parser';
 import clsx from 'classnames';
-import { ControllerLayout } from '@prisma/client';
 
 import styles from '@/components/controls/action-controls.module.scss';
+import { ControllerLayout } from '@/components/move-display/instruction';
 
 interface Props {
     inputs: TekkenInput[];
@@ -10,6 +10,7 @@ interface Props {
 }
 
 const colorSchemes: Record<ControllerLayout, string[]> = {
+    UNKNOWN: [],
     XBOX: [
         'bg-blue-500 text-blue-900',
         'bg-yellow-500 text-yellow-900',
@@ -43,6 +44,7 @@ const colorSchemes: Record<ControllerLayout, string[]> = {
 };
 
 const buttonSchemes: Record<ControllerLayout, string[]> = {
+    UNKNOWN: [],
     XBOX: ['X', 'Y', 'A', 'B'],
     PLAYSTATION: ['1', '2', '3', '4'],
     GAMEPAD: ['1', '2', '3', '4'],

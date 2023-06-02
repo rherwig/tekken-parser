@@ -1,6 +1,6 @@
 import { Form, Formik } from 'formik';
 import * as Yup from 'yup';
-import { Combo as ComboModel } from '@prisma/client';
+import { Move as MoveModel } from '@prisma/client';
 
 import TkTextField from '@/ui/forms/text-field';
 import TkNotationField from '@/ui/forms/notation-field';
@@ -10,12 +10,12 @@ import TsNumberField from '@/ui/forms/number-field';
 interface Props {
     characterId: string;
     initialValues?: ComboValues;
-    onSuccess: (combo: ComboModel) => void;
+    onSuccess: (move: MoveModel) => void;
     onError?: () => void;
     onClose: () => void;
 }
 
-type ComboValues = Partial<ComboModel>;
+type ComboValues = Partial<MoveModel>;
 
 export default function CreateComboForm(props: Props) {
     const initialValues: any = {
@@ -23,7 +23,6 @@ export default function CreateComboForm(props: Props) {
         name: props.initialValues?.name ?? '',
         notation: props.initialValues?.notation ?? '',
         damage: props.initialValues?.damage ?? '',
-        hits: props.initialValues?.hits ?? '',
         notes: props.initialValues?.notes ?? '',
     };
 
@@ -138,12 +137,6 @@ export default function CreateComboForm(props: Props) {
                         label={'Damage'}
                         name={'damage'}
                         placeholder={'Enter the combo damage (optional).'}
-                    />
-
-                    <TsNumberField
-                        label={'Number of Hits'}
-                        name={'hits'}
-                        placeholder={'Enter the number of hits (optional).'}
                     />
                 </div>
 

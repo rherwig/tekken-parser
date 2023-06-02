@@ -1,4 +1,5 @@
 import ContainerLayout from '@/components/layouts/container-layout';
+import MoveDisplay from '@/components/move-display/move-display';
 
 /**
  * The main page of the website.
@@ -22,7 +23,7 @@ export default function IndexPage() {
                 <p className="mb-2">To something like this:</p>
 
                 <div className="not-prose">
-                    {/*<Combo notation={'d,2;d/f,2,1'} />*/}
+                    <MoveDisplay notation={'d+2;d/f+2,1'} />
                 </div>
 
                 <div className="not-prose"></div>

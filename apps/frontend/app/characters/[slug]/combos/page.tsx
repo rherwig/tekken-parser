@@ -20,11 +20,13 @@ export default async function CharacterDetailsPage(props: Props) {
         return null;
     }
 
+    const combos = character.moves.filter((move) => move.isCombo);
+
     return (
         <CombosList
             session={session}
             character={character}
-            combos={character.combos}
+            moves={combos}
         />
     );
 }

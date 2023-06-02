@@ -1,0 +1,1246 @@
+{
+  "name": "Lars",
+  "slug": "lars",
+  "moves": [
+    {
+      "index": 1,
+      "name": "Rage Art",
+      "notation": "\"Rage\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 2,
+      "name": "Rage Drive",
+      "notation": "\"Rage During Silent Entry\",1+2",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 50,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 3,
+      "name": "Delta Slicer",
+      "notation": "1,1,1",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 4,
+      "name": "One-Two Combination",
+      "notation": "1,2",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 16,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 5,
+      "name": "Legionnaire's Spin",
+      "notation": "1,4",
+      "hitLevels": [
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 6,
+      "name": "Lightning Assault Middle",
+      "notation": "2,1,3",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 37,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 7,
+      "name": "Lightning Assault High",
+      "notation": "2,1,4",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 44,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 8,
+      "name": "Kick Start",
+      "notation": "3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 16,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 9,
+      "name": "Spinning Cutter",
+      "notation": "4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 27,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 10,
+      "name": "Flash Claw to Silent Entry",
+      "notation": "f,1,2",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 11,
+      "name": "Lightning Thrust",
+      "notation": "\"During Silent Entry\",1",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 48,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 12,
+      "name": "Bolt Smash",
+      "notation": "\"During Silent Entry\",d/f,1",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 13,
+      "name": "Turbine Hook",
+      "notation": "\"During Silent Entry\",2",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 21,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 14,
+      "name": "Rising Storm",
+      "notation": "\"During Silent Entry\",3",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 15,
+      "name": "Flash Bang to Dynamic Entry",
+      "notation": "f,1,2,3",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 41,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 16,
+      "name": "Charge Factor to Silent Entry",
+      "notation": "f,2,1",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 22,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 17,
+      "name": "Death Mask",
+      "notation": "f,2,4",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 32,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 18,
+      "name": "Dynamic Entry",
+      "notation": "f,3",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 19,
+      "name": "Lock & Load to Silent Entry",
+      "notation": "\"During Dynamic Entry\",1,F",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 14,
+      "frames": {
+        "startup": 32
+      }
+    },
+    {
+      "index": 20,
+      "name": "Double Barrel",
+      "notation": "\"During Dynamic Entry\",1,2",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 34,
+      "frames": {
+        "startup": 32
+      }
+    },
+    {
+      "index": 21,
+      "name": "Rimfire",
+      "notation": "\"During Dynamic Entry\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 38
+      }
+    },
+    {
+      "index": 22,
+      "name": "Spiral Kick",
+      "notation": "\"During Dynamic Entry\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 48
+      }
+    },
+    {
+      "index": 23,
+      "name": "Into the Storm",
+      "notation": "\"During Dynamic Entry\",1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 33
+      }
+    },
+    {
+      "index": 24,
+      "name": "Volcanic Lightning",
+      "notation": "f,4,1,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 48,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 25,
+      "name": "Ark Blast",
+      "notation": "f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 26,
+      "name": "Power Slug",
+      "notation": "f,1+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 27,
+      "name": "Flashing Strike",
+      "notation": "d/f,2,1",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 29,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 28,
+      "name": "Outpost to Dynamic Entry",
+      "notation": "d/f,3,D",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 29,
+      "name": "Outpost Blitz",
+      "notation": "d/f,3,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 30,
+      "name": "X-Ray",
+      "notation": "d/f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 25
+      }
+    },
+    {
+      "index": 31,
+      "name": "Tactical Sword",
+      "notation": "d,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 32,
+      "name": "Tesla Gravity",
+      "notation": "d,3,1",
+      "hitLevels": [
+        "Low",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 22,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 33,
+      "name": "Earth Battery",
+      "notation": "d,1+2",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 24
+      }
+    },
+    {
+      "index": 34,
+      "name": "Arc Combination",
+      "notation": "d/b,1,3",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 19,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 35,
+      "name": "Hollow Point to Silent Entry",
+      "notation": "d/b,2,F",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 12,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 36,
+      "name": "Double Tap",
+      "notation": "d/b,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 37,
+      "name": "HE Combination",
+      "notation": "d/b,2,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 38,
+      "name": "Shadow Cutter",
+      "notation": "d/b,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 21
+      }
+    },
+    {
+      "index": 39,
+      "name": "Inductance",
+      "notation": "d/b,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18,
+      "frames": {
+        "startup": 26
+      }
+    },
+    {
+      "index": 40,
+      "name": "Chevron Slash",
+      "notation": "b,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 41,
+      "name": "Gilbert Smash",
+      "notation": "b,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 29,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 42,
+      "name": "Gilbert Cannon",
+      "notation": "b,2,3",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 33,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 43,
+      "name": "Impulse Kick to Silent Entry",
+      "notation": "b,3,F",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 14,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 44,
+      "name": "Impulse Plus",
+      "notation": "b,3,4",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 34,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 45,
+      "name": "Magnetic Knee",
+      "notation": "b,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 46,
+      "name": "Magnetic Knee Blast",
+      "notation": "\"During Counter Hit\",b,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 50,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 47,
+      "name": "Wind Liger",
+      "notation": "b,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28,
+      "frames": {
+        "startup": 21
+      }
+    },
+    {
+      "index": 48,
+      "name": "Zeus",
+      "notation": "b,2+3",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 45,
+      "frames": {
+        "startup": 84
+      }
+    },
+    {
+      "index": 49,
+      "name": "Lightning Screw",
+      "notation": "u/f,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 50,
+      "name": "Storm Axle",
+      "notation": "u/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 25
+      }
+    },
+    {
+      "index": 51,
+      "name": "Avalanche Flip",
+      "notation": "u/f,3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 52,
+      "name": "Avalanche Drop",
+      "notation": "u/f,3+4,\"Hold\"",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 25
+      }
+    },
+    {
+      "index": 53,
+      "name": "Avalanche Spike",
+      "notation": "u/f,3+4,1",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 53
+      }
+    },
+    {
+      "index": 54,
+      "name": "Avalanche Stomp",
+      "notation": "u/f,3+4,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 37
+      }
+    },
+    {
+      "index": 55,
+      "name": "Surge Blast",
+      "notation": "f,F,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 21
+      }
+    },
+    {
+      "index": 56,
+      "name": "Surge Blast to Silent Entry",
+      "notation": "f,F,2,F",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 21
+      }
+    },
+    {
+      "index": 57,
+      "name": "Electric Jolt",
+      "notation": "f,F,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 58,
+      "name": "Double Pulse",
+      "notation": "f,F,4,3",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34,
+      "frames": {
+        "startup": 21
+      }
+    },
+    {
+      "index": 59,
+      "name": "Elbow Corona",
+      "notation": "f,F,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 60,
+      "name": "Double Action",
+      "notation": "f,F,3+4",
+      "hitLevels": [
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 26,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 61,
+      "name": "Blue Bolt",
+      "notation": "f,b,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 62,
+      "name": "Red Sprite",
+      "notation": "f,f,f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 63,
+      "name": "Streamer",
+      "notation": "\"WS\",1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 16,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 64,
+      "name": "Streamer to Silent Entry",
+      "notation": "\"WS\",1,F",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 16,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 65,
+      "name": "Lightning Starter to Silent Entry",
+      "notation": "\"WS\",2,F",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 10,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 66,
+      "name": "Lightning Starter to Dynamic Entry",
+      "notation": "\"WS\",2,D",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 10,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 67,
+      "name": "Multiplied Force",
+      "notation": "\"WS\",2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 68,
+      "name": "Tower Cannon",
+      "notation": "\"WS\",3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 69,
+      "name": "Double Smack",
+      "notation": "\"FC\",d/f,1+2",
+      "hitLevels": [
+        "Low",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 24,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 70,
+      "name": "Shockwave",
+      "notation": "\"SS\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 71,
+      "name": "Stack Up",
+      "notation": "d,3+4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 16,
+      "frames": {
+        "startup": 22
+      }
+    },
+    {
+      "index": 72,
+      "name": "Stack Up to Silent Entry",
+      "notation": "d,3+4,\"Hold\",F",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 16,
+      "frames": {
+        "startup": 22
+      }
+    },
+    {
+      "index": 73,
+      "name": "Rising Force",
+      "notation": "1+2+3+4,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 46
+      }
+    },
+    {
+      "index": 74,
+      "name": "10 Hit Combo",
+      "notation": "u/f,1,2,1,1,2,2,3,3,1+2,1+2",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Low",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 88,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 75,
+      "name": "Hostile Takedown",
+      "notation": "1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 76,
+      "name": "Hostile Takedown",
+      "notation": "f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 77,
+      "name": "Raging Thunder",
+      "notation": "2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 78,
+      "name": "Raging Thunder",
+      "notation": "f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 79,
+      "name": "Tactical Knee",
+      "notation": "\"Approach from left side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 80,
+      "name": "Lethal Force",
+      "notation": "\"Approach from right side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 81,
+      "name": "Swift Silence",
+      "notation": "\"Back\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 50,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 82,
+      "name": "Apocalypse",
+      "notation": "u/f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 83,
+      "name": "SHB",
+      "notation": "f,f,f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 11
+      }
+    },
+    {
+      "index": 84,
+      "name": "Rejection",
+      "notation": "\"Approach mid\",-\"air enemy\",f,f,f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 31,
+      "frames": {
+        "startup": 11
+      }
+    },
+    {
+      "index": 85,
+      "name": "Sample Combo 1",
+      "notation": "u/f,3;\"WS\",4;d/f,2,1;f,3;\"During Dynamic Entry\",1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 56,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 86,
+      "name": "Sample Combo 2",
+      "notation": "u/f,4;d/f,1;f,1,2,3;\"During Dynamic Entry\",1+2;\"WS\",2,F;\"During Silent Entry\",1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 61,
+      "frames": {
+        "startup": 25
+      }
+    },
+    {
+      "index": 87,
+      "name": "Sample Combo 3",
+      "notation": "f,b,2,1;f,3;\"During Dynamic Entry\",2;2,1,4;d/f,1;b,3,F;\"During Silent Entry\",d/f,1",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 60,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 88,
+      "name": "Sample Combo 4",
+      "notation": "f,1+2;d/f,3,D;\"During Dynamic Entry\",2;2;d/f,2,1;\"Rage\",1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 79,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 89,
+      "name": "Sample Combo 5",
+      "notation": "\"WS\",1;4;f,1,2,3;\"During Dynamic Entry\",1,F;\"Rage During Silent Entry\",1+2;\"During Dynamic Entry\",1,F;\"During Silent Entry\",1",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 75,
+      "frames": {
+        "startup": 15
+      }
+    }
+  ]
+}

@@ -1,9 +1,11 @@
 export enum TekkenInstructionType {
     UNKNOWN = 'UNKNOWN',
-    MOVE = 'MOVE',
+    MOVEMENT = 'MOVEMENT',
     ACTION = 'ACTION',
     SPECIAL = 'SPECIAL',
     TEXT = 'TEXT',
+    CONTROL = 'CONTROL',
+    HIDDEN = 'HIDDEN',
 }
 
 export interface TekkenInput {

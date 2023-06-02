@@ -1,0 +1,1140 @@
+{
+  "name": "Akuma",
+  "slug": "akuma",
+  "moves": [
+    {
+      "index": 1,
+      "name": "Wrath of the Raging Demon",
+      "notation": "\"Rage\",1,1,f,3,2",
+      "hitLevels": [
+        "High",
+        "Unblockable 1"
+      ],
+      "isThrow": true,
+      "damage": 61,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 2,
+      "name": "Gohadoken",
+      "notation": "d,d/f,f,1",
+      "hitLevels": [
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 14,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 3,
+      "name": "Gohadoken",
+      "notation": "d,d/f,f,2",
+      "hitLevels": [
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 14,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 4,
+      "name": "Shakunetsu Hadoken",
+      "notation": "f,d/f,d,d/b,b,1",
+      "hitLevels": [
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 33
+      }
+    },
+    {
+      "index": 5,
+      "name": "Shakunetsu Hadoken",
+      "notation": "f,d/f,d,d/b,b,2",
+      "hitLevels": [
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 19,
+      "frames": {
+        "startup": 33
+      }
+    },
+    {
+      "index": 6,
+      "name": "Goshoryuken",
+      "notation": "f,d,d/f,1",
+      "hitLevels": [
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 7,
+      "name": "Goshoryuken",
+      "notation": "f,d,d/f,2",
+      "hitLevels": [
+        "Projectile",
+        "Projectile",
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 26,
+      "frames": {
+        "startup": 11
+      }
+    },
+    {
+      "index": 8,
+      "name": "Hyakkishu",
+      "notation": "f,d,d/f,3",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 9,
+      "name": "Hyakkigozan",
+      "notation": "\"During Hyakkishu\",N",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 23,
+      "frames": {
+        "startup": 51
+      }
+    },
+    {
+      "index": 10,
+      "name": "Hyakkigosho",
+      "notation": "\"During Hyakkishu\",1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 38
+      }
+    },
+    {
+      "index": 11,
+      "name": "Hyakkigohasatsu",
+      "notation": "\"During Hyakkishu\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 47
+      }
+    },
+    {
+      "index": 12,
+      "name": "Hyakkigosen",
+      "notation": "\"During Hyakkishu\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23,
+      "frames": {
+        "startup": 45
+      }
+    },
+    {
+      "index": 13,
+      "name": "Hyakkigojin",
+      "notation": "\"During Hyakkishu\",4",
+      "hitLevels": [
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 45
+      }
+    },
+    {
+      "index": 14,
+      "name": "Hyakkigosai",
+      "notation": "\"During Hyakkishu\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 30,
+      "frames": {
+        "startup": 41
+      }
+    },
+    {
+      "index": 15,
+      "name": "Tatsumaki Zankukyaku",
+      "notation": "d,d/b,b,3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 10,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 16,
+      "name": "Tatsumaki Zankukyaku",
+      "notation": "d,d/b,b,4",
+      "hitLevels": [
+        "Projectile",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 23,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 17,
+      "name": "Zanku Hadoken",
+      "notation": "\"Jump\",d,d/f,f,1",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 10,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 18,
+      "name": "AirBorne Tatsumaki Zankukyaku",
+      "notation": "\"Jump\",d,d/b,b,3",
+      "hitLevels": [
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 10,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 19,
+      "name": "Ashura Senku",
+      "notation": "f,d,d/f,3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 20,
+      "name": "EX Gohadoken",
+      "notation": "d,d/f,f,1+2",
+      "hitLevels": [
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 21,
+      "name": "EX Shakunetsu Hadoken",
+      "notation": "f,d/f,d,d/b,b,1+2",
+      "hitLevels": [
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 26,
+      "frames": {
+        "startup": 28
+      }
+    },
+    {
+      "index": 22,
+      "name": "EX Goshoryuken",
+      "notation": "f,d,d/f,1+2",
+      "hitLevels": [
+        "Projectile",
+        "Projectile",
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 28,
+      "frames": {
+        "startup": 11
+      }
+    },
+    {
+      "index": 23,
+      "name": "Messatsu Goshoryu",
+      "notation": "\"During Counter Hit\",f,d,d/f,1+2",
+      "hitLevels": [
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 42,
+      "frames": {
+        "startup": 11
+      }
+    },
+    {
+      "index": 24,
+      "name": "EX Tatsumaki Zankukyaku",
+      "notation": "d,d/b,b,3+4",
+      "hitLevels": [
+        "Projectile",
+        "Projectile",
+        "Projectile",
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 26,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 25,
+      "name": "EX Zanku Hadoken",
+      "notation": "\"Jump\",d,d/f,f,1+2",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 10,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 26,
+      "name": "EX AirBorne Tatsumaki Zankukyaku",
+      "notation": "\"Jump\",d,d/b,b,3+4",
+      "hitLevels": [
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 10,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 27,
+      "name": "Hisenkyaku to EX Zanku Hadoken",
+      "notation": "\"During Hisenkyaku\",d,d/f,f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 40,
+      "frames": {
+        "startup": 22
+      }
+    },
+    {
+      "index": 28,
+      "name": "Hisenkyaku to EX AirBorne Tatsumaki Zankukyaku",
+      "notation": "\"During Hisenkyaku\",d,d/b,b,3+4",
+      "hitLevels": [
+        "Mid",
+        "Projectile",
+        "Projectile",
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 40,
+      "frames": {
+        "startup": 22
+      }
+    },
+    {
+      "index": 29,
+      "name": "Messatsu Gohado",
+      "notation": "d,d/f,f,d,d/f,f,1+2",
+      "hitLevels": [
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 58,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 30,
+      "name": "Sengeki",
+      "notation": "1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 7,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 31,
+      "name": "Kimon Rendan",
+      "notation": "1,1",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 14,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 32,
+      "name": "Kimon Rentotsu",
+      "notation": "1,2",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 33,
+      "name": "Roppu Tubushi",
+      "notation": "2",
+      "hitLevels": [
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 34,
+      "name": "Kikoku Renzan",
+      "notation": "4,3",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 29,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 35,
+      "name": "Focus Attack",
+      "notation": "1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 14,
+      "frames": {
+        "startup": 31
+      }
+    },
+    {
+      "index": 36,
+      "name": "Focus Attack",
+      "notation": "1+2,\"Hold\"",
+      "hitLevels": [
+        "Unblockable 2"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 65
+      }
+    },
+    {
+      "index": 37,
+      "name": "Ryujinkyaku",
+      "notation": "f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 16,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 38,
+      "name": "Onikubigari",
+      "notation": "f,4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 39,
+      "name": "Zugaihasatsu",
+      "notation": "f,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 40,
+      "name": "Hisenkyaku",
+      "notation": "f,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 22
+      }
+    },
+    {
+      "index": 41,
+      "name": "Gokumonsyo",
+      "notation": "d/f,1,1",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 42,
+      "name": "Zugaigohasatsu",
+      "notation": "d/f,1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 43,
+      "name": "Dohatsu Tensho",
+      "notation": "d/f,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 44,
+      "name": "Gokusatsu Gotenshu",
+      "notation": "d/f,2,4,3",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 46,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 45,
+      "name": "Yokogeri",
+      "notation": "d/f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 14,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 46,
+      "name": "Kitotsukyaku",
+      "notation": "d/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 24,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 47,
+      "name": "Fukusengeki",
+      "notation": "d,1",
+      "hitLevels": [
+        "Special Mid"
+      ],
+      "isThrow": false,
+      "damage": 5,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 48,
+      "name": "Fkusenshotei",
+      "notation": "d,1,2",
+      "hitLevels": [
+        "Special Mid",
+        "Special Mid"
+      ],
+      "isThrow": false,
+      "damage": 13,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 49,
+      "name": "Shotei",
+      "notation": "d,2",
+      "hitLevels": [
+        "Special Mid"
+      ],
+      "isThrow": false,
+      "damage": 6,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 50,
+      "name": "Kurubushi Kick",
+      "notation": "d,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 7,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 51,
+      "name": "Ashibarai",
+      "notation": "d,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 52,
+      "name": "Gaikaiken",
+      "notation": "b,1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 53,
+      "name": "Danretto",
+      "notation": "b,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21,
+      "frames": {
+        "startup": 23
+      }
+    },
+    {
+      "index": 54,
+      "name": "Taizankyaku",
+      "notation": "b,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 55,
+      "name": "Shakunetsu Messho",
+      "notation": "f,F,2,\"Hit\",1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 34,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 56,
+      "name": "Ganretsuzan",
+      "notation": "f,F,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 57,
+      "name": "Shunjinkaida",
+      "notation": "f,f,f,1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 58,
+      "name": "Tenmakuretsukyaku",
+      "notation": "f,f,f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 26
+      }
+    },
+    {
+      "index": 59,
+      "name": "Shunjingozan",
+      "notation": "\"Run more than 3\",\"steps\",4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 23,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 60,
+      "name": "Hijiuchi",
+      "notation": "\"WS\",1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 12,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 61,
+      "name": "Sotensho",
+      "notation": "\"WS\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 62,
+      "name": "Totsuhizageri",
+      "notation": "\"WS\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 63,
+      "name": "Shizan",
+      "notation": "\"WS\",4,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 11
+      }
+    },
+    {
+      "index": 64,
+      "name": "Hijiotoshi",
+      "notation": "\"During Vertical Jump\",1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 10,
+      "frames": {
+        "startup": 7
+      }
+    },
+    {
+      "index": 65,
+      "name": "Gokusengeki",
+      "notation": "\"During Vertical Jump\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 9
+      }
+    },
+    {
+      "index": 66,
+      "name": "Maegeri",
+      "notation": "\"During Vertical Jump\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 10,
+      "frames": {
+        "startup": 7
+      }
+    },
+    {
+      "index": 67,
+      "name": "Onikubigiri",
+      "notation": "\"During Vertical Jump\",4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 9
+      }
+    },
+    {
+      "index": 68,
+      "name": "Gokuken",
+      "notation": "\"During Forward Jump\",1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 10,
+      "frames": {
+        "startup": 9
+      }
+    },
+    {
+      "index": 69,
+      "name": "Gokugeki",
+      "notation": "\"During Forward Jump\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 9
+      }
+    },
+    {
+      "index": 70,
+      "name": "Rakusaishu",
+      "notation": "\"During Forward Jump\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 10,
+      "frames": {
+        "startup": 7
+      }
+    },
+    {
+      "index": 71,
+      "name": "Tobisokuto",
+      "notation": "\"During Forward Jump\",4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 7
+      }
+    },
+    {
+      "index": 72,
+      "name": "Tenmakujinkyaku",
+      "notation": "\"Forward Jump peak\",d,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 14,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 73,
+      "name": "Goshoha",
+      "notation": "1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 74,
+      "name": "Goshoha",
+      "notation": "f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 75,
+      "name": "Syuretto",
+      "notation": "2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 76,
+      "name": "Syuretto",
+      "notation": "f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 77,
+      "name": "Syuretto",
+      "notation": "\"Approach from left side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 78,
+      "name": "Goshoha",
+      "notation": "\"Approach from right side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 79,
+      "name": "Goshoha",
+      "notation": "\"Back\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 50,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 80,
+      "name": "Sample Combo 1",
+      "notation": "d,3;d,d/b,b,3;f,d,d/f,2",
+      "hitLevels": [
+        "Low",
+        "High",
+        "Projectile",
+        "Projectile",
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 81,
+      "name": "Sample Combo 2",
+      "notation": "d/f,2,1;3;d/f,1;4,3;2;d,d/f,f,2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "High",
+        "Projectile",
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 51,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 82,
+      "name": "Sample Combo 3",
+      "notation": "\"WS\",2;f,d,d/f,4;\"During Hyakkishu\",4;f,4;1+2,f,f;d/f,2,4,3",
+      "hitLevels": [
+        "Mid",
+        "Projectile",
+        "High",
+        "High",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 54,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 83,
+      "name": "Sample Combo 4",
+      "notation": "1+2,\"Hold\",f,f;\"Rage\",1,1,f,3,2",
+      "hitLevels": [
+        "High",
+        "Unblockable 1"
+      ],
+      "isThrow": true,
+      "damage": 77,
+      "frames": {
+        "startup": 37
+      }
+    },
+    {
+      "index": 84,
+      "name": "Sample Combo 5",
+      "notation": "f,d,d/f,3;\"During Hyakkishu\",4;b,1;f,d,d/f,4;\"During Hyakkishu\",3;\"During Forward Jump\",4;1+2,f,f;b,1;d,d/f,f,d,d/f,f,1+2",
+      "hitLevels": [
+        "Projectile",
+        "High",
+        "Mid",
+        "Mid",
+        "High",
+        "High",
+        "Projectile"
+      ],
+      "isThrow": false,
+      "damage": 95,
+      "frames": {
+        "startup": 44
+      }
+    }
+  ]
+}

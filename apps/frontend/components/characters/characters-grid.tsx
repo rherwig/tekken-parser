@@ -3,35 +3,41 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Character } from '@prisma/client';
-import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { useMemo, useState } from 'react';
 
+import { selectCharacters } from '@/store/slices/characters-slice';
 import CreateCharacter from '@/components/characters/create-character';
 import CharactersFilter from '@/components/characters/characters-filter';
+import { store } from '@/store';
+import AdminOnly from '@/components/auth/admin-only';
 
-interface Props {
-    characters: Character[];
-}
-
-export default function CharactersGrid(props: Props) {
+export default function CharactersGrid() {
     const router = useRouter();
-    const [characters, setCharacters] = useState<Character[]>(props.characters);
-    const [sortedCharacters, setSortedCharacters] = useState<Character[]>(
-        characters.sort((a, b) => a.name.localeCompare(b.name)),
+
+    const [searchTerm, setSearchTerm] = useState('');
+    const [characters, setCharacters] = useState(
+        Array.from(selectCharacters(store.getState())),
     );
-    const [filteredCharacters, setFilteredCharacters] =
-        useState<Character[]>(sortedCharacters);
+
+    const sortedCharacters = useMemo(() => {
+        return characters.sort((a, b) => a.name.localeCompare(b.name));
+    }, [characters]);
+
+    const filteredCharacters = useMemo(() => {
+        return sortedCharacters.filter((character) => {
+            return character.name
+                .toLowerCase()
+                .includes(searchTerm.toLowerCase());
+        });
+    }, [sortedCharacters, searchTerm]);
 
     const handleCharacterCreated = (character: Character) => {
         setCharacters((prevCharacters) => prevCharacters.concat(character));
     };
 
     const handleNameFilterChange = (name: string) => {
-        const newCharacters = characters.filter((character) =>
-            character.name.toLowerCase().includes(name.toLowerCase()),
-        );
-
-        setFilteredCharacters(newCharacters);
+        setSearchTerm(name);
     };
 
     const handleFilterSubmit = () => {
@@ -51,7 +57,10 @@ export default function CharactersGrid(props: Props) {
         <>
             <div className="mb-4 flex items-center justify-between">
                 <h1 className="text-2xl">Characters</h1>
-                <CreateCharacter onSuccess={handleCharacterCreated} />
+
+                <AdminOnly>
+                    <CreateCharacter onSuccess={handleCharacterCreated} />
+                </AdminOnly>
             </div>
 
             <div className="mb-6">

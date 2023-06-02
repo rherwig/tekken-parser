@@ -1,0 +1,1078 @@
+{
+  "name": "Gigas",
+  "slug": "gigas",
+  "moves": [
+    {
+      "index": 1,
+      "name": "Rage Art",
+      "notation": "\"Rage\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 2,
+      "name": "Rage Drive",
+      "notation": "\"Rage\",f,3+4,\"Hold\"",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 3,
+      "name": "Iron Breaker",
+      "notation": "1,2",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 31,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 4,
+      "name": "Double Gimlet",
+      "notation": "2,1",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 22,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 5,
+      "name": "Double Gimlet to Golem Set Up",
+      "notation": "2,1,3+4",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 22,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 6,
+      "name": "Left Wrench Kick",
+      "notation": "3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 7,
+      "name": "Right Wrench Kick",
+      "notation": "4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 8,
+      "name": "Mad Rampage",
+      "notation": "f,2,1,1",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 37,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 9,
+      "name": "Double Monster Hook",
+      "notation": "f,2,f,1",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 37,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 10,
+      "name": "Monster Axe",
+      "notation": "f,2,d,1",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 37,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 11,
+      "name": "Monster Axe to Golem Set Up",
+      "notation": "f,2,d,1,3+4",
+      "hitLevels": [
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 37,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 12,
+      "name": "Crazy Knuckle Combo",
+      "notation": "f,3,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 37,
+      "frames": {
+        "startup": 23
+      }
+    },
+    {
+      "index": 13,
+      "name": "Crazy Knuckle Combo to Goliath",
+      "notation": "f,3,2,F",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 37,
+      "frames": {
+        "startup": 23
+      }
+    },
+    {
+      "index": 14,
+      "name": "Burring Reamer",
+      "notation": "f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 24
+      }
+    },
+    {
+      "index": 15,
+      "name": "Burring Reamer to Goliath",
+      "notation": "f,4,F",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 24
+      }
+    },
+    {
+      "index": 16,
+      "name": "Quick Head-Butt",
+      "notation": "f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 17,
+      "name": "Bulldozer Charge",
+      "notation": "\"During Counter Hit\",f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 58,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 18,
+      "name": "Goliath",
+      "notation": "f,3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 19,
+      "name": "Metal Crusher",
+      "notation": "\"During Goliath\",1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 85
+      }
+    },
+    {
+      "index": 20,
+      "name": "Hell Crusher",
+      "notation": "\"During Goliath\",2",
+      "hitLevels": [
+        "Unblockable 2"
+      ],
+      "isThrow": false,
+      "damage": 28,
+      "frames": {
+        "startup": 83
+      }
+    },
+    {
+      "index": 21,
+      "name": "Advancing Giant Press",
+      "notation": "\"During Goliath\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 104
+      }
+    },
+    {
+      "index": 22,
+      "name": "Hazardous Hook",
+      "notation": "d/f,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 23,
+      "name": "Double Hook Reactor",
+      "notation": "d/f,2,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 24,
+      "name": "Nail Gun Punch",
+      "notation": "d/f,3,1",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 23,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 25,
+      "name": "Vice Grip Hammer Rush",
+      "notation": "d/f,3,1+2,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 45,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 26,
+      "name": "Nail Gun",
+      "notation": "d/f,4,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 42,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 27,
+      "name": "Excavator",
+      "notation": "d/f,1+2,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 46,
+      "frames": {
+        "startup": 25
+      }
+    },
+    {
+      "index": 28,
+      "name": "Sledgehammer",
+      "notation": "d,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 13,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 29,
+      "name": "Ignition Coil",
+      "notation": "d,3,2",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 30,
+      "name": "Repelling Blast",
+      "notation": "d,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 30
+      }
+    },
+    {
+      "index": 31,
+      "name": "Enraged Howl",
+      "notation": "d,3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 32,
+      "name": "End Mill",
+      "notation": "d/b,2",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 23
+      }
+    },
+    {
+      "index": 33,
+      "name": "Shin Breaker",
+      "notation": "d/b,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 16,
+      "frames": {
+        "startup": 21
+      }
+    },
+    {
+      "index": 34,
+      "name": "Chisel Kick",
+      "notation": "d/b,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 8,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 35,
+      "name": "Fork Lift",
+      "notation": "d/b,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35,
+      "frames": {
+        "startup": 29
+      }
+    },
+    {
+      "index": 36,
+      "name": "Golem Set Up",
+      "notation": "d/b,3+4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 37,
+      "name": "Killer Impact",
+      "notation": "\"During Golem Set U\",p1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 66
+      }
+    },
+    {
+      "index": 38,
+      "name": "Blast Charge",
+      "notation": "\"During Golem Set U\",p2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 71
+      }
+    },
+    {
+      "index": 39,
+      "name": "Disarming Golem",
+      "notation": "\"During Golem Set U\",pu/b",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 40,
+      "name": "Fracturing Upper",
+      "notation": "b,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 41,
+      "name": "Crazy Knuckle",
+      "notation": "b,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 42,
+      "name": "Crazy Knuckle to Goliath",
+      "notation": "b,2,F",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 43,
+      "name": "Deadly Cannon",
+      "notation": "b,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 26,
+      "frames": {
+        "startup": 21
+      }
+    },
+    {
+      "index": 44,
+      "name": "Heavy Stomp",
+      "notation": "b,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 45,
+      "name": "Rusty Nail",
+      "notation": "b,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 25
+      }
+    },
+    {
+      "index": 46,
+      "name": "Jumping Elbow",
+      "notation": "u/f,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 23
+      }
+    },
+    {
+      "index": 47,
+      "name": "Staple Knee",
+      "notation": "u/f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 48,
+      "name": "Giant Press",
+      "notation": "u/f,1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 35,
+      "frames": {
+        "startup": 35
+      }
+    },
+    {
+      "index": 49,
+      "name": "Crushing Stomp",
+      "notation": "u/f,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 31
+      }
+    },
+    {
+      "index": 50,
+      "name": "Unchained Upper",
+      "notation": "f,F,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 51,
+      "name": "Dashing Knee",
+      "notation": "f,F,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 52,
+      "name": "Gorefoot Impact",
+      "notation": "f,F,4,2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 42,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 53,
+      "name": "Vice Grip Hammer",
+      "notation": "f,F,1+2,1+2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 34,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 54,
+      "name": "Charging Tackle",
+      "notation": "f,f,f,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 21
+      }
+    },
+    {
+      "index": 55,
+      "name": "Knocking Shoulder",
+      "notation": "\"WS\",1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 11
+      }
+    },
+    {
+      "index": 56,
+      "name": "Savage Knee",
+      "notation": "\"WS\",2,3",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 43,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 57,
+      "name": "Savage Reamer",
+      "notation": "\"WS\",2,4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 39,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 58,
+      "name": "Savage Reamer to Goliath",
+      "notation": "\"WS\",2,4,F",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 39,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 59,
+      "name": "Goliath Toss",
+      "notation": "\"WS\",3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 18
+      }
+    },
+    {
+      "index": 60,
+      "name": "Spike Knee",
+      "notation": "\"WS\",4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 21,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 61,
+      "name": "Brush Cutter",
+      "notation": "\"FC\",d/f,2",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 28
+      }
+    },
+    {
+      "index": 62,
+      "name": "Flying Gauntlet",
+      "notation": "\"SS\",2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 28
+      }
+    },
+    {
+      "index": 63,
+      "name": "Ground Sweeper",
+      "notation": "\"While down\",2",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 22
+      }
+    },
+    {
+      "index": 64,
+      "name": "Ground Striker",
+      "notation": "\"While down\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 35
+      }
+    },
+    {
+      "index": 65,
+      "name": "10 Hit Combo",
+      "notation": "d/f,1,4,1,2,2,2,1+2,1+2,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "High",
+        "High",
+        "Mid",
+        "Low",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 82,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 66,
+      "name": "Hydraulic Lift",
+      "notation": "1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 67,
+      "name": "Hydraulic Lift",
+      "notation": "f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 68,
+      "name": "Trash Compactor",
+      "notation": "2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 69,
+      "name": "Trash Compactor",
+      "notation": "f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 70,
+      "name": "Outrage",
+      "notation": "\"Approach from left side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 71,
+      "name": "Amazing Impact",
+      "notation": "\"Approach from right side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 72,
+      "name": "Skull Smasher",
+      "notation": "\"Back\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 60,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 73,
+      "name": "Overkill",
+      "notation": "f,d/f,d,d/b,b,f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 55,
+      "frames": {
+        "startup": 11
+      }
+    },
+    {
+      "index": 74,
+      "name": "Claw Hammer",
+      "notation": "\"Approach mid\",-\"air enemy\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 42,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 75,
+      "name": "Sample Combo 1",
+      "notation": "d,2;d/f,2,1;f,F,1+2,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 46,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 76,
+      "name": "Sample Combo 2",
+      "notation": "d/f,3,\"CH\",1+2;d/f,3,1;d/f,3,1+2,1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 62,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 77,
+      "name": "Sample Combo 3",
+      "notation": "\"SS\",2;f,2,1;\"Approach mid\",-\"air enemy\",1+3",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 71,
+      "frames": {
+        "startup": 28
+      }
+    },
+    {
+      "index": 78,
+      "name": "Sample Combo 4",
+      "notation": "\"FC\",d/f,2;d/b,4;\"WS\",1;d/f,4,1+2",
+      "hitLevels": [
+        "Low",
+        "Low",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 46,
+      "frames": {
+        "startup": 28
+      }
+    },
+    {
+      "index": 79,
+      "name": "Sample Combo 5",
+      "notation": "f,F,4,\"CH\",2;f,2,f,1;f,2,1;\"Rage\",1+2",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "High",
+        "High",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 109,
+      "frames": {
+        "startup": 17
+      }
+    }
+  ]
+}

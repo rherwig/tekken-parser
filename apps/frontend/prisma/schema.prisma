@@ -5,7 +5,7 @@ generator client {
 }
 
 datasource db {
-    provider = "mongodb"
+    provider = "postgresql"
     url      = env("DATABASE_URL")
 }
 
@@ -23,46 +23,34 @@ enum ControllerLayout {
 }
 
 model Account {
-    id                String  @id @default(auto()) @map("_id") @db.ObjectId
-    userId            String  @db.ObjectId
+    id                String  @id @default(cuid())
     type              String
     provider          String
     providerAccountId String
-    refresh_token     String? @db.String
-    access_token      String? @db.String
+    refresh_token     String?
+    access_token      String?
     expires_at        Int?
     token_type        String?
     scope             String?
-    id_token          String? @db.String
+    id_token          String?
     session_state     String?
 
-    user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+    userId String
+    user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
 
     @@unique([provider, providerAccountId])
 }
 
 model Session {
-    id           String   @id @default(auto()) @map("_id") @db.ObjectId
+    id           String   @id @default(cuid())
     sessionToken String   @unique
-    userId       String   @db.ObjectId
+    userId       String
     expires      DateTime
     user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
 
-model User {
-    id            String       @id @default(auto()) @map("_id") @db.ObjectId
-    name          String?
-    email         String?      @unique
-    emailVerified DateTime?
-    image         String?
-    accounts      Account[]
-    sessions      Session[]
-    preferences   Preferences?
-    role          Role         @default(USER)
-}
-
 model VerificationToken {
-    id         String   @id @default(auto()) @map("_id") @db.ObjectId
+    id         String   @id @default(cuid())
     identifier String
     token      String   @unique
     expires    DateTime
@@ -70,42 +58,55 @@ model VerificationToken {
     @@unique([identifier, token])
 }
 
-model Preferences {
-    id     String            @id @default(auto()) @map("_id") @db.ObjectId
-    userId String            @unique @db.ObjectId
-    user   User              @relation(fields: [userId], references: [id], onDelete: Cascade)
-    layout ControllerLayout? @default(ARCADE)
+model User {
+    id            String    @id @default(cuid())
+    name          String?
+    email         String?   @unique
+    emailVerified DateTime?
+    image         String?
+    accounts      Account[]
+    sessions      Session[]
+    preferences   Json      @default("{}")
+    role          Role      @default(USER)
+    createdAt     DateTime  @default(now())
+    updatedAt     DateTime  @updatedAt
 }
 
 model Character {
-    id       String  @id @default(auto()) @map("_id") @db.ObjectId
+    id       String  @id @default(cuid())
     name     String  @unique
     slug     String  @unique
     imageUrl String?
     moves    Move[]
-    combos   Combo[]
+
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
 }
 
 model Move {
-    id          String     @id @default(auto()) @map("_id") @db.ObjectId
-    name        String
-    slug        String     @unique
-    notation    String
-    hitLevels   String[]
-    damage      Int?
-    isThrow     Boolean    @default(false)
-    character   Character? @relation(fields: [characterId], references: [id])
-    characterId String?    @db.ObjectId
-    index       Int        @default(0)
-}
+    id               String   @id @default(cuid())
+    index            Int      @default(0)
+    name             String
+    slug             String
+    notation         String
+    hitLevels        String[]
+    startupFrames    Int[]    @default([])
+    hitFrames        Int[]    @default([])
+    blockFrames      Int[]    @default([])
+    counterHitFrames Int[]    @default([])
+    damage           Int[]    @default([])
+    isThrow          Boolean  @default(false)
+    hasTailspin      Boolean  @default(false)
+    isHoming         Boolean  @default(false)
+    isPowerCrush     Boolean  @default(false)
+    isWallBounce     Boolean  @default(false)
+    aliases          String[] @default([])
+    notes            String?
+    isCombo          Boolean  @default(false)
 
-model Combo {
-    id          String    @id @default(auto()) @map("_id") @db.ObjectId
-    notation    String
-    name        String?
-    damage      Int?
-    hits        Int?
-    notes       String?
-    character   Character @relation(fields: [characterId], references: [id])
-    characterId String    @db.ObjectId
+    character   Character @relation(fields: [characterId], references: [id], onDelete: Cascade)
+    characterId String
+
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
 }

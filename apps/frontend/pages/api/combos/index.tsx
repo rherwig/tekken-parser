@@ -1,20 +1,20 @@
 import { NextApiRequest } from 'next';
 
 import { ApiResponse } from '@/types/api-response';
-import { CombosService } from '@/server/services/combos-service';
+import { MovesService } from '@/server/services/moves-service';
 import { applyMiddlewares } from '@/server/middlewares/apply-middlewares';
 import { isAdmin } from '@/server/middlewares/auth';
 import { validate } from '@/server/middlewares/validate';
 
 async function create(req: NextApiRequest, res: ApiResponse) {
     try {
-        const { name, notation, hits, damage, characterId, notes } = req.body;
+        const { name, notation, damage, characterId, notes } = req.body;
 
-        const combo = await CombosService.create(characterId, {
+        const combo = await MovesService.create(characterId, {
+            slug: name.toLowerCase().replace(/\s/g, '-'),
+            damage: damage ? [parseInt(damage, 10)] : [],
             name,
             notation,
-            hits,
-            damage,
             notes,
         });
 

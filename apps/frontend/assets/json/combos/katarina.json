@@ -1,0 +1,1035 @@
+{
+  "name": "Katarina",
+  "slug": "katarina",
+  "moves": [
+    {
+      "index": 1,
+      "name": "Rage Art",
+      "notation": "\"Rage\",3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 2,
+      "name": "Rage Drive",
+      "notation": "\"Rage During Harrier\",1+2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 55,
+      "frames": {
+        "startup": 34
+      }
+    },
+    {
+      "index": 3,
+      "name": "Double Slap to Harrier",
+      "notation": "1,1,F",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 4,
+      "name": "Wing Punch Combo",
+      "notation": "1,1,1",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 40,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 5,
+      "name": "Rush Punch Combo",
+      "notation": "1,1,2",
+      "hitLevels": [
+        "High",
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 34,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 6,
+      "name": "Albatross Punch Combo",
+      "notation": "1,1,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 37,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 7,
+      "name": "Goose Punch Combo",
+      "notation": "1,1,4",
+      "hitLevels": [
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 38,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 8,
+      "name": "Wing Slap Combo",
+      "notation": "1,2",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 9,
+      "name": "Needle Kick Combo",
+      "notation": "1,4",
+      "hitLevels": [
+        "High",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 10,
+      "name": "Feather Fury",
+      "notation": "2,2",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 11,
+      "name": "Crane Kick Combo",
+      "notation": "3,3,3,3,3",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 44,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 12,
+      "name": "Wild Canary",
+      "notation": "3,4",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 34,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 13,
+      "name": "Nimble Cutter to Harrier",
+      "notation": "4,4,4,F",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 47,
+      "frames": {
+        "startup": 11
+      }
+    },
+    {
+      "index": 14,
+      "name": "Nimble Cutter",
+      "notation": "4,4,4,4,4",
+      "hitLevels": [
+        "High",
+        "Mid",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 72,
+      "frames": {
+        "startup": 11
+      }
+    },
+    {
+      "index": 15,
+      "name": "Heel Hook",
+      "notation": "f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27,
+      "frames": {
+        "startup": 24
+      }
+    },
+    {
+      "index": 16,
+      "name": "Harrier",
+      "notation": "f,4",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 17,
+      "name": "Alula Slice",
+      "notation": "\"During Harrier\",1",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 12,
+      "frames": {
+        "startup": 27
+      }
+    },
+    {
+      "index": 18,
+      "name": "Alula Slam",
+      "notation": "\"During Harrier\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 33
+      }
+    },
+    {
+      "index": 19,
+      "name": "Palmate Spin",
+      "notation": "\"During Harrier\",3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 41
+      }
+    },
+    {
+      "index": 20,
+      "name": "Snipe's Knee",
+      "notation": "\"During Harrier\",4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27,
+      "frames": {
+        "startup": 30
+      }
+    },
+    {
+      "index": 21,
+      "name": "Drumming",
+      "notation": "f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 23
+      }
+    },
+    {
+      "index": 22,
+      "name": "Fledgeling Foot",
+      "notation": "f,3+4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23,
+      "frames": {
+        "startup": 24
+      }
+    },
+    {
+      "index": 23,
+      "name": "Peck and Slap",
+      "notation": "d/f,1,1",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 21,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 24,
+      "name": "Peck and Slap to Harrier",
+      "notation": "d/f,1,1,F",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 21,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 25,
+      "name": "Nest Crasher",
+      "notation": "d/f,2,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 38,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 26,
+      "name": "Nest Wrecker",
+      "notation": "d/f,2,4",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 34,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 27,
+      "name": "Wagtail",
+      "notation": "d/f,3,3",
+      "hitLevels": [
+        "Mid",
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 39,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 28,
+      "name": "Greater Rhea",
+      "notation": "d/f,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 17,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 29,
+      "name": "Tucano Tail",
+      "notation": "d/f,3+4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 21,
+      "frames": {
+        "startup": 25
+      }
+    },
+    {
+      "index": 30,
+      "name": "Feather Chop",
+      "notation": "d,1",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 31,
+      "name": "Paineira",
+      "notation": "d,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 32,
+      "name": "Paineira to Harrier",
+      "notation": "d,2,F",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18,
+      "frames": {
+        "startup": 20
+      }
+    },
+    {
+      "index": 33,
+      "name": "Tarsus Body Blow",
+      "notation": "d,3,3",
+      "hitLevels": [
+        "Low",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 34,
+      "name": "Tarsus Neck Blow",
+      "notation": "d,3,4",
+      "hitLevels": [
+        "Low",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 35,
+      "name": "Sliding Kick",
+      "notation": "d/b,3",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 24,
+      "frames": {
+        "startup": 25
+      }
+    },
+    {
+      "index": 36,
+      "name": "Slipping Tail",
+      "notation": "d/b,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 24,
+      "frames": {
+        "startup": 29
+      }
+    },
+    {
+      "index": 37,
+      "name": "Eclipse Plumage",
+      "notation": "d/b,3+4",
+      "hitLevels": [
+        "Unblockable 1"
+      ],
+      "isThrow": false,
+      "damage": 60,
+      "frames": {
+        "startup": 68
+      }
+    },
+    {
+      "index": 38,
+      "name": "Inside Peck to Harrier",
+      "notation": "b,1,F",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 13,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 39,
+      "name": "Peck Upper",
+      "notation": "b,1,1",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 28,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 40,
+      "name": "Piercing Peck",
+      "notation": "b,1,2",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 23,
+      "frames": {
+        "startup": 14
+      }
+    },
+    {
+      "index": 41,
+      "name": "Vulture Claw",
+      "notation": "b,2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 18,
+      "frames": {
+        "startup": 27
+      }
+    },
+    {
+      "index": 42,
+      "name": "Cuckoo Thrust",
+      "notation": "b,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 15,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 43,
+      "name": "Woodpecker",
+      "notation": "b,4,1+2",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 37,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 44,
+      "name": "Fractured Flock",
+      "notation": "b,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 23
+      }
+    },
+    {
+      "index": 45,
+      "name": "Lower Axis",
+      "notation": "u/b,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 25,
+      "frames": {
+        "startup": 16
+      }
+    },
+    {
+      "index": 46,
+      "name": "Flying Bird",
+      "notation": "u/f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 22,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 47,
+      "name": "Wing Cutter to Harrier",
+      "notation": "u/f,4,4,4,4,F",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 32,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 48,
+      "name": "Wing Cutter",
+      "notation": "u/f,4,4,4,4,4,4",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 47,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 49,
+      "name": "Hovering",
+      "notation": "u/f,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 50,
+      "name": "Bird Chaser",
+      "notation": "f,F,2,4",
+      "hitLevels": [
+        "High",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 33,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 51,
+      "name": "Aerial Glide",
+      "notation": "f,F,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 24
+      }
+    },
+    {
+      "index": 52,
+      "name": "Plover Kick",
+      "notation": "f,F,4",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 27,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 53,
+      "name": "Pheasant Heel",
+      "notation": "f,f,f,3",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 30,
+      "frames": {
+        "startup": 26
+      }
+    },
+    {
+      "index": 54,
+      "name": "Rampage Wing",
+      "notation": "\"WS\",1,1",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 21,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 55,
+      "name": "Rampage Wing to Harrier",
+      "notation": "\"WS\",1,1,F",
+      "hitLevels": [
+        "Mid",
+        "High"
+      ],
+      "isThrow": false,
+      "damage": 21,
+      "frames": {
+        "startup": 13
+      }
+    },
+    {
+      "index": 56,
+      "name": "Kite Upper",
+      "notation": "\"WS\",2",
+      "hitLevels": [
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 20,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 57,
+      "name": "Short Tail",
+      "notation": "\"FC\",d/f,4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 24,
+      "frames": {
+        "startup": 17
+      }
+    },
+    {
+      "index": 58,
+      "name": "Crash Landing",
+      "notation": "d,3+4",
+      "hitLevels": [
+        "Low"
+      ],
+      "isThrow": false,
+      "damage": 24,
+      "frames": {
+        "startup": 26
+      }
+    },
+    {
+      "index": 59,
+      "name": "Taunt",
+      "notation": "1+2+3",
+      "hitLevels": [],
+      "isThrow": false,
+      "damage": 0,
+      "frames": {
+        "startup": -1
+      }
+    },
+    {
+      "index": 60,
+      "name": "10 Hit Combo",
+      "notation": "1,2,4,4,4,3,3,3,3,3",
+      "hitLevels": [
+        "High",
+        "High",
+        "High",
+        "Mid",
+        "High",
+        "Low",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 62,
+      "frames": {
+        "startup": 10
+      }
+    },
+    {
+      "index": 61,
+      "name": "Flying Catch",
+      "notation": "1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 62,
+      "name": "Flying Catch",
+      "notation": "f,1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 63,
+      "name": "Display of Force",
+      "notation": "2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 64,
+      "name": "Display of Force",
+      "notation": "f,2+4",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 35,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 65,
+      "name": "Osprey Sweep",
+      "notation": "\"Approach from left side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 66,
+      "name": "Raptor's Wrath",
+      "notation": "\"Approach from right side\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 67,
+      "name": "Bird of Prey",
+      "notation": "\"Back\",1+3",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 50,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 68,
+      "name": "Phoenix Kick Flurry",
+      "notation": "d/f,1+2",
+      "hitLevels": [
+        "High"
+      ],
+      "isThrow": true,
+      "damage": 40,
+      "frames": {
+        "startup": 12
+      }
+    },
+    {
+      "index": 69,
+      "name": "Sample Combo 1",
+      "notation": "u/f,4,4;f,F,4;u/f,3+4",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 51,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 70,
+      "name": "Sample Combo 2",
+      "notation": "\"WS\",2;4,4,4;2,2;f,4;\"During Harrier\",4",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 62,
+      "frames": {
+        "startup": 15
+      }
+    },
+    {
+      "index": 71,
+      "name": "Sample Combo 3",
+      "notation": "u/f,3;4;d/f,2,4;d,2,F;\"During Harrier\",1;u/b,4",
+      "hitLevels": [
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 62,
+      "frames": {
+        "startup": 19
+      }
+    },
+    {
+      "index": 72,
+      "name": "Sample Combo 4",
+      "notation": "d/b,4;b,1,F;\"During Harrier\",1;d/f,1;2,2;\"Rage\",3+4",
+      "hitLevels": [
+        "Low",
+        "Mid",
+        "High",
+        "Mid",
+        "High",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 78,
+      "frames": {
+        "startup": 29
+      }
+    },
+    {
+      "index": 73,
+      "name": "Sample Combo 5",
+      "notation": "d/f,4,\"CH\";f,F,4;d,2,F;\"During Harrier\",1;4,4,4,F;\"Rage During Harrier\",1+2",
+      "hitLevels": [
+        "Mid",
+        "Mid",
+        "Mid",
+        "High",
+        "High",
+        "Mid",
+        "High",
+        "Mid"
+      ],
+      "isThrow": false,
+      "damage": 86,
+      "frames": {
+        "startup": 14
+      }
+    }
+  ]
+}

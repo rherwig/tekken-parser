@@ -1,27 +1,29 @@
-import { AbstractParseTreeVisitor } from 'antlr4ts/tree';
+import { ParseTreeVisitor } from 'antlr4';
 
 import {
-    Action_inputContext,
+    ActionContext,
     ComboContext,
     InstructionContext,
     MoveContext,
-} from './parser/TekkenNotationParser';
-import { TekkenNotationVisitor } from './parser/TekkenNotationVisitor';
+    MovementContext,
+    SpecialContext,
+} from './parser/TekkenNotationSevenParser';
 import {
     TekkenCombo,
-    TekkenInput,
     TekkenInstruction,
     TekkenInstructionType,
     TekkenMove,
 } from './types';
+import TekkenNotationSevenLexer from './parser/TekkenNotationSevenLexer';
+import TekkenNotationSevenVisitor from './parser/TekkenNotationSevenVisitor';
 
 /**
  * Visitor for the TekkenNotationParser that converts the parse tree into a
  * TekkenCombo object.
  */
 export class TekkenVisitor
-    extends AbstractParseTreeVisitor<TekkenCombo>
-    implements TekkenNotationVisitor<any>
+    extends ParseTreeVisitor<TekkenCombo>
+    implements TekkenNotationSevenVisitor<any>
 {
     protected defaultResult(): TekkenCombo {
         return {
@@ -41,7 +43,7 @@ export class TekkenVisitor
             moves: [],
         };
 
-        for (const moveCtx of ctx.move()) {
+        for (const moveCtx of ctx.move_list()) {
             const moveResult = this.visitMove(moveCtx);
             if (!moveResult) {
                 continue;
@@ -61,21 +63,24 @@ export class TekkenVisitor
     visitMove: (ctx: MoveContext) => TekkenMove | null = (
         ctx: MoveContext,
     ): TekkenMove | null => {
-        if (!ctx.childCount) {
+        if (!ctx.children?.length) {
             return null;
         }
 
-        const notation = ctx.text;
         const instructions: TekkenInstruction[] = [];
 
-        for (const instructionCtx of ctx.instruction()) {
+        for (const instructionCtx of ctx.instruction_list()) {
             const instructionResult = this.visitInstruction(instructionCtx);
             if (!instructionResult) {
                 continue;
             }
 
-            instructions.push(instructionResult);
+            instructions.push(...instructionResult);
         }
+
+        const notation = instructions
+            .map((instruction) => instruction?.notation || '')
+            .join('');
 
         return {
             notation,
@@ -88,37 +93,88 @@ export class TekkenVisitor
      * This is called by the `visitMove` method.
      * @param {InstructionContext} ctx
      */
-    visitInstruction: (ctx: InstructionContext) => TekkenInstruction | null = (
+    visitInstruction: (ctx: InstructionContext) => TekkenInstruction[] = (
         ctx: InstructionContext,
-    ): TekkenInstruction | null => {
-        if (!ctx.childCount) {
-            return null;
+    ): TekkenInstruction[] => {
+        return (
+            ctx.children?.map((child) => {
+                if (child instanceof ActionContext) {
+                    return this.visitAction(child);
+                }
+
+                if (child instanceof MovementContext) {
+                    return this.visitMovement(child);
+                }
+
+                if (child instanceof SpecialContext) {
+                    return this.visitSpecial(child);
+                }
+
+                return this._buildInstruction(child.getText());
+            }) ?? []
+        );
+    };
+
+    visitAction: (ctx: ActionContext) => any = (ctx: ActionContext) => {
+        return this._buildInstruction(
+            ctx.getText().toString(),
+            TekkenInstructionType.ACTION,
+        );
+    };
+
+    visitMovement: (ctx: MovementContext) => any = (ctx: MovementContext) => {
+        return this._buildInstruction(
+            ctx.getText().toString(),
+            TekkenInstructionType.MOVEMENT,
+        );
+    };
+
+    visitSpecial: (ctx: SpecialContext) => any = (ctx: SpecialContext) => {
+        return this._buildInstruction(
+            ctx.getText().toString(),
+            TekkenInstructionType.SPECIAL,
+        );
+    };
+
+    private _buildInstruction(
+        notation: string,
+        type: TekkenInstructionType = TekkenInstructionType.UNKNOWN,
+    ): TekkenInstruction {
+        const slug = notation.replace(/[^a-zA-Z0-9]/g, '');
+        const inputs =
+            type === TekkenInstructionType.ACTION ||
+            type === TekkenInstructionType.MOVEMENT
+                ? slug.split('').map((value) => ({ notation: value }))
+                : [];
+
+        if (
+            this._isTokenOfType(
+                notation,
+                TekkenNotationSevenLexer.ACTION_COMBINATOR,
+            )
+        ) {
+            type = TekkenInstructionType.HIDDEN;
         }
 
-        const notation = ctx.text;
-        const slug = notation.replace(/[^a-zA-Z0-9]/g, '');
-        const actionInputs: TekkenInput[] = ctx
-            .action_input()
-            .map((actionInputCtx) => {
-                return {
-                    notation: actionInputCtx.text,
-                };
-            });
-        const movementInputs: TekkenInput[] = ctx
-            .movement_input()
-            .map((movementInputCtx) => {
-                return {
-                    notation: movementInputCtx.text,
-                };
-            });
-        const inputs: TekkenInput[] = [...actionInputs, ...movementInputs];
-
-        let type: TekkenInstructionType = TekkenInstructionType.UNKNOWN;
-
-        if (ctx.action_input().length) {
-            type = TekkenInstructionType.ACTION;
-        } else if (ctx.movement_input().length) {
-            type = TekkenInstructionType.MOVE;
+        if (
+            this._isTokenOfType(
+                notation,
+                TekkenNotationSevenLexer.JUST_FRAME_COMBINATOR,
+            ) ||
+            this._isTokenOfType(
+                notation,
+                TekkenNotationSevenLexer.DELAYED_COMBINATOR,
+            ) ||
+            this._isTokenOfType(
+                notation,
+                TekkenNotationSevenLexer.ALTERNATIVE_COMBINATOR,
+            ) ||
+            this._isTokenOfType(
+                notation,
+                TekkenNotationSevenLexer.IMMEDIATE_COMBINATOR,
+            )
+        ) {
+            type = TekkenInstructionType.CONTROL;
         }
 
         return {
@@ -127,9 +183,9 @@ export class TekkenVisitor
             slug,
             inputs,
         };
-    };
+    }
 
-    visitAction_input: (ctx: Action_inputContext) => any = (
-        ctx: Action_inputContext,
-    ) => {};
+    private _isTokenOfType(notation: string, type: number) {
+        return TekkenNotationSevenLexer.literalNames[type] === `'${notation}'`;
+    }
 }

@@ -1,11 +1,22 @@
 version: '3.8'
 
 services:
+#    database:
+#        build: infrastructure/database
+#        container_name: tekken-space-database
+#        restart: "unless-stopped"
+#        ports:
+#            - "27017:27017"
+#        volumes:
+#            - ./var/data:/data/db
+
     database:
-        build: infrastructure/database
-        container_name: tekken-space-database
-        restart: "unless-stopped"
+        image: postgres
+        environment:
+            POSTGRES_USER: tekken
+            POSTGRES_PASSWORD: space
+            POSTGRES_DB: dev
         ports:
-            - "27017:27017"
+            -   "5432:5432"
         volumes:
-            - ./var/data:/data/db
+            - ./var/pq:/var/lib/postgresql/data

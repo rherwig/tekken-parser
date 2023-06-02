@@ -43,5 +43,5 @@ Thumbs.db
 .turbo/
 
 # Var
-var/data/*
-!var/data/.gitkeep
+var/pq/*
+!var/pq/.gitkeep
