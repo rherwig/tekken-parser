@@ -40,8 +40,12 @@ function formatCommand(command: string): string {
     );
 }
 
-function formatFrames(frames: string, regex: RegExp): number[] {
+function formatFrames(frames: string | undefined, regex: RegExp): number[] {
     const result: number[] = [];
+
+    if (!frames) {
+        return result;
+    }
 
     const match = frames.match(regex);
     const [, initial, secondary] = match || [];
@@ -57,6 +61,25 @@ function formatFrames(frames: string, regex: RegExp): number[] {
     return result;
 }
 
+function formatDamage(damage: string) {
+    if (!damage) {
+        return [];
+    }
+
+    return damage
+        .split(',')
+        .map((value) => parseInt(value, 10))
+        .filter((value) => !isNaN(value));
+}
+
+function formatHitLevel(hitLevel: string) {
+    if (!hitLevel) {
+        return [];
+    }
+
+    return hitLevel.split(',').map((value) => value.trim());
+}
+
 async function importMovesForCharacter(characterName: string) {
     console.info(`[Import] Starting import for ${characterName}.`);
     const character = await findOrCreateCharacter(characterName);
@@ -68,15 +91,11 @@ async function importMovesForCharacter(characterName: string) {
 
     console.info(`[Import] Converting moves.`);
     const moves: MoveDto[] = moveList.map((move, index) => {
-        const damage = !move.damage
-            ? []
-            : move.damage.split(',').map((damage) => parseInt(damage, 10));
+        const damage = formatDamage(move.damage);
 
-        const hitLevels = move.hit_level
-            .split(',')
-            .map((hitLevel) => hitLevel.trim());
+        const hitLevels = formatHitLevel(move.hit_level);
 
-        const isThrow = move.hit_level.toLocaleLowerCase().includes('throw');
+        const isThrow = move.hit_level?.toLocaleLowerCase().includes('throw');
 
         const startupFrames = formatFrames(
             move.start_up_frame,
@@ -130,12 +149,60 @@ async function importMovesForCharacter(characterName: string) {
 
 async function importMoves() {
     if (!process.env.MAINTENANCE_MODE) {
-        // console.warn(`Please enable MAINTENANCE_MODE via env to proceed.`);
-        // return;
+        console.warn(`Please enable MAINTENANCE_MODE via env to proceed.`);
+        return;
     }
 
     try {
         await importMovesForCharacter('Akuma');
+        await importMovesForCharacter('Alisa');
+        await importMovesForCharacter('Anna');
+        await importMovesForCharacter('Armor King');
+        await importMovesForCharacter('Asuka');
+        await importMovesForCharacter('Bob');
+        await importMovesForCharacter('Bryan');
+        await importMovesForCharacter('Claudio');
+        await importMovesForCharacter('Devil Jin');
+        await importMovesForCharacter('Dragunov');
+        await importMovesForCharacter('Eddy');
+        await importMovesForCharacter('Eliza');
+        await importMovesForCharacter('Fahkumram');
+        await importMovesForCharacter('Feng');
+        await importMovesForCharacter('Ganryu');
+        await importMovesForCharacter('Geese');
+        await importMovesForCharacter('Gigas');
+        await importMovesForCharacter('Heihachi');
+        await importMovesForCharacter('Hwoarang');
+        await importMovesForCharacter('Jack-7');
+        await importMovesForCharacter('Jin');
+        await importMovesForCharacter('Josie');
+        await importMovesForCharacter('Julia');
+        await importMovesForCharacter('Katarina');
+        await importMovesForCharacter('Kazumi');
+        await importMovesForCharacter('Kazuya');
+        await importMovesForCharacter('King');
+        await importMovesForCharacter('Kuma');
+        await importMovesForCharacter('Kunimitsu');
+        await importMovesForCharacter('Lars');
+        await importMovesForCharacter('Law');
+        await importMovesForCharacter('Lee');
+        await importMovesForCharacter('Lei');
+        await importMovesForCharacter('Leo');
+        await importMovesForCharacter('Leroy');
+        await importMovesForCharacter('Lili');
+        await importMovesForCharacter('Lucky Chloe');
+        await importMovesForCharacter('Marduk');
+        await importMovesForCharacter('Master Raven');
+        await importMovesForCharacter('Miguel');
+        await importMovesForCharacter('Negan');
+        await importMovesForCharacter('Nina');
+        await importMovesForCharacter('Noctis');
+        await importMovesForCharacter('Paul');
+        await importMovesForCharacter('Shaheen');
+        await importMovesForCharacter('Steve');
+        await importMovesForCharacter('Xiaoyu');
+        await importMovesForCharacter('Yoshimitsu');
+        await importMovesForCharacter('Zafina');
     } catch (error: any) {
         console.error(`Error importing moves`, error.message);
     }
